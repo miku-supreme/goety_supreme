@@ -1,0 +1,24 @@
+{
+  "name": "Mutant Zombie Servant",
+  "flag": "mod:mutantmonsters",
+  "icon": "mutantmonsters:hulk_hammer",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 150, Armor 3, Knockback Resistance 1.0, Attack 12, Speed 0.26.$(br)Can wear $(l)armor$() and $(l)weapons$(); sneaking gives it an offhand weapon.$(br)$(l)Uppercut$(): launches the enemy up and slams it down for damage equal to its attack.$(br)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Quake$(): 9-12 damage (x1.5 when berserk), reaching 8 blocks forward (10 when berserk), 6-8 damage within a 2-block radius.$(br)$(l)Roar$(): after a wind-up it summons zombie servants.$(br)$(l)Soul Jar$(): +25 health; takes x0.5 damage while roaring; the roar buff is Undeath I + Strength I + Speed I for 30s each; the random roar chance rises from 2.2%% to 8.8%%.$(br)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Roar Soul$(): +25 health; hits apply Curse I and Doom I for 15s; roar damage +2 plus 1.5s Stun and 5s Weakness.$(br)$(l)Berserk Essence$(): refreshes a 2-minute berserk -- +100 health, +12 armor, +6 toughness, +30%% attack, +10%% speed, incoming damage x0.9, quake damage x1.5 and its reach raised to 10 blocks; each use adds one revive and immediately roars."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:mutant_zombie_servant"
+    }
+  ]
+}

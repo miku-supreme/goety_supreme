@@ -1,0 +1,80 @@
+{
+  "name": "监狱傀儡",
+  "icon": "goety_supreme:prison_steel_block",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 220，护甲 10，韧性 2，击退抗性 1.0，攻击 20，移速 0.3。$(br)来自于异次元的监狱的钢铁戍卫，常用于追捕逃犯，不过在拥有建造战争机器的知识的你看来，这不过是又一个忠诚的守卫罢了。鉴于他追捕逃犯的职责，你为其制造了一种机动监狱，监狱可容纳监狱傀儡追捕的“逃犯”并为你所用。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:prison_golem",
+      "text": ""
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "_________",
+            "_________",
+            "_________",
+            "_________",
+            "_________",
+            "_________",
+            "_________",
+            "_________",
+            "_________"
+          ],
+          [
+            "_________",
+            "___#I#___",
+            "__ISRSI__",
+            "_#SRRRS#_",
+            "_IRRSRRI_",
+            "_#SRRRS#_",
+            "__ISRSI__",
+            "___#I#___",
+            "_________"
+          ],
+          [
+            "_________",
+            "_________",
+            "___#I#___",
+            "__#####__",
+            "__I#0#I__",
+            "__#####__",
+            "___#I#___",
+            "_________",
+            "_________"
+          ]
+        ],
+        "mapping": {
+          "#": "minecraft:stone_bricks",
+          "I": "minecraft:iron_block",
+          "R": "minecraft:redstone_block",
+          "S": "goety_supreme:prison_steel_block",
+          "0": "minecraft:stone_bricks"
+        }
+      },
+      "enable_visualize": true,
+      "text": "手持$(l)活力核心$()右击中央的$(l)监狱钢块$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br)手持绑定了一个机动监狱坐标的指路石对监狱傀儡使用，便可以让他绑定这一个机动监狱，一个监狱傀儡可以绑定多个监狱。$(br)监狱傀儡击败的生物有概率被抓为囚犯传送进入机动监狱内，是不可多得的劳动力首选。$(br)你可以手持监狱钢块对其使用来为你的监狱傀儡回复"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_supreme:mobile_prison",
+      "text": ""
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_supreme:prison_steel_block",
+      "text": ""
+    }
+  ],
+  "sortnum": 175
+}

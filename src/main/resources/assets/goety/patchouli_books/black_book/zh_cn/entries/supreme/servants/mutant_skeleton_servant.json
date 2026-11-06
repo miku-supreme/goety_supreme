@@ -1,0 +1,38 @@
+{
+  "name": "骷髅突变体",
+  "flag": "mod:mutantmonsters",
+  "icon": "mutantmonsters:mutant_skeleton_skull",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 150，击退抗性 0.75，攻击 3，移速 0.27。$(br)坚实的骨骼令其身躯更加强壮并且学会了多项近战攻击，强劲的弩箭也使其攻击充满致命的美感。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你可以为它给予$(item)灵魂罐$()、$(item)恶骸骨盔$()、$(item)浓缩骨块$()来为其$(l:supreme/servants_skills/mutant_skeleton_servant)强化$()。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:mutant_skeleton_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_skeleton_servant"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_supreme:concentrated_bone_chunk",
+      "title": "浓缩骨块",
+      "text": "拿着浓缩骨块右键骷髅突变体仆从即可强化，最多五次。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "75，攻击 3，移速 0.27。$(br)它无法接受新的武器，但是你仍然可以为它装备盔甲来强化防御；你也可以给它$(item)骨头$()和$(item)骨块$()来为其回血。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:concentrated_bone_chunk": 3
+  },
+  "sortnum": 132
+}

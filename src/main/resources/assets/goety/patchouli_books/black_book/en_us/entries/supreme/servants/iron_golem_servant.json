@@ -1,0 +1,49 @@
+{
+  "name": "Iron Golem Servant",
+  "icon": "minecraft:iron_block",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 100, Knockback Resistance 1.0, Attack 15, Speed 0.25.$(br)The villagers' hero and their village's guardian: those arms and that price made it impossible not to wonder how to build your own iron guard. After some effort, you did."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:iron_golem_servant"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "_",
+            "^",
+            "_"
+          ],
+          [
+            "#",
+            "#",
+            "#"
+          ],
+          [
+            "_",
+            "0",
+            "_"
+          ]
+        ],
+        "mapping": {
+          "^": "goety_supreme:vitality_carved_pumpkin",
+          "#": "minecraft:iron_block",
+          "0": "minecraft:iron_block"
+        }
+      },
+      "enable_visualize": true,
+      "text": "Finally cap it with a $(l)Vitality Carved Pumpkin$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can build these loyal guards, or call one quickly with an $(l:supreme/items/iron_guard_focus)Ironguard Focus$().$(br)You can use an $(item)Iron Ingot$() on your Iron Golem Servant to heal it."
+    }
+  ],
+  "sortnum": 176
+}

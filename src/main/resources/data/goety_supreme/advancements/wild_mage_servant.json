@@ -1,0 +1,45 @@
+{
+  "parent": "goety_supreme:root",
+  "criteria": {
+    "kill_wild_mage": {
+      "trigger": "minecraft:impossible"
+    },
+    "get_wild_mage_servant": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "goety_supreme:wild_mage_servant"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "goety_supreme:wild_mage_soul_jar"
+    },
+    "title": {
+      "translate": "advancements.goety_supreme.wild_mage_servant.title"
+    },
+    "description": {
+      "translate": "advancements.goety_supreme.wild_mage_servant.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "kill_wild_mage"
+    ],
+    [
+      "get_wild_mage_servant"
+    ]
+  ]
+}

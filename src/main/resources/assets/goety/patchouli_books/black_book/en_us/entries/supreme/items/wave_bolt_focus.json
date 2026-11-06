@@ -1,0 +1,24 @@
+{
+    "name":  "Wave Bolt Focus",
+    "icon":  "goety_supreme:wave_bolt_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  34,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "What a Bulge fires is no bubble that pops at a touch, but a solid water bolt. The Wave Bolt Focus copies it: right-click to fire a water ball that deals drowning damage on hit, hurts water-fearing enemies even more, and puts out any fire on the target."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_wave_bolt_focus"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Cast from an Abyss Staff, the water bolts hit harder and fly faster."
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:wave_bolt_focus":  1
+                              },
+    "flag":  "mod:jerotesvillage"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Player Mob Servant",
+  "icon": "goety_supreme:player_mob_focus",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 20, Attack 3, Speed 0.25.$(br)A dark wizard is powerful, and lonely. You keep thinking back to the days when you were still a “player” among friends - and with a little pushing from the black arts, you reproduced beings that look for all the world like players."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:player_mob_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_player_mob_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "As phantoms they are not as sharp as a real player - yet being phantoms, they are cleverer than the common mob: they wield nearly every weapon while sprinting, blocking, sweeping, jump-critting and eating like a player. As a servant, they are your best pick."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Give one an $(item)Arcane Scroll$() and you kindle arcane wisdom in it, turning black magic to its hand."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:arcane_scroll",
+      "text": "When a scroll-taught phantom dies, it drops the scroll that stored its data; give that scroll to any unawakened player mob and this arcane master will rise again."
+    }
+  ],
+  "sortnum": 170
+}

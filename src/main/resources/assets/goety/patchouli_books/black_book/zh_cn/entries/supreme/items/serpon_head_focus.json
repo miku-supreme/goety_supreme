@@ -1,0 +1,24 @@
+{
+  "name": "蛇首聚晶",
+  "icon": "goety_supreme:serpon_head_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 21,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "游历了整个旱火山地，与蛇龙战斗组切磋交手之后，你对于蛇龙人的武力很是垂涎，于是你开始思考如何寻求快速召唤这些流浪民族的方法。经过与蛇龙人的交涉，并结合自己的黑魔法知识与几次尝试，你成功找到了快速召唤这些援兵的方法。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_serpon_head_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "使用下界魔杖施法可以召唤更多的蛇龙殖民兵和蛇龙先锋：黑暗魔杖只能召唤出随机一种，下界魔杖两种各两只。同一主人至多十六只。$(br)$(br)条目 018 / 155 · 蛇冠聚晶 · 3 页 · 分类：道具"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:serpon_head_focus": 1
+  },
+  "flag": "mod:jerotesvillage"
+}

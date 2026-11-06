@@ -1,0 +1,20 @@
+{
+  "name": "巨锤聚晶",
+  "flag": "mod:mutantmonsters",
+  "icon": "goety_supreme:giant_hammer_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 18,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "黑法师总是想把效率加到极致。你甚至不想把手中的法杖换成锤子，于是你不假思索地把突变僵尸的巨锤融入聚晶中。右键施法，可以发射震波攻击敌人。用地卜魔杖施法时可以在左右两侧召唤震波。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_giant_hammer_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:giant_hammer_focus": 1
+  }
+}

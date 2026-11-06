@@ -1,0 +1,20 @@
+{
+  "name": "漩涡聚晶",
+  "icon": "goety_supreme:whirlpool_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 94,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "在宝石恶鳞施虐海洋的岁月，这恐怖的漩涡和狂暴的水弹撕碎了无数的商船，如今，这可怕的漩涡甚至威力低到你都能够将其掌握自如——无意冒犯。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:whirlpool_focus",
+      "title": "漩涡聚晶",
+      "text": "图鉴物品：漩涡聚晶$(br)使用深渊魔杖施法伤害更高。拥有水下呼吸或潮涌能量效果的目标只会受到三分之一的伤害。$(br)$(br)条目 039 / 155 · 窒息聚晶 · 2 页 · 分类：道具",
+      "link_recipe": true
+    }
+  ],
+  "flag": "mod:jerotesvillage"
+}

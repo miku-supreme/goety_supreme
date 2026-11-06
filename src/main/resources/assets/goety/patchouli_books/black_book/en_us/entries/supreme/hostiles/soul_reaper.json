@@ -1,0 +1,25 @@
+{
+  "name": "Soul Reaper (Hostile)",
+  "icon": "goety_supreme:coffin_shard",
+  "category": "goety:supreme/hostiles",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A ferryman of souls, the coffin on his back loaded with spirits waiting to be sent on; this reaper despises anything that feeds on souls or abuses them.$(br)He crossed your path while hunting a Wight - a monster that devours souls - and, sensing the thick soul energy on you, made you his enemy."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:soul_reaper"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "No dazzling magic: the Soul Reaper relies on nothing but his scythe and his soul coffin, and that is enough. The keen blade is no small threat to you, and the coffin's stolen life is maddening - fortunately, he has no ranged means of attack."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:coffin_shard",
+      "title": "Coffin Shard",
+      "text": "A coffin shard dropped by the Soul Reaper. Perhaps you can use it to make a soul ferryman of your own."
+    }
+  ]
+}

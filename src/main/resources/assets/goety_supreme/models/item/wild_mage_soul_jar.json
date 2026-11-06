@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "goety_supreme:item/wild_mage_soul_jar"
+  }
+}

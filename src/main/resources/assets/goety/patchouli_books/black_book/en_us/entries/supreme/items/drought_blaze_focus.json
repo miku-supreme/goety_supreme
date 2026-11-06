@@ -1,0 +1,24 @@
+{
+    "name":  "Drought Blaze Focus",
+    "icon":  "goety_supreme:drought_blaze_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  19,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "The hopeless aim and pitiful damage of blazes made you furious, so in a fit of anger you designed this focus. Cast to summon your own Drought Blazes; wrapped in the scorching heat of the drought-scorched hills, they are far stronger than ordinary blazes."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_drought_blaze_focus"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Cast while sneaking to gather them to your side, sixteen at most around you. Cast with a Nether Staff and you summon more at once."
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:drought_blaze_focus":  1
+                              },
+    "flag":  "mod:jerotesvillage"
+}

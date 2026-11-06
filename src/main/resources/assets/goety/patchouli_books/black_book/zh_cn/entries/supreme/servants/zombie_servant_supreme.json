@@ -1,0 +1,25 @@
+{
+  "name": "Goety Supreme 僵尸仆从",
+  "icon": "minecraft:rotten_flesh",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 80，护甲 12，韧性 6，击退抗性 0.8，攻击力 6。$(br)全方面与原版僵尸仆从别无二致，不是吗？。$(br)真的......是吗？。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:zombie_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_zombie_servant",
+      "text": "在暗祭坛上摆好对应供品，举行仪式即可召唤。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "对僵尸仆从右键使用$(item)狂暴之星$()，可大幅度提高其全方面属性并进入英雄状态，详情见$(l:supreme/servants_skills/zombie_servant_supreme)强化形态$()。"
+    }
+  ],
+  "sortnum": 171
+}

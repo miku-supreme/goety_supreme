@@ -1,0 +1,15 @@
+{
+  "name": "冰傀儡",
+  "icon": "minecraft:blue_ice",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 60，护甲 3，击退抗性 1.0，攻击 10，移速 0.25。$(br)$(l)近战$()：6~15，小范围连续两次砸击。$(br)$(l)远距离敌人扔出雪球$()：4 点伤害，缓慢 15 秒。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:ice_golem_servant"
+    }
+  ]
+}

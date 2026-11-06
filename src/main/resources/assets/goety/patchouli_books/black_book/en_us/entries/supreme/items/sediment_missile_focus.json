@@ -1,0 +1,24 @@
+{
+    "name":  "Sediment Missile Focus",
+    "icon":  "goety_supreme:sediment_missile_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  33,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "These grenade-like spell bolts can prove unexpectedly useful. Right-click to hurl a bolt of the same kind the Soul Stabilizers use along your line of sight, dealing damage on hit."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_sediment_missile_focus"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "A Nameless Staff fires four bolts in a row; a Necro Staff fires two to three."
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:sediment_missile_focus":  1
+                              },
+    "flag":  "mod:jerotesvillage"
+}

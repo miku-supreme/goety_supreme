@@ -1,0 +1,22 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "deep",
+  "activation_item": {
+    "item": "minecraft:iron_helmet"
+  },
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    { "item": "minecraft:diamond" },
+    { "item": "minecraft:prismarine" },
+    { "item": "goety:cursed_ingot" },
+    { "item": "goety:cursed_ingot" },
+    { "item": "minecraft:prismarine_crystals" },
+    { "item": "minecraft:prismarine_crystals" }
+  ],
+  "result": {
+    "item": "goety_supreme:prismarine_helmet",
+    "count": 1
+  }
+}

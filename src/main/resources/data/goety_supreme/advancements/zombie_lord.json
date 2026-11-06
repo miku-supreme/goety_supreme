@@ -1,0 +1,40 @@
+{
+  "advancements": [
+    {
+      "advancement": {
+        "criteria": {
+          "revive_from_coffin": {
+            "trigger": "minecraft:impossible"
+          }
+        },
+        "display": {
+          "announce_to_chat": true,
+          "description": {
+            "translate": "advancements.goety_supreme.zombie_lord.description"
+          },
+          "frame": "task",
+          "hidden": false,
+          "icon": {
+            "item": "jerotesvillage:sediment_lord_robe_pieces"
+          },
+          "show_toast": true,
+          "title": {
+            "translate": "advancements.goety_supreme.zombie_lord.title"
+          }
+        },
+        "parent": "goety_supreme:root",
+        "requirements": [
+          [
+            "revive_from_coffin"
+          ]
+        ]
+      },
+      "conditions": [
+        {
+          "modid": "jerotesvillage",
+          "type": "forge:mod_loaded"
+        }
+      ]
+    }
+  ]
+}

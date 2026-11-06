@@ -1,0 +1,27 @@
+{
+  "name": "Wither",
+  "icon": "minecraft:nether_star",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 300, Attack 12, Knockback Resistance 0 (wither armor 0.6), Movement Speed 0.6.$(br)$(l)Wither Skull$(): 10, main head 12. Empowered Wither Skull: double flight speed, 10%% chance, 20 damage, main head 24. Ram: attack x 3.$(br)It uses the Bedrock Wither behaviour, and all three heads pick targets independently and can fire at once."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Annihilation Wither$(): gained from a Raging Star; armor 16, toughness 8, knockback resistance 1.0, damage cap 50, heals 2 per second, and wither armor keeps granting it Resistance I."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Wither Annihilation$(): one-minute cooldown, ten-second charge; instantly kills hostiles or creatures that hate it within 64 blocks; against targets above 100 health / mini bosses / bosses it deals 50 wither damage; targets immune to wither take 30 armor-ignoring physical damage."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "At half health it summons four netherite wither skeletons, one-minute cooldown."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:wither_servant"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Goety Supreme Zombie Servant",
+  "icon": "minecraft:rotten_flesh",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 80, Armor 12, Toughness 6, Knockback Resistance 0.8, Attack 6.$(br)An independent version of Goety's zombie servant: undead, melee, with all the gear, baby form and ownership behaviour intact."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:zombie_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_zombie_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Whoever hurts its master gets hit back, and it follows you like a tamed wolf - only taller and stinkier. Follow, wander, stay and guard are cycled with Goety's commands."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Give it a $(item)Raging Star$() and it becomes a $(l)Corpse Dark General$() for good: health, armour and toughness rise, it keeps constant damage reduction and regeneration, it grows in size and reach, and white motes trail it. It roars on a timer - head up,."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "then head down - scorching everything around it until they cannot stand, calling two minions at the halfway point, and leaving nearby allies with Strength, Resistance and Speed while it takes Regeneration and Vigour. Its owner can sneak-right-click to put a weapon in its off hand, and that weapon's base damage is added to its attack."
+    }
+  ],
+  "sortnum": 171
+}

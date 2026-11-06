@@ -1,0 +1,24 @@
+{
+    "name":  "Drought Missile Focus",
+    "icon":  "goety_supreme:drought_missile_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  20,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "If you are unhappy with the dull aim of the Drought Wildfire, become a fire-spraying machine gun yourself! Right-click to fire a drought fireball along your line of sight, dealing damage and setting the target alight."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_drought_missile_focus"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Cast from a Nether Staff, the fireballs hit harder and fly faster."
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:drought_missile_focus":  1
+                              },
+    "flag":  "mod:jerotesvillage"
+}

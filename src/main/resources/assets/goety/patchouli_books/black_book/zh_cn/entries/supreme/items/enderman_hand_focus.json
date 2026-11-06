@@ -1,0 +1,24 @@
+{
+  "name": "影移聚晶",
+  "flag": "mod:mutantmonsters",
+  "icon": "goety_supreme:enderman_hand_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 16,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "你一直都想拥有真正“举起”方块的能力。观察了突变末影人的行为后，你把末影之手的能力融进了这枚聚晶。蹲下施法可以瞬移至鼠标所指向的方块，右键施法可以举起方块并丢出去——当然基岩是不行的。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_enderman_hand_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "使用虚空魔杖施法时，扔出去的方块还会带上一层虚空之蚀。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:enderman_hand_focus": 1
+  }
+}

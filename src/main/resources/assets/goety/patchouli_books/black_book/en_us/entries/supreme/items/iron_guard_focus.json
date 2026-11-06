@@ -1,0 +1,23 @@
+{
+    "name":  "Ironguard Focus",
+    "icon":  "goety_supreme:iron_guard_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  15,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "You wondered why for the longest time these most common creatures could not be made into focuses for you to command. You never did work out the answer, but along the way you invented this focus that summons Iron Guards."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_iron_guard_focus"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Cast with a Geomancer Staff to summon two at once, eight at most. Cast while sneaking to gather them to your side."
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:iron_guard_focus":  1
+                              }
+}

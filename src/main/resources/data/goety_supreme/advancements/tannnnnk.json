@@ -1,0 +1,45 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mutantmonsters"
+    }
+  ],
+  "parent": "goety_supreme:mutant_potion",
+  "criteria": {
+    "mutant_zombie_servant": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "goety_supreme:mutant_zombie_servant"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "mutantmonsters:hulk_hammer"
+    },
+    "title": {
+      "translate": "advancements.goety_supreme.tannnnnk.title"
+    },
+    "description": {
+      "translate": "advancements.goety_supreme.tannnnnk.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "mutant_zombie_servant"
+    ]
+  ]
+}

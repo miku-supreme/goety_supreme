@@ -1,0 +1,21 @@
+{
+    "name":  "War Python Focus",
+    "icon":  "goety_supreme:war_python_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  29,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "These mighty multi-segmented creatures fascinate you; you found a way to fold their power into a focus so you can summon them at any time."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_war_python_focus"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Casting with a $(l:crafts/staff/nether_staff)Nether Staff$() or a $(l:crafts/staff/wild_staff)Wild Staff$() summons extras; if you wear the Nether set and cast with a Nether Staff, what you summon is a $(l:supreme/servants/war_python)Royal War Python$()."
+                  }
+              ],
+    "flag":  "mod:jerotesvillage"
+}

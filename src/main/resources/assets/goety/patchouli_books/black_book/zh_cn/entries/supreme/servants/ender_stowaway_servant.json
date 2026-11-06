@@ -1,0 +1,25 @@
+{
+  "name": "末影渡客仆从",
+  "icon": "goety_supreme:ender_stowaway_servant_spawn_egg",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "偶然间来到二轮世界的偷渡客们，被二轮世界影响而能力上有所变化，不过这并不影响你奴役他们。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:ender_stowaway_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_ender_stowaway"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "与普通末影人别无二致，你可以对其使用紫颂果来治疗他。"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 154
+}

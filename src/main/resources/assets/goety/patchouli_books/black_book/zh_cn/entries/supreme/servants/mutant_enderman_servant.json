@@ -1,0 +1,25 @@
+{
+  "name": "末影人突变体",
+  "flag": "mod:mutantmonsters",
+  "icon": "mutantmonsters:endersoul_hand",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 200，击退抗性 1.0，攻击 10，移速 0.3。$(br)凭借虚空裂隙的观测记录与影魂封胄的禁锢技艺，你想要驾驭这份来自次元深处的力量。不断试验后，你找到了驯化畸变暗影行者的手段。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:mutant_enderman_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_enderman"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br)身躯强壮的它虽然失去了普通末影人那种灵活度，但是它更加强大，也更加危险。$(br)你可以为它给予$(item)虚空碎片$()、$(item)虚空回响$()、$(item)虚空之眼$()来为其$(l:supreme/servants_skills/mutant_enderman_servant)强化$()。$(br)你可以为它喂食$(item)紫颂果$()来为其回血。"
+    }
+  ],
+  "sortnum": 133
+}

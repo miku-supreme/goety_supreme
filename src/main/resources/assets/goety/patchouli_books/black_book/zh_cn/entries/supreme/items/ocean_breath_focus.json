@@ -1,0 +1,20 @@
+{
+  "name": "洋流吐息聚晶",
+  "icon": "goety_supreme:ocean_breath_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 93,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "这枚聚晶是你根据宝石恶鳞的招牌攻击方式改进而来，但是无论如何它的本质就是在滋水枪，或者说得正式一点，是一种便携的高压水炮。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:ocean_breath_focus",
+      "title": "洋流吐息聚晶",
+      "text": "图鉴物品：洋流吐息聚晶$(br)当你附魔强效时，等级越高，喷出的水弹越多。使用深渊魔杖时吐息伤害更高。怕水的敌人会受到三倍的溺水伤害。$(br)$(br)条目 038 / 155 · 漩涡聚晶 · 2 页 · 分类：道具",
+      "link_recipe": true
+    }
+  ],
+  "flag": "mod:jerotesvillage"
+}

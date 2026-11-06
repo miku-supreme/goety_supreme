@@ -1,0 +1,41 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "necroturgy",
+  "activation_item": {
+    "item": "goety_supreme:tempered_ring"
+  },
+  "soulCost": 1,
+  "duration": 10,
+  "research": "forbidden",
+  "ingredients": [
+    {
+      "item": "goety:soul_jar"
+    },
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "goety:forbidden_piece"
+    },
+    {
+      "item": "goety:forbidden_piece"
+    },
+    {
+      "item": "goety:shadow_essence"
+    }
+  ],
+  "result": {
+    "item": "goety_supreme:immutable_ring",
+    "count": 1
+  }
+}

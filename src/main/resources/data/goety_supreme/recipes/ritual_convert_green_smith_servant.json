@@ -1,0 +1,57 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:convert_complete_tamed",
+  "craftType": "necroturgy",
+  "activation_item": {
+    "item": "goety_supreme:green_apple"
+  },
+  "entity_to_convert": {
+    "tag": "goety_supreme:necromancer_servant",
+    "display_name": "entity.goety.necromancer_servant"
+  },
+  "entity_to_convert_into": "goety_supreme:green_smith_servant",
+  "research": "forbidden",
+  "soulCost": 1000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goety:nameless_cape"
+    },
+    {
+      "item": "goety:nameless_crown"
+    },
+    {
+      "item": "goety:thunderstorm_focus"
+    },
+    {
+      "item": "goety:rotting_focus"
+    },
+    {
+      "item": "goety:osseous_focus"
+    },
+    {
+      "item": "goety:corpse_blossom"
+    },
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "item": "goety:nameless_staff"
+    },
+    {
+      "item": "minecraft:trident"
+    },
+    {
+      "item": "minecraft:powder_snow_bucket"
+    },
+    {
+      "item": "goety:dark_ingot"
+    }
+  ],
+  "result": {
+    "item": "goety:jei_dummy/none"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Second-Rounder Spider",
+  "flag": "mod:jerotesvillage",
+  "icon": "minecraft:spider_eye",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 28, Armor 2, Attack 4, Speed 0.34.$(br)34; melee 4; a plain spider with higher stats."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:second_rounder_spider_servant"
+    }
+  ]
+}

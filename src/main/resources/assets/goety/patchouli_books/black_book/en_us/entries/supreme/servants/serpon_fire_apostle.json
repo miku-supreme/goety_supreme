@@ -1,0 +1,30 @@
+{
+  "name": "Serpon Fire Apostle",
+  "icon": "jerotesvillage:fire_apostle_sword",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Fire Apostle follows Serpenperth's envoy and fights for the serpon - an elite, all melee, and every blow carries fire."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_fire_apostle{ArmorItems:[{Count:1b,id:\"jerotesvillage:fire_apostle_boots\"},{Count:1b,id:\"jerotesvillage:fire_apostle_leggings\"},{Count:1b,id:\"jerotesvillage:fire_apostle_chestplate\"},{Count:1b,id:\"jerotesvillage:fire_apostle_helmet\"}]}"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_serpon_fire_apostle"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:blazing_ember",
+      "text": "This mighty Fire Apostle can only be summoned by ritual - but do not fret: even beaten back it leaves a token (a $(l)Blazing Ember$()) that will call it again, so long as you throw that token into fire.$(br)Only an owned apostle leaves one when it falls, with the apostle itself sealed inside: throw it into fire and the very same one comes back; if no body was sealed in it, a new one grows in the flames."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can right-click your Serpon Fire Apostle with $(item)Blaze Powder$() or a $(item)Blaze Rod$() to heal it."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 102
+}

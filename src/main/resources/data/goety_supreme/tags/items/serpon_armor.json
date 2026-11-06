@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "jerotesvillage:serpon_helmet",
+      "required": false
+    },
+    {
+      "id": "jerotesvillage:serpon_chestplate",
+      "required": false
+    },
+    {
+      "id": "jerotesvillage:serpon_leggings",
+      "required": false
+    },
+    {
+      "id": "jerotesvillage:serpon_boots",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Green Smith",
+  "icon": "goety_supreme:green_smith_soul_jar",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 360, Attack 12, Armor 12, Armor Toughness 6, Speed 0.25, Knockback Resistance 1.0.$(br)Immune to fall, drowning, suffocation and freezing damage; source-less damage and freezing are cut by 50%%."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Damage cap$(): never more than 20 from a single hit; it is invulnerable for 0.75 seconds after every hit it takes, though wither damage does not set off that special invulnerability window; if one hit actually costs it 12 or more health, or it is standing in lava / powder snow, it teleports away.$(br)$(l)Recovery$(): heals 1 health per second; it cannot heal for 5 seconds after taking wither damage, or while it is withered."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Interrupt$(): taking more than 30 damage in total while winding up a move breaks it off and blinks him backwards. Each necromancer on the field cuts the charge time by 20%%; each extra servant type cuts another 5%%, down to a floor of 50%%.$(br)$(l)Green Fire$(): undead flame. It does nothing to the undead and deals 1.5x damage to anything living.$(br)$(l)Nameless Beam$(): fires one piercing nameless beam for 12 damage; where the beam touches a block it sets off Green Fire."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Raising the Dead$(): winds up, then summons 3 Vanguards, 3 Blackguards and 3 random 50-health necromancers, drawn up in three rows. Cooldown 30 seconds.$(br)Borrowed Power (a winding-up move): Green Smith charges for 1 second and then uses an elite necromancer's move. Cooldown 10 seconds, and one is picked at random each time:$(br)the Drowned Necromancer's Trident Storm (locking onto targets rather than fixed spots), the Wild Necromancer's thorn ball (3 in a spread), the Reaper Necromancer's rotating scythes (three in a spread), the Skull Lord's Haunted Skulls (2 waves, 7 apiece)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Gloom-Eroding Moonlight$(): after a 1.5-second charge it looses a corrupted laser beam that turns slowly and only ever locks onto 1 target. Cooldown 30 seconds.$(br)$(l)Cavalry Over the Ridge$(): Green Smith grants every servant within 32 blocks, and himself, Iron Hide I for 10 seconds; he also lays Rallying I and Shielded I on himself and on his necromancer servants, restores 10-15 health and 10 seconds of Necrosis I to every ally, and gives out 30 seconds of sunlight immunity. Cooldown 30 seconds."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Wind Stills but Sorrow Stays$(): Green Smith looses a Wind Blast that swats down projectiles closing in on him and leaps backwards, calling up 6 clones to work their moves alongside him.$(br)$(l)Clone moves$(): Moonlight - lasers fire out in six directions for 1 second.$(br)Raising the Dead - each clone summons one random skeleton servant variant.$(br)Borrowed Power - uses another elite necromancer's move.$(br)Cavalry Over the Ridge - heals alongside him.$(br)Cooldown 20 seconds."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Netherfire Covers the Sky$(): Green Smith unfolds a field for 20 seconds, hammering the area with green lightning over and over - 5 damage a bolt, 4 blocks of radius - and wherever a bolt falls it leaves Green Fire and summons one skeleton servant of any kind. On top of that, every 20 ticks Green Smith fires lightning straight at 4 hostile creatures inside the field, at 16 blocks of range. While this lasts he does not move, but he has 80%% damage reduction. Cooldown 80 seconds.$(br)$(l)Soul Jar upgrades$(): give Green Smith any soul jar and it can be upgraded twice."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "What each soul jar level grants:$(br)Soul Beam damage +1, projectile speed +10%%, servant lifespan +30 seconds, scythe projectile speed and width +10%%, poison dart damage +1 and speed +10%%, Inspiration duration +2.5 seconds and healing +2.5, clone healing +4, clone laser duration +0.25 seconds, Wind Blast radius +0.5, field damage reduction +2.5%%, thorn damage +3 and thorn radius +1 block with speed +10%%, Haunted Skull explosion power +0.5, direct damage +1 with speed +10%%,$(br)and at full level the servants he summons come with Buff I, while the Shielded he hands out rises to level 2."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You may also feed Green Smith an elite necromancer's soul jar so that, when he summons, he has a chance to call up one elite necromancer instead of three ordinary ones.$(br)$(l)If Goety$(): Cataclysm is installed you can give him a Draugr Necromancer's soul jar instead, so that when he summons he has a chance to swap 1 ordinary necromancer for a Draugr Necromancer."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Extra summons:$(br)Green Smith can be given focuses to summon extra creatures.$(br)Grave Soul Focus (Goety: Ominous): Haunt, 3 per cast, cap 6$(br)$(l)Spooky Focus$(): Wraith, 2 per cast, cap 2$(br)$(l)Reaper Focus$(): Reaper, 2 per cast, cap 2$(br)$(l)Phantasm Focus$(): Phantom, 2 per cast, cap 2$(br)Redstone Focus (Goety: Ominous): Grave Golem, 2 per cast, cap 2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)If Goety$(): Twilight is installed, a Vexing Focus can be given as well.$(br)$(l)Vexing Focus$(): Wraith, 2 per cast, cap 2"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:green_smith_servant"
+    }
+  ]
+}

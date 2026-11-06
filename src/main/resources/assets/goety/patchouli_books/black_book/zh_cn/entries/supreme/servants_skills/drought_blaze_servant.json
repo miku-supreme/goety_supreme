@@ -1,0 +1,17 @@
+{
+  "name": "旱火烈焰人",
+  "flag": "mod:jerotesvillage",
+  "icon": "minecraft:blaze_rod",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量25，攻击力6，移动速度0.25。$(br)怕水，免疫火焰，岩浆和摔落，连射三发火焰弹，火焰伤害吸收60%%。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:drought_blaze_servant"
+    }
+  ],
+  "sortnum": 151
+}

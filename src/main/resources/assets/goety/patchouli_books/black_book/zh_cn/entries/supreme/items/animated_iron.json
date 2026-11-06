@@ -1,0 +1,33 @@
+{
+  "name": "活化铁配方",
+  "icon": "jerotesvillage:animated_iron_helmet",
+  "category": "goety:supreme/items",
+  "sortnum": 40,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "活化铁装备和你想象中的铁套装似乎有些区别，果不其然，它们制成的装备需要在亡灵火炉中锻造而成。每一件都要在亡灵火炉里烧掉 50 点灵魂能量。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "jerotesvillage:animated_iron_helmet",
+      "text": "在$(l:crafts/artifice/necrotic_brazier)亡灵火炉$()内用灵质 + 深坑灰尘 + 铁头盔获取。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "jerotesvillage:animated_iron_chestplate",
+      "text": "在$(l:crafts/artifice/necrotic_brazier)亡灵火炉$()内用灵质 + 深坑灰尘 + 铁胸甲获取。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "jerotesvillage:animated_iron_leggings",
+      "text": "在$(l:crafts/artifice/necrotic_brazier)亡灵火炉$()内用灵质 + 深坑灰尘 + 铁护腿获取。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "jerotesvillage:animated_iron_boots",
+      "text": "在$(l:crafts/artifice/necrotic_brazier)亡灵火炉$()内用灵质 + 深坑灰尘 + 铁靴子获取。"
+    }
+  ],
+  "flag": "mod:jerotesvillage"
+}

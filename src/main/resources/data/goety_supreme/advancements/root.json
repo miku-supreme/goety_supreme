@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "goety_supreme:raging_star"
+    },
+    "title": {
+      "translate": "advancements.goety_supreme.root.title"
+    },
+    "description": {
+      "translate": "advancements.goety_supreme.root.description"
+    },
+    "background": "goety:textures/block/shade_bricks.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "波涛人",
+  "flag": "mod:jerotesvillage",
+  "icon": "jerotesvillage:bulge_rod",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量20，攻击力2，移动速度0.3。$(br)两栖，免疫摔落和溺水。$(br)攻击时连发三发波涛弹造成2~9点溺水伤害，对怕水单位伤害翻三倍。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:bulge_servant"
+    }
+  ],
+  "sortnum": 158
+}

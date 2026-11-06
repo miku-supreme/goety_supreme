@@ -1,0 +1,40 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "end",
+  "activation_item": {
+    "item": "goety:watching_focus"
+  },
+  "soulCost": 40,
+  "duration": 15,
+  "ingredients": [
+    {
+      "item": "minecraft:chorus_fruit"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "tag": "forge:ender_pearls"
+    },
+    {
+      "item": "goety:void_eye"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "tag": "forge:ender_pearls"
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    },
+    {
+      "item": "minecraft:end_crystal"
+    }
+  ],
+  "result": {
+    "item": "goety_supreme:enderman_servant_focus",
+    "count": 1
+  }
+}

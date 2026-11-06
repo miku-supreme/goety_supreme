@@ -1,0 +1,20 @@
+{
+    "name":  "Malignasaur Bomb Focus",
+    "icon":  "goety_supreme:malignasaur_bomb_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  96,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "You know this trick all too well: summon a few water mines, block a few routes, and wait for some unlucky soul to bite - and you know it not only because you saw it used by the Gemstone Malignasaur."
+                  },
+                  {
+                      "type":  "patchouli:spotlight",
+                      "item":  "goety_supreme:malignasaur_bomb_focus",
+                      "title":  "Malignasaur Bomb Focus",
+                      "text":  "28 souls, 1.5 seconds of wind-up, 6 second cooldown. Lays 48-64 mines at once, each exploding for 2 + spell level x 0.25; a Abyss Staff adds one level.",
+                      "link_recipe":  true
+                  }
+              ],
+    "flag":  "mod:jerotesvillage"
+}

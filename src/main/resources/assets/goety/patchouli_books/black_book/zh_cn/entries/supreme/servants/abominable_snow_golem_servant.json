@@ -1,0 +1,69 @@
+{
+  "name": "巨型雪傀儡",
+  "flag": "mod:mutantmonsters",
+  "icon": "goety:freezing_lamp",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "不属于这个世界的巨型冰雪造物。在参透了$(l)战争卷轴$()的知识之后，你成功研发出制造这种冰雪巨兽的办法。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:abominable_snow_golem_servant"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "_",
+            "_",
+            "^",
+            "_",
+            "_"
+          ],
+          [
+            "s",
+            "B",
+            "L",
+            "B",
+            "s"
+          ],
+          [
+            "_",
+            "B",
+            "B",
+            "B",
+            "_"
+          ],
+          [
+            "_",
+            "_",
+            "0",
+            "_",
+            "_"
+          ]
+        ],
+        "mapping": {
+          "^": "goety_supreme:vitality_carved_pumpkin",
+          "s": "goety:snow_bricks",
+          "B": "minecraft:snow_block",
+          "L": "goety:freezing_lamp",
+          "0": "goety:snow_bricks"
+        }
+      },
+      "enable_visualize": true,
+      "text": "把$(l)活力南瓜$()放在中央的$(l)极寒冰灯$()上。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "作为身躯庞大的雪傀儡，其没有忘记扔雪球的宿命，除了必要的近战攻击以外它自己学会了将小雪球一次性揉搓呈一大块雪块掷出，即使继续行驶扔雪球的义务也会转动身躯形成冰风暴来发动雪球风暴，对敌人造成不小的威胁。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你可以手持$(l:supreme/servants_skills/abominable_snow_golem_servant)冷静聚晶，霜呼聚晶$()来为其强化，也可以手持$(item)雪块$()来为其回血。"
+    }
+  ],
+  "sortnum": 120
+}

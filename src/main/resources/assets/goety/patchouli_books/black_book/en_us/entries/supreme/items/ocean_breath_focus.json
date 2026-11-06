@@ -1,0 +1,20 @@
+{
+    "name":  "Ocean Breath Focus",
+    "icon":  "goety_supreme:ocean_breath_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  93,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "You improved this focus from the Gemstone Malignasaur\u0027s signature attack, but no matter how you put it, its essence is squirting water from a gun - or to put it more formally, a portable high-pressure water cannon."
+                  },
+                  {
+                      "type":  "patchouli:spotlight",
+                      "item":  "goety_supreme:ocean_breath_focus",
+                      "title":  "Ocean Breath Focus",
+                      "text":  "24 souls, 1 second of wind-up, 5 second cooldown. Higher spell levels fire more bolts; cast from a Abyss Staff of the same school for one more level. Anything that fears water takes triple drowning damage.",
+                      "link_recipe":  true
+                  }
+              ],
+    "flag":  "mod:jerotesvillage"
+}

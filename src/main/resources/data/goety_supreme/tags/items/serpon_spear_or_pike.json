@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "jerotesvillage:serpon_spear",
+      "required": false
+    },
+    {
+      "id": "jerotesvillage:serpon_pike",
+      "required": false
+    }
+  ]
+}

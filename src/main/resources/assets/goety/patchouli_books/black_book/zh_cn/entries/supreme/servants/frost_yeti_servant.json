@@ -1,0 +1,25 @@
+{
+  "name": "寒霜雪怪",
+  "icon": "jerotesvillage:frost_yeti_hair",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "这些将苦寒之地视作狩猎场的类猿生物是不折不扣的怪物，他们无休止的狩猎令你联想到了你的凶残的荒野仆从们。经过一些研究与试错，你成功将这些苦寒怪物纳入自己的猎手内。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:frost_yeti_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_frost_yeti"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "作为苦寒生物的它可以免疫并吸收冰冻类伤害恢复生命，可以恐吓敌人并增幅自己，也可以在距离较远时使用冰岩投掷攻击。你可以给他喂食肉类来为其回血。"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 155
+}

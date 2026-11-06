@@ -1,0 +1,28 @@
+{
+  "name": "Corpse General",
+  "icon": "goety_supreme:raging_star",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 80, Armor 12, Toughness 6, Knockback Resistance 0.8, Attack 6.$(br)$(l)Corpse General$(): a Zombie Servant empowered by a Raging Star. attack 6, +1 block of attack reach, new look with permanent particles, 25%% permanent damage reduction; explosions, wither, fire, lava, hot floor, magic, indirect magic, suffocation, freezing and fall damage are halved again."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Catches fire it extinguishes itself, heals 1 HP per second, is immune to vanilla negative effects and immune to sun burning."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Roar (30-second cooldown): it lowers its head then rears up and roars, dealing 0.1 damage per tick to nearby units for 5 seconds; when the roar ends it summons 2 Zombie Servants (cap 4) and grants allies 30s of Strength I, Resistance I, Speed I and Undeath I, plus 30s of Absorption II and Regeneration I for itself."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Passive$(): every time it is hurt it summons one Zombie Servant."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:zombie_servant"
+    }
+  ],
+  "sortnum": 171
+}

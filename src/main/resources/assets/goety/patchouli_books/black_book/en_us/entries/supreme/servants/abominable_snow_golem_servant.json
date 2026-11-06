@@ -1,0 +1,69 @@
+{
+  "name": "Abominable Snow Golem",
+  "flag": "mod:mutantmonsters",
+  "icon": "goety:freezing_lamp",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A giant thing of ice and snow that does not belong to this world. Having grasped the knowledge of the $(l)Warred Scroll$(), you worked out how to build one of these winter beasts yourself."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:abominable_snow_golem_servant"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "_",
+            "_",
+            "^",
+            "_",
+            "_"
+          ],
+          [
+            "s",
+            "B",
+            "L",
+            "B",
+            "s"
+          ],
+          [
+            "_",
+            "B",
+            "B",
+            "B",
+            "_"
+          ],
+          [
+            "_",
+            "_",
+            "0",
+            "_",
+            "_"
+          ]
+        ],
+        "mapping": {
+          "^": "goety_supreme:vitality_carved_pumpkin",
+          "s": "goety:snow_bricks",
+          "B": "minecraft:snow_block",
+          "L": "goety:freezing_lamp",
+          "0": "goety:snow_bricks"
+        }
+      },
+      "enable_visualize": true,
+      "text": "Place a $(l)Vitality Pumpkin$() on the central $(l)Freezing Lamp$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Huge of body as it is, this snow golem has not forgotten its calling to throw snowballs. Beyond the melee blows it must deal, it has taught itself to knead small snowballs into one great snow block and hurl it, and even while it keeps up the throwing it will also turn its body into an ice storm and loose a storm of snowballs - no small threat to its enemies."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can hold a $(l:supreme/servants_skills/abominable_snow_golem_servant)Chilling Focus or a Frost Breath Focus$() to empower it, or hold $(item)Snow Blocks$() to heal it."
+    }
+  ],
+  "sortnum": 120
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Ender Stowaway Servant",
+  "icon": "goety_supreme:ender_stowaway_servant_spawn_egg",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Stowaways that stumbled into the Second Round world by accident; its influence has changed their powers somewhat, but that does nothing to stop you from enslaving them."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:ender_stowaway_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_ender_stowaway"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "There is nothing to tell it apart from an ordinary Enderman, and you can heal it with Chorus Fruit."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 154
+}

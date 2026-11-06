@@ -1,0 +1,32 @@
+{
+  "name": "Goety Supreme Skeleton Servant",
+  "icon": "minecraft:bone",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 40, Armor 8, Toughness 4, Knockback Resistance 0.8, Attack 4.$(br)An independent version of Goety's skeleton servant: undead, ranged, and with all the gear and ownership behaviour intact."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:skeleton_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_skeleton_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "It fights by shooting, switching to melee when a foe closes; follow, wander, stay and guard are cycled with Goety's commands, guard patrols around the chosen spot, and stay only stops its idle wandering - it still fights."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Give it a $(item)Raging Star$() and it becomes a $(l)Bone Scout$() for good: armour and toughness rise, it keeps constant damage reduction and regeneration, its arrows hit twice as hard and fly faster, white motes trail it,."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "and its draws can empty into a machine-gun volley - which costs the bow no durability and ignores hurt frames on every arrow. It takes a few more slots in the Esoteric Tesseract, and the star flies back to its owner's pack when it dies."
+    }
+  ],
+  "sortnum": 172
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Mutant Skeleton Servant",
+  "flag": "mod:mutantmonsters",
+  "icon": "mutantmonsters:mutant_skeleton_skull",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 150, Knockback Resistance 0.75, Attack 3, Speed 0.27.$(br)Can wear $(l)armor$().$(br)$(l)Arrows$(): damage = attack + 1; it only fires at full draw.$(br)75, Attack 3, Speed 0.27.$(br)$(l)Volley$(): leaps up and looses 24 arrows at once, each resolved as a normal arrow hit."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Bone Sweep$(): hits everything within 3 blocks in front for attack + 1, breaks shields for 40 ticks and knocks them back.$(br)$(l)Rib Crush$(): a point-blank target takes attack + 6, loses its shield for 100 ticks and is blasted away.$(br)$(l)Soul Jar$(): +25 health, +2 magic damage on arrows and melee, with soul particles on its arrows."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Hateful Bone Helm$(): draw wind-up x2/3, spread arrows x2 (24 becomes 48), a normal draw has a 35%% chance to become a triple shot, and those shots ignore invulnerability frames.$(br)75, Attack 3, Speed 0.27.$(br)Concentrated Bone Block (up to 5): each gives +10 health, +0.7 attack, +2 armor, +1 toughness."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Maxed$(): every arrow it fires gains one of Weakness, Poison (Venom if its owner wears the wilderness set) or Hunger for 5 seconds."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:mutant_skeleton_servant"
+    }
+  ]
+}

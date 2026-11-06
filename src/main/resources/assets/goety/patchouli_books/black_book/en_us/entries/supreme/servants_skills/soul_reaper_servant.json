@@ -1,0 +1,28 @@
+{
+  "name": "Soul Reaper Servant",
+  "icon": "goety_supreme:broken_reaper_scythe",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 225, Armor 8, Knockback Resistance 1.0, Attack 15, Speed 0.25.$(br)$(l)Basic attack$(): swings the scythe for 15 damage, steals 20 soul energy and applies Erosion I for 3s.$(br)$(l)Soul Coffin$(): carried on its back; on meeting an enemy it plays the coffin entrance and slams the coffin down before attacking."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Bloodthirst$(): each melee hit on an enemy heals 10%% of its panel damage.$(br)$(l)Drain$(): while the coffin is within 12 blocks of an enemy, drains 4 health and 5 soul energy per second, and the health is returned to the Soul Reaper."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Coffin Control$(): snap your fingers to control the coffin - beyond 5 blocks it blinks and slams for 12 damage; within 5 blocks it bursts for 15 magic damage and Weakness I for 5s; with multiple enemies the slam instead deals 5 explosion damage and no shockwave.$(br)$(l)Soul Detonation$(): gathers soul particles and detonates, dealing 20 damage centered on itself and on the coffin."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Upgrades$(): 225 / 300 / 400 / 575.$(br)$(l)Soul Overflow$(): when the owner's soul energy exceeds 90000, every additional 1000 adds 10%% damage to all of its moves, and each level grants +0.02 movement speed."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:soul_reaper_servant"
+    }
+  ],
+  "sortnum": 144
+}

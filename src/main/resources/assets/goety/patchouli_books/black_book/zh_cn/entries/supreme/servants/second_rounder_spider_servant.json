@@ -1,0 +1,25 @@
+{
+  "name": "二轮蜘蛛仆从",
+  "icon": "minecraft:spider_eye",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 28，护甲 2，攻击 4，移速 0.34。$(br)二轮世界的巨大节肢生物，不过他们的颜色很多，有闲情雅致的你也许可以给它们换换装？。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:second_rounder_spider_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "34。$(br)它沿用 Goety 蜘蛛仆从的打法：会爬墙，蛛网不减速，撞上非同阵营的目标时还会顶人。在二轮世界里，Goety 的$(l)蜘蛛巢$()本该产出普通蜘蛛仆从时，会改为产出它们；骷髅蜘蛛、冰蜘蛛、洞穴蛛、织网蛛这些特殊变种照旧各归各档。偶尔它背上还会骑着一位二轮骷髅。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "二轮世界里$(l:crafts/artifice/spider_nest)蜘蛛巢$()产出的就是它们；想凑一支自己的蛛群，竖一座巢就够了。"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 162
+}

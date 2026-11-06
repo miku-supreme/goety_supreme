@@ -1,0 +1,28 @@
+{
+  "name": "蚀龙兽",
+  "flag": "mod:jerotesvillage",
+  "icon": "jerotesvillage:corrosiver_claw",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量225，护甲5，韧性0，击退抗性 1.0，攻击 12，移速 0.32。$(br)$(l)腐蚀吐息$()：冷却12 秒喷出穿透性腐蚀吐息，造成10~60伤害，未豁免附加腐蚀+虚弱+缓慢各 5 秒，豁免成功伤害减半、不附效果，腐蚀 18 秒。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)腐蚀冰锥$()：冷却15 秒，造成6~24伤害，冰冻25 秒、腐蚀 1 秒。$(br)$(l)腐蚀雪云$()：冷却24 秒，云持续 18 秒，云下生物持续被腐蚀 5 秒。$(br)$(l)苦寒唤风$()：冷却36 秒，召唤 5~7 只苦寒寒风。$(br)$(l)旋风裹身$()：冷却15 秒，距离 12~64 格，瞬移到目标周围。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "近战不同动作不同战技，有着不同的伤害倍率；命中附冰冻14秒、腐蚀 10秒；部分战技触发颤地。$(br)$(l)苦寒强韧$()：受击后固定 1 秒无敌帧。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "可以给予蚀龙兽仆从道具进行强化$(br)$(l)流髑死灵法师的灵魂罐$()：$(br)最大生命值增加50，法术冷却降低四分之一$(br)$(l)霜裔聚晶$()：$(br)最大生命值增加25，全伤害增加20%%，唤风概率召唤冰傀儡仆从。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:corrosiver_servant"
+    }
+  ]
+}

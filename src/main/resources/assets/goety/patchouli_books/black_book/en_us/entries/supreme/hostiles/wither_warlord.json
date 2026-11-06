@@ -1,0 +1,92 @@
+{
+    "name":  "Wither Warlord (Hostile)",
+    "icon":  "goety_supreme:withering_saber",
+    "category":  "goety:supreme/hostiles",
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "A tall, solemn frame, a powerful build, and a missing left arm..... This mighty general shares a blood feud with Green Smith, and for that he hates almost every necromancer alive.$(br)A general who lives for the fight, he would never deign to answer your call - until you brought"
+                  },
+                  {
+                      "type":  "patchouli:entity",
+                      "entity":  "goety_supreme:wither_warlord",
+                      "scale":  0.65
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_summon_wither_warlord"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "out that peculiar green apple.... Hatred surges up, and the Wither Warlord comes to answer the challenge!. Even with rage clouding his eyes, the Warlord\u0027s strength is not to be taken lightly. With his raw power he only grows fiercer the more foes he faces, and he will block"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "when he must; if the block is pushed past a threshold again it turns into a derived move: a thrust, or a blazing rise on the spot. The Warlord also calls his elite troops to fight beside him - not the numbers G reen Smith musters, but every one of them a peerless fighter. It takes"
+                  },
+                  {
+                      "type":  "patchouli:spotlight",
+                      "item":  "goety_supreme:wither_warlord_helmet",
+                      "title":  "Wither War Helm",
+                      "text":  "One of the Wither Warlord\u0027s drops. Wearing it may grant an effect stronger than the Nether Crown."
+                  },
+                  {
+                      "type":  "patchouli:spotlight",
+                      "item":  "goety_supreme:withering_saber",
+                      "title":  "Withering Saber",
+                      "text":  "The battered saber the Warlord carries. Its look is far from what it once was, yet part of his power still lingers in it - perhaps you could use it to repair and upgrade the blade?."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "punishment well: fire, lava, falling, kinetic force, suffocation, drowning, dehydration and withering do nothing to it, and it never catches fire by day. A single hit can never take more than twenty-five from it, and each hit is followed by a short invulnerability; enough"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "damage inside two seconds buys it another stretch of the same. It mends a point of health a second, and every withering creature within thirty-two blocks adds another (three at most). Unyielding Spirit: for every two enemies pressing it inside twenty-four blocks,. it gains a point"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "of attack and a point of armour. Unbroken Ice: frost-armed foes hit it for double, while foes with a frost hide deal half. Its wither armour only turns arrows aside rather than softening them - and below half health it lights that armour for good. With a living target in hand"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "it draws for three seconds, locked in place and taking a tenth of all damage; ten seconds without a target and the blade goes back in the sheath. Triple Slash begins inside four and a half blocks: three cuts on the 16th, 35th and 45th ticks,. each for twice its attack plus a"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "sliver of the target\u0027s maximum health, every one of them through shields, and the last hurls anything not friendly off its feet. Unbearable is the block that answers any hit: up to a second of guard, one second longer for every sourced blow it stops (two at most), with damage"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "halved throughout. Once it has blocked twice it answers in one of two ways: a plain thrust and a blazing block slash split evenly - three quarters thrust once it is enraged at half health. The blocking thrust leaps back from the last source of damage,. then rushes in for two cuts"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "inside a second; the blazing block slash plants the saber in the ground and bursts a five-block hellfire pillar, drowning the area for five seconds with a tick of hellfire every twenty ticks and a burning brand, taking no hits and half damage throughout. Backstep comes when a"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "foe is inside five blocks, or when fifty damage lands within five seconds: five blocks of retreat inside fifteen ticks, and on the 10th tick nine wither skulls fan out at you, one random skull replaced by a $(item)Shining Wither Skull$(). Hellfire Slash begins inside six blocks,."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "and on the 25th tick a blade of hellfire leaves the saber, its radius growing to six blocks, passing through foes but never through blocks. Great Leap marks its landing spot for a second and then dives, bursting a seven-block radius on impact with eight hellfire pillars and"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "a shockwave that lifts blocks, trailing fire the whole way down. Elite Company calls wither skeletons in netherite and wither skeleton horses in netherite barding, two bows and two blades a batch, eight on the field at most, and hangs Regeneration on itself. Charge!. sounds the"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "horn on the 5th tick - exactly the beat where the saber is levelled - restoring half of every servant\u0027s health, granting Inspiration and Speed to all of them. Sky-Changing comes at half health and only once a fight: six sets of eight-way hellfire pillars,. then the saber"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "raised to the sky and a forty-eight block beacon for sixty ticks - three minutes of thunderstorm in the Overworld, a basalt delta\u0027s ash spread forty-eight blocks wide elsewhere - and from then on the wither armour is lit for good; it takes nine tenths less damage throughout. On"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "death it always drops three things: a $(item)Withering Saber$(), a $(item)Wither Helm$() and a $(item)Nether Star$() - no drop table, and Looting changes nothing. The helm is the one on its head (and it never wore out on its own head), and the saber is the very blade it carried."
+                  }
+              ]
+}

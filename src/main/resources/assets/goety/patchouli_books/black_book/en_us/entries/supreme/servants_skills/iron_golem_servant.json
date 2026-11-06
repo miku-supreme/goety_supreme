@@ -1,0 +1,15 @@
+{
+  "name": "Iron Golem",
+  "icon": "minecraft:iron_block",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 100, Knockback Resistance 1.0, Attack 15, Speed 0.25.$(br)No different from a normal iron golem."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:iron_golem_servant"
+    }
+  ]
+}

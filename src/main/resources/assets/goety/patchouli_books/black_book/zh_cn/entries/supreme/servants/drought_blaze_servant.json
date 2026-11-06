@@ -1,0 +1,25 @@
+{
+  "name": "旱火烈焰人",
+  "icon": "minecraft:blaze_rod",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "在旱火山地生活着的烈焰人，比一般的烈焰人更燃，也更强。在你的经验之下操控这些烈焰人完全不在话下。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:drought_blaze_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_drought_blaze"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "手持$(item)烈焰粉$()右键你的旱火烈焰人仆从将会治疗它。$(br)你可以通过仪式召唤这只烈焰人，也可以通过$(l:supreme/items/drought_blaze_focus)焦炎聚晶$()快速召唤。"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 151
+}

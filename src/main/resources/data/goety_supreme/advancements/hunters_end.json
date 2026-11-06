@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "defeat_soul_reaper": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.goety_supreme.hunters_end.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "goety_supreme:coffin_shard"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.goety_supreme.hunters_end.title"
+    }
+  },
+  "parent": "goety_supreme:tastier_prey",
+  "requirements": [
+    [
+      "defeat_soul_reaper"
+    ]
+  ]
+}

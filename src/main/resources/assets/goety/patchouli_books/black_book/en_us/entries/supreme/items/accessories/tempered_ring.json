@@ -1,0 +1,20 @@
+{
+    "name":  "Tempered Ring",
+    "icon":  "goety_supreme:tempered_ring",
+    "category":  "goety:supreme/items/accessories",
+    "sortnum":  1,
+    "read_by_default":  true,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "The upgraded form of the Forging Ring: it further improves armour quality on top of the Forging Ring and hands out weapons, and servants that cannot wear armour receive an extra boost."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_tempered_ring"
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:tempered_ring":  1
+                              }
+}

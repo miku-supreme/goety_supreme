@@ -1,0 +1,29 @@
+{
+  "name": "High Crypt Necromancer",
+  "icon": "goety_supreme:crypt_soul_jar",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "After you felled the Skull Lord, you began to wonder how your Cairn Necromancers might be made stronger still. Some time later you had one absorb both the Skull Lord's power and the magic of a Haunted Armor Focus, and it rose into a High Crypt Necromancer."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:crypt_necromancer_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Every attack this crypt necromancer makes is no longer a plain ice spike but a Haunted Skull, and as its rank climbs the number of both ice spikes and skulls grows with it. It also brings out blizzards and frost storms."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "It keeps its original summoning powers and starts out already able to summon extra; with the Haunted Armor at its side it is sure to be in its element."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:crypt_soul_jar",
+      "text": "If a High Crypt Necromancer dies while you carry an empty soul jar, the jar takes their soul; right-click one of your own Cairn Necromancer servants with that jar and the Cairn is used as a new body to bring the high necromancer back."
+    }
+  ],
+  "sortnum": 180
+}

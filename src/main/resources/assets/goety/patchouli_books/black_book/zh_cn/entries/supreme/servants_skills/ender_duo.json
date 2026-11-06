@@ -1,0 +1,12 @@
+{
+  "name": "末影二人组",
+  "icon": "minecraft:ender_pearl",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)末影人仆从$()：与原版末影人别无二致。$(br)$(l)末影渡客$()：血量45，攻击力7，移动速度0.32。命名为Elite时受伤减半，出手和位移频率提高。"
+    }
+  ],
+  "sortnum": 182
+}

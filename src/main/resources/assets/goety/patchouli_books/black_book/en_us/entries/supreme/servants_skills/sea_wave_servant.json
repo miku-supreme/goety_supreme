@@ -1,0 +1,25 @@
+{
+  "name": "Seawave",
+  "icon": "jerotesvillage:seawave_trident",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 80, Armor 8, Attack 8, Knockback Resistance 0.6, Movement Speed 0.3.$(br)Wave Bolts$(br)Fires 9 wave bolts for 2–9 drowning damage. If the target is immune to drowning, it deals an equal amount of magic damage instead."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Shockwave$(br)Slams its trident into the ground, releasing an 8-damage shockwave; only used while it still holds a trident.$(br)Thrust$(br)Thrusts forward with its trident, dealing 8 damage once for each trident it has; only used while it still has a trident."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Gemstone Wave$(br)Casts forward to deal 3–18 drowning damage to creatures in front. Only used while it still has a trident.$(br)Conjure Bulge$(br)A Fury Seawave summons 3 Bulges to fight for it."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:sea_wave_servant"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 157
+}

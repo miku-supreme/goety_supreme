@@ -1,0 +1,484 @@
+{
+  "furnace_fire_breath": {
+    "subtitle": "subtitle.goety_supreme.furnace_fire_breath",
+    "sounds": [
+      "goety_supreme:spell/fire_breath_short"
+    ]
+  },
+  "wither_power": {
+    "sounds": [
+      "goety_supreme:witherpower"
+    ]
+  },
+  "wither_theme": {
+    "sounds": [
+      {
+        "name": "goety_supreme:withertheme",
+        "stream": true
+      }
+    ]
+  },
+  "polargeist_theme": {
+    "sounds": [
+      {
+        "name": "goety_supreme:polargeist",
+        "stream": true
+      }
+    ]
+  },
+  "cant_let_go_theme": {
+    "sounds": [
+      {
+        "name": "goety_supreme:cant_let_go",
+        "stream": true
+      }
+    ]
+  },
+  "green_smith_theme": {
+    "sounds": [
+      {
+        "name": "goety_supreme:green_smith_theme",
+        "stream": true
+      }
+    ]
+  },
+  "warlord_theme": {
+    "sounds": [
+      {
+        "name": "goety_supreme:warlord_theme",
+        "stream": true
+      }
+    ]
+  },
+  "warlord_phase2_theme": {
+    "sounds": [
+      {
+        "name": "goety_supreme:warlord_phase2_theme",
+        "stream": true
+      }
+    ]
+  },
+  "warlord_charge_horn": {
+    "subtitle": "subtitle.goety_supreme.warlord_charge_horn",
+    "sounds": [
+      "goety_supreme:warlord_charge_horn"
+    ]
+  },
+  "prison_golem_ambient": {
+    "subtitle": "subtitle.goety_supreme.prison_golem_ambient",
+    "sounds": [
+      "goety_supreme:prison_golem/idle1",
+      "goety_supreme:prison_golem/idle2",
+      "goety_supreme:prison_golem/idle3",
+      "goety_supreme:prison_golem/idle4"
+    ]
+  },
+  "prison_golem_hurt": {
+    "subtitle": "subtitle.goety_supreme.prison_golem_hurt",
+    "sounds": [
+      "goety_supreme:prison_golem/hurt1",
+      "goety_supreme:prison_golem/hurt2",
+      "goety_supreme:prison_golem/hurt3",
+      "goety_supreme:prison_golem/hurt4"
+    ]
+  },
+  "prison_golem_step": {
+    "subtitle": "subtitle.goety_supreme.prison_golem_step",
+    "sounds": [
+      "goety_supreme:prison_golem/step1",
+      "goety_supreme:prison_golem/step2",
+      "goety_supreme:prison_golem/step3",
+      "goety_supreme:prison_golem/step4"
+    ]
+  },
+  "prison_golem_death": {
+    "subtitle": "subtitle.goety_supreme.prison_golem_death",
+    "sounds": [
+      "goety_supreme:prison_golem/death1",
+      "goety_supreme:prison_golem/death2",
+      "goety_supreme:prison_golem/death3",
+      "goety_supreme:prison_golem/death4"
+    ]
+  },
+  "ice_golem_ambient": {
+    "subtitle": "subtitle.goety_supreme.ice_golem_ambient",
+    "sounds": [
+      "goety_supreme:ice_golem/idle1",
+      "goety_supreme:ice_golem/idle2",
+      "goety_supreme:ice_golem/idle3"
+    ]
+  },
+  "ice_golem_hurt": {
+    "subtitle": "subtitle.goety_supreme.ice_golem_hurt",
+    "sounds": [
+      "goety_supreme:ice_golem/hurt1",
+      "goety_supreme:ice_golem/hurt2"
+    ]
+  },
+  "ice_golem_death": {
+    "subtitle": "subtitle.goety_supreme.ice_golem_death",
+    "sounds": [
+      "goety_supreme:ice_golem/death"
+    ]
+  },
+  "ice_golem_attack": {
+    "subtitle": "subtitle.goety_supreme.ice_golem_attack",
+    "sounds": [
+      "goety_supreme:ice_golem/attack1",
+      "goety_supreme:ice_golem/attack2"
+    ]
+  },
+  "ice_golem_step": {
+    "subtitle": "subtitle.goety_supreme.ice_golem_step",
+    "sounds": [
+      "goety_supreme:ice_golem/step1",
+      "goety_supreme:ice_golem/step2",
+      "goety_supreme:ice_golem/step3",
+      "goety_supreme:ice_golem/step4"
+    ]
+  },
+  "magma_golem_ambient": {
+    "subtitle": "subtitle.goety_supreme.magma_golem_ambient",
+    "sounds": [
+      "goety_supreme:magma_golem/idle1"
+    ]
+  },
+  "magma_golem_hurt": {
+    "subtitle": "subtitle.goety_supreme.magma_golem_hurt",
+    "sounds": [
+      "goety_supreme:magma_golem/hurt1",
+      "goety_supreme:magma_golem/hurt2",
+      "goety_supreme:magma_golem/hurt3",
+      "goety_supreme:magma_golem/hurt4"
+    ]
+  },
+  "magma_golem_death": {
+    "subtitle": "subtitle.goety_supreme.magma_golem_death",
+    "sounds": [
+      "goety_supreme:magma_golem/death"
+    ]
+  },
+  "magma_golem_attack": {
+    "subtitle": "subtitle.goety_supreme.magma_golem_attack",
+    "sounds": [
+      "goety_supreme:magma_golem/attack1",
+      "goety_supreme:magma_golem/attack2",
+      "goety_supreme:magma_golem/attack3"
+    ]
+  },
+  "magma_golem_step": {
+    "subtitle": "subtitle.goety_supreme.magma_golem_step",
+    "sounds": [
+      "goety_supreme:magma_golem/step1",
+      "goety_supreme:magma_golem/step2"
+    ]
+  },
+  "prismarine_soldier_ambient": {
+    "subtitle": "subtitle.goety_supreme.prismarine_soldier_ambient",
+    "sounds": [
+      "goety_supreme:prismarine_soldier/growl1",
+      "goety_supreme:prismarine_soldier/growl2"
+    ]
+  },
+  "prismarine_soldier_hurt": {
+    "subtitle": "subtitle.goety_supreme.prismarine_soldier_hurt",
+    "sounds": [
+      "goety_supreme:prismarine_soldier/hurt1",
+      "goety_supreme:prismarine_soldier/hurt2"
+    ]
+  },
+  "prismarine_soldier_death": {
+    "subtitle": "subtitle.goety_supreme.prismarine_soldier_death",
+    "sounds": [
+      "goety_supreme:prismarine_soldier/growl1",
+      "goety_supreme:prismarine_soldier/growl2"
+    ]
+  },
+  "prismarine_soldier_step": {
+    "subtitle": "subtitle.goety_supreme.prismarine_soldier_step",
+    "sounds": [
+      "goety_supreme:prismarine_soldier/step1",
+      "goety_supreme:prismarine_soldier/step2",
+      "goety_supreme:prismarine_soldier/step3",
+      "goety_supreme:prismarine_soldier/step4"
+    ]
+  },
+  "reaper_snap": {
+    "subtitle": "subtitle.goety_supreme.reaper_snap",
+    "sounds": [
+      "goety_supreme:reaper_snap"
+    ]
+  },
+  "reaper_ambient_dull": {
+    "subtitle": "subtitle.goety_supreme.reaper_ambient_dull",
+    "sounds": [
+      "goety_supreme:reaper/idle1",
+      "goety_supreme:reaper/idle2",
+      "goety_supreme:reaper/idle3"
+    ]
+  },
+  "reaper_hurt_dull": {
+    "subtitle": "subtitle.goety_supreme.reaper_hurt_dull",
+    "sounds": [
+      "goety_supreme:reaper/hurt1",
+      "goety_supreme:reaper/hurt2"
+    ]
+  },
+  "reaper_death_dull": {
+    "subtitle": "subtitle.goety_supreme.reaper_death_dull",
+    "sounds": [
+      "goety_supreme:reaper/death1",
+      "goety_supreme:reaper/death2"
+    ]
+  },
+  "reaper_swing_dull": {
+    "subtitle": "subtitle.goety_supreme.reaper_swing_dull",
+    "sounds": [
+      "goety_supreme:reaper/swing"
+    ]
+  },
+  "green_smith_ambient": {
+    "subtitle": "subtitle.goety_supreme.green_smith_ambient",
+    "sounds": [
+      "goety:lich/idle1",
+      "goety:lich/idle2",
+      "goety:lich/idle3"
+    ]
+  },
+  "green_smith_hurt": {
+    "subtitle": "subtitle.goety_supreme.green_smith_hurt",
+    "sounds": [
+      "goety:lich/hurt1",
+      "goety:lich/hurt2",
+      "goety:lich/hurt3",
+      "goety:lich/hurt4"
+    ]
+  },
+  "green_smith_death": {
+    "subtitle": "subtitle.goety_supreme.green_smith_death",
+    "sounds": [
+      "goety:lich/death"
+    ]
+  },
+  "green_smith_step": {
+    "subtitle": "subtitle.goety_supreme.green_smith_step",
+    "sounds": [
+      "goety:necromancer/step1",
+      "goety:necromancer/step2",
+      "goety:necromancer/step3",
+      "goety:necromancer/step4"
+    ]
+  },
+  "green_smith_teleport_out": {
+    "subtitle": "subtitle.goety_supreme.green_smith_teleport_out",
+    "sounds": [
+      "goety:lich/teleport_out1",
+      "goety:lich/teleport_out2"
+    ]
+  },
+  "green_smith_teleport_in": {
+    "subtitle": "subtitle.goety_supreme.green_smith_teleport_in",
+    "sounds": [
+      "goety:lich/teleport_in1",
+      "goety:lich/teleport_in2",
+      "goety:lich/teleport_in3",
+      "goety:lich/teleport_in4"
+    ]
+  },
+  "green_smith_laugh": {
+    "subtitle": "subtitle.goety_supreme.green_smith_laugh",
+    "sounds": [
+      "goety:lich/laugh_short1",
+      "goety:lich/laugh_short2",
+      "goety:lich/laugh_short3",
+      "goety:lich/laugh_long1",
+      "goety:lich/laugh_long2",
+      "goety:lich/laugh_long3"
+    ]
+  },
+  "green_smith_cast": {
+    "subtitle": "subtitle.goety_supreme.green_smith_cast",
+    "sounds": [
+      "goety:spell/summon_spell3"
+    ]
+  },
+  "green_smith_thunderbolt": {
+    "subtitle": "subtitle.goety_supreme.green_smith_thunderbolt",
+    "sounds": [
+      "goety:spell/thunderbolt1",
+      "goety:spell/thunderbolt2",
+      "goety:spell/thunderbolt3"
+    ]
+  },
+  "green_smith_thunder_strike": {
+    "subtitle": "subtitle.goety_supreme.green_smith_thunder_strike",
+    "sounds": [
+      "goety:random/thunder_strike_fast1",
+      "goety:random/thunder_strike_fast2",
+      "goety:random/thunder_strike_fast3"
+    ]
+  },
+  "green_smith_thunder_strike_epic": {
+    "subtitle": "subtitle.goety_supreme.green_smith_thunder_strike_epic",
+    "sounds": [
+      "goety:random/thunder_strike_epic1",
+      "goety:random/thunder_strike_epic2",
+      "goety:random/thunder_strike_epic3",
+      "goety:random/thunder_strike_epic4"
+    ]
+  },
+  "green_smith_hell_bolt": {
+    "subtitle": "subtitle.goety_supreme.green_smith_hell_bolt",
+    "sounds": [
+      "goety:spell/hell_bolt_shoot1",
+      "goety:spell/hell_bolt_shoot2",
+      "goety:spell/hell_bolt_shoot3"
+    ]
+  },
+  "green_smith_beam_start": {
+    "subtitle": "subtitle.goety_supreme.green_smith_beam_start",
+    "sounds": [
+      "goety:spell/corrupt_beam_start1",
+      "goety:spell/corrupt_beam_start2"
+    ]
+  },
+  "green_smith_beam_loop": {
+    "subtitle": "subtitle.goety_supreme.green_smith_beam_loop",
+    "sounds": [
+      "goety:spell/corrupt_beam_loop1"
+    ]
+  },
+  "green_smith_soul_eat": {
+    "subtitle": "subtitle.goety_supreme.green_smith_soul_eat",
+    "sounds": [
+      "goety:spell/soul_eat1",
+      "goety:spell/soul_eat2",
+      "goety:spell/soul_eat3"
+    ]
+  },
+  "green_smith_wind_blast": {
+    "subtitle": "subtitle.goety_supreme.green_smith_wind_blast",
+    "sounds": [
+      "goety:spell/wind_blast_1",
+      "goety:spell/wind_blast_2",
+      "goety:spell/wind_blast_3"
+    ]
+  },
+  "engender_hero": {
+    "subtitle": "subtitle.goety_supreme.engender_hero",
+    "sounds": [
+      "goety_supreme:engender_hero"
+    ]
+  },
+  "engender_zombie_special": {
+    "subtitle": "subtitle.goety_supreme.engender_zombie_special",
+    "sounds": [
+      "goety_supreme:engender_zombie_special"
+    ]
+  },
+  "ifrit_basic_attack": {
+    "subtitle": "subtitle.goety_supreme.ifrit_basic_attack",
+    "sounds": [
+      "goety_supreme:ifrit/basic_attack"
+    ]
+  },
+  "ifrit_dash": {
+    "subtitle": "subtitle.goety_supreme.ifrit_dash",
+    "sounds": [
+      "goety:wildfire/shoot1",
+      "goety:wildfire/shoot2",
+      "goety:wildfire/shoot3",
+      "goety:wildfire/shoot4"
+    ]
+  },
+  "ifrit_step": {
+    "subtitle": "subtitle.goety_supreme.ifrit_step",
+    "sounds": [
+      "goety_supreme:ifrit/step1"
+    ]
+  },
+  "ifrit_magma_jump": {
+    "subtitle": "subtitle.goety_supreme.ifrit_magma_jump",
+    "sounds": [
+      "goety_supreme:ifrit/magma_jump"
+    ]
+  },
+  "ifrit_sword_saber": {
+    "subtitle": "subtitle.goety_supreme.ifrit_sword_saber",
+    "sounds": [
+      "goety_supreme:ifrit/sword_saber"
+    ]
+  },
+  "ifrit_powerful_blow": {
+    "subtitle": "subtitle.goety_supreme.ifrit_powerful_blow",
+    "sounds": [
+      "goety_supreme:ifrit/powerful_blow"
+    ]
+  },
+  "fell_spear_use": {
+    "subtitle": "subtitle.goety_supreme.fell_spear_use",
+    "sounds": [
+      "goety_supreme:fell_spear/use"
+    ]
+  },
+  "fell_spear_hit": {
+    "subtitle": "subtitle.goety_supreme.fell_spear_hit",
+    "sounds": [
+      "goety_supreme:fell_spear/hit1",
+      "goety_supreme:fell_spear/hit2",
+      "goety_supreme:fell_spear/hit3"
+    ]
+  },
+  "fell_spear_attack": {
+    "subtitle": "subtitle.goety_supreme.fell_spear_attack",
+    "sounds": [
+      "goety_supreme:fell_spear/attack1",
+      "goety_supreme:fell_spear/attack2",
+      "goety_supreme:fell_spear/attack3"
+    ]
+  },
+  "soul_coffin_drain": {
+    "subtitle": "subtitle.goety_supreme.soul_coffin_drain",
+    "sounds": [
+      "goety_supreme:soul_coffin/drain"
+    ]
+  },
+  "soul_coffin_teleport": {
+    "subtitle": "subtitle.goety_supreme.soul_coffin_teleport",
+    "sounds": [
+      "goety_supreme:soul_coffin/teleport"
+    ]
+  },
+  "soul_coffin_break": {
+    "subtitle": "subtitle.goety_supreme.soul_coffin_break",
+    "sounds": [
+      "goety_supreme:soul_coffin/break"
+    ]
+  },
+  "scorchback_step": {
+    "subtitle": "subtitle.goety_supreme.scorchback_step",
+    "sounds": [
+      "goety_supreme:scorchback/step"
+    ]
+  },
+  "scorchback_attack": {
+    "subtitle": "subtitle.goety_supreme.scorchback_attack",
+    "sounds": [
+      "goety_supreme:scorchback/attack"
+    ]
+  },
+  "scorchback_death": {
+    "subtitle": "subtitle.goety_supreme.scorchback_death",
+    "sounds": [
+      "goety_supreme:scorchback/death"
+    ]
+  },
+  "ifrit_theme": {
+    "sounds": [
+      {
+        "name": "goety_supreme:ifrit_theme",
+        "stream": true
+      }
+    ]
+  }
+}

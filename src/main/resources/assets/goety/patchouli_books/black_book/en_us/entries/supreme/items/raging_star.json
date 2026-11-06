@@ -1,0 +1,29 @@
+{
+    "name":  "Raging Star",
+    "icon":  "goety_supreme:raging_star",
+    "category":  "goety:supreme/items",
+    "sortnum":  92,
+    "read_by_default":  true,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "A mighty power from an old age: right-click to grant it to some servants and you glimpse the glory with which they once fought at players\u0027 sides across the world; not many of them, but enough. Of course, servants summoned on the fly cannot be given this power."
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "goety_supreme:raging_star"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Servants empowered by the Raging Star gain the blessing of dark magic: permanent damage reduction, environmental damage halved; fire on them goes out at once, and they are immune to all vanilla negative effects. Such precious servants naturally take up more of your slots.$(br)Annihilation Wither: the empowered wither can unleash Wither Annihilation and burst out with a divine power that kills all things. After receiving the Raging Star\u0027s power, a familiar piece of music sounds once more."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Corpse Dark General: the empowered zombie becomes a shadow its enemies dread - in battle it roars to intimidate the enemies around it, summons other zombies, and grants allies strength, resistance and speed.$(br)Bone Scout: the empowered skeleton destroys every invader with better accuracy and higher damage; not only that, it can fire machine-gun arrows that ignore the enemy\u0027s invulnerability frames, turning every enemy into a pincushion! You do not recall anything bad, do you?."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Void Shadow Guard: the empowered enderman can lock onto reachable targets within 64 blocks, blinking after them and striking one by one with its superb mobility, with a chance to inflict Void Blight.$(br)Redstone Behemoth (Modified): the empowered Redstone Behemoth gains extra armour and dynamic damage reduction. In addition, it has gained a whole suite of brand-new skills, and will surely become a veritable war machine."
+                  }
+              ]
+}

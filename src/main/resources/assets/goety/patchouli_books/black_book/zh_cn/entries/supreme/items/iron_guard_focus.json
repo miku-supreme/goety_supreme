@@ -1,0 +1,23 @@
+{
+  "name": "铁卫聚晶",
+  "icon": "goety_supreme:iron_guard_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 15,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "你很好奇为何在很长时间内，这些最常见的生物没法被做成聚晶为你所驱使。你没有想明白这个问题，却顺手发明了这种召唤钢铁守卫的聚晶。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_iron_guard_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "用地卜魔杖施法时，一次召出两只，至多八只。潜行施法把它们召集到身边。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:iron_guard_focus": 1
+  }
+}

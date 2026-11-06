@@ -1,0 +1,62 @@
+# 默认配置示例；运行时文件位于 config/goety_supreme/。
+# 修改运行时配置后重启游戏。强化开关仅控制是否接受新强化，不删除已获得的强化。
+
+[mutant_skeleton_servant]
+# 最大生命值，与 Mutant Monsters 原版突变骷髅一致为 150。
+max_health = 150.0
+# 基础攻击伤害（骨扫与缩肋的加成都以此为基础）。
+attack_damage = 3.0
+# 移动速度。
+movement_speed = 0.27
+# 击退抗性，范围为 0.0 至 1.0。
+knockback_resistance = 0.75
+# 护甲值。
+armor = 0.0
+# 护甲韧性值。
+armor_toughness = 0.0
+# 索敌范围。
+follow_range = 48.0
+# 两次远程拉弓起手之间的最短间隔（刻），仍需完成当前射击动画。
+shoot_interval_ticks = 30
+# 远程射击范围（格）。
+shoot_range = 16
+# 每次远程攻击改放“万箭齐发”（ MULTI_SHOT 动画、24 连射）的概率，单位百分比；0 关闭。
+multi_shot_chance_percent = 20
+# 装备恶骸骨盔后，普通拉弓射箭触发三连发的概率，单位百分比。
+malefic_triple_shot_chance_percent = 35
+# 单发突变箭是否按原版概率附加中毒 / 饥饿 / 缓慢效果。
+arrow_effects = true
+# 是否启用贴脸时的“骨浪横扫”（MELEE 动画，4 格扇形伤害并击飞）。
+bone_sweep = true
+# 是否启用“肋骨绞压”（CONSTRUCT_RIBS 动画，重创贴身目标并炸飞）。
+constrict_ribs = true
+
+[mutant_skeleton_servant.upgrades]
+# 允许给予普通灵魂罐。
+soul_jar_enabled = true
+# 灵魂罐增加的最大生命值。
+soul_jar_health = 25.0
+# 灵魂罐箭矢额外魔法伤害2 点。
+soul_jar_arrow_damage = 2.0
+# 灵魂罐近战额外魔法伤害2 点。
+soul_jar_melee_damage = 2.0
+# 允许给予恶骸骨盔。
+malefic_helm_enabled = true
+# 恶骸骨盔两次拉弓起手的周期倍率，默认 2/3，即缩短三分之一，取整到最近一刻；同步缩短远程动画，保证实际生效。
+malefic_interval_multiplier = 0.6666666666666666
+# 恶骸骨盔散射箭数倍率。
+malefic_volley_multiplier = 2
+# 恶骸骨盔普通射击忽略受击无敌帧。
+malefic_ignore_invulnerability = true
+# 浓缩骨块最大强化次数，0 禁用新强化；已有次数不删除。
+bone_max_upgrades = 5
+# 每次浓缩骨块增加的最大生命值。
+bone_health = 10.0
+# 每次浓缩骨块增加的近战攻击力0.6。
+bone_melee_damage = 0.6
+# 每次浓缩骨块增加的箭矢伤害，固定加到命中伤害中，不乘箭速0.8。
+bone_arrow_damage = 0.8
+# 每次浓缩骨块增加的护甲。
+bone_armor = 2.0
+# 每次浓缩骨块增加的护甲韧性1.0。
+bone_toughness = 1.0

@@ -1,0 +1,24 @@
+{
+    "name":  "Enderman Hand Focus",
+    "flag":  "mod:mutantmonsters",
+    "icon":  "goety_supreme:enderman_hand_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  16,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "You have always wanted the power to truly \"lift\" blocks. After watching a Mutant Enderman, you folded the power of the enderman\u0027s hand into this focus. Cast while sneaking to teleport to the block your cursor points at; right-click to lift a block and throw it - bedrock, of course, is out of the question."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_enderman_hand_focus"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Cast from a $(l:crafts/staff/void_staff)Void Staff$() and the block you throw carries a Void Blight with it."
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:enderman_hand_focus":  1
+                              }
+}

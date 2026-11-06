@@ -1,0 +1,64 @@
+{
+  "credit": "熠星凋颅（自绘版）：几何照原版凋灵骷髅头 SkullModel.createHeadModel —— 单个 8x8x8 头立方体（模型坐标 [4,0,4]-[12,8,12]）。UV 取自用户 2026-09-13 提供的 wither_skeleton_skull.bbmodel：north(8,8)-(16,16) east(0,8)-(8,16) south(24,8)-(32,16) west(16,8)-(24,16) up(8,0)-(16,8) down(16,0)-(24,8)，up/down 面内旋转 180°。注意 bbmodel 存的是 64x32 皮肤的像素坐标，而方块模型 JSON 的 UV 是 0-16 归一化坐标（16 = 整张贴图宽/高，与分辨率无关，见 TextureAtlasSprite.getU 的 u/16），所以这里必须按 16/64 与 16/32 折算：north[2,4,4,8] east[0,4,2,8] south[6,4,8,8] west[4,4,6,8] up[2,0,4,4] down[4,0,6,4]（与原单件包模型的 UV 一致）。直接抄像素值会让 south/west 取到 24~32，超出精灵边界采样到图集里别的贴图（r308 的隐患）。正面朝 NORTH(-Z)。贴图 goety_supreme:block/astral_wither_skull 为该 bbmodel 内嵌的 64x32 星辉皮肤（原版骨面配色 + 紫色星辉纹路）。贴图必须放 textures/block/ 而不是 textures/entity/：JSON 方块模型只从 blocks 图集取样，entity/ 目录不进图集，会直接渲染成紫黑缺失贴图（r305 的线上故障）。display 各场景朝向取原版 template_skull 值 +180，让手持/GUI 里露出脸而不是后脑。",
+  "ambientocclusion": false,
+  "textures": {
+    "skull": "goety_supreme:block/astral_wither_skull",
+    "particle": "goety_supreme:block/astral_wither_skull"
+  },
+  "elements": [
+    {
+      "from": [4, 0, 4],
+      "to": [12, 8, 12],
+      "faces": {
+        "north": {"uv": [2, 4, 4, 8], "texture": "#skull"},
+        "east": {"uv": [0, 4, 2, 8], "texture": "#skull"},
+        "south": {"uv": [6, 4, 8, 8], "texture": "#skull"},
+        "west": {"uv": [4, 4, 6, 8], "texture": "#skull"},
+        "up": {"uv": [2, 0, 4, 4], "texture": "#skull", "rotation": 180},
+        "down": {"uv": [4, 0, 6, 4], "texture": "#skull", "rotation": 180}
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [30, 225, 0],
+      "translation": [0, 3, 0],
+      "scale": [1.0, 1.0, 1.0]
+    },
+    "ground": {
+      "rotation": [0, 180, 0],
+      "translation": [0, 3, 0],
+      "scale": [0.5, 0.5, 0.5]
+    },
+    "head": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": [1.0, 1.0, 1.0]
+    },
+    "thirdperson_righthand": {
+      "rotation": [45, 225, 0],
+      "translation": [0, 3, 0],
+      "scale": [0.5, 0.5, 0.5]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [45, 225, 0],
+      "translation": [0, 3, 0],
+      "scale": [0.5, 0.5, 0.5]
+    },
+    "firstperson_righthand": {
+      "rotation": [0, 180, 0],
+      "translation": [0, 2, 0],
+      "scale": [0.7, 0.7, 0.7]
+    },
+    "firstperson_lefthand": {
+      "rotation": [0, 180, 0],
+      "translation": [0, 2, 0],
+      "scale": [0.7, 0.7, 0.7]
+    },
+    "fixed": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 4, 0],
+      "scale": [1.0, 1.0, 1.0]
+    }
+  }
+}

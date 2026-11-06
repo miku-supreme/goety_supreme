@@ -1,0 +1,22 @@
+{
+  "name": "Serpon Fire Apostle",
+  "icon": "jerotesvillage:fire_apostle_sword",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "70 health, 5 armor, 1.0 knockback resistance, 8 attack, 0.35 movement speed.$(br)Fire immune. On spawning it always wears the full Fire Apostle set and holds the Fire Apostle Sword.$(br)$(l)Melee attack$(): each melee picks one combat move set at random, each with a different multiplier. A hit sets the target on fire for 16 seconds."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:blazing_ember",
+      "text": "Codex item: Blazing Ember$(br)This mighty Fire Apostle can only be summoned by ritual, but do not worry: even if the Fire Apostle retreats for a time, it leaves behind a token that waits for you to summon it again; just throw this token into the fire."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_fire_apostle"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 102
+}

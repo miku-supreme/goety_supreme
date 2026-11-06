@@ -1,0 +1,39 @@
+{
+  "parent": "goety_supreme:vitality_pumpkin",
+  "criteria": {
+    "abominable_snow_golem_servant": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "goety_supreme:abominable_snow_golem_servant"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "goety:freezing_lamp"
+    },
+    "title": {
+      "translate": "advancements.goety_supreme.snowball_cannon_ready.title"
+    },
+    "description": {
+      "translate": "advancements.goety_supreme.snowball_cannon_ready.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "abominable_snow_golem_servant"
+    ]
+  ]
+}

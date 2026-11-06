@@ -1,0 +1,24 @@
+{
+    "name":  "Second Rounder Rotting Focus",
+    "icon":  "goety_supreme:second_rounder_rotting_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  27,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Second Rounder zombies are tougher and stronger than ordinary zombies, and you found a way to seal these undead into a focus too."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_second_rounder_rotting_focus"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "A $(l:crafts/staff/necro_staff)Necro Staff$() raises more Second Rounder Zombies at once; a $(l:crafts/staff/nameless_staff)Nameless Staff$() raises seven."
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:second_rounder_rotting_focus":  1
+                              },
+    "flag":  "mod:jerotesvillage"
+}

@@ -1,0 +1,31 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety_supreme:summon_sediment_weapon",
+  "craftType": "necroturgy",
+  "activation_item": {
+    "tag": "goety_supreme:sediment_guard_melee_or_bow"
+  },
+  "entity_to_summon": "goety_supreme:sediment_guard_servant",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "tag": "goety_supreme:sediment_guard_armor"
+    },
+    {
+      "tag": "goety_supreme:sediment_guard_armor_b"
+    }
+  ],
+  "result": {
+    "item": "goety:jei_dummy/none"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jerotesvillage"
+    }
+  ]
+}

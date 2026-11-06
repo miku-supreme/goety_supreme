@@ -1,0 +1,28 @@
+{
+  "name": "Skeleton Horse Servant",
+  "icon": "goety_supreme:skeleton_horse_servant_spawn_egg",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "You kept wondering why there was no servant that was purely a mount - one that does not fight and does not attack, but exists to be ridden.$(br)After some time spent researching, you succeeded in converting a Skeleton Horse into a servant of your own."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:skeleton_horse_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_skeleton_horse_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "There is nothing to tell it apart from a vanilla Skeleton Horse, except that it can now wear horse armour and can be called quickly with a focus.$(br)You can feed your Skeleton Horse Servant bones to heal it.$(br)Health 20 / Attack 4 / Speed 0.3 / Follow Range 24.$(br)No saddle needed: right-click it empty-handed to mount and steer with ; sneak + empty hand takes the horse armour back; the armour drops on death."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The armour adds its own armor points.$(br)Servants can ride it too: select a servant with the command focus, then right-click this horse."
+    }
+  ],
+  "sortnum": 166
+}

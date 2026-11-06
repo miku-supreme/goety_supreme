@@ -1,0 +1,25 @@
+{
+  "name": "Flamoar",
+  "icon": "jerotesvillage:flamoar_scimitar",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A mighty spirit of flame, wielding two fiery scimitars in strong, heavy cuts. During the fight against the Serpon battle group you were fascinated by these powerful spirits, and after a while studying similar elemental beings you summoned a Flamoar servant of your own."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:flamoar_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_flamoar"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can summon this warrior by ritual, or quickly call a Flamoar to your aid with a $(l:supreme/items/blazing_spirit_focus)Blazing Spirit Focus$().$(br)Use $(item)Blaze Powder$() or a $(item)Fire Charge$() on your Flamoar servant to heal it."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 153
+}

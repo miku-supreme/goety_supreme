@@ -1,0 +1,25 @@
+{
+  "name": "Primordier",
+  "icon": "jerotesvillage:torch_of_firm_ice",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This mighty yeti is a great hunter too, but its mind is a simple one, and under your show of force it fights for you."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:primordier_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_primordier"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Beyond drinking frost damage, the Primordier fights mainly in melee - heavy and ponderous, sworn to crush its enemies. You can feed it meat to heal it."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 156
+}

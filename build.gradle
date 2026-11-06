@@ -1,0 +1,87 @@
+plugins {
+    id 'java'
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+}
+
+def revisionFile = file('revision.txt')
+if (!revisionFile.exists()) {
+    revisionFile.text = '0'
+}
+def revision = revisionFile.text.trim().toInteger()
+def modVersion = '1.1.6'
+
+version = "1.1.6-${revision}"
+group = 'cn.blockforge.generated.goety_supreme'
+base { archivesName = 'goety_supreme' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+}
+
+sourceSets {
+    main {
+        java {
+            exclude 'com/Polarice3/**'
+            exclude 'fuzs/**'
+            exclude 'snownee/**'
+            exclude 'com/jerotes/**'
+        }
+    }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.0'
+    implementation files('libs/goety-2.5.60.0.jar')
+    compileOnly files('libs/MutantMonsters-v8.0.8-1.20.1-Forge.jar')
+    compileOnly files('libs/PuzzlesLib-v8.1.33-1.20.1-Forge.jar')
+    compileOnly files('libs/Jade-1.20.1-Forge-11.13.3.jar')
+    compileOnly files('libs/jerotes-1.20.1-1.3.4.jar')
+    compileOnly files('libs/jerotesvillage-1.20.1-1.1.6.jar')
+    compileOnly files('libs/curios-forge-5.14.1+1.20.1.jar')
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+processResources {
+    def props = [mod_id: 'goety_supreme', mod_name: 'Goety Supreme', mod_version: modVersion,
+                 minecraft_version: '1.20.1', forge_version: '47.4.0']
+    inputs.properties props
+    filteringCharset = 'UTF-8'
+    filesMatching('META-INF/mods.toml') { expand props }
+}
+
+jar {
+    manifest {
+        attributes 'MixinConfigs': 'goety_supreme.mixins.json'
+    }
+    exclude 'mezz/jei/**'
+    exclude 'top/theillusivec4/**'
+}
+
+extensions.getByName('reobf').create('jar')
+
+tasks.named('reobfJar', net.minecraftforge.gradle.userdev.tasks.RenameJarInPlace) {
+    libraries.from(sourceSets.main.compileClasspath)
+    libraries.from(sourceSets.main.output)
+}
+
+tasks.named('jar', Jar) { finalizedBy 'reobfJar' }
+
+tasks.register('pruneOldMainJars') {
+    group = 'build'
+    doLast {
+        def libsDir = layout.buildDirectory.dir('libs').get().asFile
+        def jars = (libsDir.listFiles() ?: []).findAll {
+            it.name.startsWith('goety_supreme-') && it.name.endsWith('.jar')
+        }.sort { it.lastModified() }
+        def excess = jars.size() - 10
+        if (excess > 0) {
+            jars.take(excess).each { it.delete() }
+        }
+    }
+}
+tasks.named('jar') { finalizedBy 'pruneOldMainJars' }
+tasks.named('build') { finalizedBy 'pruneOldMainJars' }

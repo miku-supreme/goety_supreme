@@ -1,0 +1,48 @@
+{
+  "replace": false,
+  "__comment": "ownable entities that take up 4 spaces of an Esoteric Tesseract",
+  "values": [
+    "goety_supreme:crypt_necromancer_servant",
+    {
+      "id": "goety_supreme:primordier_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:abominable_snow_golem_servant",
+      "required": false
+    },
+    "goety_supreme:prison_golem",
+    {
+      "id": "goety_supreme:mutant_enderman_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:mutant_zombie_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:mutant_skeleton_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:sea_wave_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:drought_wildfire_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:flamoar_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:serpon_fire_apostle",
+      "required": false
+    },
+    "goety_supreme:wild_mage_servant",
+    "goety_supreme:reaper_necromancer_servant",
+    "goety_supreme:scorchback",
+    "goety_supreme:soul_reaper_servant"
+  ]
+}

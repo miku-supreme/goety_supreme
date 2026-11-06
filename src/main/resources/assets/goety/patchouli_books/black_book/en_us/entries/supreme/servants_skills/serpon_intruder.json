@@ -1,0 +1,21 @@
+{
+  "name": "Serpon Intruder",
+  "icon": "jerotesvillage:serpon_spear",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 55, armor 2, attack 7, movement speed 0.37.$(br)Fire immune. Spawns wearing the Serpon Powerhouse set and a weapon, either a Serpon Spear or a Serpon Glaive.$(br)$(l)Melee$(): longer attack reach; on hit, deals a half-damage sweep to the other enemies in a small area."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Charge$(): has a chance to charge, 6s cooldown."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_intruder"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 105
+}

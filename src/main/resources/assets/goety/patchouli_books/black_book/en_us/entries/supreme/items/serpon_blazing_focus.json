@@ -1,0 +1,24 @@
+{
+    "name":  "Serpon Blazing Focus",
+    "icon":  "goety_supreme:serpon_blazing_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  24,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "The zealous flames of the serpon Flame Wizard give you endless headaches. Since the Flame Focus is too weak for you at this point, you copied the wizard\u0027s breath and designed the Serpon Blazing Focus, which pours out fire."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_serpon_blazing_focus"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Cast with a Nether Staff and it deals more damage."
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:serpon_blazing_focus":  1
+                              },
+    "flag":  "mod:jerotesvillage"
+}

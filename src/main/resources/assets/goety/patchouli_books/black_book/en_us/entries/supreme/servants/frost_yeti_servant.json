@@ -1,0 +1,25 @@
+{
+  "name": "Frost Yeti",
+  "icon": "jerotesvillage:frost_yeti_hair",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "These ape-like things that treat the bitter cold as their hunting ground are monsters beyond doubt, and their endless hunting reminds you of your own savage wild servants. After some study and trial and error, you brought these creatures of the cold into your hunters' ranks."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:frost_yeti_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_frost_yeti"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A creature of the bitter cold, it is immune to freezing damage and drinks it to heal, can terrify foes and empower itself, and hurls ice rocks when the target is far off. You can feed it meat to heal it."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 155
+}

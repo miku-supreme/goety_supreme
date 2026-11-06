@@ -1,0 +1,51 @@
+{
+  "name": "Magma Golem",
+  "icon": "minecraft:magma_block",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 140, Armor 6, Toughness 1, Knockback Resistance 1.0, Attack 17, Speed 0.24.$(br)With the secrets of the Nether Scroll unravelled, you set about turning lifeless magma blocks into a golem of your own. A few attempts later, the Magma Golem was walking."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:magma_golem"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "LBBBL",
+            "BRIRB",
+            "BIRIB",
+            "BRIRB",
+            "LBBBL"
+          ],
+          [
+            "_____",
+            "_MMM_",
+            "_M0M_",
+            "_MMM_",
+            "_____"
+          ]
+        ],
+        "mapping": {
+          "L": "minecraft:lava",
+          "B": "minecraft:nether_bricks",
+          "R": "minecraft:redstone_block",
+          "I": "minecraft:iron_block",
+          "M": "minecraft:magma_block",
+          "0": "minecraft:magma_block"
+        }
+      },
+      "enable_visualize": true,
+      "text": "Right-click the central $(l)redstone block$() with a $(l)Vitality Core$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A golem cast from magma, it has learned to hurl heavy, crushing fireballs, and swings its arm in melee when it must.$(br)You can use a $(item)Magma Block$() on it to heal it."
+    }
+  ],
+  "sortnum": 177
+}

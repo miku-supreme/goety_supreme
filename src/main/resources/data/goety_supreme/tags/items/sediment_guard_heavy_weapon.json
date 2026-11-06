@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "jerotesvillage:ancient_second_rounder_greatsword",
+      "required": false
+    },
+    {
+      "id": "jerotesvillage:ancient_second_rounder_warhammer",
+      "required": false
+    },
+    {
+      "id": "jerotesvillage:ancient_second_rounder_battleaxe",
+      "required": false
+    },
+    {
+      "id": "jerotesvillage:ancient_second_rounder_pike",
+      "required": false
+    },
+    {
+      "id": "jerotesvillage:ancient_second_rounder_pincer",
+      "required": false
+    }
+  ]
+}

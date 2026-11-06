@@ -1,0 +1,24 @@
+{
+    "name":  "Bulge Focus",
+    "icon":  "goety_supreme:bulge_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  33,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "You have seen so many blazes that they bore you; these Bulge water balls will surely cool you down. Cast to summon Bulges that answer to you, and cast while sneaking to gather them to your side."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_bulge_focus"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Cast with an Abyss Staff and you summon more at once."
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:bulge_focus":  1
+                              },
+    "flag":  "mod:jerotesvillage"
+}

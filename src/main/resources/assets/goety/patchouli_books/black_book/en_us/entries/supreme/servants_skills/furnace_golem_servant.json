@@ -1,0 +1,15 @@
+{
+  "name": "Furnace Golem",
+  "icon": "goety_supreme:reinforced_blast_furnace",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 128, Attack 16.5, Knockback Resistance 1.0, Armor 8, Toughness 1, Speed 0.25.$(br)$(l)Melee$(): 9.9-25.9 plus 1 fire damage.$(br)$(l)Burning$(): +25%% speed (coal) to +50%% (coal block).$(br)$(l)Coal$(): +1 armor, +1 attack, +1 fire damage.$(br)$(l)Coal Block$(): +2 armor, +3 attack, +3 fire damage, +15 health."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Fire Breath (burning only): a cone dealing 5 fire damage every 0.5s and firing a 6-damage fireball every second that ignores invulnerability frames; enemies within 1 block take 5 lava damage every 0.5s. Burning also refuels nearby furnaces."
+    }
+  ]
+}

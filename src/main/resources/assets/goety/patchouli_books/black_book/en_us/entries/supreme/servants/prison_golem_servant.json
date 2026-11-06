@@ -1,0 +1,81 @@
+{
+  "name": "Prison Golem",
+  "icon": "goety_supreme:prison_steel_block",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 220, Armor 10, Toughness 2, Knockback Resistance 1.0, Attack 20, Speed 0.3.$(br)An iron warden from a prison in another dimension, built for hunting down escapees - and to a wizard who knows how to build war machines, just another loyal guard. Since chasing fugitives is what it does, you built it a prison that moves, one that can hold whatever it catches and hand it to you."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:prison_golem"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "_________",
+            "_________",
+            "_________",
+            "_________",
+            "_________",
+            "_________",
+            "_________",
+            "_________",
+            "_________"
+          ],
+          [
+            "_________",
+            "___#I#___",
+            "__ISRSI__",
+            "_#SRRRS#_",
+            "_IRRSRRI_",
+            "_#SRRRS#_",
+            "__ISRSI__",
+            "___#I#___",
+            "_________"
+          ],
+          [
+            "_________",
+            "_________",
+            "___#I#___",
+            "__#####__",
+            "__I#0#I__",
+            "__#####__",
+            "___#I#___",
+            "_________",
+            "_________"
+          ]
+        ],
+        "mapping": {
+          "#": "minecraft:stone_bricks",
+          "I": "minecraft:iron_block",
+          "R": "minecraft:redstone_block",
+          "S": "goety_supreme:prison_steel_block",
+          "0": "minecraft:stone_bricks"
+        }
+      },
+      "enable_visualize": true,
+      "text": "Right-click the central $(l)Prison Steel Block$() with a $(l)Vitality Core$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Right-click the Prison Golem with a Waystone that has recorded the coordinates of a mobile prison and it will bind that prison; one golem can be bound to several prisons.$(br)Creatures the golem defeats have a chance to be taken prisoner and teleported into the mobile prison - a first-rate source of labour that is hard to come by."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can right-click your Prison Golem while holding a Prison Steel Block to restore its health."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_supreme:mobile_prison"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_supreme:prison_steel_block"
+    }
+  ],
+  "sortnum": 175
+}

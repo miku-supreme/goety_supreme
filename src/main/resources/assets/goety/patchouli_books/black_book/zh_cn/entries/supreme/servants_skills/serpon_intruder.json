@@ -1,0 +1,21 @@
+{
+  "name": "蛇龙突进者",
+  "icon": "jerotesvillage:serpon_spear",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 55，护甲 2，攻击 7，移速 0.37。$(br)火焰免疫，生成时穿戴蛇龙强者套装与武器，武器概率为蛇龙战矛或蛇龙长刀。$(br)$(l)近战$()：攻击距离较远，命中后对小范围内的其余敌人造成一次半伤横扫。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)冲锋$()：有概率进行冲锋，冷却6s。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_intruder"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 105
+}

@@ -1,0 +1,26 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:summon_tamed",
+  "activation_item": {
+    "item": "jerotesvillage:serpon_powerhouse_upgrade_smithing_template"
+  },
+  "craftType": "expert_nether",
+  "entity_to_summon": "goety_supreme:serpon_intruder",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    { "tag": "goety_supreme:serpon_armor" },
+    { "tag": "goety_supreme:serpon_armor" },
+    { "item": "minecraft:blaze_rod" },
+    { "item": "minecraft:blaze_rod" },
+    { "item": "minecraft:fire_charge" },
+    { "item": "minecraft:fire_charge" },
+    { "tag": "goety_supreme:serpon_polearms" },
+    { "item": "jerotesvillage:serpon_alloy_ingot" },
+    { "item": "jerotesvillage:serpon_alloy_ingot" }
+  ],
+  "result": { "item": "goety:jei_dummy/none" },
+  "conditions": [
+    { "type": "forge:mod_loaded", "modid": "jerotesvillage" }
+  ]
+}

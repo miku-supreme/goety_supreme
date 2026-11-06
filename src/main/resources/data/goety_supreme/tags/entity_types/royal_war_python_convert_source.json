@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "goety_supreme:war_python",
+      "required": false
+    },
+    {
+      "id": "jerotesvillage:royal_war_python",
+      "required": false
+    }
+  ]
+}

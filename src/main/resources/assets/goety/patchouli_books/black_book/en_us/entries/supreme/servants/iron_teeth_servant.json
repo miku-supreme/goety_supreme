@@ -1,0 +1,21 @@
+{
+  "name": "Iron Teeth",
+  "icon": "goety_supreme:iron_teeth_focus",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A mechanical creature wandering the deep pits with no purpose, having long forgotten what its maker created it for; all it can do is drift aimlessly through the unknown depths.$(br)You took an interest in this odd little steel construct, and with the steel creatures you already command you worked out how to make an Iron Teeth servant of your own."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:iron_teeth_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Iron Teeth has little health, but as a machine it carries a high armour value. Its attack is strong, though every bite takes a long while to come around - with these traits Iron Teeth becomes a dependable basic fighter in your ranks.$(br)You can also right-click your Iron Teeth servant with $(item)Iron Nuggets$() or an $(item)Iron Ingot$() to heal it."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 159
+}

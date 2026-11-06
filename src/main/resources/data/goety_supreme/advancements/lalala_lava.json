@@ -1,0 +1,39 @@
+{
+  "parent": "goety_supreme:root",
+  "criteria": {
+    "lalala_lava": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "goety_supreme:magma_golem"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:magma_block"
+    },
+    "title": {
+      "translate": "advancements.goety_supreme.lalala_lava.title"
+    },
+    "description": {
+      "translate": "advancements.goety_supreme.lalala_lava.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "lalala_lava"
+    ]
+  ]
+}

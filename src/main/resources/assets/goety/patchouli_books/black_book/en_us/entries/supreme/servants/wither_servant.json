@@ -1,0 +1,67 @@
+{
+  "name": "Wither Servant",
+  "icon": "minecraft:nether_star",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 300, Attack 12, Knockback Resistance 0 (wither armor 0.6), Movement Speed 0.6.$(br)The wild undead power of the Wither fascinated you. Binding the might of a Nether Star to other matter in the undead furnace, and setting it among soul-drenched soul sand, you made a Wither Servant that answers to you - though it does not seem quite the same as other Withers."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:wither_servant"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "K",
+            "K",
+            "K"
+          ],
+          [
+            "S",
+            "S",
+            "S"
+          ],
+          [
+            "_",
+            "0",
+            "_"
+          ]
+        ],
+        "mapping": {
+          "K": "goety_supreme:astral_wither_skull",
+          "S": "goety_supreme:grave_soul_sand",
+          "0": "goety_supreme:grave_soul_sand"
+        }
+      },
+      "enable_visualize": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "6), Movement Speed 0.6.$(br)Give your Wither Servant a $(l:supreme/items/raging_star)Raging Star$() and it takes on a Wither power from another dimension, greatly strengthening itself."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:evil_star",
+      "title": "Evil Star",
+      "text": "An ordinary Wither has a very small chance to drop an Evil Star when it dies — perhaps you can use it to craft an upgrade for your Wither Servant...."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_supreme:raging_star"
+    },
+    {
+      "type": "patchouli:entity",
+      "name": "Annihilation Wither",
+      "entity": "goety_supreme:wither_servant{StarEmbedded:1b}"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:evil_star": 4,
+    "goety_supreme:raging_star": 5
+  },
+  "sortnum": 174
+}

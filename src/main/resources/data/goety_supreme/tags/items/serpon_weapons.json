@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "jerotesvillage:serpon_sword",
+      "required": false
+    },
+    {
+      "id": "jerotesvillage:serpon_dagger",
+      "required": false
+    },
+    {
+      "id": "jerotesvillage:serpon_blowpipe",
+      "required": false
+    },
+    {
+      "id": "jerotesvillage:serpon_javelin",
+      "required": false
+    }
+  ]
+}

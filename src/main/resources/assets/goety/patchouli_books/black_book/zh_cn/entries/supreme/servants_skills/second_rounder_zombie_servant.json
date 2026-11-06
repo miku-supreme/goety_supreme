@@ -1,0 +1,16 @@
+{
+  "name": "二轮僵尸",
+  "flag": "mod:jerotesvillage",
+  "icon": "jerotesvillage:second_rounder_zombie_head",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 35（荒野巨人 70），护甲 2，攻击 3，移速 0.26。$(br)26；近战 3，荒野巨人形态 7；5%% 概率生成荒野巨人形态并附带荒野巨人的武器。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:second_rounder_zombie_servant"
+    }
+  ]
+}

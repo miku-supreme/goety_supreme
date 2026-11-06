@@ -1,0 +1,24 @@
+{
+  "name": "蛇冠聚晶",
+  "icon": "goety_supreme:serpon_crown_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 22,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "在蛇首聚晶的基础上，你投入了更多的成本，成功找到了召唤这些精英战士的方法。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_serpon_crown_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "使用下界魔杖施法可以召唤两种精英战士各一位；普通魔杖只能召唤出随机一位。同一主人至多八只。$(br)$(br)条目 019 / 155 · 蛇焰聚晶 · 3 页 · 分类：道具"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:serpon_crown_focus": 1
+  },
+  "flag": "mod:jerotesvillage"
+}

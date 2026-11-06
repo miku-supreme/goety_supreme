@@ -1,0 +1,25 @@
+{
+  "name": "二轮僵尸仆从",
+  "icon": "jerotesvillage:second_rounder_zombie_head",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 35（荒野巨人 70），护甲 2，攻击 3，移速 0.26。$(br)未知的神秘力量仍不愿放过这些死去的冒险者，指示它们徘徊在二轮世界的黑暗处，作为黑魔法师的你自然不愿意放弃这股亡灵力量。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:second_rounder_zombie_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_second_rounder_zombie"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "26。$(br)你可以通过仪式召唤这只僵尸仆从，也可以通过$(l:supreme/items/second_rounder_rotting_focus)二轮腐烂聚晶$()快速召唤。"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 160
+}

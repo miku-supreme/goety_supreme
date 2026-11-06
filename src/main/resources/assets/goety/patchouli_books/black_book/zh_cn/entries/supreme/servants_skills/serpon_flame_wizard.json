@@ -1,0 +1,21 @@
+{
+  "name": "蛇龙火焰巫师",
+  "icon": "jerotesvillage:serpon_wizard_chestplate",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 40，攻击 5，移速 0.4，飞行速度0.5。$(br)火焰免疫，生成时穿戴蛇龙巫师套装。$(br)$(l)蛇龙火球$()：强大的蛇龙火球，造成10~52点火焰伤害并点燃 15 秒，命中实体时造成一次威力1.5的爆炸。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)蛇龙火焰$()：连续快速的喷吐蛇龙炽焰射程 9 格，每次造成约1点火焰伤害并点燃 15 秒，无视受击无敌帧。命名为 Fireball 时只丢火球。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_flame_wizard"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 103
+}

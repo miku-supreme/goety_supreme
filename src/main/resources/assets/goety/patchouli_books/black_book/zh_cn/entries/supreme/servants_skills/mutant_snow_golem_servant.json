@@ -1,0 +1,21 @@
+{
+  "name": "雪傀儡突变体",
+  "flag": "mod:mutantmonsters",
+  "icon": "goety_supreme:frost_snow_focus",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量80，击退抗性0.6，移动速度0.26。普通攻击：投掷冰块，直接伤害4-6，溅射伤害4-6。$(br)强化$(br)$(l)冷静聚晶$()：常驻寒庇3，给附近的10格内霜冻类仆从寒庇1。$(br)$(l)霜冻新星聚晶$()： 冰块有75%%概率附加一个无视无敌帧的霜冻新星效果，攻击速度加快。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)流髑死灵法师灵魂罐$()：增加40血量，常驻凛寒气场效果，并且攻击有10%%概率召唤3-5只雪傀儡仆从协助作战。（上限6只，冷却8秒）$(br)$(l)强化满级$()： 增加2点冰块伤害，获得5点护甲值并且外观会发生变化，击退抗性提高0.5。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:mutant_snow_golem_servant"
+    }
+  ],
+  "sortnum": 131
+}

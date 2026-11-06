@@ -1,0 +1,37 @@
+{
+  "parent": "goety_supreme:root",
+  "criteria": {
+    "phantom_crystal": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goety_supreme:player_mob_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "goety_supreme:player_mob_focus"
+    },
+    "title": {
+      "translate": "advancements.goety_supreme.phantom_crystal.title"
+    },
+    "description": {
+      "translate": "advancements.goety_supreme.phantom_crystal.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "phantom_crystal"
+    ]
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "parent": "goety_supreme:root",
+  "criteria": {
+    "more_candidates": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goety_supreme:mobile_prison"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "goety_supreme:mobile_prison"
+    },
+    "title": {
+      "translate": "advancements.goety_supreme.more_candidates.title"
+    },
+    "description": {
+      "translate": "advancements.goety_supreme.more_candidates.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "more_candidates"
+    ]
+  ]
+}

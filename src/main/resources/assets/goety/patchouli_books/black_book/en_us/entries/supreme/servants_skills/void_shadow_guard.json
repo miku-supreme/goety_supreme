@@ -1,0 +1,24 @@
+{
+  "name": "Void Shadow Guard",
+  "icon": "goety_supreme:raging_star",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 80, Armor 15, Toughness 8, Knockback Resistance 0.8, Attack 14.$(br)$(l)Void Shadow Guard$(): an Enderman Servant empowered by a Raging Star. attack 14, +1 block of attack reach, new look with permanent particles, 25%% permanent damage reduction; explosions, wither, fire, lava, hot floor, magic, indirect magic, suffocation, freezing and fall damage are halved again."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Catches fire it extinguishes itself, heals 1 HP per second, is immune to vanilla negative effects.$(br)Blink combo (60-second cooldown): it blinks and strikes every hostile creature within 64 blocks once, then teleports back to where it started or to its owner."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Gaze$(): while the target is at most 2.25 blocks tall and is not a boss, it refreshes Slowness X plus Blindness for 3 seconds every tick and clears the target's attack target.$(br)$(l)Void Erosion$(): every hit has a 25%% chance to apply Void Erosion I for 5 seconds."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:enderman_servant"
+    }
+  ],
+  "sortnum": 183
+}

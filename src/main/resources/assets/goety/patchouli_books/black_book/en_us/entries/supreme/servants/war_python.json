@@ -1,0 +1,29 @@
+{
+  "name": "War Python",
+  "icon": "jerotesvillage:serpon_alloy_ingot",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A many-segmented fighter, a War Python's body segments take only 80%% of the damage; you can feed it $(item)Fire Charges$() to heal it."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:war_python"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:royal_war_python"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_war_python"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_royal_war_python"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 108
+}

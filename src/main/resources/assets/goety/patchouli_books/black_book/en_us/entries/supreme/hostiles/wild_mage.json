@@ -1,0 +1,31 @@
+{
+    "name":  "Wild Mage (Hostile)",
+    "icon":  "goety_supreme:overgrowth_core",
+    "category":  "goety:supreme/hostiles",
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "A vine-caller not content with its mastery of vine magic, it has long studied the wild arts near a jungle temple and already reached great accomplishment; you met this sage near a jungle temple."
+                  },
+                  {
+                      "type":  "patchouli:entity",
+                      "entity":  "goety_supreme:wild_mage"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "The fight with the Wild Mage is a hard one: it lays quick-growing vines out in front of itself, calls vine-callers to harry you, scatters seeds to summon poison quills and slimes to block your way, and may even call up a mighty bear to fight you; the sheer number of summons and the cramped jungle terrain make every step a struggle.$(br)Fortunately, defeating the Wild Mage rewards you well."
+                  },
+                  {
+                      "type":  "patchouli:spotlight",
+                      "item":  "goety_supreme:overgrowth_core",
+                      "title":  "Overgrowth Core",
+                      "text":  "The life core condensed inside a Wild Mage, holding the power to make all things grow wild. It is both the key to repeatedly summoning the hostile Wild Mage and the key offering on the Dark Altar that turns a Goety Whisperer into a Wild Mage Servant."
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "goety_supreme:entwined_lantern",
+                      "title":  "Entwined Lantern",
+                      "text":  "A lantern wreathed in wild magic. Lighting it near a jungle temple may draw the Wild Mage\u0027s answer once more."
+                  }
+              ]
+}

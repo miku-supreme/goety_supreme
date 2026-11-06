@@ -1,0 +1,21 @@
+{
+  "name": "Serpon Flame Wizard",
+  "icon": "jerotesvillage:serpon_wizard_chestplate",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "40 health, 5 attack, 0.4 movement speed, 0.5 flying speed.$(br)Fire immune; on spawning it wears the Serpon Wizard set.$(br)$(l)Serpon Fireball$(): a mighty Serpon fireball that deals 10~52 fire damage and sets the target on fire for 15 seconds, exploding once with power 1.5 when it hits an entity."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Serpon Flames$(): rapid, continuous gouts of Serpon blaze with a 9-block reach, each dealing about 1 fire damage and setting the target on fire for 15 seconds, ignoring damage invulnerability frames. Named Fireball, it only throws fireballs."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_flame_wizard"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 103
+}

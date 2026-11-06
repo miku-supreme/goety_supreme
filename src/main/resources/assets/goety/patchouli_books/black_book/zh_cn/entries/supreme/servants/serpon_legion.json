@@ -1,0 +1,17 @@
+{
+  "name": "蛇龙军团",
+  "icon": "jerotesvillage:textures/gui/sprites/faction/serpon_combat_team.png",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "与这只实力强大的流浪民族交战之后，你痴迷于他们那强大的武力，他们也因蛇龙凭证而与你建立起了平等的合作关系。你可以设法呼叫他们的援助，他们会为你作战，为你奋力杀敌。但是谨记，你们是合作关系，请善待这些友好的盟友们。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "军团由殖民兵、先锋、突进者、暴动者、火焰巫师、火焰使徒、执战者与战蟒组成，各条即在本章。他们现身、被召走或寿命耗尽消散时，都会留下蛇龙传送门特效。"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 100
+}

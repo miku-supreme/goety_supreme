@@ -1,0 +1,39 @@
+{
+  "parent": "goety_supreme:root",
+  "criteria": {
+    "reevaluate": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "goety_supreme:prison_golem"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "goety_supreme:prison_steel_block"
+    },
+    "title": {
+      "translate": "advancements.goety_supreme.reevaluate.title"
+    },
+    "description": {
+      "translate": "advancements.goety_supreme.reevaluate.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "reevaluate"
+    ]
+  ]
+}

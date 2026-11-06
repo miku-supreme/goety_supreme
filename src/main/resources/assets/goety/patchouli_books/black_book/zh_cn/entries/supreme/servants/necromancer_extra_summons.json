@@ -1,0 +1,12 @@
+{
+  "name": "死灵法师们的额外召唤",
+  "icon": "goety:soul_jar",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "死灵法师们具有多项召唤，精通法术，但是你并不满足于此。$(br)结合他们学习聚晶的能力，你找到了如何让这些法师们能进行额外召唤的办法。$(br)详情见$(l:supreme/servants_skills/necromancer_extra_summons)技能图鉴$()。"
+    }
+  ],
+  "sortnum": 181
+}

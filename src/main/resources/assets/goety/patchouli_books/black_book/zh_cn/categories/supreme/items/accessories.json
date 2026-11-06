@@ -1,0 +1,7 @@
+{
+  "name": "饰品",
+  "description": "戴在 Curios 戒指槽里的两枚戒指：从召唤那一刻起就替你管仆从的整套盔甲、武器与铁皮。",
+  "icon": "goety_supreme:tempered_ring",
+  "parent": "goety:supreme/items",
+  "sortnum": 6
+}

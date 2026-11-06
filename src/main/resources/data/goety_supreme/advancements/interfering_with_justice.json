@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "defeat_warlord": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.goety_supreme.interfering_with_justice.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "goety_supreme:wither_warlord_helmet"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.goety_supreme.interfering_with_justice.title"
+    }
+  },
+  "parent": "goety_supreme:target_locked",
+  "requirements": [
+    [
+      "defeat_warlord"
+    ]
+  ]
+}

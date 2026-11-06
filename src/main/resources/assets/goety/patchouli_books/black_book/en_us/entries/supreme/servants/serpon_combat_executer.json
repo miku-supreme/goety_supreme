@@ -1,0 +1,25 @@
+{
+  "name": "Serpon Combat Executer",
+  "icon": "jerotesvillage:the_grace_of_serpenperth",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The chosen of Serpenperth, prophet of the serpent god, leading the newborn serpon to the holy land of battle and flame. Leader of the serpon combat team, and the hardest thing in the legion."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_combat_executer{ArmorItems:[{Count:1b,id:\"jerotesvillage:serpon_powerhouse_boots\",tag:{Trim:{material:\"jerotesvillage:fire_secretor_adhesive\",pattern:\"jerotesvillage:serpent_dominater\"}}},{Count:1b,id:\"jerotesvillage:serpon_powerhouse_leggings\",tag:{Trim:{material:\"jerotesvillage:fire_secretor_adhesive\",pattern:\"jerotesvillage:serpent_dominater\"}}},{Count:1b,id:\"jerotesvillage:serpon_powerhouse_chestplate\",tag:{Trim:{material:\"jerotesvillage:fire_secretor_adhesive\",pattern:\"jerotesvillage:serpent_dominater\"}}},{Count:1b,id:\"jerotesvillage:serpon_powerhouse_helmet\",tag:{Trim:{material:\"jerotesvillage:fire_secretor_adhesive\",pattern:\"jerotesvillage:serpent_dominater\"}}}]}"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_serpon_combat_executer"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The mighty Combat Executer comes to your side by pact - but remember, it is an ally, not a servant to be spent freely; think twice before doing anything wild.$(br)You can right-click your Serpon Combat Executer with $(item)Blaze Powder$() or a $(item)Blaze Rod$() to heal it."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 101
+}

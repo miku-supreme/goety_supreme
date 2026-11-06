@@ -1,0 +1,29 @@
+{
+  "name": "Mutant Zombie Servant",
+  "flag": "mod:mutantmonsters",
+  "icon": "mutantmonsters:hulk_hammer",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 150, Armor 3, Knockback Resistance 1.0, Attack 12, Speed 0.26.$(br)Armed with notes on raising the dead and a necromancer's hoard, you wondered whether an undead body could ever break free of the frailty that comes with rot. A few failed attempts later you found a way to make a truly tough servant - that is where the Mutant Zombie Servant comes from."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:mutant_zombie_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_zombie_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Its sturdy frame lets it slam the ground into a seismic wave and throw an uppercut, and it can roar to call in more zombies.$(br)You may also give it a $(item)Soul Jar$(), a $(item)Howling Soul$() or $(item)Berserk Essence$() to $(l:supreme/servants_skills/mutant_zombie_servant)strengthen$() it.$(br)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can hand your Mutant Zombie Servant armour and weapons, and right-click it with $(item)Rotten Flesh$() to heal it."
+    }
+  ],
+  "sortnum": 130
+}

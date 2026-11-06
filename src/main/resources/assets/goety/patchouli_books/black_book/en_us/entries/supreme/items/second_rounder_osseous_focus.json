@@ -1,0 +1,24 @@
+{
+  "name": "Second Rounder Osseous Focus",
+  "icon": "goety_supreme:second_rounder_osseous_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 28,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The archers of the Second Round world shoot with far better precision, though some of them would rather close in and fight with a melee weapon."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_second_rounder_osseous_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A $(l:crafts/staff/necro_staff)Necro Staff$() raises more Second Rounder Skeletons at once; a $(l:crafts/staff/nameless_staff)Nameless Staff$() raises seven."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:second_rounder_osseous_focus": 1
+  },
+  "flag": "mod:jerotesvillage"
+}

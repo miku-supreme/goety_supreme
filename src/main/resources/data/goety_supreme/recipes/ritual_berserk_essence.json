@@ -1,0 +1,20 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "necroturgy",
+  "activation_item": {
+    "item": "goety:shadow_essence"
+  },
+  "soulCost": 1,
+  "duration": 5,
+  "ingredients": [
+    { "item": "goety:raging_matter" },
+    { "item": "goety:raging_matter" },
+    { "item": "goety:raging_matter" },
+    { "item": "goety:raging_matter" }
+  ],
+  "result": {
+    "item": "goety_supreme:berserk_essence",
+    "count": 1
+  }
+}

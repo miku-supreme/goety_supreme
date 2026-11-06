@@ -1,0 +1,45 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mutantmonsters"
+    }
+  ],
+  "parent": "goety_supreme:mutant_potion",
+  "criteria": {
+    "mutant_enderman_servant": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "goety_supreme:mutant_enderman_servant"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "mutantmonsters:endersoul_hand"
+    },
+    "title": {
+      "translate": "advancements.goety_supreme.black_hand.title"
+    },
+    "description": {
+      "translate": "advancements.goety_supreme.black_hand.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "mutant_enderman_servant"
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "唤藤大祭司（敌对）",
+  "icon": "goety_supreme:overgrowth_core",
+  "category": "goety:supreme/hostiles",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "一位唤藤者不满足于对唤藤法术的造诣，在丛林神庙附近潜心钻研荒野法术的它已然取得了大成，你在丛林神庙附近遇到了这位贤者。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:wild_mage"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "与大祭司的战斗令你感到十分难缠，它在身前排开速生藤蔓、唤来唤藤者进行干扰，还会撒播种子召唤毒刺葵和史莱姆阻挡你的前行，还有可能召唤强大的熊与你作战，大量的召唤物与丛林狭隘的地形令你寸步难行。$(br)幸运的是，你击败大祭司之后获得了不错的反馈。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:overgrowth_core",
+      "title": "增生之核",
+      "text": "击败大祭司之后留下来的浓缩精华，通过这份精华你能够制作更多东西。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_supreme:entwined_lantern",
+      "title": "缠绕灯笼",
+      "text": "萦绕着荒野魔力的灯笼，在丛林神庙附近点亮这盏灯笼或许能再次得到大祭司的回应？。"
+    }
+  ]
+}

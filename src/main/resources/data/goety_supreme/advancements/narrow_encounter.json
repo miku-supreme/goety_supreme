@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "servants_meet": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.goety_supreme.narrow_encounter.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "goety_supreme:infernal_credential"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.goety_supreme.narrow_encounter.title"
+    }
+  },
+  "parent": "goety_supreme:target_locked",
+  "requirements": [
+    [
+      "servants_meet"
+    ]
+  ]
+}

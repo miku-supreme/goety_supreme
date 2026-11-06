@@ -1,0 +1,24 @@
+{
+  "name": "焦燃飞弹聚晶",
+  "icon": "goety_supreme:drought_missile_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "如果你不满意旱火野火的呆滞瞄准，那就亲自化身挥洒烈焰的机枪吧！右键朝视线方向射出旱火火球，命中造成伤害并点燃目标。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_drought_missile_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "使用下界魔杖施法时，火球伤害更高、速度更快。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:drought_missile_focus": 1
+  },
+  "flag": "mod:jerotesvillage"
+}

@@ -1,0 +1,33 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "necroturgy",
+  "activation_item": {
+    "item": "jerotesvillage:sediment_lord_empty_coffin"
+  },
+  "soulCost": 750,
+  "duration": 10,
+  "research": "buried",
+  "ingredients": [
+    { "item": "goety:soul_ruby" },
+    { "item": "jerotesvillage:ancient_second_rounder_noble_helmet" },
+    { "item": "jerotesvillage:ancient_second_rounder_noble_chestplate" },
+    { "item": "jerotesvillage:ancient_second_rounder_noble_leggings" },
+    { "item": "jerotesvillage:ancient_second_rounder_noble_boots" },
+    { "item": "jerotesvillage:sediment_lord_robe_pieces" },
+    { "item": "minecraft:diamond_block" },
+    { "item": "minecraft:diamond_block" },
+    { "item": "goety:ectoplasm" },
+    { "item": "goety:ectoplasm" }
+  ],
+  "result": {
+    "item": "goety_supreme:ornate_sediment_lord_coffin",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jerotesvillage"
+    }
+  ]
+}

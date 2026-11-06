@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "jerotesvillage:animated_iron_helmet",
+      "required": false
+    },
+    {
+      "id": "jerotesvillage:animated_iron_chestplate",
+      "required": false
+    },
+    {
+      "id": "jerotesvillage:animated_iron_leggings",
+      "required": false
+    },
+    {
+      "id": "jerotesvillage:animated_iron_boots",
+      "required": false
+    }
+  ]
+}

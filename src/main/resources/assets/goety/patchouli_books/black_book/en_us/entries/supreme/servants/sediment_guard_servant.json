@@ -1,0 +1,29 @@
+{
+  "name": "Sediment Guard",
+  "icon": "goety_supreme:sediment_guard_focus",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 30, Attack 5, Speed 0.27.$(br)Old Second Round civilisation buried its dead with a care and ceremony all its own: they believed that one day the soul would return and the dead would rise again. These Sediment Guards were among them,.$(br)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "and risen as undead they still keep most of the craft they had in life. As a dark wizard you married that to your own necromancy, and found a way to call these ancient people up."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:sediment_guard_servant{ArmorItems:[{Count:1b,id:\"jerotesvillage:ancient_second_rounder_boots\"},{Count:1b,id:\"jerotesvillage:ancient_second_rounder_leggings\"},{Count:1b,id:\"jerotesvillage:ancient_second_rounder_chestplate\"},{Count:1b,id:\"jerotesvillage:ancient_second_rounder_helmet\"}]}"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_sediment_guard_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can raise these guards by ritual, or call them quickly with a $(l:supreme/items/sediment_guard_focus)Sediment Guard Focus$().$(br)You can right-click your Sediment Guard Servant with $(item)Rotten Flesh$() to heal it."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 113
+}

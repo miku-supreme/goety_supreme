@@ -1,0 +1,16 @@
+{
+  "name": "沉降守卫",
+  "flag": "mod:jerotesvillage",
+  "icon": "goety_supreme:sediment_guard_focus",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 30，攻击 5，移速 0.27。$(br)生成时穿戴整套古二轮盔甲与武器。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:sediment_guard_servant"
+    }
+  ]
+}

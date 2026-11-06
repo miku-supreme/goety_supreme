@@ -1,0 +1,46 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "adept_nether",
+  "activation_item": {
+    "item": "goety:fireball_focus"
+  },
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "jerotesvillage:serpon_wizard_helmet"
+    },
+    {
+      "item": "jerotesvillage:serpon_wizard_chestplate"
+    },
+    {
+      "item": "jerotesvillage:serpon_wizard_leggings"
+    },
+    {
+      "item": "jerotesvillage:serpon_wizard_boots"
+    },
+    {
+      "item": "goety_supreme:serpon_blazing_focus"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:fire_charge"
+    },
+    {
+      "item": "minecraft:fire_charge"
+    }
+  ],
+  "result": {
+    "item": "goety_supreme:serpon_flame_focus",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jerotesvillage"
+    }
+  ]
+}

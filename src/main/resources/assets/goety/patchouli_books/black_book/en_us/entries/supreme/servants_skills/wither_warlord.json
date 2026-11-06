@@ -1,0 +1,51 @@
+{
+  "name": "Wither Warlord",
+  "icon": "goety_supreme:withering_saber",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Health$(): 500. Armor: 15. Armor Toughness: 0. Attack: 15. Immune to knockback. Speed 0.3. Regenerates 1 health per second."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "He starts the fight wearing a Wither War Helm.$(br)$(l)Protection$(): a 25-point damage cap, with 0.8 seconds of invulnerability frames in total (16 ticks) - though those frames do nothing while he is in a blocking move.$(br)$(l)Resistances$(): immune to fire, lava, fall, kinetic, suffocation, dehydration and wither damage.$(br)$(l)Hatred$(): the Wither Warlord is naturally hostile to piglins and to necromancers (friendly servants excepted)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Withering Aura$(): every scrap of damage that comes from the Warlord carries withering, though always at level I.$(br)$(l)Withering Tribute$(): every creature suffering from withering feeds the Warlord 1 health per second, until it dies or the withering wears off. Health regained this way can never go above 3 per second."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Unyielding Spirit$(): while more than 2 creatures are hostile to him the Warlord temporarily gains attributes - each creature beyond those 2 raises his base attack by 5%% and his armor by 1. His base attack never climbs past 24, and his armor never past 25.$(br)$(l)Unbroken Ice$(): all of the Warlord's moves deal half damage to targets with Chill Hide, but double damage to frost-type enemies."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Triple Slash$(): three cuts in a row, 30 damage each (twice his base attack), and the last one hurls everything in the area off its feet."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Backstep$(): the Warlord retreats 5 blocks and fires 9 black wither skulls in an even spread, one of them at random replaced by an Enhanced Wither Skull.$(br)$(l)Unbearable$(): the Warlord raises his saber and guards for 1 second (20 ticks), trying to catch damage of any kind and cutting it by 50%%. If nothing hits him the guard simply ends; if something does, the guard stretches by another 1 second (20 ticks). He can guard twice at most, and after the second guard he draws one of his derived moves. The whole thing has a 15-second cooldown."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "1. Blocking Thrust: he locks onto the target and rushes at the last source of damage; on reaching it he deals 15 damage (once his base attack) plus 5%% of the target's maximum health, twice within 1 second.$(br)2. Blazing Block Slash: he at once calls down dense hellfire pillars that drown everything within a 5-block radius of him, dealing 10 magic damage per second and inflicting Burn Hex on enemies within 5 blocks. For the whole of this move he takes no damage at all and cannot move."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Elite Company$(): the Warlord raises his saber and a horn sounds, summoning 4 wither skeleton cavalry in full netherite, bearing sword, bow and spear. Once the horn sounds the Warlord gains Shielding II, which lasts until every one of those servants is dead. Cooldown 30 seconds.$(br)Charge!: the Warlord raises his saber and a horn sounds; every servant on the field recovers 50%% of its maximum health and gains Rallied II. If he has no servants, the Warlord gains Rallied I himself instead. Either one lasts 10 seconds."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Hellfire Slash$(): after a 1.25-second charge he looses a thick, slow-flying blade of force that deals 15 damage (once his attack) and fades away after travelling 15 blocks. The blade passes through enemies but never through blocks; when it fades or meets a block it shatters and leaves a cross of hellfire. Cooldown 20 seconds."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Great Leap$(): the Warlord springs high into the air, hangs there for 1.85 seconds while locking onto the highest-health target within a 64-block radius, then dives at it. On landing he deals 20 explosion damage to everything within a 7-block radius and raises eight-direction hellfire pillars at the landing spot. Cooldown 10 seconds."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Sky-Changing$(): at half health the Warlord calls up eight hellfire pillars in one unbroken line, then points his saber at the sky and formally enters his second phase, gaining wither armour; from then on the soldiers he summons wear randomly enchanted gear."
+    }
+  ]
+}

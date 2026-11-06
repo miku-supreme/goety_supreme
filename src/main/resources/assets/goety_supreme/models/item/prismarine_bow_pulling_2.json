@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/bow_pulling_2",
+  "textures": {
+    "layer0": "goety_supreme:item/prismarine_bow_pulling_2"
+  }
+}

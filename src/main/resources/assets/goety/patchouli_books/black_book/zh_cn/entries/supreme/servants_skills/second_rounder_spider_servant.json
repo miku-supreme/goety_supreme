@@ -1,0 +1,16 @@
+{
+  "name": "二轮蜘蛛",
+  "flag": "mod:jerotesvillage",
+  "icon": "minecraft:spider_eye",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 28，护甲 2，攻击 4，移速 0.34。$(br)34；近战 4；属性更高的普通蜘蛛。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:second_rounder_spider_servant"
+    }
+  ]
+}

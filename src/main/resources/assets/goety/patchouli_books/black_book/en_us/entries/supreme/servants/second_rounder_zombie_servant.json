@@ -1,0 +1,25 @@
+{
+  "name": "Second Rounder Zombie Servant",
+  "icon": "jerotesvillage:second_rounder_zombie_head",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 35 (Wild Giant 70), Armor 2, Attack 3, Speed 0.26.$(br)Something unknown still will not let these dead adventurers go, and sets them to wandering the dark of the Second Round world - and as a dark wizard you are hardly going to turn down that kind of undead muscle."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:second_rounder_zombie_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_second_rounder_zombie"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can summon this zombie servant by ritual, or call them quickly with a $(l:supreme/items/second_rounder_rotting_focus)Second Rounder Rotting Focus$()."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 160
+}

@@ -1,0 +1,20 @@
+{
+  "name": "恶鳞炸弹聚晶",
+  "icon": "goety_supreme:malignasaur_bomb_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 96,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "这招对于你来说再熟悉不过了，召唤一些水雷，封锁一些路线，等待一些倒霉鬼上钩——你熟悉它并不只是因为你在宝石恶鳞身上见过这招。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:malignasaur_bomb_focus",
+      "title": "恶鳞炸弹聚晶",
+      "text": "图鉴物品：恶鳞炸弹聚晶$(br)使用深渊魔杖施法时，炸弹的伤害更高。$(br)$(br)条目 041 / 155 · 淬炼之戒 · 2 页 · 分类：饰品",
+      "link_recipe": true
+    }
+  ],
+  "flag": "mod:jerotesvillage"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "蛇龙暴动者",
+  "icon": "jerotesvillage:serpon_axe",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "癫狂的精神使这些蛇龙狂信徒永远追随战斗。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_rioter"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_serpon_rioter",
+      "text": "在暗祭坛上摆好对应供品，举行仪式即可召唤。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你可以仪式召唤这位狂战士，也可以通过$(l:supreme/items/serpon_crown_focus)蛇冠聚晶$()短暂的呼叫这位战士的援助。$(br)你可以右键给予蛇龙暴动者$(item)烈焰粉$()或$(item)烈焰棒$()来为它回血。"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 104
+}

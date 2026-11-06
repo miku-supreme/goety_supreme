@@ -1,0 +1,24 @@
+{
+  "name": "二轮骨质聚晶",
+  "icon": "goety_supreme:second_rounder_osseous_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 28,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "这些二轮世界的弓箭手有着更高的精准度，但是他们中也有部分喜欢拿着近战武器靠近敌人短兵作战。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_second_rounder_osseous_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "使用$(l:crafts/staff/necro_staff)死灵魔杖$()可以召唤出更多二轮骷髅，使用$(l:crafts/staff/nameless_staff)无名魔杖$()则一次召唤7只。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:second_rounder_osseous_focus": 1
+  },
+  "flag": "mod:jerotesvillage"
+}

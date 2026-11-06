@@ -1,0 +1,15 @@
+{
+  "type": "goety:brazier",
+  "soulCost": 50,
+  "ingredients": [
+    { "item": "minecraft:iron_helmet" },
+    { "item": "goety:ectoplasm" },
+    { "item": "jerotesvillage:deep_dust" }
+  ],
+  "result": {
+    "item": "jerotesvillage:animated_iron_helmet"
+  },
+  "conditions": [
+    { "type": "forge:mod_loaded", "modid": "jerotesvillage" }
+  ]
+}

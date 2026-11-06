@@ -1,0 +1,24 @@
+{
+  "name": "炽焰聚晶",
+  "icon": "goety_supreme:serpon_blazing_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 24,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "蛇龙火焰巫师的狂热火焰令你头疼不已。正好炎呼聚晶对这个时候的你过于孱弱，于是你模仿火焰巫师的吐息，设计出能倾泻火焰的炽焰聚晶。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_serpon_blazing_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "使用下界魔杖施法时，伤害更高。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:serpon_blazing_focus": 1
+  },
+  "flag": "mod:jerotesvillage"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "goety:ectoplasm"
+    },
+    "G": {
+      "item": "goety:grave_soil"
+    },
+    "S": {
+      "item": "minecraft:soul_sand"
+    }
+  },
+  "pattern": [
+    "SES",
+    "EGE",
+    "SES"
+  ],
+  "result": {
+    "item": "goety_supreme:grave_soul_sand",
+    "count": 4
+  },
+  "show_notification": true
+}

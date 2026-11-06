@@ -1,0 +1,15 @@
+{
+  "name": "Snow Golem",
+  "icon": "minecraft:snow_block",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 4, Attack 0.5, Speed 0.2.$(br)$(l)Snowball$(): 0.5 damage.$(br)An ordinary snow golem with slightly more damage; when a nearby friendly Mutant Snow Golem servant is hurt, it throws snowballs to heal it."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:snow_golem_servant"
+    }
+  ]
+}

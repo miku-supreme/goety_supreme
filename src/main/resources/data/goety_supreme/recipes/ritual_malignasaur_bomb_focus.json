@@ -1,0 +1,34 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "deep",
+  "activation_item": {
+    "item": "goety:biomine_focus"
+  },
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:tnt"
+    },
+    {
+      "item": "minecraft:tnt"
+    },
+    {
+      "item": "jerotesvillage:marine_reptiles_fine_scale"
+    },
+    {
+      "item": "minecraft:prismarine"
+    }
+  ],
+  "result": {
+    "item": "goety_supreme:malignasaur_bomb_focus",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jerotesvillage"
+    }
+  ]
+}

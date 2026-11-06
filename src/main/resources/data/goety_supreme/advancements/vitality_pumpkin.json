@@ -1,0 +1,38 @@
+{
+  "parent": "goety_supreme:root",
+  "criteria": {
+    "vitality_pumpkin": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goety_supreme:vitality_carved_pumpkin",
+              "goety_supreme:vitality_pumpkin_lantern"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "goety_supreme:vitality_carved_pumpkin"
+    },
+    "title": {
+      "translate": "advancements.goety_supreme.vitality_pumpkin.title"
+    },
+    "description": {
+      "translate": "advancements.goety_supreme.vitality_pumpkin.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "vitality_pumpkin"
+    ]
+  ]
+}

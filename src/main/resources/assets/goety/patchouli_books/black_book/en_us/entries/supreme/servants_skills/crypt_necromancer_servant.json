@@ -1,0 +1,24 @@
+{
+  "name": "High Crypt Necromancer",
+  "icon": "goety_supreme:crypt_soul_jar",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 220/270/320/550, attack 3, knockback resistance 1.0, armor 8, movement speed 0.25.$(br)$(l)Basic attack$(): Soul Skull, 5 damage; Tracking Ice Spike, 3 damage.$(br)$(l)Tier 1$(): one Soul Skull.$(br)$(l)Tier 2$(): two Soul Skulls.$(br)$(l)Tier 3$(): two Soul Skulls + 1 Tracking Ice Spike.$(br)$(l)Tier 4$(): three Soul Skulls + 2 Tracking Ice Spikes."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Blizzard$(): summons a blizzard over an area; the first wave is 4/6/8/10 spikes.$(br)50%% chance to cast Frost Storm instead: it fires 5-8 ring-shaped spikes every 0.8s.$(br)$(l)Summons$(): Cairn servants.$(br)$(l)Extra summons$(): Soulbound Armor, 2 per cast, cap 4$(br)$(l)Spider Nest$(): Bone Spider, 2 per cast, cap 2$(br)$(l)Frost Hunter Focus$(): Frost Hunter, 2 per cast, cap 2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Slime Focus$(): Crypt Slime, 2 per cast, cap 2"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:crypt_necromancer_servant"
+    }
+  ],
+  "sortnum": 180
+}

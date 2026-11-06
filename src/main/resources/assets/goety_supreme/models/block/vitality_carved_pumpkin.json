@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "goety_supreme:block/vitality_carved_pumpkin_front",
+    "side": "goety_supreme:block/vitality_pumpkin_side",
+    "top": "goety_supreme:block/vitality_pumpkin_top"
+  }
+}

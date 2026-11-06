@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "summon_warlord": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "goety_supreme:wither_warlord"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.goety_supreme.target_locked.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.goety_supreme.target_locked.title"
+    }
+  },
+  "parent": "goety_supreme:root",
+  "requirements": [
+    [
+      "summon_warlord"
+    ]
+  ]
+}

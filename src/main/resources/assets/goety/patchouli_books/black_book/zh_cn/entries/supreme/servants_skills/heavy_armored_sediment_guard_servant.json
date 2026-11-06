@@ -1,0 +1,16 @@
+{
+  "name": "重装沉降守卫",
+  "flag": "mod:jerotesvillage",
+  "icon": "goety_supreme:heavy_armored_sediment_guard_focus",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 40，护甲 5，击退抗性 0.5，攻击 5，移速 0.24。$(br)手持武器时可以横扫，也能触发双手武器格挡；生成时穿戴整套重型古二轮盔甲与武器。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:heavy_armored_sediment_guard_servant"
+    }
+  ]
+}

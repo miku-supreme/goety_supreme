@@ -1,0 +1,32 @@
+# Goety Supreme 僵尸突变体仆从配置。
+# 如需服务器范围的覆盖配置，可将这些内容复制到 config/goety_supreme-common.toml。
+
+[mutant_zombie_servant]
+	# 最大生命值。
+	max_health = 150.0
+	# 投掷招式伤害，以及标准 ATTACK_DAMAGE 属性值。
+	attack_damage = 12.0
+	# Mutant Monsters 原始震地首段：9 + random(0..3)。
+	slam_ground_damage_first_min = 9
+	slam_ground_damage_first_max = 12
+	# Mutant Monsters 原始后续震地波：6 + random(0..2)。
+	slam_ground_damage_wave_min = 6
+	slam_ground_damage_wave_max = 8
+	# 移动速度。
+	movement_speed = 0.26
+	# 完整击退抗性。
+	knockback_resistance = 1.0
+	# Mutant Monsters 原版没有基础护甲或护甲韧性。
+	armor = 0.0
+	armor_toughness = 0.0
+	# 是否在锁定敌人后的若干秒内必定使用一次“召唤僵尸”（野生突变僵尸与突变僵尸仆从通用），
+	# 保底用掉之后回到原本的低概率随机触发。
+	first_roar_guarantee = true
+	# 保底召唤最早出现的延迟（秒，从锁定敌人时开始计时）。
+	first_roar_min_seconds = 5
+	# 保底召唤最迟出现的延迟（秒，实际时刻取最小值与最大值之间随机）。
+	first_roar_max_seconds = 10
+	# 复活技能：倒下后还能重新爬起来的重数，与 Mutant Monsters 原版突变僵尸一致为 3；
+	# 每次复活恢复约最大生命的 26.7%（1/3.75）。设为 0 关闭技能，仆从会像普通生物一样直接死亡。
+	# 倒地期间被火焰烧满 5 秒（任何玩家可用打火石一类点火物补刀加速）则永久死亡。
+	resurrection_lives = 3

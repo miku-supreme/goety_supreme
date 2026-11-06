@@ -1,0 +1,23 @@
+{
+    "name":  "Ender Focus",
+    "icon":  "goety_supreme:enderman_servant_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  17,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Cast to summon enderman servants of your own; cast while sneaking to gather them to your side."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_enderman_servant_focus"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Cast with a Void Staff and you summon a few more at once."
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:enderman_servant_focus":  1
+                              }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "雪傀儡仆从",
+  "icon": "minecraft:snow_block",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 4，攻击 0.5，移速 0.2。$(br)普通的二头身雪人，你稍微捣鼓了一下便知道了如何让这堆雪块变得更忠诚。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:snow_golem_servant"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "^"
+          ],
+          [
+            "#"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "mapping": {
+          "^": "goety_supreme:vitality_carved_pumpkin",
+          "#": "minecraft:snow_block",
+          "0": "minecraft:snow_block"
+        }
+      },
+      "enable_visualize": true,
+      "text": "把$(l)活力雕刻南瓜$()放到两块雪块顶上。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "5，移速 0.2。$(br)一个普通到再普通的雪人而已，不同以往的是，它的雪球有了稍微的伤害，并且附近有突变雪傀儡的时候也会主动扔雪球为其回血。$(br)变得更有用了，不是吗？。"
+    }
+  ],
+  "sortnum": 122
+}

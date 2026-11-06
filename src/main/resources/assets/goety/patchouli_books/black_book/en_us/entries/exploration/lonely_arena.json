@@ -1,0 +1,18 @@
+{
+  "name": "Lonely Arena",
+  "icon": "goety_supreme:ifrit_arena_core",
+  "category": "goety:exploration",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A lonely, empty arena that even ordinary creatures dare not approach - perhaps it belongs to a king who rules alone?."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "goety_supreme:textures/gui/book/lonely_arena.png"
+      ],
+      "border": true
+    }
+  ]
+}

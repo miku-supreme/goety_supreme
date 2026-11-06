@@ -1,0 +1,32 @@
+{
+  "name": "Mutant Enderman Servant",
+  "flag": "mod:mutantmonsters",
+  "icon": "mutantmonsters:endersoul_hand",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 200, Knockback Resistance 1.0, Attack 10, Speed 0.3.$(br)$(l)Claw$(): one hand strikes for attack damage; after all three void upgrades it becomes a fan-shaped sweep.$(br)$(l)Throw Block$(): grabs a block and throws it for 7 damage.$(br)$(l)Sky Slam$(): slams both hands for 9 piercing damage, teleports the target high up, and it takes 5 fall damage on landing."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Teleport Raid$(): teleports next to the target, deals 4 damage and heals 1.$(br)$(l)Scream$(): short wind-up, then hits everything in front for 4 damage every 0.5s.$(br)$(l)Clones$(): releases seven clones, heals 5, and hides among them; clone hits heal the body 2, but a clone dies after one hit."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Void Eye$(): +25 health, permanent Protection II / Vigor I / Deflection III; taking 40 real damage or four hits within three seconds forces a teleport raid; if the target is too close it retreats 9-15 blocks first."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Void Shard$(): +25 health; each teleport has a 50%% chance to summon 2 Watchers, clone summoning spawns 3-5, each with a 33%% chance to be an Enderman servant instead; capped at 8 per owner."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Void Echo$(): +50 health, incoming damage x0.85, 15 ticks of immunity after a hit, and the teleport raid's invulnerability is raised to 1 second; hits have a 40%% chance to apply Void Erosion I for 5s."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Max level$(): +8 armor / +4 toughness, all damage x1.25; while disguised the first hit deals no damage and the second reveals it with 50%% reduced damage; clone hits heal 2, teleport raid heals 2, clone summon heals 10."
+    }
+  ]
+}

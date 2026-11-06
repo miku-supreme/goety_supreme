@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values": [
+    "goety_supreme:player_mob_servant",
+    "goety_supreme:snow_golem_servant",
+    {
+      "id": "goety_supreme:mutant_snow_golem_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:abominable_snow_golem_servant",
+      "required": false
+    },
+    "goety_supreme:ice_golem_servant",
+    "goety:frozen_zombie_servant",
+    "goety:stray_servant",
+    "goety:icy_spider_servant",
+    "goety:winter_wolf",
+    "goety:polar_bear_servant",
+    "goety:cairn_necromancer_servant",
+    "goety:wraith_servant",
+    "goety:border_wraith_servant",
+    {
+      "id": "goety_supreme:corrosiver_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:bitter_cold_wind_servant",
+      "required": false
+    }
+  ]
+}

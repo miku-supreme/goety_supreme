@@ -1,0 +1,24 @@
+{
+  "name": "沉降魂守聚晶",
+  "icon": "goety_supreme:sediment_soul_stabilizer_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 31,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "是的，僵尸其实也是会远程攻击的。施法召出一名沉降定灵人，潜行施法改为召集沉降定灵人们。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_sediment_soul_stabilizer_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "它贴到四格以内才会改用匕首自保，其余时候都站在远处掷弹。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:sediment_soul_stabilizer_focus": 1
+  },
+  "flag": "mod:jerotesvillage"
+}

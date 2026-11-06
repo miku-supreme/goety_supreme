@@ -1,0 +1,35 @@
+{
+  "name": "军刀",
+  "icon": "goety_supreme:hellfire_saber",
+  "category": "goety:supreme/items",
+  "sortnum": 91,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "黑大帅研发的两种制式军刀，曾经是士兵们必备的武器之一，时过境迁，军刀和曾经的传说随着黑大帅一同颓残、陨落。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:withering_saber",
+      "title": "凋亡军刀",
+      "text": "锋利的标准军刀，可以为敌人附上凋零效果，这把军刀可以吸收凋零的敌人的生命来治愈其使用者，使士兵在万军之中屹立不倒。",
+      "link_recipe": true
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:hellfire_saber",
+      "title": "冥火军刀",
+      "text": "高级将领使用的指挥刀，只要紧握住它便能感受到曾经的愤怒与反抗，感受一个襁褓之中帝国的日落。",
+      "link_recipe": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "潜行左键甩出一道狱火斩剑气（黑大帅同款，宽度减半），冷却八秒；右键举刀格挡 0.75 秒，整套格挡十五秒冷却。挡下一次带攻击者的伤害后，一秒内可以选择一种攻击方式——左键突刺短促突进；右键在脚下召唤狂暴的狱火柱。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "当然，在反击过程中，你不会受到伤害。$(br)$(br)条目 036 / 155 · 狂暴之星 · 5 页 · 分类：道具"
+    }
+  ]
+}

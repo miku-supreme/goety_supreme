@@ -1,0 +1,25 @@
+{
+  "name": "火灵",
+  "icon": "jerotesvillage:flamoar_scimitar",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "一位强大的火焰灵体，手持两把火焰弯刀进行强而有力的劈砍。在与蛇龙战斗组的战斗期间你对这种强大的灵体感到着迷，经过一段时间类似的元素生物研究之后你召唤出了属于你的火灵仆从。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:flamoar_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_flamoar"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你可以通过仪式召唤这位战士，也可以通过$(l:supreme/items/blazing_spirit_focus)燃灵聚晶$()快速寻求火灵的帮助。$(br)你可以为你的火灵仆从使用$(item)烈焰粉$()或者$(item)火焰弹$()来为其回血。"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 153
+}

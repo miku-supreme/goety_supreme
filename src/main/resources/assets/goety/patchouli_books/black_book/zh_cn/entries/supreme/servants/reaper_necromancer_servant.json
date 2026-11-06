@@ -1,0 +1,29 @@
+{
+  "name": "收割者死灵法师仆从",
+  "icon": "goety_supreme:broken_reaper_scythe",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 220，攻击力 8，击退抗性 1.0，移动速度 0.25。$(br)通过将死灵法术和收割镰刀融入到一只收割者体内，你成功创造出了属于你的收割者死灵法师，这位强大的午夜猎手将会助你一臂之力。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:reaper_necromancer_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_reaper_necromancer"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br)这位死灵法师的能力和其他死灵法师不同，它将大部分的死灵能力融入到施展相关技能中而非召唤，因而其自身作战能力较为强大。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:reaper_soul_jar",
+      "text": "如果一个收割者死灵法师死亡，而你拥有一个空灵魂罐，那么它会使他们的灵魂填充进去，当在一个收割者身上右键点击这个灵魂罐时，将使用该收割者作为新的躯体来复活收割者死灵法师。"
+    }
+  ],
+  "sortnum": 143
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "goety_supreme:phantom_crystal",
+  "criteria": {
+    "arcane_awakened": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "goety_supreme:arcane_scroll"
+    },
+    "title": {
+      "translate": "advancements.goety_supreme.arcane_awakened.title"
+    },
+    "description": {
+      "translate": "advancements.goety_supreme.arcane_awakened.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "arcane_awakened"
+    ]
+  ]
+}

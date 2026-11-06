@@ -1,0 +1,28 @@
+{
+  "name": "骷髅马仆从",
+  "icon": "goety_supreme:skeleton_horse_servant_spawn_egg",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "你一直在想为何没有一种纯坐骑的仆从？不战斗，不攻击，就是作为坐骑而生。$(br)经过一段时间的研究，你成功将骷髅马转化成属于你的仆从。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:skeleton_horse_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_skeleton_horse_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "与原版的骷髅马别无二致，不同的是它现在可以穿戴马铠，并且可以聚晶快速召唤。$(br)你可以为你的骷髅马仆从喂食骨头回血。$(br)血量 20 / 攻击 4 / 移速 0.3 / 索敌 24 格。$(br)不需要马鞍：空手右键由主人直接上马， 操控；潜行 + 空手右键取回马铠；死亡时马铠掉出来。$(br)马铠提供它自身的护甲值。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "仆从也能骑：用命令聚晶选中一只仆从，再右键这只马。"
+    }
+  ],
+  "sortnum": 166
+}

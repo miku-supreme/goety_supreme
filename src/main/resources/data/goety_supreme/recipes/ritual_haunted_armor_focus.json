@@ -1,0 +1,27 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "necroturgy",
+  "activation_item": {
+    "item": "goety:animation_core"
+  },
+  "research": "haunting",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    { "item": "goety:cursed_knight_helmet" },
+    { "item": "goety:cursed_knight_chestplate" },
+    { "item": "goety:cursed_knight_leggings" },
+    { "item": "goety:cursed_knight_boots" },
+    { "item": "goety:fell_blade" },
+    { "item": "minecraft:shield" },
+    { "item": "goety:haunted_armor_stand" },
+    { "item": "goety:haunted_armor_stand" },
+    { "item": "goety:ectoplasm" },
+    { "item": "goety:ectoplasm" }
+  ],
+  "result": {
+    "item": "goety_supreme:haunted_armor_focus",
+    "count": 1
+  }
+}

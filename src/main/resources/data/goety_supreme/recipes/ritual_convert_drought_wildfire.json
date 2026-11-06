@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:convert_tamed",
+  "activation_item": {
+    "item": "jerotesvillage:drought_wildfire_shield"
+  },
+  "craftType": "expert_nether",
+  "entity_to_convert": {
+    "tag": "goety_supreme:drought_wildfire_convert_source",
+    "display_name": "entity.goety.wildfire"
+  },
+  "entity_to_convert_into": "goety_supreme:drought_wildfire_servant",
+  "soulCost": 5,
+  "duration": 30,
+  "research": "bygone",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    }
+  ],
+  "result": {
+    "item": "goety:jei_dummy/none"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jerotesvillage"
+    }
+  ]
+}

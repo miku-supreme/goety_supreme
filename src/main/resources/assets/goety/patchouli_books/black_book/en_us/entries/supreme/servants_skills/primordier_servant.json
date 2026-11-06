@@ -1,0 +1,25 @@
+{
+  "name": "Primordier",
+  "icon": "goety_supreme:primordier_servant_spawn_egg",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 320, Armor 8, Attack 25, Knockback Resistance 1.0, Speed 0.35.$(br)Melee attack:$(br)The Primordier's melee has three variants — a sweeping punch, a two-handed ground slam and a one-foot stomp — dealing 1x, 1.75x and 1.5x attack damage respectively; the latter two variants deal area damage; attacks cause 14s of Frozen and also apply Weakness (level 3, 6s) and Slowness (level 2, 6s)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Intimidation Strike$(br)When the Primordier finds a target, it roars at it; creatures near the Primordier during the roar are Frozen, after which it leaps at its target and slams the ground once, dealing area damage equal to 1.5x its attack."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Frost Absorption$(br)The Primordier is completely immune to freezing damage and absorbs it, recovering 80%% of its health."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:primordier_servant"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 156
+}

@@ -1,0 +1,25 @@
+{
+  "name": "高位墓穴死灵法师",
+  "icon": "goety_supreme:crypt_soul_jar",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "击败骷髅领主之后，你便在思考如何将你的流髑死灵法师进一步增强其实力，经过一段时间的研究之后，你设法让流髑死灵法师吸收骷髅领主的力量以及胄行聚晶的魔力，并使其成功晋升为高位墓穴死灵法师。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:crypt_necromancer_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "这位墓穴死灵法师每次攻击不再是普通的冰刺，而是缠魂飞颅，随着等级的提高冰刺和缠魂飞颅的数量会逐渐增多。并且会使出暴风雪与霜冻风暴等技能。$(br)其保留原始的召唤能力的同时初始便拥有额外召唤的能力，有了缠魂甲胄的帮助它必将如鱼得水。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:crypt_soul_jar",
+      "text": "如果一个高位墓穴死灵法师死亡，而你拥有一个空灵魂罐，那么它会使他们的灵魂填充进去，当在一个流髑死法身上右键点击这个灵魂罐时，将使用该流髑死法作为新的躯体来复活高位墓穴死灵法师。"
+    }
+  ],
+  "sortnum": 180
+}

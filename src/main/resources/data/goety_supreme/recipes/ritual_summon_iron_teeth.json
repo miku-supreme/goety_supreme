@@ -1,0 +1,31 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:summon_tamed",
+  "craftType": "forge",
+  "activation_item": {
+    "item": "minecraft:iron_nugget"
+  },
+  "entity_to_summon": "goety_supreme:iron_teeth_servant",
+  "soulCost": 1,
+  "duration": 5,
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "item": "jerotesvillage:deep_dust"
+    }
+  ],
+  "result": {
+    "item": "goety:jei_dummy/none"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jerotesvillage"
+    }
+  ]
+}

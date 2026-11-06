@@ -1,0 +1,17 @@
+{
+  "name": "蛇龙先锋",
+  "icon": "jerotesvillage:serpon_combat_team_banner",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 40，攻击 5，移速 0.37。$(br)火焰免疫。生成时头顶蛇龙战队旗帜、身披蛇龙胸甲，主手为蛇龙剑。$(br)朴实无华的近战单位。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_pioneer"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 106
+}

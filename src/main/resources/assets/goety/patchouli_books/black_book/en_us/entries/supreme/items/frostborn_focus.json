@@ -1,0 +1,23 @@
+{
+    "name":  "Frostborn Focus",
+    "icon":  "goety_supreme:frostborn_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  15,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "This focus summons one ice golem servant: not the ice golem you know - it not only swings heavy fists but also hurls snowballs packed with ice, striking enemies with a comical yet painful blow."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_frostborn_focus"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Cast while sneaking to gather your ice golems to your side, two at most around you. Cast with a Frost Staff and you have a chance to summon one extra."
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:frostborn_focus":  1
+                              }
+}

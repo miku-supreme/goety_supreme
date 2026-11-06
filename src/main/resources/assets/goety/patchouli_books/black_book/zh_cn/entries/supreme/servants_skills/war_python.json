@@ -1,0 +1,25 @@
+{
+  "name": "战蟒",
+  "icon": "jerotesvillage:serpon_alloy_ingot",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 45，护甲 2，击退抗性 0.3，攻击 8，移速 0.35。$(br)$(l)火焰免疫。多部件$()：本体只有一颗头，身后拖 16 节体节；体节受伤按 0.8倍伤害传递到本体。$(br)$(l)火焰吸收$()：受火焰伤害时按伤害的 20%% 回血。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:war_python"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)皇家战蟒$()：战蟒的强化种。生命 65，护甲 12，攻击 12，击退抗性 0.75。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:royal_war_python"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 108
+}

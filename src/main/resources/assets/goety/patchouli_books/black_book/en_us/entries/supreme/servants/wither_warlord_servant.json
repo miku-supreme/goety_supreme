@@ -1,0 +1,24 @@
+{
+  "name": "Wither Warlord Servant",
+  "icon": "goety_supreme:infernal_credential",
+  "category": "goety:supreme/servants",
+  "sortnum": 140,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "After fighting you, this general has been won over by your strength, and he is willing to stand with you as an ally."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:wither_warlord_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_wither_warlord_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Warlord has little use for spells - his strength is his craft - and even so his fighting power is formidable; as a black magician you are lucky to have such a champion.$(br)You can give the Wither Warlord $(item)Bones$() to heal him."
+    }
+  ]
+}

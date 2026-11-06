@@ -1,0 +1,25 @@
+{
+  "name": "旱火野火",
+  "icon": "jerotesvillage:drought_wildfire_shield",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "这些旱火山地的精英们与你制作过的野火极为相似，但是他们更强，更加有实力。经过一些尝试，你成功复刻出了属于你的旱火野火。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:drought_wildfire_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_drought_wildfire"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "它能吸收火焰伤害并转化为自身血量，周围的盾牌也可以为它格挡伤害，你也可以对他使用$(item)烈焰粉$()和$(item)烈焰棒$()来治疗它。"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 152
+}

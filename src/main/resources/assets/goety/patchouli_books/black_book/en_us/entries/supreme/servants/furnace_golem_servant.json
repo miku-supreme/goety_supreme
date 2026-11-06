@@ -1,0 +1,50 @@
+{
+  "name": "Furnace Golem",
+  "icon": "goety_supreme:reinforced_blast_furnace",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 128, Attack 16.5, Knockback Resistance 1.0, Armor 8, Toughness 1, Movement Speed 0.25.$(br)Having made yourself an iron ally, you turned to the notion of a furnace as a golem's core. Some research later, the Furnace Golem stood up."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:furnace_golem"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "_",
+            "^",
+            "_"
+          ],
+          [
+            "#",
+            "F",
+            "#"
+          ],
+          [
+            "_",
+            "0",
+            "_"
+          ]
+        ],
+        "mapping": {
+          "^": "goety_supreme:vitality_carved_pumpkin",
+          "F": "goety_supreme:reinforced_blast_furnace",
+          "#": "minecraft:iron_block",
+          "0": "minecraft:iron_block"
+        }
+      },
+      "enable_visualize": true,
+      "text": "Place a $(l)Vitality Pumpkin$() on the central $(l)Reinforced Blast Furnace$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "In its ordinary state it is all but identical to an iron golem, but when you strengthen it with fuel its furnace blazes and unlocks more abilities.$(br)You can use an $(item)Iron Ingot$() on it to heal it."
+    }
+  ],
+  "sortnum": 178
+}

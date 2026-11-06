@@ -1,0 +1,16 @@
+{
+  "name": "Sediment Guard",
+  "flag": "mod:jerotesvillage",
+  "icon": "goety_supreme:sediment_guard_focus",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 30, Attack 5, Speed 0.27.$(br)Spawns wearing a full ancient second-rounder armor set and a weapon."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:sediment_guard_servant"
+    }
+  ]
+}

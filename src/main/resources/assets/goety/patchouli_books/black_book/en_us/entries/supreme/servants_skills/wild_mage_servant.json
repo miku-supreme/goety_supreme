@@ -1,0 +1,36 @@
+{
+  "name": "Wild Mage Servant",
+  "icon": "goety_supreme:overgrowth_core",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 220, Attack 4, Knockback Resistance 0.6, Movement Speed 0.25.$(br)It swims like the Drowned Necromancer.$(br)$(l)Poison Bolt$(): 4 damage, +2 bolts in the spread per level."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Bloom Orb (unlocked by the Bloom Focus): same damage as the Bloom Focus, each level counts as one level of its Potency; underwater it becomes a biomass mine.$(br)$(l)Heal$(): 5-10, radius 16 blocks, plus Regeneration I for 10 seconds; each level raises the low end by 2.5 and the high end by 5."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Rally$(): servants within 15 blocks gain Fortitude and Vigor for 15s, plus Speed I for 10s.$(br)$(l)Small summon$(): seven fast-growing vines and one Vinecaller in front, two from level 2.$(br)$(l)Large summon$(): summons a Bear servant.$(br)$(l)Sow Seeds$(): six thorn vines around it plus two Slime servants."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Underwater these become sea anemones and Tropical Slime servants.$(br)$(l)Hunting Focus$(): the small summon brings two Black Wolves beside the Vinecaller, Snappers underwater.$(br)$(l)Spider Nest$(): the Black Wolves may be replaced by Web Spiders.$(br)The two share a cap of 4."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Leaping Focus$(): the large summon may become a Leaping Leaf, 1 per cast, cap 1.$(br)$(l)Brood Focus$(): the large summon may become a Brood Spider, 1 per cast, cap 1.$(br)$(l)Alpha Wolf Focus$(): the large summon may become a Mist Wolf, 1-2 per cast, cap 2."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)King Spider Focus$(): the large summon may become a King Spider, 1-2 per cast, cap 2, sharing 3 with the Mist Wolves.$(br)$(l)Beetle Nest$(): the Slimes from Sow Seeds may be replaced by one Slime Beetle and one Pinch Beetle, sharing a cap of 2."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:wild_mage_servant",
+      "text": ""
+    }
+  ]
+}

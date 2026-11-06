@@ -1,0 +1,34 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "deep",
+  "activation_item": {
+    "item": "goety:empty_focus"
+  },
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "jerotesvillage:bulge_rod"
+    },
+    {
+      "item": "jerotesvillage:bulge_rod"
+    },
+    {
+      "item": "minecraft:dispenser"
+    },
+    {
+      "item": "minecraft:dispenser"
+    }
+  ],
+  "result": {
+    "item": "goety_supreme:wave_bolt_focus",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jerotesvillage"
+    }
+  ]
+}

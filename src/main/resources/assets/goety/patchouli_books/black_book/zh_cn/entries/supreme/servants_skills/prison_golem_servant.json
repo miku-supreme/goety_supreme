@@ -1,0 +1,15 @@
+{
+  "name": "监狱傀儡",
+  "icon": "goety_supreme:prison_steel_block",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 220，护甲 10，韧性 2，击退抗性 1.0，攻击 20，移速 0.3。$(br)$(l)横扫$()：17~27，下砸 +5。$(br)监狱傀儡绑定机动监狱时，击败敌人时有 50%% 概率把敌人就地收押：敌人变成对应的仆从并传送到机动监狱且保留四分之一血，认你为主。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:prison_golem"
+    }
+  ]
+}

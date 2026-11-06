@@ -1,0 +1,34 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mutantmonsters"
+    }
+  ],
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "frost",
+  "activation_item": {
+    "item": "goety:empty_focus"
+  },
+  "soulCost": 1,
+  "duration": 4,
+  "ingredients": [
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "minecraft:packed_ice"
+    },
+    {
+      "item": "minecraft:packed_ice"
+    }
+  ],
+  "result": {
+    "item": "goety_supreme:ice_shard_focus",
+    "count": 1
+  }
+}

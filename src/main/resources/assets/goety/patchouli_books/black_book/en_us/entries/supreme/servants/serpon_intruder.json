@@ -1,0 +1,25 @@
+{
+  "name": "Serpon Intruder",
+  "icon": "jerotesvillage:serpon_spear",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The elite soldier of the serpon combat team and the legion's heavy line-breaker, pressing forward with a polearm and a charge."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_intruder{ArmorItems:[{Count:1b,id:\"jerotesvillage:serpon_powerhouse_boots\"},{Count:1b,id:\"jerotesvillage:serpon_powerhouse_leggings\"},{Count:1b,id:\"jerotesvillage:serpon_powerhouse_chestplate\"},{Count:1b,id:\"jerotesvillage:serpon_powerhouse_helmet\"}]}"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_serpon_intruder"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can summon this elite by ritual, or borrow its aid for a while with a $(l:supreme/items/serpon_crown_focus)Serpon Crown Focus$().$(br)You can right-click your Serpon Intruder with $(item)Blaze Powder$() or a $(item)Blaze Rod$() to heal it."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 105
+}

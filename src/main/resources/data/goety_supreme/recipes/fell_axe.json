@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "goety:cursed_ingot"
+    },
+    "F": {
+      "item": "goety:fell_blade"
+    }
+  },
+  "pattern": [
+    "CC",
+    "CF"
+  ],
+  "result": {
+    "item": "goety_supreme:fell_axe",
+    "count": 1
+  },
+  "show_notification": true
+}

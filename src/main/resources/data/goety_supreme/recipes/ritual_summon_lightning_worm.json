@@ -1,0 +1,46 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:summon_tamed",
+  "craftType": "storm",
+  "activation_item": {
+    "item": "goety:thunderstorm_focus"
+  },
+  "entity_to_summon": "goety_supreme:lightning_worm_servant",
+  "soulCost": 10,
+  "duration": 15,
+  "ingredients": [
+    {
+      "item": "jerotesvillage:lightning_worm_chitin"
+    },
+    {
+      "item": "jerotesvillage:lightning_worm_chitin"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "goety:shocking_focus"
+    },
+    {
+      "item": "jerotesvillage:chiseled_purple_sandstone"
+    },
+    {
+      "item": "jerotesvillage:chiseled_purple_sandstone"
+    },
+    {
+      "item": "minecraft:lightning_rod"
+    }
+  ],
+  "result": {
+    "item": "goety:jei_dummy/none"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jerotesvillage"
+    }
+  ]
+}

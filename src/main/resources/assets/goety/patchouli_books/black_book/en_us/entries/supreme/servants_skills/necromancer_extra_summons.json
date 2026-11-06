@@ -1,0 +1,83 @@
+{
+  "name": "Necromancers' Extra Summons",
+  "icon": "goety:soul_jar",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Necromancers can be given summoning foci beyond the ordinary ones; each summon has a chance to add an extra summon, with its own separate cap.$(br)Wither Necromancers have a 75%% chance, and a summon that brings nothing guarantees the next extra summon. Other necromancers have a 50%% chance, and after two summons with nothing the next one is guaranteed."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A necromancer can only be given summoning foci for extra summons after it has been upgraded with a soul jar once.$(br)Necromancers start with a single extra-summon slot (Green Smith has three). They can be expanded with the Forbidden Cheat Sheet, up to two expansions, for at most five extra-summon focus slots."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Wither Necromancers use the $(l:world/bestiary/wither_necromancer)Withered Manuscript$() instead."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Phantasm Focus$(): Phantom, 2 per cast, cap 2$(br)$(l)Hunting Focus$(): Skeleton Wolf, 2 per cast, cap 2$(br)$(l)Spider Nest$(): Spider, 2 per cast, cap 4$(br)$(l)Grave Soul Focus$(): Haunt, 3 per cast, cap 6$(br)$(l)Redstone Focus$(): Grave Golem, 2 per cast, cap 4",
+      "title": "Ordinary Necromancers' Extra Summons"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Spider Nest$(): Web Spider, 2 per cast$(br)$(l)Hunting Focus$(): Black Wolf, 2 per cast$(br)The two above share a cap of 4$(br)$(l)Slimy Focus$(): Slime, 2 per cast, cap 2$(br)$(l)Mauling Focus$(): Bear, 1 per cast, cap 2$(br)$(l)Alpha Wolf Focus$(): Mist Wolf, 1-2 per cast, cap 2",
+      "title": "Mossy Necromancers' Extra Summons"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)King Spider Focus$(): King Spider, 1-2 per cast, cap 2 (shares a cap of 2 with the Mist Wolves)$(br)$(l)Beetle Nest$(): 1 Slime Beetle + 1 Pinch Beetle, both share a cap of 2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Hunting Focus$(): Winter Wolf, 2 per cast$(br)$(l)Spider Nest$(): Icy Spider, 2 per cast$(br)The two above share a cap of 4$(br)$(l)Mauling Focus$(): Polar Bear, 1 per cast, cap 2$(br)$(l)Grave Soul Focus$(): Haunt, 3 per cast, cap 6$(br)$(l)Deathbringer Focus$(): Dreadling, 2 per cast, cap 2$(br)$(l)Ice Crystal Focus$(): Ice Crystal, 2 per cast, cap 2",
+      "title": "Cairn Necromancers' Extra Summons"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Snow Guardian Focus$(): Snow Guardian, 2 per cast, cap 2$(br)$(l)Stable Ice Core Focus$(): Ice Sprite, 2 per cast, cap 2$(br)$(l)Alpha Wolf Focus$(): Winter Wolf, 1-2 per cast, cap 2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Hunting Focus$(): Snapper, 2 per cast, cap 4 (underwater only)$(br)$(l)Mauling Focus$(): Gnasher, 1 per cast, cap 2 (underwater only)$(br)$(l)Slimy Focus$(): Tropical Slime, 2 per cast, shares a cap of 4 with the Snappers$(br)$(l)Guardian Focus$(): Guardian, 2 per cast, cap 2$(br)$(l)Raging Shark Focus$(): Doom Five-Head Shark, 1 per cast, cap 1",
+      "title": "Drowned Necromancers' Extra Summons"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Self-Defense Focus$(): summons an Octopus Symbiote servant and a Drowned Host servant x2 just like the focus itself does, cap 4$(br)$(l)Sinner Focus$(): Urchin servant, 2 per cast, cap 4"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Hunting Focus$(): Hellhound, 2 per cast, cap 4$(br)$(l)Ghastly Focus$(): Mini Ghast, 2 per cast, cap 4$(br)Ghast / Malghast, 2 per cast, cap 2$(br)$(l)Slimy Focus$(): Magma Cube, 2 per cast, cap 2$(br)$(l)Flying Fireball Focus$(): Flying Fireball, 2 per cast, cap 4$(br)$(l)Spider Focus$(): Crimson Spider, 2 per cast, sharing a cap of 4 with the hunting line",
+      "title": "Wither Necromancers' Extra Summons"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Fiery Focus$(): Citadel Keeper, 1 per cast, cap 2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Spooky Focus$(): Border Wraith, 2 per cast, cap 2$(br)$(l)Mauling Focus$(): Polar Bear, 1 per cast, cap 2$(br)$(l)Urbhadhach Focus$(): Urbhadhach, 1 per cast, cap 2$(br)$(l)Deathbringer Focus$(): Dreadling, 2 per cast, cap 2$(br)$(l)Snow Guardian Focus$(): Snow Guardian, 2-4 per cast, cap 4",
+      "title": "Draugr Necromancers' Extra Summons"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Haunted Armor, 2 per cast, cap 4 (takes up one of the starting extra-summon slots)$(br)$(l)Slimy Focus$(): Crypt Slime, 2 per cast, cap 2$(br)$(l)Spooky Focus$(): Border Wraith, 2 per cast, cap 2$(br)$(l)Spider Nest$(): 75%% Bone Spider / 25%% Icy Spider, 2 per cast, cap 4",
+      "title": "High Crypt Necromancers' Extra Summons"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Hunting Focus$(): one Skeleton Wolf and one Winter Wolf, sharing a cap of 4 with the Bone Spiders$(br)$(l)Mauling Focus$(): Polar Bear, 1 per cast, cap 2$(br)$(l)Urbhadhach Focus$(): Urbhadhach, 1 per cast, cap 2$(br)$(l)Grave Soul Focus$(): Haunt, 3 per cast, cap 6$(br)$(l)Deathbringer Focus$(): Dreadling, 2 per cast, cap 2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Ice Crystal Focus$(): Ice Crystal, 2 per cast, cap 2$(br)$(l)Snow Guardian Focus$(): Snow Guardian, 2 per cast, cap 2$(br)$(l)Stable Ice Core Focus$(): Ice Sprite, 2 per cast, cap 2$(br)$(l)Alpha Wolf Focus$(): Winter Wolf, 1-2 per cast, cap 2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Slimy Focus$(): Tropical Slime, 2 per cast, cap 4$(br)$(l)Raging Shark Focus$(): Doom Five-Head Shark, 1 per cast, cap 1$(br)$(l)Self-Defense Focus$(): summons an Octopus Symbiote servant and a Drowned Host servant x2 just like the focus itself does, cap 4$(br)$(l)Sinner Focus$(): Urchin servant, 2 per cast, cap 4",
+      "title": "Sunken Necromancers' Extra Summons"
+    }
+  ]
+}

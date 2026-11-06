@@ -1,0 +1,15 @@
+{
+  "name": "Ice Golem",
+  "icon": "minecraft:blue_ice",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 60, Armor 3, Knockback Resistance 1.0, Attack 10, Speed 0.25.$(br)$(l)Melee$(): 6-15 with two quick slams in a small area.$(br)$(l)Distant enemies get a snowball$(): 4 damage and Slowness for 15 seconds."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:ice_golem_servant"
+    }
+  ]
+}

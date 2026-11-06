@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "goety:ectoplasm"
+    },
+    "G": {
+      "item": "goety:grave_dust"
+    },
+    "H": {
+      "item": "minecraft:goat_horn"
+    }
+  },
+  "pattern": [
+    "EGE",
+    "GHG",
+    "EGE"
+  ],
+  "result": {
+    "item": "goety_supreme:ghost_necromancer_horn",
+    "count": 1
+  },
+  "show_notification": true
+}

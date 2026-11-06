@@ -1,0 +1,24 @@
+{
+  "name": "沉降戍卫聚晶",
+  "icon": "goety_supreme:sediment_guard_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "守护墓穴的高智能僵尸们，现在为你所用。施法召出一名听命于你的沉降守卫，潜行施法改为召集己方的守卫。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_sediment_guard_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "它们会自己开门，也能自己使用武器和盾牌。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:sediment_guard_focus": 1
+  },
+  "flag": "mod:jerotesvillage"
+}

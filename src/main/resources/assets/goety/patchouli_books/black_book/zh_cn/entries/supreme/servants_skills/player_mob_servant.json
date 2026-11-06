@@ -1,0 +1,19 @@
+{
+  "name": "玩家生物仆从",
+  "icon": "goety_supreme:player_mob_focus",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 20，攻击 3，移速 0.25。$(br)它可以正常使用弓、弩、剑、斧、盾与三叉戟，也能吃食物回血。$(br)$(l)主手三叉戟时$()：目标在 6 格开外就不断投掷三叉戟，进入 6 格内改为近战。$(br)25。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)举盾$()：6~10 格时保持举盾格挡、但不潜行靠近；6 格内才举盾潜行接近，此时格挡几乎不会被击退。两档共享同一连续格挡计数：普通档上限 5 次、潜行档上限 8 次，达到上限必定破盾。$(br)对其使用奥术卷轴，可启发它的魔法智慧——之后它能正常用魔杖施法；死亡后会返还存有 nbt 的卷轴，可对其他玩家生物仆从使用来复活。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:player_mob_servant"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Wild Mage Servant",
+  "icon": "goety_supreme:overgrowth_core",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 220, Attack 4, Knockback Resistance 0.6, Movement Speed 0.25.$(br)A wild mage steeped to the marrow in the rite of overgrowth: no longer content to grow vines, it holds all the magic of the wild - and now answers only to you."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:wild_mage_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_wild_mage"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Unlike the vanilla Whisperer, it commands far more of the wild's spells and summons, and you can give it $(l:supreme/servants_skills/wild_mage_servant)extra foci$() for yet more."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:wild_mage_soul_jar",
+      "text": "If a Wild Mage Priest dies while you carry an empty soul jar, the jar takes their soul; right-click a Whisperer with that jar and the Whisperer is used as a new body to bring the priest back."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can also right-click the Wild Mage with $(item)Bone Meal$() or a $(item)Soul Jar$() to heal it."
+    }
+  ],
+  "sortnum": 142
+}

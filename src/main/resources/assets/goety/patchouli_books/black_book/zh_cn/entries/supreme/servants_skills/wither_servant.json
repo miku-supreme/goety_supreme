@@ -1,0 +1,19 @@
+{
+  "name": "凋灵",
+  "icon": "minecraft:nether_star",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 300，攻击力 12，击退抗性 0（凋灵护甲 0.6），移动速度 0.6。$(br)$(l)凋灵之首$()：10，主首 12。强化凋零之首：飞行速度翻倍，10%% 概率，伤害 20，主首 24。冲撞：攻击力 * 3。$(br)基岩版凋灵的行为逻辑，并且三首独立索敌可同时开火。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)湮灭凋灵$()：狂暴之星强化获得，护甲值 16，韧性 8，击退抗性 1.0，限伤 50，每秒回复 2 点，凋灵护甲持续给予自身抗性提升 I。$(br)6），移动速度 0.6。$(br)$(l)凋灵灭绝$()：冷却一分钟，蓄力十秒，造成半径 64 格内大范围敌对生物 / 与自己有仇恨的生物秒杀；对$(br)半血召唤四只下界合金凋灵骷髅，冷却一分钟。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:wither_servant"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+    "name":  "Animated Iron Recipes",
+    "icon":  "jerotesvillage:animated_iron_helmet",
+    "category":  "goety:supreme/items",
+    "sortnum":  40,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Animated iron gear looks a little different from the iron set you imagined, and sure enough these pieces have to be forged in a necrotic furnace. Each one burns 50 points of soul energy there."
+                  },
+                  {
+                      "type":  "patchouli:spotlight",
+                      "item":  "jerotesvillage:animated_iron_helmet",
+                      "text":  "Ectoplasm + deep dust + an iron helmet, fired in the $(l:crafts/artifice/necrotic_brazier)Necrotic Brazier$()."
+                  },
+                  {
+                      "type":  "patchouli:spotlight",
+                      "item":  "jerotesvillage:animated_iron_chestplate",
+                      "text":  "Ectoplasm + deep dust + an iron chestplate, fired in the $(l:crafts/artifice/necrotic_brazier)Necrotic Brazier$()."
+                  },
+                  {
+                      "type":  "patchouli:spotlight",
+                      "item":  "jerotesvillage:animated_iron_leggings",
+                      "text":  "Ectoplasm + deep dust + iron leggings, fired in the $(l:crafts/artifice/necrotic_brazier)Necrotic Brazier$()."
+                  },
+                  {
+                      "type":  "patchouli:spotlight",
+                      "item":  "jerotesvillage:animated_iron_boots",
+                      "text":  "Ectoplasm + deep dust + iron boots, fired in the $(l:crafts/artifice/necrotic_brazier)Necrotic Brazier$()."
+                  }
+              ],
+    "flag":  "mod:jerotesvillage"
+}

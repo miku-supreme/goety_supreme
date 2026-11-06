@@ -1,0 +1,37 @@
+{
+  "loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "textures": {
+    "layer0": "goety_supreme:item/dark_spear",
+    "particle": "goety_supreme:item/dark_spear"
+  },
+  "base": {
+    "parent": "goety_supreme:item/dark_spear_in_hand",
+    "textures": {
+      "layer0": "goety_supreme:item/dark_spear_in_hand"
+    }
+  },
+  "perspectives": {
+    "ground": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "goety_supreme:item/dark_spear"
+      },
+      "gui_light": "front"
+    },
+    "gui": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "goety_supreme:item/dark_spear"
+      },
+      "gui_light": "front"
+    },
+    "fixed": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "goety_supreme:item/dark_spear"
+      },
+      "gui_light": "front"
+    }
+  }
+}

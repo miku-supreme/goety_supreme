@@ -1,0 +1,7 @@
+{
+  "name": "敌对生物",
+  "description": "至尊巫典放进世界里的敌对存在：先认清它们的手段，再决定是躲、是打，还是把它们收作仆从。",
+  "icon": "goety_supreme:reaper_necromancer_spawn_egg",
+  "parent": "goety:supreme",
+  "sortnum": 4
+}

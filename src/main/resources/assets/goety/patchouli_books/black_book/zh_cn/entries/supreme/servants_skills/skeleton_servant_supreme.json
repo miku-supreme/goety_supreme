@@ -1,0 +1,20 @@
+{
+  "name": "亡骨斥候",
+  "icon": "goety_supreme:raging_star",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 40，护甲 8，韧性 4，击退抗性 0.8，攻击力 4。$(br)$(l)亡骨斥候$()： 狂暴之星强化的骷髅仆从，攻击力4点，箭矢散布1.0，拉弓速度翻倍，箭矢伤害1.25倍，飞行速度1.25倍，新外观与常驻粒子效果，25%%常驻减伤；爆炸、凋零、火、岩浆、热地板、魔法、间接魔法、缺氧、冰冻、摔落再减50%%。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "着火自动熄灭、每秒回1点血、免疫原版负面效果，免疫太阳灼烧。$(br)$(l)机枪连射（冷却25秒）$()： 连射1.5秒，总共射出20发箭，无视无敌帧。$(br)$(l)破敌近战（冷却25秒）$()：敌人靠近造成一次五倍攻击力的近战伤害。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:skeleton_servant"
+    }
+  ],
+  "sortnum": 172
+}

@@ -1,0 +1,30 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "expert_nether",
+  "activation_item": {
+    "item": "goety_supreme:flying_fireball_focus"
+  },
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    { "item": "jerotesvillage:flamoar_scimitar" },
+    { "item": "jerotesvillage:flamoar_scimitar" },
+    { "item": "minecraft:lava_bucket" },
+    { "item": "minecraft:lava_bucket" },
+    { "item": "minecraft:netherite_scrap" },
+    { "item": "minecraft:netherite_scrap" },
+    { "item": "jerotesvillage:firelight_stone" },
+    { "item": "jerotesvillage:serpon_signal_bullet" }
+  ],
+  "result": {
+    "item": "goety_supreme:blazing_spirit_focus",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jerotesvillage"
+    }
+  ]
+}

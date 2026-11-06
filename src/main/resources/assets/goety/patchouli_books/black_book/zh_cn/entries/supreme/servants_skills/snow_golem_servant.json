@@ -1,0 +1,15 @@
+{
+  "name": "雪傀儡",
+  "icon": "minecraft:snow_block",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 4，攻击 0.5，移速 0.2。$(br)雪球 0.5 伤害。$(br)普通的雪傀儡，但是多了一点点的伤害，当附近有同阵营的突变雪傀儡仆从受伤时，它会主动投掷雪球治疗对方。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:snow_golem_servant"
+    }
+  ]
+}

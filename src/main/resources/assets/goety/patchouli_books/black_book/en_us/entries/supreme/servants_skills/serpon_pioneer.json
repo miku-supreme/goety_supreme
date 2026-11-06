@@ -1,0 +1,17 @@
+{
+  "name": "Serpon Pioneer",
+  "icon": "jerotesvillage:serpon_combat_team_banner",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 40, attack 5, movement speed 0.37.$(br)Fire immune. Spawns with a Serpon combat team banner on its head and a Serpon Chestplate, holding a Serpon Sword in its main hand.$(br)A plain and simple melee unit."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_pioneer"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 106
+}

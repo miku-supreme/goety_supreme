@@ -1,0 +1,21 @@
+{
+  "name": "战蟒聚晶",
+  "icon": "goety_supreme:war_python_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 29,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "这些强大的多体节生物令你着迷，你设法将他们的力量融入进了聚晶内以便随时召唤。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_war_python_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "使用$(l:crafts/staff/nether_staff)下界魔杖$()与$(l:crafts/staff/wild_staff)荒野魔杖$()施法时可以额外召唤；穿戴下界套装再使用下界魔杖施法时，召唤出的是$(l:supreme/servants/war_python)皇家战蟒$()。"
+    }
+  ],
+  "flag": "mod:jerotesvillage"
+}

@@ -1,0 +1,23 @@
+{
+    "name":  "Frostsnow Focus",
+    "icon":  "goety_supreme:frost_snow_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  14,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Every snow golem costs a pumpkin, and that price is simply too high; you set about finding a quick way to make these cannon fodder - fortunately it was not hard. Cast to summon snow golem servants of your own, and cast while sneaking to gather them to your side."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_frost_snow_focus"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Cast with a Frost Staff and you summon more at once."
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:frost_snow_focus":  1
+                              }
+}

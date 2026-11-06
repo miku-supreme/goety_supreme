@@ -1,0 +1,20 @@
+{
+    "name":  "Giant Hammer Focus",
+    "flag":  "mod:mutantmonsters",
+    "icon":  "goety_supreme:giant_hammer_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  18,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Dark mages always push efficiency to the limit. You did not even want to swap the staff in your hand for a hammer, so without a second thought you fused the mutant zombie\u0027s giant hammer into a focus. Right-click to fire a shockwave at your enemies; cast with a Geomancer Staff to summon shockwaves on both your left and right."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_giant_hammer_focus"
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:giant_hammer_focus":  1
+                              }
+}

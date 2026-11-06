@@ -1,0 +1,25 @@
+{
+  "name": "Second Rounder Skeleton Servant",
+  "icon": "jerotesvillage:second_rounder_skeleton_skull",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 30, Attack 4, Speed 0.3.$(br)Ancient undead whose flesh has long rotted away, roused by something unknown: soldiers that never forgot their craft, older and more dangerous than any dead adventurer - and crueller still under your hand."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:second_rounder_skeleton_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_second_rounder_skeleton"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can summon these bone soldiers by ritual, or call them quickly with a $(l:supreme/items/second_rounder_osseous_focus)Second Rounder Osseous Focus$()."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 161
+}

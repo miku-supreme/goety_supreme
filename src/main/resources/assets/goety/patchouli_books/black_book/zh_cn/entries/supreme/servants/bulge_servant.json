@@ -1,0 +1,25 @@
+{
+  "name": "波涛人",
+  "icon": "jerotesvillage:bulge_rod",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "酷似烈焰人的元素生物，不过这一次是水元素，其发射出的水弹也有不小的威胁。$(br)这种元素生物都有一种共性，你很轻易便找到了驯服他们的办法。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:bulge_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_bulge"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "它射出波涛弹进行攻击，虽然不会像烈焰人那样射击之前飞起来，但是它在水上就可以上下浮动。$(br)你可以对其使用波涛粉来治疗它。"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 158
+}

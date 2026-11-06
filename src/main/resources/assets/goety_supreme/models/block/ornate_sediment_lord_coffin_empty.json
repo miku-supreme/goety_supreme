@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "goety_supreme:block/ornate_sediment_lord_coffin_bottom",
+    "side": "goety_supreme:block/ornate_sediment_lord_coffin",
+    "top": "goety_supreme:block/ornate_sediment_lord_empty_coffin_top"
+  }
+}

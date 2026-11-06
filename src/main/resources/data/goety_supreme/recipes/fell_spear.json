@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "goety:cursed_ingot"
+    },
+    "F": {
+      "item": "goety:fell_blade"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "M": {
+      "item": "goety:occult_fabric"
+    }
+  },
+  "pattern": [
+    "  C",
+    " F ",
+    "SM "
+  ],
+  "result": {
+    "item": "goety_supreme:fell_spear",
+    "count": 1
+  },
+  "show_notification": true
+}

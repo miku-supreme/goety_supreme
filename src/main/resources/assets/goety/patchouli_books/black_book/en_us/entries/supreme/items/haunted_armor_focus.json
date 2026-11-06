@@ -1,0 +1,19 @@
+{
+    "name":  "Haunted Armor Focus",
+    "icon":  "goety_supreme:haunted_armor_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  35,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Haunted armour is scrap metal driven by necromancy, and having to go to such trouble for scrap metal annoyed you greatly. Then inspiration struck, and you made this focus. Cast to summon haunted armour servants of your own; cast while sneaking to gather them to your side."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_haunted_armor_focus"
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:haunted_armor_focus":  2
+                              }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "蛇龙暴动者",
+  "icon": "jerotesvillage:serpon_axe",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 55，护甲 15，攻击 8，移速 0.35。$(br)火焰免疫，拒绝穿甲，主手恒定持有一把蛇龙斧。$(br)$(l)近战攻击$()：近战命中后对小范围内的其余敌人造成一次半伤横扫。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_rioter"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 104
+}

@@ -1,0 +1,34 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety_supreme:summon_sediment_weapon",
+  "craftType": "necroturgy",
+  "activation_item": {
+    "item": "jerotesvillage:ancient_second_rounder_dagger"
+  },
+  "entity_to_summon": "goety_supreme:sediment_soul_stabilizer_servant",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    }
+  ],
+  "result": {
+    "item": "goety:jei_dummy/none"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jerotesvillage"
+    }
+  ]
+}

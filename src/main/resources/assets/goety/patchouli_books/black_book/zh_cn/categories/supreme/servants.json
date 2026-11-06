@@ -1,0 +1,7 @@
+{
+  "name": "仆从",
+  "description": "曾经阻挡你登临至高的绊脚石，如今归入你的麾下。",
+  "icon": "goety_supreme:player_mob_focus",
+  "parent": "goety:supreme",
+  "sortnum": 3
+}

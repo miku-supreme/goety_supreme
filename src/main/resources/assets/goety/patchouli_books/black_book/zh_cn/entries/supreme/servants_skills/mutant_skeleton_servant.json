@@ -1,0 +1,24 @@
+{
+  "name": "骷髅突变体",
+  "flag": "mod:mutantmonsters",
+  "icon": "mutantmonsters:mutant_skeleton_skull",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 150，击退抗性 0.75，攻击 3，移速 0.27。$(br)可穿戴$(l)盔甲$()。$(br)$(l)箭矢$()：伤害 = 攻击力 + 1；拉满弓才射。$(br)$(l)齐射$()：纵身跃起，一次放出 24 支箭，每支都按普通箭伤结算。$(br)75，攻击 3，移速 0.27。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)骨浪横扫$()：对身前 3 格内的敌人造成攻击力 + 1 的伤害，破盾 40 刻并将其击退。$(br)$(l)肋骨绞压$()：对贴身目标造成攻击力 + 6 的伤害，破盾 100 刻并将其击飞。$(br)$(l)强化·灵魂罐$()：攻击附带 2 点魔法伤害。$(br)$(l)强化·恶骸骨盔$()：拉弓起手周期 ×2/3、散射箭数 ×2（24 变 48），普通拉弓有 35%% 概率改成三连发，且这些射击无视受击无敌帧。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "75，攻击 3，移速 0.27。$(br)强化·浓缩骨块（最多 5 次）：每次 +10 血、+0.7 攻击力、+2 护甲、+1 韧性。$(br)$(l)满级$()：射出的箭必定附加衰弱、中毒（主人穿荒野套时改为毒液）或饥饿之一，持续 5 秒。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:mutant_skeleton_servant"
+    }
+  ]
+}

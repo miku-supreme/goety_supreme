@@ -1,0 +1,25 @@
+{
+  "name": "蛇龙执战者",
+  "icon": "jerotesvillage:the_grace_of_serpenperth",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "瑟潘珀斯的神选，蛇神的先知，带领新生的蛇龙人寻找那遍布战斗与烈焰的神土。蛇龙战斗组的首领，也是蛇龙军团里最硬的战力。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_combat_executer{ArmorItems:[{Count:1b,id:\"jerotesvillage:serpon_powerhouse_boots\",tag:{Trim:{material:\"jerotesvillage:fire_secretor_adhesive\",pattern:\"jerotesvillage:serpent_dominater\"}}},{Count:1b,id:\"jerotesvillage:serpon_powerhouse_leggings\",tag:{Trim:{material:\"jerotesvillage:fire_secretor_adhesive\",pattern:\"jerotesvillage:serpent_dominater\"}}},{Count:1b,id:\"jerotesvillage:serpon_powerhouse_chestplate\",tag:{Trim:{material:\"jerotesvillage:fire_secretor_adhesive\",pattern:\"jerotesvillage:serpent_dominater\"}}},{Count:1b,id:\"jerotesvillage:serpon_powerhouse_helmet\",tag:{Trim:{material:\"jerotesvillage:fire_secretor_adhesive\",pattern:\"jerotesvillage:serpent_dominater\"}}}]}"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_serpon_combat_executer"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "强大的蛇龙执战者应约定前来助你一臂之力，但是切记，他是盟友而不是随意挥霍的仆从，在做出一些狂野的行为之前请三思而后行。$(br)你可以右键给予蛇龙执战者$(item)烈焰粉$()或$(item)烈焰棒$()来为它回血。"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 101
+}

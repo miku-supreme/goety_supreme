@@ -1,0 +1,19 @@
+{
+    "name":  "Snowball Focus",
+    "icon":  "goety_supreme:snowball_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  13,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Let\u0027s have a snowball fight! Hold right-click to keep casting and throw snowballs without pause. Bring this focus when it snows and you will be the finest snowball fighter around."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_snowball_focus"
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:snowball_focus":  1
+                              }
+}

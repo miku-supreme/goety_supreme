@@ -1,0 +1,24 @@
+{
+  "name": "Wild Mage",
+  "icon": "goety_supreme:overgrowth_core",
+  "category": "goety:summons",
+  "advancement": "goety:goety/read_floral_scroll",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "What a Wild Mage becomes when the rite of overgrowth has steeped it to the marrow: no longer content to grow vines, it holds all the magic of the wild - it casts overgrowth spells, hurls wild bolts, and tangles anything that comes near its master."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:wild_mage_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_wild_mage"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Its moves match the hostile version, cycling by priority: seven quick vines and a wild mage, a ring of poison quills, a buried mine or a blossoming orb, a greater summon, a heal, an inspiring cry, and only then a bolt of venom. In water the whole set becomes its aquatic variant. Poison and acid cannot touch it, and it never counts wild kin as targets."
+    }
+  ]
+}

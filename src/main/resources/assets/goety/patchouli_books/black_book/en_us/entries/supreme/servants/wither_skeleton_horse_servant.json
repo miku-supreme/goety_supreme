@@ -1,0 +1,28 @@
+{
+  "name": "Wither Skeleton Horse Servant",
+  "icon": "goety_supreme:wither_skeleton_horse_servant_spawn_egg",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "With the Skeleton Horse behind you, you began to consider the possibility of a Wither Skeleton Horse; luckily for you, it was not difficult at all."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:wither_skeleton_horse_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_wither_skeleton_horse_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Wither Skeleton Horse Servant is tougher than an ordinary Skeleton Horse Servant and far more aggressive.$(br)You can feed your Wither Skeleton Horse Servant bones to heal it.$(br)Health 30 / Attack 3 / Armor 2 / Speed 0.3 / Follow Range 24; 1.2x the size of a Skeleton Horse Servant.$(br)Hits apply Wither I for 3s."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Riding works like the Skeleton Horse: no saddle, right-click empty-handed to mount, sneak + empty hand to take the armour back.$(br)One summoned with a Nether wand plus the full Nether set comes with netherite horse armour (+15 armor / +6 toughness / +0.6 knockback resistance, 17 armor in total) and refuses player-given armour."
+    }
+  ],
+  "sortnum": 167
+}

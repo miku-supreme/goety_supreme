@@ -1,0 +1,40 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "necroturgy",
+  "activation_item": {
+    "item": "goety_supreme:sediment_guard_focus"
+  },
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "jerotesvillage:ancient_second_rounder_heavy_helmet"
+    },
+    {
+      "item": "jerotesvillage:ancient_second_rounder_heavy_chestplate"
+    },
+    {
+      "item": "jerotesvillage:ancient_second_rounder_heavy_leggings"
+    },
+    {
+      "item": "jerotesvillage:ancient_second_rounder_heavy_boots"
+    },
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "tag": "goety_supreme:sediment_guard_heavy_weapon"
+    }
+  ],
+  "result": {
+    "item": "goety_supreme:heavy_armored_sediment_guard_focus",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jerotesvillage"
+    }
+  ]
+}

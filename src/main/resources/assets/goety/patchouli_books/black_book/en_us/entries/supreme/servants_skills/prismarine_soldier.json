@@ -1,0 +1,27 @@
+{
+  "name": "Prismarine Soldier",
+  "icon": "goety_supreme:prismarine_core",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 75, Armor 6, Knockback Resistance 0.6, Attack 7, Speed 0.3.$(br)Immune to drowning and fall damage; lightning and magic damage are reduced by 50%%.$(br)$(l)Melee$(): a two-handed combo equal to its attack. Blade slash: 14 (attack x 2).$(br)6, Attack 7, Speed 0.3."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Arrows$(): double base damage, pierce 5 units, heavy knockback, and every third arrow explodes on hit. Chain lightning from Thunder: 3.5-7 (attack x 0.5-1.0).$(br)Thunder Reforged (10-second cooldown): with a bow it leaps up, hovers, draws and fires three charged arrows, each dropping a lightning strike where it lands."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "It also swims, so it does not sink like an iron golem.$(br)6, Attack 7, Speed 0.3.$(br)$(l)Lightning Empowerment$(): struck by real lightning it enters an empowered state with permanent Charged I, chain lightning on melee, and Spasm/Thunderbolt/Storm Halberd added to Thunder; it becomes immune to lightning and fire, and magic damage is cut by another 50%%.$(br)6, Attack 7, Speed 0.3."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Block (10-second cooldown): triggers on a single physical hit above 15 or five hits within 60 ticks; blocks for 4 seconds with 85%% physical damage reduction and -50%% movement speed."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:prismarine_soldier"
+    }
+  ]
+}

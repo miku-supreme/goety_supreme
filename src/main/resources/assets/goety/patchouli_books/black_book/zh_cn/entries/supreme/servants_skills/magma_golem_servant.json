@@ -1,0 +1,15 @@
+{
+  "name": "熔岩傀儡",
+  "icon": "minecraft:magma_block",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 140，护甲 6，韧性 1，击退抗性 1.0，攻击 17，移速 0.24。$(br)$(l)近战$()：10.2-26.2 + 火焰 2，点燃 10 秒。$(br)$(l)烈焰弹$()：15 + 爆炸（半径 3 格，爆心 43）。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:magma_golem"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "goety_supreme:enderman_servant",
+    {
+      "id": "goety_supreme:mutant_enderman_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:ender_stowaway_servant",
+      "required": false
+    },
+    {
+      "id": "mutantmonsters:mutant_enderman",
+      "required": false
+    }
+  ]
+}

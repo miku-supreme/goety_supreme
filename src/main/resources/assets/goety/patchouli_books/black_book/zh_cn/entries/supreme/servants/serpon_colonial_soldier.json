@@ -1,0 +1,25 @@
+{
+  "name": "蛇龙殖民兵",
+  "icon": "jerotesvillage:serpon_sword",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "忠诚于已覆灭的古老帝国，集群巡视旱火山地的战士，已将这片火焰领地视作囊中之物。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_colonial_soldier"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_serpon_colonial_soldier"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你可以通过仪式召唤这位战士，也可以通过$(l:supreme/items/serpon_head_focus)蛇首聚晶$()快速的呼叫这些身经百战的战士的援助。$(br)你可以右键给予蛇龙殖民兵$(item)烈焰粉$()或$(item)烈焰棒$()来为它回血。"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 107
+}

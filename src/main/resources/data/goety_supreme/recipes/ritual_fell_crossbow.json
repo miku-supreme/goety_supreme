@@ -1,0 +1,22 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "necroturgy",
+  "activation_item": {
+    "item": "minecraft:crossbow"
+  },
+  "research": "haunting",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    { "item": "goety:cursed_ingot" },
+    { "item": "goety:cursed_ingot" },
+    { "item": "goety:occult_fabric" },
+    { "item": "goety:occult_fabric" },
+    { "item": "goety:fell_blade" }
+  ],
+  "result": {
+    "item": "goety_supreme:fell_crossbow",
+    "count": 1
+  }
+}

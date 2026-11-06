@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "goety_supreme:fire_magic",
+    "goety_supreme:bypasses_cooldown_fire",
+    "goety_supreme:warlord_slash_pierce",
+    "goety_supreme:annihilation_pierce",
+    "goety_supreme:annihilation_pierce_invuln"
+  ]
+}

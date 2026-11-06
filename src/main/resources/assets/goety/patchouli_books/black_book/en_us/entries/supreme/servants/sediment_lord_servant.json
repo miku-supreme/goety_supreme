@@ -1,0 +1,42 @@
+{
+  "name": "Sediment Lord",
+  "icon": "goety_supreme:ornate_sediment_lord_coffin",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 170, Armor 3, Knockback Resistance 0.5, Attack 6, Speed 0.2.$(br)Lord of the tomb and mighty ruler of the Old Second Round civilisation, of dreadful martial might - and a noble of a line that once held these lands,."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "so even in death his guards are still ranked about him... Little wit is left in him now, but a little work sees this undead tyrant see the sense in following you, and he fights for you."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:sediment_lord_servant{ArmorItems:[{Count:1b,id:\"jerotesvillage:ancient_second_rounder_noble_boots\"},{Count:1b,id:\"jerotesvillage:ancient_second_rounder_noble_leggings\"},{Count:1b,id:\"jerotesvillage:ancient_second_rounder_noble_chestplate\"},{Count:1b,id:\"jerotesvillage:ancient_second_rounder_noble_helmet\"}]}"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "5, Attack 6, Speed 0.2."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You may call on this lord through the $(l:supreme/items/ornate_sediment_lord_coffin)Coffin of the Ornate Sediment Lord$(), and should he fall his totem brings him back quickly. You can also give him a $(item)Nether Star$(), a $(item)Drowned Necromancer's Soul Jar$(), a $(item)Heavy Armored Sediment Guard Focus$(), a $(item)Sediment Soul Stabilizer Focus$() or $(item)Berserk E"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "5, Attack 6, Speed 0.2.$(br)ssence$() to $(l:supreme/servants_skills/sediment_lord_servant)strengthen$() him."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:sediment_lord_totem",
+      "text": "The token that flies back to its owner's hand when the Sediment Lord falls, with the lord sealed inside. Right-click the $(l:supreme/items/ornate_sediment_lord_coffin)Coffin of the Ornate Sediment Lord$() with it and the lord sealed within rises on the spot.$(br)With nothing sealed inside, right-clicking the coffin only earns a \"there is no lord sealed in this totem\"."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "5, Attack 6, Speed 0.2.$(br)You can right-click your Sediment Lord with $(item)Rotten Flesh$() to heal it."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 110
+}

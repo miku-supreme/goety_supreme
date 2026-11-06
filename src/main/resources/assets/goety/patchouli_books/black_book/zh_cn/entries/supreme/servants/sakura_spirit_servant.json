@@ -1,0 +1,25 @@
+{
+  "name": "樱之灵",
+  "icon": "goety_supreme:sakura_guardian_focus",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 15，攻击 3，移速 0.25。$(br)樱花散漫，随风飘散.....。$(br)一簇会飞的樱花？不.....那是一具有灵魂的灵体。$(br)樱落无声，但聚集起来又极其锋利。$(br)樱之灵仆从便由此而生。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:sakura_spirit_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_sakura_guardian_focus",
+      "text": "在暗祭坛上摆好对应供品，举行仪式即可召唤。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "25。$(br)樱之灵仆从对于盔甲和武器有不同的抽取选择，不过她们更倾向于较为粉嫩的盔甲。$(br)除了常规近战行为之外，樱之灵会尝试瞬移远离或者靠近敌人，并且会在释放的距离扔出三连发剑气造成不小的威胁。$(br)你可以对樱之灵仆从右键给予$(item)粉红色花簇$()来为其回血。"
+    }
+  ],
+  "sortnum": 173
+}

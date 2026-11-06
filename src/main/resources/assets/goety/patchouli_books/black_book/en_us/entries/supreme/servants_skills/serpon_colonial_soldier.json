@@ -1,0 +1,21 @@
+{
+  "name": "Serpon Colonial Soldier",
+  "icon": "jerotesvillage:serpon_sword",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 40, attack 5, movement speed 0.35.$(br)Fire immune. Spawns wearing a Serpon Helmet and Chestplate, with Serpon Leggings and a Serpon tail wrap at 50%% each; the main hand may hold a Serpon Sword, Serpon Blowpipe, Serpon Dagger or Serpon Pike, and the off hand may hold Arrows or a Serpon Spiked Shield."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Attacks at range while holding a pike / blowpipe; when holding a pike, it also melees enemies that get too close."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_colonial_soldier"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 107
+}

@@ -1,0 +1,28 @@
+{
+  "name": "绿豆死灵法师仆从",
+  "icon": "goety_supreme:green_smith_soul_jar",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "经过与你的战斗之后绿豆被你的黑魔法所折服，还在被黑大帅通缉的它坚信在这里能够过得更好，在你的召唤下便直接前来协助你。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:green_smith_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_green_smith_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "在你的麾下，绿豆获得了前所未有的优待，它获得了你所赠予的$(l:supreme/servants_skills/green_smith_servant)强化$()，稳固并增强了它掌握的亡灵法术，这也使它更加忠心耿耿。$(br)你可以为其喂食$(item)骨头$()来为其回血。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "绿豆的给予聚晶、给予灵魂罐的额外召唤、给予聚晶的补充，在$(l:supreme/servants_skills/necromancer_extra_summons)死法的额外召唤$()技能图鉴里面；给予灵魂罐的补充在$(l:supreme/servants_skills/green_smith_servant)绿豆自己的技$(br)能图鉴$()那里。"
+    }
+  ],
+  "sortnum": 141
+}

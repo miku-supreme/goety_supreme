@@ -1,0 +1,46 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "necroturgy",
+  "activation_item": {
+    "item": "goety:rotting_focus"
+  },
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "jerotesvillage:ancient_second_rounder_helmet"
+    },
+    {
+      "item": "jerotesvillage:ancient_second_rounder_chestplate"
+    },
+    {
+      "item": "jerotesvillage:ancient_second_rounder_leggings"
+    },
+    {
+      "item": "jerotesvillage:ancient_second_rounder_boots"
+    },
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "tag": "goety_supreme:sediment_guard_melee"
+    },
+    {
+      "item": "jerotesvillage:ancient_second_rounder_bow"
+    },
+    {
+      "item": "jerotesvillage:ancient_second_rounder_shield"
+    }
+  ],
+  "result": {
+    "item": "goety_supreme:sediment_guard_focus",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jerotesvillage"
+    }
+  ]
+}

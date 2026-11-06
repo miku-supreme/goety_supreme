@@ -1,0 +1,47 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mutantmonsters"
+    }
+  ],
+  "parent": "goety_supreme:root",
+  "criteria": {
+    "mutant_potion": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potion",
+              "minecraft:splash_potion",
+              "minecraft:lingering_potion"
+            ],
+            "nbt": "{Potion:\"mutantmonsters:chemical_x\"}"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"mutantmonsters:chemical_x\"}"
+    },
+    "title": {
+      "translate": "advancements.goety_supreme.mutant_potion.title"
+    },
+    "description": {
+      "translate": "advancements.goety_supreme.mutant_potion.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "mutant_potion"
+    ]
+  ]
+}

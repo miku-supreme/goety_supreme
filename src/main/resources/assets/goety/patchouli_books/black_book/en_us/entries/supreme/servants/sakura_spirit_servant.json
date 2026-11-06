@@ -1,0 +1,32 @@
+{
+  "name": "Sakura Spirit",
+  "icon": "goety_supreme:sakura_guardian_focus",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 15, Attack 3, Speed 0.25.$(br)A floating “empty suit of armour”: its body is invisible, and only a randomly worn, randomly enchanted helmet, chestplate, leggings, boots and weapon hang in the air, cherry petals drifting off it, ringing like amethyst when it is hurt."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:sakura_spirit_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "It belongs to Goety's servant framework - owned, obedient, with follow, wander, stay and guard, and a staff can call it back. Besides melee it throws pink rings of cutting force, three in a burst at mid range.$(br)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "and below three tenths health it stops closing in, opening the distance and firing the rings while each hit heals it. It sidesteps arrows aimed at it and keeps away from fire, cacti and lava, and when its master is struck it sometimes blinks straight to the attacker."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_sakura_guardian_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A spawn egg releases a wild Sakura Spirit: hostile to everyone and immune to falling, fire, drowning, explosions, freezing, lightning and potions - think twice before placing one. Sneak-use the egg to release one that belongs to you."
+    }
+  ],
+  "sortnum": 173
+}

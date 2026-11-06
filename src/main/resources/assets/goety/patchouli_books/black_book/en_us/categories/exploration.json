@@ -1,0 +1,7 @@
+{
+  "name": "Exploration",
+  "description": "Places and rumours gathered in the Supreme Codex: the jungle temple, the lonely arena... find them first, then turn the page.",
+  "icon": "minecraft:map",
+  "sortnum": 8,
+  "parent": "goety:supreme"
+}

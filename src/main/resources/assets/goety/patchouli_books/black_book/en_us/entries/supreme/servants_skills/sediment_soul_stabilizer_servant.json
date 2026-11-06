@@ -1,0 +1,16 @@
+{
+  "name": "Sediment Soul Stabilizer",
+  "flag": "mod:jerotesvillage",
+  "icon": "goety_supreme:sediment_soul_stabilizer_focus",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 35, Attack 5, Speed 0.27.$(br)Always spawns holding an ancient second-rounder dagger, and sneaks toward enemies while holding it."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:sediment_soul_stabilizer_servant"
+    }
+  ]
+}

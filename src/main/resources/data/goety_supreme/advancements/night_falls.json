@@ -1,0 +1,39 @@
+{
+  "parent": "goety_supreme:root",
+  "criteria": {
+    "night_falls": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "goety_supreme:green_smith"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "goety:heart_of_the_night"
+    },
+    "title": {
+      "translate": "advancements.goety_supreme.night_falls.title"
+    },
+    "description": {
+      "translate": "advancements.goety_supreme.night_falls.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "night_falls"
+    ]
+  ]
+}

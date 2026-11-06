@@ -1,0 +1,24 @@
+{
+  "name": "澜弹聚晶",
+  "icon": "goety_supreme:wave_bolt_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 34,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "波涛人发射的可不是一触即碎的泡泡，而是结结实实的水弹。模仿波涛人的澜弹聚晶右键发射水球，命中造成溺水伤害，怕水的敌人会受到更高的伤害，还会浇灭目标身上的火。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_wave_bolt_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "使用深渊魔杖施法时，水弹伤害提高，速度变快。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:wave_bolt_focus": 1
+  },
+  "flag": "mod:jerotesvillage"
+}

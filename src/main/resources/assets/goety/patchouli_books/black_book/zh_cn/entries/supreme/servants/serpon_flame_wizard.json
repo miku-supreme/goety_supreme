@@ -1,0 +1,26 @@
+{
+  "name": "蛇龙火焰巫师",
+  "icon": "jerotesvillage:serpon_wizard_chestplate",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "精通火焰法术的蛇龙巫师，是蛇龙里的施法者，浮在空中把火球与锥形火舌甩向敌人。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_flame_wizard{ArmorItems:[{Count:1b,id:\"jerotesvillage:serpon_wizard_boots\"},{Count:1b,id:\"jerotesvillage:serpon_wizard_leggings\"},{Count:1b,id:\"jerotesvillage:serpon_wizard_chestplate\"},{Count:1b,id:\"jerotesvillage:serpon_wizard_helmet\"}]}"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_serpon_flame_wizard",
+      "text": "在暗祭坛上摆好对应供品，举行仪式即可召唤。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你可以仪式召唤这位火焰法师，也可以通过$(l:supreme/items/serpon_flame_focus)蛇焰聚晶$()短暂的寻求这位法师的帮助。$(br)你可以右键给予蛇龙火焰巫师$(item)烈焰粉$()或$(item)烈焰棒$()来为它回血。"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 103
+}

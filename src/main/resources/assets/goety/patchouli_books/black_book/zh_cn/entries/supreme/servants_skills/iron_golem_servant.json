@@ -1,0 +1,15 @@
+{
+  "name": "铁傀儡",
+  "icon": "minecraft:iron_block",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 100，击退抗性 1.0，攻击 15，移速 0.25。$(br)与正常铁傀儡别无二致。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:iron_golem_servant"
+    }
+  ]
+}

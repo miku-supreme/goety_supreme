@@ -1,0 +1,7 @@
+{
+  "name": "Accessories",
+  "description": "The two rings that sit in a Curios ring slot: from the moment a servant is summoned they take care of its whole suit of armour, its weapon and its iron hide.",
+  "icon": "goety_supreme:tempered_ring",
+  "parent": "goety:supreme/items",
+  "sortnum": 6
+}

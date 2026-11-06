@@ -1,0 +1,25 @@
+{
+  "name": "Second Rounder Spider Servant",
+  "icon": "minecraft:spider_eye",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 28, Armor 2, Attack 4, Speed 0.34.$(br)The great arthropods of the Second Round world, and they come in plenty of colours - if you have the leisure, you could dress one up."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:second_rounder_spider_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "It fights the way Goety's spider servants do: it climbs walls, runs over webs unhindered and headbutts anything outside its faction. In the Second Round world a $(l)Spider Nest$() that would have produced ordinary spider servants instead produces them.$(br)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "common spider servant produces one of these instead, while the skeleton, ice, cave and weaver variants keep their own slots. Now and then one even carries a Second Round skeleton rider.$(br)In the Second Round world a $(l:crafts/artifice/spider_nest)Spider Nest$() produces these rather than ordinary spiders; raise one nest and the colony is yours."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 162
+}

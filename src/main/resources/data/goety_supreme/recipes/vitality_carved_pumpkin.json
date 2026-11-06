@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:carved_pumpkin"
+    },
+    {
+      "item": "goety:animation_core"
+    }
+  ],
+  "result": {
+    "item": "goety_supreme:vitality_carved_pumpkin",
+    "count": 1
+  }
+}

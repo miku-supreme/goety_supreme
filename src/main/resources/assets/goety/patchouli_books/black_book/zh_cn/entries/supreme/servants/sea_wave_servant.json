@@ -1,0 +1,26 @@
+{
+  "name": "骇浪",
+  "icon": "jerotesvillage:seawave_trident",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "游荡在无尽海洋的元素生物领袖，对一切入侵海洋的外来者抱有极大的敌意。$(br)其外形酷似野火，这曾让你一度怀疑是否所有元素生物都是这样。$(br)不过对于这种元素生物你已经打过多次交道，只是经过一些尝试便成功制作出属于你的骇浪。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:sea_wave_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_sea_wave",
+      "text": "在暗祭坛上摆好对应供品，举行仪式即可召唤。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "与旱火野火极其相似的战斗技巧，不一样的是这次是水元素。$(br)你也可以对你的骇浪仆从右键给予$(item)波涛棒$()或者$(item)波涛粉$()来为其回血。"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 157
+}

@@ -1,0 +1,7 @@
+{
+  "name": "探索",
+  "description": "至尊巫典收录的地点与传闻：丛林神庙、孤寂竞技场……先去找到它们，再翻开下一页。",
+  "icon": "minecraft:map",
+  "sortnum": 8,
+  "parent": "goety:supreme"
+}

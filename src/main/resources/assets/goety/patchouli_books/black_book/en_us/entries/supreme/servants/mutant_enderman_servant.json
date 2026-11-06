@@ -1,0 +1,25 @@
+{
+  "name": "Enderman Mutant",
+  "flag": "mod:mutantmonsters",
+  "icon": "mutantmonsters:endersoul_hand",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 200, Knockback Resistance 1.0, Attack 10, Speed 0.3.$(br)Between the records of the Void Rift and the art of binding souls into armour, you wanted that power from beyond the dimensions for yourself. After enough trials, you found how to tame a twisted shadow walker."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:mutant_enderman_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_enderman"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Its brawny frame has cost it the agility of an ordinary enderman, but it is far stronger and far more dangerous.$(br)You may give it a $(item)Void Shard$(), an $(item)Echo of the Void$() or a $(item)Voided Eye$() to $(l:supreme/servants_skills/mutant_enderman_servant)strengthen$() it.$(br)You can feed it $(item)Chorus Fruit$() to heal it."
+    }
+  ],
+  "sortnum": 133
+}

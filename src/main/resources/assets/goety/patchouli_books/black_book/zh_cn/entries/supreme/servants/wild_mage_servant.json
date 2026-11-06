@@ -1,0 +1,33 @@
+{
+  "name": "唤藤大祭司仆从",
+  "icon": "goety_supreme:overgrowth_core",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 220，攻击力 4，击退抗性 0.6，移动速度 0.25。$(br)被增生仪式浸透到极致的唤藤者：它不再只会招藤，而是把整片荒野的魔法握在手里，如今只听你一人的号令。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:wild_mage_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_wild_mage"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "与原版的唤藤者不同，他能使用更多的荒野法术进行更多的召唤，你也可以给他$(l:supreme/servants_skills/wild_mage_servant)额外聚晶$()进行额外召唤。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:wild_mage_soul_jar",
+      "text": "如果一个唤藤大祭司死亡，而你拥有一个空灵魂罐，那么它会使他们的灵魂填充进去，当在一个唤藤者身上右键点击这个灵魂罐时，将使用该唤藤者作为新的躯体来复活唤藤大祭司。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你也可以右键给予唤藤大祭司$(item)骨粉$()或者$(item)灵魂罐$()来为其回血。"
+    }
+  ],
+  "sortnum": 142
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Lightning Worm",
+  "icon": "jerotesvillage:lightning_worm_chitin",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Lightning, chaos, desert - these slow, primitive worm-like creatures give off a constant current full of malice, and they hold nothing but hostility for outsiders.$(br)Your ranks lacked a mighty creature that wields lightning the way they do; by binding a Lightning Worm to your own storm you made a Lightning Worm servant that answers to you."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:lightning_worm_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_lightning_worm"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Lightning, thunderstorm, all of it - this primeval worm has woven lightning into its very way of life, and that surging current is sure to shine in your service.$(br)You can hold $(item)Redstone Dust$() and right-click a Lightning Worm to heal it."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 146
+}

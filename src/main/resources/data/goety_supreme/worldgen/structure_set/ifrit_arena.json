@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "goety_supreme:ifrit_arena",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1789213456,
+    "spacing": 80,
+    "separation": 50,
+    "spread_type": "linear"
+  }
+}

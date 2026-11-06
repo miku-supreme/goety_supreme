@@ -1,0 +1,36 @@
+{
+  "name": "Sediment Lord",
+  "flag": "mod:jerotesvillage",
+  "icon": "goety_supreme:ornate_sediment_lord_coffin",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 170, Armor 3, Knockback Resistance 0.5, Attack 6, Speed 0.2.$(br)5, Attack 6, Speed 0.2."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Battle arts$(): shove throws the enemy, trip knocks it down, precision doubles the damage, sweep hits a circle, intimidate makes enemies back off, maneuver speeds up allies, thrust dashes in place, taunt, feint applies Weakness, disarm drops the weapon, disrupt gives nearby allies Strength.$(br)5, Attack 6, Speed 0.2."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Shield-break combo$(): when a hit is blocked it enters a combo, sweeping every 5 ticks and breaking the guard; at low health it may also chain it (a flurry of blows).$(br)$(l)Sediment Command$(): summons 4-6 Sediment Guards (narrowed by the cap when crowded).$(br)5, Attack 6, Speed 0.2."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Nether Star$(): +35 health, heals 1 per second; on commanding, all sediment undead within 32 blocks get Undeath I for 30s, and it gains Bulwark II + Regeneration I for 15s.$(br)$(l)Drowned Necromancer Soul Jar$(): +50 health; command cooldown drops to 20 seconds and its trigger chance rises by a third.$(br)5, Attack 6, Speed 0.2."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Heavy Guard Focus$(): every command also summons 1 Heavy Armored Sediment Guard, with a 50%% chance of a second; heavy guards cap at 4.$(br)$(l)Soul Guard Focus$(): every command is guaranteed one guard with an ancient second-rounder bow, and each guard has a 20%% chance to be a Stabilizer instead.$(br)5, Attack 6, Speed 0.2."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Berserk Essence$(): a 2-minute berserk (speed 0.2 -> 0.25, always a flurry, thrust 1/90, stronger blocking, fixed durations for disrupt/taunt, maneuver charge, all six arts hit harder); granting it immediately triggers a command."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:sediment_lord_servant"
+    }
+  ]
+}

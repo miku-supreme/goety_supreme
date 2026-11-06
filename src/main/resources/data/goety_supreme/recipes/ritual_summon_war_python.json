@@ -1,0 +1,23 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:summon_tamed",
+  "activation_item": {
+    "item": "minecraft:beef"
+  },
+  "craftType": "adept_nether",
+  "entity_to_summon": "goety_supreme:war_python",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    { "item": "jerotesvillage:serpon_alloy_ingot" },
+    { "item": "jerotesvillage:serpon_alloy_ingot" },
+    { "item": "minecraft:blaze_rod" },
+    { "item": "minecraft:blaze_rod" },
+    { "item": "minecraft:bone" },
+    { "item": "minecraft:bone" }
+  ],
+  "result": { "item": "goety:jei_dummy/none" },
+  "conditions": [
+    { "type": "forge:mod_loaded", "modid": "jerotesvillage" }
+  ]
+}

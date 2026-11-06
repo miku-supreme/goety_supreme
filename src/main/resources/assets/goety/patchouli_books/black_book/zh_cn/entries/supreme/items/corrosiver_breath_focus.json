@@ -1,0 +1,24 @@
+{
+  "name": "蚀龙吐息聚晶",
+  "icon": "goety_supreme:corrosiver_breath_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 25,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "蚀龙兽的寒冷吐息不知道摧毁了你多少心爱的装甲，为此你决定让其他世界的生物们感受苦寒的狂袭。蚀龙吐息聚晶的效果与蚀龙兽自己的吐息完全一致，你一定非常熟悉。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_corrosiver_breath_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "使用霜冻魔杖施法时，伤害更高。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:corrosiver_breath_focus": 1
+  },
+  "flag": "mod:jerotesvillage"
+}

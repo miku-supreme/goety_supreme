@@ -1,0 +1,40 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "geoturgy",
+  "activation_item": {
+    "item": "goety:empty_focus"
+  },
+  "soulCost": 1,
+  "duration": 15,
+  "ingredients": [
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "goety_supreme:vitality_carved_pumpkin"
+    },
+    {
+      "item": "goety:animator"
+    },
+    {
+      "item": "minecraft:poppy"
+    },
+    {
+      "item": "minecraft:emerald_block"
+    }
+  ],
+  "result": {
+    "item": "goety_supreme:iron_guard_focus",
+    "count": 1
+  }
+}

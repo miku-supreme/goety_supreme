@@ -1,0 +1,34 @@
+{
+  "replace": false,
+  "values": [
+    "goety_supreme:player_mob_servant",
+    "goety_supreme:sakura_spirit_servant",
+    "goety_supreme:enderman_servant",
+    "goety_supreme:prismarine_soldier",
+    "goety_supreme:scorchback",
+    {
+      "id": "goety_supreme:sediment_guard_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:sediment_lord_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:sediment_soul_stabilizer_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:heavy_armored_sediment_guard_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:bulge_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:sea_wave_servant",
+      "required": false
+    }
+  ]
+}

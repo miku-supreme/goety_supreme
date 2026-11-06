@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/sniffer_egg",
+  "textures": {
+    "bottom": "goety_supreme:block/scorchback_egg_not_cracked_bottom",
+    "east": "goety_supreme:block/scorchback_egg_not_cracked_east",
+    "north": "goety_supreme:block/scorchback_egg_not_cracked_north",
+    "south": "goety_supreme:block/scorchback_egg_not_cracked_south",
+    "top": "goety_supreme:block/scorchback_egg_not_cracked_top",
+    "west": "goety_supreme:block/scorchback_egg_not_cracked_west"
+  }
+}

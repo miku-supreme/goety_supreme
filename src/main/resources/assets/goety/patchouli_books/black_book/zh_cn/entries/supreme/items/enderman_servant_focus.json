@@ -1,0 +1,23 @@
+{
+  "name": "勿视聚晶",
+  "icon": "goety_supreme:enderman_servant_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 17,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "施法召出属于你的末影人仆从，潜行施法把它们召集到身边。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_enderman_servant_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "拿虚空魔杖施法时，一次能多召几只。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:enderman_servant_focus": 1
+  }
+}

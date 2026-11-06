@@ -1,0 +1,39 @@
+{
+  "parent": "goety_supreme:vitality_pumpkin",
+  "criteria": {
+    "prismarine_soldier": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "goety_supreme:prismarine_soldier"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "goety_supreme:prismarine_core"
+    },
+    "title": {
+      "translate": "advancements.goety_supreme.prismarine_revival.title"
+    },
+    "description": {
+      "translate": "advancements.goety_supreme.prismarine_revival.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "prismarine_soldier"
+    ]
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Second Rounder Animated Armor Servant",
+  "icon": "jerotesvillage:animated_iron_helmet",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 54, Knockback Resistance 0.8, Attack 5, Speed 0.28.$(br)A construct that has forgotten its purpose, drifting through the unknown pit only because magic drives it. Now your own magic leads it, and this mighty suit of armour fights for you."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:second_rounder_animated_armor_servant{ArmorItems:[{Count:1b,id:\"jerotesvillage:animated_iron_boots\"},{Count:1b,id:\"jerotesvillage:animated_iron_leggings\"},{Count:1b,id:\"jerotesvillage:animated_iron_chestplate\"},{Count:1b,id:\"jerotesvillage:animated_iron_helmet\"}]}"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_second_rounder_animated_armor"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "8, Attack 5, Speed 0.28.$(br)A suit of armour that moves on its own, much like your Haunted Armor; what sets it apart is that this armoured warrior has higher stats, costs more, and uses a shield.$(br)You can right-click it with $(item)iron nuggets$() to heal it; see $(l:supreme/items/animated_iron)Animated Iron Armour$() for how to get animated iron."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can summon this construct by ritual; it has no focus, and the Dark Altar is the only way."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 163
+}

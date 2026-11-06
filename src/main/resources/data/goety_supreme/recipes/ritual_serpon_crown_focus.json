@@ -1,0 +1,40 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "adept_nether",
+  "activation_item": {
+    "item": "goety_supreme:serpon_head_focus"
+  },
+  "soulCost": 2,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "jerotesvillage:serpon_powerhouse_helmet"
+    },
+    {
+      "item": "jerotesvillage:serpon_powerhouse_chestplate"
+    },
+    {
+      "item": "jerotesvillage:serpon_powerhouse_leggings"
+    },
+    {
+      "item": "jerotesvillage:serpon_powerhouse_boots"
+    },
+    {
+      "tag": "goety_supreme:serpon_spear_or_pike"
+    },
+    {
+      "item": "jerotesvillage:serpon_axe"
+    }
+  ],
+  "result": {
+    "item": "goety_supreme:serpon_crown_focus",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jerotesvillage"
+    }
+  ]
+}

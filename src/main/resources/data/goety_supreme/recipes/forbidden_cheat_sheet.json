@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "goety:ectoplasm"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "F": {
+      "item": "goety:forbidden_fragment"
+    }
+  },
+  "pattern": [
+    "EPE",
+    "PFP",
+    "EPE"
+  ],
+  "result": {
+    "item": "goety_supreme:forbidden_cheat_sheet",
+    "count": 2
+  },
+  "show_notification": true
+}

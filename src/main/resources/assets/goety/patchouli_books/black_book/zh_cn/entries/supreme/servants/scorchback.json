@@ -1,0 +1,26 @@
+{
+  "name": "炽背兽",
+  "icon": "goety_supreme:scorchback_spawn_egg",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "早已经灭绝了的远古生物，其在现在已经找不到任何踪迹。$(br)幸运的是，你通读了下界卷轴之后，你找到了这只灭绝生物的蛛丝马迹。$(br)经过一段时间的研究之后，你成功找到了将嗅探兽这一同样是远古生物的存在转化为炽背兽的办法。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:scorchback",
+      "text": ""
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_scorchback",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": "与其可爱的外观不同，炽背兽拥有极其强悍的肉体，能发出背上的飞刺攻击敌人，也可以进行长时间的冲刺撞击敌人。$(br)你可以对炽背兽右键使用下界疣来为其恢复血量。$(br)血量 400 / 护甲 16 / 韧性 8 / 击退抗性 1.0 / 移速 0.3125 / 攻击 20 / 索敌 35 格；没有自然回血。$(br)喂蔬菜或生熟肉按「消化池」回血（每 8 刻回 1 点），下界疣一次 +1。"
+    }
+  ],
+  "sortnum": 165
+}

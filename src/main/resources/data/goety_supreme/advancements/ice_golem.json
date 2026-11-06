@@ -1,0 +1,54 @@
+{
+  "parent": "goety_supreme:root",
+  "criteria": {
+    "goety_ice_golem": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "goety:ice_golem"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    },
+    "supreme_ice_golem": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "goety_supreme:ice_golem_servant"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:ice"
+    },
+    "title": {
+      "translate": "advancements.goety_supreme.ice_golem.title"
+    },
+    "description": {
+      "translate": "advancements.goety_supreme.ice_golem.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "goety_ice_golem",
+      "supreme_ice_golem"
+    ]
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Frost Yeti",
+  "icon": "goety_supreme:frost_yeti_servant_spawn_egg",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 128, Armor 12, Attack 14, Knockback Resistance 0.8, Speed 0.35. Its melee randomly picks one of three swings that deal damage equal to its attack; if the target is not immune to Freeze, it also deals Freezing magic damage. At longer range it charges.$(br)Immune to powder snow."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Ice Rock Throw$(): at longer range it throws an Ice Rock for 3–30 Freezing magic damage and 2–20 armor-piercing damage, plus a 19-second Frozen effect.$(br)$(l)Yeti Deter$(): once against enemies within 18 blocks whose current health is lower than its own — Darkness III for 3s, Weakness III for 18s and Slowness III for 9s."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Hitting a target affected by Weakness grants it one layer of Rampant, with its tier and duration following the target's Weakness."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:frost_yeti_servant"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 155
+}

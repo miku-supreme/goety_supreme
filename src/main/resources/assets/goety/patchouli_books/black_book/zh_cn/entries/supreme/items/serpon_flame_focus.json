@@ -1,0 +1,24 @@
+{
+  "name": "蛇焰聚晶",
+  "icon": "goety_supreme:serpon_flame_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 23,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "有了寻求普通蛇龙人的经验，你不久就找到了如何召唤这些精通火焰的蛇龙法师的方法。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_serpon_flame_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "使用下界魔杖施法可以获得多位法师的帮助：普通魔杖一位，下界魔杖2位。同一主人至多四位。$(br)$(br)条目 020 / 155 · 炽焰聚晶 · 3 页 · 分类：道具"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:serpon_flame_focus": 1
+  },
+  "flag": "mod:jerotesvillage"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Skill Compendium",
+  "description": "Every servant's skills, moves and stat bonuses gathered out of the Servants chapter, one entry per servant.",
+  "icon": "minecraft:spawner",
+  "parent": "goety:supreme",
+  "sortnum": 5
+}

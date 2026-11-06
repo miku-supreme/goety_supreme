@@ -1,0 +1,25 @@
+{
+  "name": "骇浪",
+  "icon": "jerotesvillage:seawave_trident",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量80点，8点护甲值，8攻击力，0.6 击退抗性，移动速度0.3。$(br)波涛射弹$(br)发射9发波涛弹并造成2~9点溺水伤害。若目标免疫溺水则改为等量的魔法伤害。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "冲击波$(br)三叉戟砸地，造成一次8点伤害冲击波，仅在三叉戟还持有时使用。$(br)突刺$(br)使用三叉戟向前突刺，每有一个三叉戟，造成一次8点伤害。尽在还具有三叉戟时使用。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "宝石海浪$(br)向前施法对前方生物造成3~18点溺水伤害。仅在还具有三叉戟时会使用。$(br)召唤波涛人$(br)怒化骇浪召唤3个为自己而战的波涛人。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:sea_wave_servant"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 157
+}

@@ -1,0 +1,20 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:summon",
+  "craftType": "expert_nether",
+  "activation_item": {
+    "item": "goety:heart_of_the_night"
+  },
+  "entity_to_summon": "goety_supreme:wither_warlord",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    { "item": "goety_supreme:green_apple" },
+    { "item": "goety:ectoplasm" },
+    { "item": "goety_supreme:universal_soul_jar" },
+    { "item": "goety:withered_manuscript" },
+    { "item": "minecraft:wither_skeleton_skull" },
+    { "item": "goety:ectoplasm" }
+  ],
+  "result": { "item": "goety:jei_dummy/none" }
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "goety_supreme:player_mob_servant",
+    "goety_supreme:sakura_spirit_servant",
+    "goety_supreme:scorchback",
+    "goety_supreme:wild_mage_servant",
+    {
+      "id": "goety_supreme:war_python",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:royal_war_python",
+      "required": false
+    }
+  ]
+}

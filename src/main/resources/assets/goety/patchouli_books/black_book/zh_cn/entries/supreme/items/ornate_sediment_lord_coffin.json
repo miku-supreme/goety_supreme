@@ -1,0 +1,30 @@
+{
+  "name": "华丽沉降领主之棺",
+  "icon": "goety_supreme:ornate_sediment_lord_coffin",
+  "category": "goety:supreme/items",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:ornate_sediment_lord_coffin",
+      "text": "华丽沉降领主之棺：用来召唤或复活一名属于自己的沉降领主。",
+      "link_recipe": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "沉降领主的出现方式，不禁让你想到了主世界的另一位“领主”，你不禁思考，能不能用类似的方法，将沉降领主召唤，为你所用？经过简单的思考，你设计出这口华丽的棺材，只需不死图腾即可召唤你的沉降领主。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_craft_ornate_sediment_lord_coffin"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "死后也能复活！这才是真正的领主嘛!。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:ornate_sediment_lord_coffin": 1
+  },
+  "flag": "mod:jerotesvillage"
+}

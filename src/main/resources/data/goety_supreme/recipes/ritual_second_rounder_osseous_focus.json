@@ -1,0 +1,33 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:osseous_focus"
+  },
+  "craftType": "necroturgy",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:fletching_table"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "jerotesvillage:second_round_nigrum"
+    },
+    {
+      "item": "jerotesvillage:second_round_nigrum"
+    }
+  ],
+  "result": {
+    "item": "goety_supreme:second_rounder_osseous_focus"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jerotesvillage"
+    }
+  ]
+}

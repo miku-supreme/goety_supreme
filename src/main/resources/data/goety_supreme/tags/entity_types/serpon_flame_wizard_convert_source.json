@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "jerotesvillage:serpon_flame_wizard",
+      "required": false
+    }
+  ]
+}

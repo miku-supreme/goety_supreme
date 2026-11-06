@@ -1,0 +1,20 @@
+{
+  "name": "幻影聚晶",
+  "icon": "goety_supreme:player_mob_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "召唤出带着玩家名字、拥有玩家外观的幻影为你作战，仿佛真的有朋友与你一起嬉戏玩耍。有时你也会想，追求至高的路上是否太过孤独，以至于要用逼真的幻影来欺骗自己。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_phantom_crystal",
+      "text": "如若给幻影聚晶重命名，则召唤出来的玩家生物仆从必定为该名字。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:player_mob_focus": 1
+  }
+}

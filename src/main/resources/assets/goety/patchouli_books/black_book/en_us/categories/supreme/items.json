@@ -1,0 +1,7 @@
+{
+  "name": "Apparatus",
+  "description": "The new foci, sabers, boosters, accessories and material blocks, each with its purpose explained.",
+  "icon": "goety_supreme:raging_star",
+  "parent": "goety:supreme",
+  "sortnum": 2
+}

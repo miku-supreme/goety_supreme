@@ -1,0 +1,7 @@
+{
+  "name": "Servants",
+  "description": "The Supreme host: mutants, golems, phantoms and the Wither itself, each with its own strengths. Skills, moves and stat bonuses are listed in the Skill Compendium.",
+  "icon": "goety_supreme:player_mob_focus",
+  "parent": "goety:supreme",
+  "sortnum": 3
+}

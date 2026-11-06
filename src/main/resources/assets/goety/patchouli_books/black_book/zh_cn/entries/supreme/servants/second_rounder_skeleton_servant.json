@@ -1,0 +1,25 @@
+{
+  "name": "二轮骷髅仆从",
+  "icon": "jerotesvillage:second_rounder_skeleton_skull",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 30，攻击 4，移速 0.3。$(br)血肉已经腐烂的古代亡灵被未知的力量唤起，这些仍未遗忘技巧的战士比那些死去的冒险者更加古老，也更加危险，在你的手下，他们会变得更加凶残。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:second_rounder_skeleton_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_second_rounder_skeleton"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "3。$(br)你可以通过仪式召唤这些骸骨战士，也可以通过$(l:supreme/items/second_rounder_osseous_focus)二轮骨质聚晶$()快速召唤。"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 161
+}

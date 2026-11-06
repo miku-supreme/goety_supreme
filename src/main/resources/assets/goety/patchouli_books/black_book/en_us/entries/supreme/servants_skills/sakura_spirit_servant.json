@@ -1,0 +1,19 @@
+{
+  "name": "Sakura Spirit",
+  "icon": "goety_supreme:sakura_guardian_focus",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 15, Attack 3, Speed 0.25.$(br)Melee 3.$(br)Ring Slash (15-second cooldown): 3 damage, three shots, heals 2 per hit.$(br)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "It sidesteps incoming arrows, avoids fire, cacti and lava, and may blink straight to whoever hurt its owner."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:sakura_spirit_servant"
+    }
+  ]
+}

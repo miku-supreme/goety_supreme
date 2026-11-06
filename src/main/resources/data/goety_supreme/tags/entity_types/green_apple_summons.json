@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "__comment": [
+    "青苹果的野生亡灵池。这是「快速通道 / 显式点名」，不是唯一判据：",
+    "r1660 起，标签 / 内置名单都没命中的敌对怪物还会被实例化一次读 getMobType()，",
+    "结果为 UNDEAD 的照样进池（结果按类型缓存，整局只算一次）。",
+    "每条都写成 required:false —— 只要有一条引用了本版本 / 本整合包不存在的 id，",
+    "1.20.1 的 TagLoader 会把整条标签丢掉并静默变空（r1659 实机就是这么塌的）。"
+  ],
+  "values": [
+    { "id": "minecraft:wither", "required": false },
+    { "id": "minecraft:skeleton", "required": false },
+    { "id": "minecraft:stray", "required": false },
+    { "id": "minecraft:wither_skeleton", "required": false },
+    { "id": "minecraft:skeleton_horse", "required": false },
+    { "id": "minecraft:zombie", "required": false },
+    { "id": "minecraft:husk", "required": false },
+    { "id": "minecraft:drowned", "required": false },
+    { "id": "minecraft:zombie_villager", "required": false },
+    { "id": "minecraft:zombified_piglin", "required": false },
+    { "id": "minecraft:zombie_horse", "required": false },
+    { "id": "minecraft:zoglin", "required": false },
+    { "id": "minecraft:phantom", "required": false },
+    { "id": "goety:necromancer", "required": false },
+    { "id": "goety:cairn_necromancer", "required": false },
+    { "id": "goety:mossy_necromancer", "required": false },
+    { "id": "goety:frayed", "required": false },
+    { "id": "goety:rattled", "required": false }
+  ]
+}

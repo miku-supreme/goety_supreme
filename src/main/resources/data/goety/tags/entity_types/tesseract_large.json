@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "__comment": "ownable entities that take up ALL 16 spaces of an Esoteric Tesseract",
+  "values": [
+    {
+      "id": "goety_supreme:sediment_lord_servant",
+      "required": false
+    },
+    "goety_supreme:green_smith",
+    "goety_supreme:green_smith_servant",
+    {
+      "id": "goety_supreme:serpon_combat_executer",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:corrosiver_servant",
+      "required": false
+    },
+    "goety_supreme:wither_servant",
+    "goety_supreme:wither_warlord_servant",
+    {
+      "id": "goety_storm:wither_storm",
+      "required": false
+    },
+    {
+      "id": "goety_storm:command_block_wither",
+      "required": false
+    }
+  ]
+}

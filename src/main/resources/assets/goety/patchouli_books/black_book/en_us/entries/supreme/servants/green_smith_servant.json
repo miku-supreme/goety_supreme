@@ -1,0 +1,28 @@
+{
+  "name": "Green Bean Necromancer Servant",
+  "icon": "goety_supreme:green_smith_soul_jar",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "After its battle with you, the Green Smith was won over by your black magic. Still wanted by the Wither Warlord, it is sure it can live better here - and at your call it came straight to your aid."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:green_smith_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_green_smith_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Under your banner the Green Smith has never had it so good: it carries the $(l:supreme/servants_skills/green_smith_servant)strengthening$() you gifted it, which has firmed up and sharpened the necromantic arts it commands - and made it all the more loyal.$(br)Feed it $(item)Bones$() to heal it."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Green Smith's focus gifts, its extra summons from soul jars, and the focus supplement are covered in the $(l:supreme/servants_skills/necromancer_extra_summons)Necromancers' Extra Summons$() skill compendium; the soul-jar supplement is in the $(l:supreme/servants_skills/green_smith_servant)Green Smith's own skill compendium$()."
+    }
+  ],
+  "sortnum": 141
+}

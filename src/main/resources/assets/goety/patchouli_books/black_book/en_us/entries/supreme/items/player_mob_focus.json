@@ -1,0 +1,20 @@
+{
+    "name":  "Phantom Crystal",
+    "icon":  "goety_supreme:player_mob_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  10,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Summon a phantom that carries a player\u0027s name and wears a player\u0027s look to fight for you, as if a friend really were playing alongside you. Sometimes you wonder whether the road to the summit is too lonely - so lonely that you must deceive yourself with lifelike phantoms."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_phantom_crystal",
+                      "text":  "If the Phantom Focus is renamed, the Player Mob Servant it summons will always carry that name."
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:player_mob_focus":  1
+                              }
+}

@@ -1,0 +1,43 @@
+{
+  "criteria": {
+    "convert_scorchback": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "goety_supreme:scorchback"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    },
+    "hatch_egg": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.goety_supreme.back_from_extinction.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "goety_supreme:scorchback_egg"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.goety_supreme.back_from_extinction.title"
+    }
+  },
+  "parent": "goety_supreme:root",
+  "requirements": [
+    [
+      "hatch_egg",
+      "convert_scorchback"
+    ]
+  ]
+}

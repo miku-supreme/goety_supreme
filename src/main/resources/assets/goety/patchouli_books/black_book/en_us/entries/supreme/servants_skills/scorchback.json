@@ -1,0 +1,15 @@
+{
+  "name": "Scorchback",
+  "icon": "goety_supreme:scorchback_spawn_egg",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Vegetables or raw and cooked meat heal it through a \"digestion pool\" , Nether Wart heals 1 at a time.$(br)A calf has 200 health and grows up after 20 feedings.$(br)$(l)Combo$(): 20 + 20 + 20, the first two apply Busted for 1s.$(br)$(l)Slam$(): 16 damage + heavy knockback in a 6-block radius, and it swats away projectiles in flight; 3s cooldown."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Relentless charge$(): 15 damage + 4%% of the target's max health, leaving 5 lanes of spikes every 2 ticks (each spikes into the ground for 1s then bursts); 20s cooldown after the move.$(br)$(l)Quill rain$(): 2 quills every 5 ticks, 20 in total, 10 damage each, rising first then diving; a missed quill lands and bursts after 1s (1-block radius, 5 damage).$(br)$(l)Passive$(): anything hit by its melee, slam or charge catches fire for 5s."
+    }
+  ]
+}

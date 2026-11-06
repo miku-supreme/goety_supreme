@@ -1,0 +1,17 @@
+{
+  "name": "旱火野火",
+  "flag": "mod:jerotesvillage",
+  "icon": "jerotesvillage:drought_wildfire_shield",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量120，攻击力7，击退抗性0.6，护甲值8，移动速度0.3。$(br)$(l)盾牌$()： 四面，$(br)$(l)火球$()： 连射九发，每发2~9伤害。$(br)$(l)震地$()： 半径12格7伤害。$(br)$(l)召唤$()： 三只旱火烈焰人，冷却30秒。$(br)免疫火焰，摔落，岩浆，火焰伤害吸收80%%。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:drought_wildfire_servant"
+    }
+  ],
+  "sortnum": 152
+}

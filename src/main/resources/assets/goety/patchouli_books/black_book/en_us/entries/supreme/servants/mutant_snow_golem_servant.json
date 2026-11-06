@@ -1,0 +1,54 @@
+{
+  "name": "Mutant Snow Golem Servant",
+  "flag": "mod:mutantmonsters",
+  "icon": "goety_supreme:frost_snow_focus",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Between the records of the frozen wastes and the casting of soul-frozen cores, you wondered whether a snow golem's strength could be pushed to its limit. Trial and error gave you the rite to wake a twisted winter warden - and so the Mutant Snow Golem Servant."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:mutant_snow_golem_servant"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "_",
+            "^",
+            "_"
+          ],
+          [
+            "B",
+            "B",
+            "B"
+          ],
+          [
+            "_",
+            "0",
+            "_"
+          ]
+        ],
+        "mapping": {
+          "^": "minecraft:carved_pumpkin",
+          "B": "minecraft:snow_block",
+          "0": "goety:snow_bricks"
+        }
+      },
+      "enable_visualize": true,
+      "text": "Cap it with a $(l)Carved Pumpkin$(), then right-click the pumpkin with a $(l)Mutating Potion$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A plain and sturdy mutation, it attacks by hurling blocks of ice.$(br)You may also give it a $(item)Frost Nova Focus$(), a $(item)Chilling Focus$() and a $(item)Stray Soul Jar$() to $(l:supreme/servants_skills/mutant_snow_golem_servant)strengthen$() it.$(br)Throw $(item)Snowballs$() at your Mutant Snow Golem Servant to heal it."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can throw $(item)snowballs$() at a Mutant Snow Golem Servant to heal it."
+    }
+  ],
+  "sortnum": 131
+}

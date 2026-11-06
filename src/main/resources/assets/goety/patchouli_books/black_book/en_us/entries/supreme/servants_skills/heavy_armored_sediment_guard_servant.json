@@ -1,0 +1,16 @@
+{
+  "name": "Heavy Armored Sediment Guard",
+  "flag": "mod:jerotesvillage",
+  "icon": "goety_supreme:heavy_armored_sediment_guard_focus",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 40, Armor 5, Knockback Resistance 0.5, Attack 5, Speed 0.24.$(br)With a weapon in hand it can sweep and use two-handed weapon blocking; it spawns wearing a full heavy ancient second-rounder armor set and a weapon."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:heavy_armored_sediment_guard_servant"
+    }
+  ]
+}

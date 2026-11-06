@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "goety_supreme:iron_golem_servant",
+    "goety_supreme:snow_golem_servant",
+    {
+      "id": "goety_supreme:mutant_snow_golem_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:abominable_snow_golem_servant",
+      "required": false
+    },
+    "goety_supreme:ice_golem_servant",
+    "goety_supreme:furnace_golem",
+    "goety_supreme:magma_golem",
+    "goety_supreme:prison_golem",
+    "goety_supreme:prismarine_soldier"
+  ]
+}

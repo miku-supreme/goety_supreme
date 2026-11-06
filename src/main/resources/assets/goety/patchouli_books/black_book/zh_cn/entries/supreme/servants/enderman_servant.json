@@ -1,0 +1,24 @@
+{
+  "name": "末影人仆从",
+  "icon": "minecraft:ender_pearl",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "末地的瘦削身影，与你的看守灵是近亲；盯着它看了一会儿，你就知道该怎么把这些亲戚收进自己的影子。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:enderman_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_enderman"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你可以通过仪式召唤这位仆从，也可以通过$(l:supreme/items/enderman_servant_focus)末影人仆从聚晶$()快速召唤。"
+    }
+  ],
+  "sortnum": 179
+}

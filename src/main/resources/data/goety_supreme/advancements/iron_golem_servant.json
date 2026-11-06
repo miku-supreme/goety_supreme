@@ -1,0 +1,39 @@
+{
+  "parent": "goety_supreme:vitality_pumpkin",
+  "criteria": {
+    "get_iron_golem_servant": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "goety_supreme:iron_golem_servant"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_block"
+    },
+    "title": {
+      "translate": "advancements.goety_supreme.iron_golem_servant.title"
+    },
+    "description": {
+      "translate": "advancements.goety_supreme.iron_golem_servant.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "get_iron_golem_servant"
+    ]
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Reaper Necromancer Servant",
+  "icon": "goety_supreme:broken_reaper_scythe",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 220, Attack 8, Knockback Resistance 1.0, Movement Speed 0.25.$(br)By folding necromancy and a reaping scythe into a single reaper, you have made a Reaper Necromancer of your own - a mighty midnight hunter that will lend you its strength."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:reaper_necromancer_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_reaper_necromancer"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "This necromancer is unlike other necromancers: it pours most of its necromantic power into casting its own spells rather than into summoning, and that makes it a formidable fighter in its own right."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:reaper_soul_jar",
+      "text": "If a Reaper Necromancer dies while you carry an empty soul jar, the jar takes their soul; right-click a Reaper with that jar and the Reaper is used as a new body to bring the necromancer back."
+    }
+  ],
+  "sortnum": 143
+}

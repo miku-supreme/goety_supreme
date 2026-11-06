@@ -1,0 +1,7 @@
+{
+  "name": "道具",
+  "description": "最强大的力量，送给至高的黑法师。",
+  "icon": "goety_supreme:raging_star",
+  "parent": "goety:supreme",
+  "sortnum": 2
+}

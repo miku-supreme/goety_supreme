@@ -1,0 +1,58 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mutantmonsters"
+    }
+  ],
+  "type": "goety:ritual",
+  "ritual_type": "goety:convert_tamed",
+  "activation_item": {
+    "type": "forge:partial_nbt",
+    "item": "minecraft:potion",
+    "nbt": "{Potion:\"mutantmonsters:chemical_x\"}"
+  },
+  "craftType": "end",
+  "entity_to_convert": {
+    "tag": "goety_supreme:mutant_enderman_convert_source",
+    "display_name": "entity.goety_supreme.mutant_enderman_convert_source"
+  },
+  "entity_to_convert_into": "goety_supreme:mutant_enderman_servant",
+  "soulCost": 5,
+  "duration": 15,
+  "ingredients": [
+    {
+      "item": "mutantmonsters:endersoul_hand"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "goety:void_bottle"
+    },
+    {
+      "item": "goety:void_bottle"
+    },
+    {
+      "item": "goety:void_bottle"
+    }
+  ],
+  "result": {
+    "item": "goety:jei_dummy/none"
+  }
+}

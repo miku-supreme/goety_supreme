@@ -1,0 +1,25 @@
+{
+  "name": "Sediment Soul Stabilizer",
+  "icon": "goety_supreme:sediment_soul_stabilizer_focus",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 35, Attack 5, Speed 0.27.$(br)A mage who guarded souls in life, and in death keeps to the post and watches over the tomb - and now his spells are cast for you."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:sediment_soul_stabilizer_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_sediment_soul_stabilizer_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can summon this stabilizer by ritual, or call him quickly with a $(l:supreme/items/sediment_soul_stabilizer_focus)Sediment Soul Stabilizer Focus$().$(br)You can right-click your Sediment Soul Stabilizer with $(item)Rotten Flesh$() to heal it."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 112
+}

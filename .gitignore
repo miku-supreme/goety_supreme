@@ -1,0 +1,54 @@
+# ============================================================
+# Goety Supreme —— 公开仓库忽略规则
+# 第三方模组本体、反编译参考、构建产物、平台内部文件一律不进仓库。
+#
+# 重要：本文件只对「尚未被 git 跟踪」的文件生效。某个目录若以前已经
+#       被加入过索引，光写进这里没用，必须先执行
+#         git rm -r --cached <目录>
+#       详见 GITHUB_上传指南.md。
+# ============================================================
+
+# ---- 构建产物与运行目录 ----
+build/
+.gradle/
+run/
+logs/
+out/
+*.class
+*.log
+
+# ---- 第三方模组本体（他人版权作品，绝不公开）----
+libs/
+
+# ---- 反编译得到的参考源码（他人的模组代码，绝不公开）----
+ref/
+
+# ---- 建模 / 贴图生成脚本与参考资料（含内部工作流，不随仓库发布）----
+tools/
+
+# ---- 开发中间产物、导出包与预览图 ----
+exports/
+export/
+.automods/
+.tmp_preview/
+# 红石巨兽移植脚本的中间产物：拆出来的贴图、IR、渲图自查结果
+.tmp_monst/
+# 用户上传 zip 的解压目录（傀儡贴图自检要拿它跟工程内成品做逐像素比对）
+.tmp_lagolem/
+# 炽背兽预览脚本（preview_from_java / preview_from_bbmodel / preview_ingame）的渲图输出
+.tmp_scorchback/
+sldr_check/
+assets_incoming/
+*.zip
+
+# ---- 平台脚手架与内部说明文件（不对外）----
+.blockforge-*
+TARGET.md
+MINECRAFT_DEVKIT.md
+devkit-examples/
+NOTES.md
+JEROTES_*.md
+
+# ---- 操作系统杂项 ----
+.DS_Store
+Thumbs.db

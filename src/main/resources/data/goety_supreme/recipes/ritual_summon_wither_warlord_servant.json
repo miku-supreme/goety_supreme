@@ -1,0 +1,47 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:summon_tamed",
+  "craftType": "expert_nether",
+  "activation_item": {
+    "item": "goety_supreme:infernal_credential"
+  },
+  "entity_to_summon": "goety_supreme:wither_warlord_servant",
+  "research": "bygone",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goety_supreme:green_apple"
+    },
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "item": "goety_supreme:universal_soul_jar"
+    },
+    {
+      "item": "goety:withered_manuscript"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "item": "goety:withered_manuscript"
+    },
+    {
+      "item": "goety_supreme:hellfire_saber"
+    },
+    {
+      "item": "goety_supreme:wither_warlord_helmet"
+    },
+    {
+      "item": "minecraft:gold_block"
+    }
+  ],
+  "result": {
+    "item": "goety:jei_dummy/none"
+  }
+}

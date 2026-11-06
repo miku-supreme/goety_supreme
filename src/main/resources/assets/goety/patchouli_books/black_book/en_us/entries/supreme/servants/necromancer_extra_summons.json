@@ -1,0 +1,12 @@
+{
+  "name": "Necromancers' Extra Summons",
+  "icon": "goety:soul_jar",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Necromancers command many summons and know their spells well - yet that is not enough for you.$(br)Building on their knack for learning foci, you have found how to let these mages cast extra summons.$(br)For the details, see the $(l:supreme/servants_skills/necromancer_extra_summons)Skill Compendium$()."
+    }
+  ],
+  "sortnum": 181
+}

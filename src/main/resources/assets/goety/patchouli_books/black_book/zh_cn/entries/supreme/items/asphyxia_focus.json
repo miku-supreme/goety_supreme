@@ -1,0 +1,20 @@
+{
+  "name": "窒息聚晶",
+  "icon": "goety_supreme:asphyxia_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 95,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "宝石恶鳞的窒息不是掐住喉咙，而是让人肺里的空气先变成水（你有肺吗？）。你掌握了这种看上去好像不太人道的力量，快去在身边非水生生物的身上实验一番吧！"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:asphyxia_focus",
+      "title": "窒息聚晶",
+      "text": "图鉴物品：窒息聚晶$(br)使用深渊魔杖施法时伤害更高。拥有水下呼吸或潮涌能量效果的目标不会受到溺水伤害。$(br)$(br)条目 040 / 155 · 恶鳞炸弹聚晶 · 2 页 · 分类：道具",
+      "link_recipe": true
+    }
+  ],
+  "flag": "mod:jerotesvillage"
+}

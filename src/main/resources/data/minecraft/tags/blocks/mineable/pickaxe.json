@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "goety_supreme:prismarine_core",
+    "goety_supreme:prison_steel_block",
+    "goety_supreme:reinforced_blast_furnace",
+    {
+      "id": "goety_supreme:ornate_sediment_lord_coffin",
+      "required": false
+    }
+  ]
+}

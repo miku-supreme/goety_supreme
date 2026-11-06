@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "jerotesvillage:flying_fireball",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:flying_fireball_servant",
+      "required": false
+    }
+  ]
+}

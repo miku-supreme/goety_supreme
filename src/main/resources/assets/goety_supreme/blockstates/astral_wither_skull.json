@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "goety_supreme:block/astral_wither_skull",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "goety_supreme:block/astral_wither_skull",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "goety_supreme:block/astral_wither_skull",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "goety_supreme:block/astral_wither_skull",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "寒霜雪怪",
+  "icon": "goety_supreme:frost_yeti_servant_spawn_egg",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量128 点，12 点护甲，14 点攻击力，0.8 击退抗性，0.35 移速。近战随机三套挥击造成攻击力的伤害，若目标不免疫冰冻则造成冰冻魔法伤害。距离较远进入冲锋。$(br)免疫细雪。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)冰岩投掷$()：距离较远则会扔一块冰岩造成3~30 冰霜魔法伤害与2~20 破甲伤害，并附带19秒冻结效果。$(br)$(l)威慑$()：对 18 格内当前血量比自己低的敌人一次——黑暗 III 3 秒、虚弱 III 18 秒、缓慢III 9 秒。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "命中带虚弱的目标，它自己叠一层嚣张，等级时长跟随对方虚弱。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:frost_yeti_servant"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 155
+}

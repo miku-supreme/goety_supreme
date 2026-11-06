@@ -1,0 +1,51 @@
+{
+  "advancements": [
+    {
+      "advancement": {
+        "criteria": {
+          "corrosiver_servant": {
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type": "goety_supreme:corrosiver_servant"
+                  }
+                }
+              ]
+            },
+            "trigger": "minecraft:summoned_entity"
+          }
+        },
+        "display": {
+          "announce_to_chat": true,
+          "description": {
+            "translate": "advancements.goety_supreme.python_swallows_dragon.description"
+          },
+          "frame": "task",
+          "hidden": false,
+          "icon": {
+            "item": "jerotesvillage:corrosiver_claw"
+          },
+          "show_toast": true,
+          "title": {
+            "translate": "advancements.goety_supreme.python_swallows_dragon.title"
+          }
+        },
+        "parent": "goety_supreme:root",
+        "requirements": [
+          [
+            "corrosiver_servant"
+          ]
+        ]
+      },
+      "conditions": [
+        {
+          "modid": "jerotesvillage",
+          "type": "forge:mod_loaded"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "战蟒",
+  "icon": "jerotesvillage:serpon_alloy_ingot",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "作为多体节的战斗生物，战蟒的体节只受到80%%的伤害，你可以为它喂食$(item)火焰弹$()回血。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:war_python"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:royal_war_python"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_war_python"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_royal_war_python"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 108
+}

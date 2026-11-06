@@ -1,0 +1,20 @@
+{
+    "name":  "Asphyxia Focus",
+    "icon":  "goety_supreme:asphyxia_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  95,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "The Gemstone Malignasaur\u0027s suffocation does not grip your throat - it turns the air in your lungs into water first (do you even have lungs?). You have mastered this rather inhumane-looking power; go and try it on the non-aquatic creatures around you!"
+                  },
+                  {
+                      "type":  "patchouli:spotlight",
+                      "item":  "goety_supreme:asphyxia_focus",
+                      "title":  "Asphyxia Focus",
+                      "text":  "16 souls, 0.75 seconds of wind-up, 3 second cooldown. Reach is spell level x 8 blocks, lasting 6 + (level - 1) x 3 ticks; a Abyss Staff adds one level. Anything holding Water Breathing or Conduit Power takes no drowning damage.",
+                      "link_recipe":  true
+                  }
+              ],
+    "flag":  "mod:jerotesvillage"
+}

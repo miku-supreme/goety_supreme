@@ -1,0 +1,30 @@
+{
+    "name":  "Coffin of the Ornate Sediment Lord",
+    "icon":  "goety_supreme:ornate_sediment_lord_coffin",
+    "category":  "goety:supreme/items",
+    "sortnum":  5,
+    "pages":  [
+                  {
+                      "type":  "patchouli:spotlight",
+                      "item":  "goety_supreme:ornate_sediment_lord_coffin",
+                      "text":  "Coffin of the Ornate Sediment Lord: seals and revives a Sediment Lord of your own.",
+                      "link_recipe":  true
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "The way the Sediment Lord appears cannot help but remind you of another \"lord\" in the Overworld, and you cannot help wondering whether a similar method could summon the Sediment Lord to serve you. After a little thought you designed this ornate coffin: a single Totem of Undying is all it takes to summon your Sediment Lord."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_craft_ornate_sediment_lord_coffin"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "It can revive even after death! Now that is a true lord!"
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:ornate_sediment_lord_coffin":  1
+                              },
+    "flag":  "mod:jerotesvillage"
+}

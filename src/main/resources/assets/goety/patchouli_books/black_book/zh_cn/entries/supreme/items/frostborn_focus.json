@@ -1,0 +1,23 @@
+{
+  "name": "寒裔聚晶",
+  "icon": "goety_supreme:frostborn_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 15,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "这枚聚晶让你召出一只冰傀儡仆从：此冰傀儡非彼冰傀儡，它不止能挥动沉重的双拳，还能丢出包着冰坨的雪球，对敌人造成喜感却疼痛的打击。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_frostborn_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "潜行施法把己方的冰傀儡召集到身边，周身至多两只。用霜冻魔杖施法时，有机会额外多召一只。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:frostborn_focus": 1
+  }
+}

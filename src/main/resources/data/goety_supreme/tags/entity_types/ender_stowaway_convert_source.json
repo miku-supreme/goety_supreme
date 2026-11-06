@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "jerotesvillage:ender_stowaway",
+      "required": false
+    }
+  ]
+}

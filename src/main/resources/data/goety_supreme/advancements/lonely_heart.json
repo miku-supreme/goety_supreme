@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "defeat_ifrit": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.goety_supreme.lonely_heart.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:blaze_rod"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.goety_supreme.lonely_heart.title"
+    }
+  },
+  "parent": "goety_supreme:root",
+  "requirements": [
+    [
+      "defeat_ifrit"
+    ]
+  ]
+}

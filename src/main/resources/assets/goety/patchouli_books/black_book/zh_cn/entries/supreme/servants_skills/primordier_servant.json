@@ -1,0 +1,25 @@
+{
+  "name": "元凶雪人",
+  "icon": "goety_supreme:primordier_servant_spawn_egg",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量320 点，8 点护甲，25 点攻击力，1.0 击退抗性，0.35 移速。$(br)$(l)近战攻击$()：$(br)元凶雪人的近战攻击包括横扫拳击、双手砸地、单足跺脚三种变体，三种变体会分别造成攻击力1倍、1.75倍、1.5倍的伤害，且后两种变体造成范围伤害，攻击会造成14秒的冻伤。并造成（6秒 3级）虚弱与（6秒 2级）缓慢。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "威吓跃击$(br)元凶雪人发现目标后，元凶雪人会对目标进行一次咆哮，咆哮期间在元凶雪人附近的目标会被冻伤，之后向元凶雪人目标跳跃震地一次，造成相当于攻击力1.5倍的范围伤害。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "冰霜吸收$(br)元凶雪人完全免疫冰冻类伤害，并且会将冰冻类伤害吸收，恢复为80%%的生命值。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:primordier_servant"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 156
+}

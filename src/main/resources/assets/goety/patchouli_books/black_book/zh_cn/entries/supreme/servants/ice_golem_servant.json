@@ -1,0 +1,50 @@
+{
+  "name": "冰傀儡",
+  "icon": "minecraft:blue_ice",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 60，护甲 3，击退抗性 1.0，攻击 10，移速 0.25。$(br)来自平行世界的冰傀儡，似乎与你所创造出的冰傀儡并不一样……经过一番研究，你发现这些冰傀儡其实物美价廉，并且也能像铁傀儡那样把敌人击飞出去。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:ice_golem_servant"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "_",
+            "^",
+            "_"
+          ],
+          [
+            "P",
+            "B",
+            "P"
+          ],
+          [
+            "_",
+            "0",
+            "_"
+          ]
+        ],
+        "mapping": {
+          "^": "goety_supreme:vitality_carved_pumpkin",
+          "P": "minecraft:packed_ice",
+          "B": "minecraft:blue_ice",
+          "0": "minecraft:blue_ice"
+        }
+      },
+      "enable_visualize": true,
+      "text": "把$(l)活力南瓜$()放在最中间那块$(l)蓝冰$()上。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br)你可以通过搭建获取，也可以通过$(l:supreme/items/frostborn_focus)寒裔聚晶$()快速召唤，手持$(l)雪块$()或者$(l)冰块$()可以为它回血。"
+    }
+  ],
+  "sortnum": 121
+}

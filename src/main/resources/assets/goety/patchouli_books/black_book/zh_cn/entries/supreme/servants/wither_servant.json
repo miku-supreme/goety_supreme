@@ -1,0 +1,67 @@
+{
+  "name": "凋灵",
+  "icon": "minecraft:nether_star",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 300，攻击力 12，击退抗性 0（凋灵护甲 0.6），移动速度 0.6。$(br)凋灵那狂野的亡灵力量令你着迷，你通过将下界之星的力量在亡灵火炉与其他物质结合，再搭配充满灵魂的灵魂沙，你成功创造出了属于你的凋灵仆从，只不过它似乎与别的凋灵不一致。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:wither_servant"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "K",
+            "K",
+            "K"
+          ],
+          [
+            "S",
+            "S",
+            "S"
+          ],
+          [
+            "_",
+            "0",
+            "_"
+          ]
+        ],
+        "mapping": {
+          "K": "goety_supreme:astral_wither_skull",
+          "S": "goety_supreme:grave_soul_sand",
+          "0": "goety_supreme:grave_soul_sand"
+        }
+      },
+      "enable_visualize": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "6），移动速度 0.6。$(br)若给予你的凋灵仆从$(l:supreme/items/raging_star)狂暴之星$()，可使他获得其他次元的凋灵力量并大幅度强化自身。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:evil_star",
+      "title": "邪恶之星",
+      "text": "普通凋灵死后有极低的概率掉落一个邪恶之星，或许你能用来制作凋灵仆从的强化道具……。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_supreme:raging_star"
+    },
+    {
+      "type": "patchouli:entity",
+      "name": "湮灭凋灵",
+      "entity": "goety_supreme:wither_servant{StarEmbedded:1b}"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:evil_star": 4,
+    "goety_supreme:raging_star": 5
+  },
+  "sortnum": 174
+}

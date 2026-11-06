@@ -1,0 +1,25 @@
+{
+  "name": "Mutant Snow Golem Servant",
+  "flag": "mod:mutantmonsters",
+  "icon": "goety_supreme:frost_snow_focus",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 80, knockback resistance 0.6, movement speed 0.26. Basic attack: throws ice blocks for 4-6 direct damage and 4-6 splash damage.$(br)Upgrades$(br)$(l)Chilling Focus$(): permanent Chill Hide III; gives frost-type servants within 10 blocks Chill Hide I."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Frost Nova Focus$(): ice blocks have a 75%% chance to add a Frost Nova that ignores invulnerability frames; attack speed increases.$(br)$(l)Cairn Necromancer Soul Jar$(): +40 health, permanent Bitter Cold aura, and attacks have a 10%% chance to summon 3-5 Snow Golem servants to help (cap 6, 8-second cooldown)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Maxed$(): +2 ice damage, +5 armor, a new look, and +0.5 knockback resistance."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:mutant_snow_golem_servant"
+    }
+  ],
+  "sortnum": 131
+}

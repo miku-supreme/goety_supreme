@@ -1,0 +1,24 @@
+{
+    "name":  "Sediment Guard Focus",
+    "icon":  "goety_supreme:sediment_guard_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  30,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "The highly intelligent zombies that guard the tombs are now yours to command. Cast to summon one Sediment Guard that answers to you; cast while sneaking to gather your own guards."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_sediment_guard_focus"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "They open doors on their own, and they can use weapons and shields by themselves."
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:sediment_guard_focus":  1
+                              },
+    "flag":  "mod:jerotesvillage"
+}

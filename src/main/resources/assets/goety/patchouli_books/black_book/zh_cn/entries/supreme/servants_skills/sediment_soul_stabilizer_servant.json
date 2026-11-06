@@ -1,0 +1,16 @@
+{
+  "name": "沉降定灵人",
+  "flag": "mod:jerotesvillage",
+  "icon": "goety_supreme:sediment_soul_stabilizer_focus",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 35，攻击 5，移速 0.27。$(br)生成时必定手持古二轮匕首；手持匕首时会潜行靠近敌人。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:sediment_soul_stabilizer_servant"
+    }
+  ]
+}

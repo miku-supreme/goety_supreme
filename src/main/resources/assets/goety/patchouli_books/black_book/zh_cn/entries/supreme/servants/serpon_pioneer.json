@@ -1,0 +1,25 @@
+{
+  "name": "蛇龙先锋",
+  "icon": "minecraft:white_banner{BlockEntityTag:{Patterns:[{Pattern:'curly_border',Color:14},{Pattern:'small_stripes',Color:1},{Pattern:'triangles_bottom',Color:0},{Pattern:'triangles_top',Color:0},{Pattern:'stripe_center',Color:4},{Pattern:'flower',Color:14},{Pattern:'straight_cross',Color:4}]}}",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "蛇龙战斗组的先遣部队，预示着战斗组的到来——替你顶线、替你开道，打完这一仗自会归队。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_pioneer{ArmorItems:[{},{},{Count:1b,id:\"jerotesvillage:serpon_chestplate\"},{}]}"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_serpon_pioneer"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你可以通过仪式召唤这位先锋，也可能通过$(l:supreme/items/serpon_head_focus)蛇首聚晶$()呼叫更多的先锋进入战场。$(br)你可以右键给予蛇龙先锋$(item)烈焰粉$()或$(item)烈焰棒$()来为它回血。"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 106
+}

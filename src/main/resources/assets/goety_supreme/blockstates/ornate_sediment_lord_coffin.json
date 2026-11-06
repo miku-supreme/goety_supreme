@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "empty=false": {
+      "model": "goety_supreme:block/ornate_sediment_lord_coffin"
+    },
+    "empty=true": {
+      "model": "goety_supreme:block/ornate_sediment_lord_coffin_empty"
+    }
+  }
+}

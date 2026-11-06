@@ -1,0 +1,28 @@
+{
+  "name": "无名凋灵",
+  "icon": "goety:nameless_crown",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "在你超脱成为亡灵，并且获得了绿豆的青苹果之后，你开始思考如何制作一只拥有强悍死灵力量的凋灵。$(br)幸运的是，在禁书卷轴的知识支撑下，你成功找到了获取这一强大凋灵变种的方法。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:nameless_wither"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:summon_nameless_wither"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "无名凋灵可发射无名束，也可以召唤分身与使用腐化聚晶，还可以通过击杀敌人来进行有限的成长。$(br)除此之外，你也可以给予无名凋灵不洁之血、残破的收割镰刀、棺材碎片、青苹果、下界之星来为其进行强化（详见技能图鉴·无名凋灵）。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你也可以给予你的无名凋灵任意灵魂罐来为其回复100血量，或者给予骨头来回复少量血量。"
+    }
+  ],
+  "sortnum": 60
+}

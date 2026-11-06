@@ -1,0 +1,24 @@
+{
+  "name": "Serpon Flame Focus",
+  "icon": "goety_supreme:serpon_flame_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 23,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "With the experience of calling plain serpon behind you, it did not take long to find the way to call up these flame-wielding serpon mages."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_serpon_flame_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Casting with a $(l:crafts/staff/nether_staff)Nether Staff$() brings the help of several mages at once: one from a plain staff, two from a Nether Staff. Four at most per owner."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:serpon_flame_focus": 1
+  },
+  "flag": "mod:jerotesvillage"
+}

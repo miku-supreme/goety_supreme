@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "meet_soul_reaper": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.goety_supreme.tastier_prey.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "goety:death_scythe"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.goety_supreme.tastier_prey.title"
+    }
+  },
+  "parent": "goety_supreme:root",
+  "requirements": [
+    [
+      "meet_soul_reaper"
+    ]
+  ]
+}

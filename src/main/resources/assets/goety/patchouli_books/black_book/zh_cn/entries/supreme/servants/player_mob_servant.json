@@ -1,0 +1,29 @@
+{
+  "name": "玩家生物仆从",
+  "icon": "goety_supreme:player_mob_focus",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 20，攻击 3，移速 0.25。$(br)黑魔法师是强大的，也是孤独的。你总是在怀念还是“玩家”的时候和朋友们的美好时光，不过在强大的黑魔法的驱使下，你成功复刻出了这些与“玩家”看起来别无二致的生物。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:player_mob_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_player_mob_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "25。$(br)作为幻影，他们不似正常的玩家那般聪慧，但是同样的，作为幻影，他们比一般的生物更加聪明，会使用几乎所有武器的同时也会疾跑举盾横扫跳劈以及像玩家那样吃东西，作为仆从而言是你的不二之选。$(br)若给予这些幻影$(item)奥术卷轴$()，则可为他们启发奥数智慧，灵活运用黑魔法。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:arcane_scroll",
+      "text": "被给予卷轴的幻影们死后会返还储存了他们数据的卷轴，再次给予任一未启发智慧的玩家生物们即可复活这位奥术大师。"
+    }
+  ],
+  "sortnum": 170
+}

@@ -1,0 +1,26 @@
+{
+  "name": "收割者死灵法师（敌对）",
+  "icon": "goety_supreme:broken_reaper_scythe",
+  "category": "goety:supreme/hostiles",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "一位精通了死灵魔法的收割者，伴随着月色行动，不轻易现世，悄然收割着灵魂。唯有月圆之夜，在你吹响号角的那一刻它才会现身。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:reaper_necromancer",
+      "scale": 0.95
+    },
+    {
+      "type": "patchouli:text",
+      "text": "这位神秘的死灵法师相较于其他死灵法师而言有着天然的飞行优势，它的魔法不局限于召唤，还将魔法融入进了自己的镰刀内，使其能扔出剑气的同时还能扔出镰刀的幻影造成不小的威胁。$(br)掌握着赏与罚的它还能惩罚敌人并治疗友军，收割着敌人的一切。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:broken_reaper_scythe",
+      "title": "残破收割镰刀",
+      "text": "在击败收割者死灵法师之后你获得了它的残缺的镰刀，凭借这把充满魔力的镰刀，你既可以创造出属于自己的收割者死灵法师，也可以在此基础上快速升格为黑暗镰刀。"
+    }
+  ]
+}

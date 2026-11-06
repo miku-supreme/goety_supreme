@@ -1,0 +1,16 @@
+{
+  "name": "Second-Rounder Skeleton",
+  "flag": "mod:jerotesvillage",
+  "icon": "jerotesvillage:second_rounder_skeleton_skull",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 30, Attack 4, Speed 0.3.$(br)3; arrow 2, melee 4; no different from a normal skeleton, just with higher stats and a greater chance to carry a melee weapon."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:second_rounder_skeleton_servant"
+    }
+  ]
+}

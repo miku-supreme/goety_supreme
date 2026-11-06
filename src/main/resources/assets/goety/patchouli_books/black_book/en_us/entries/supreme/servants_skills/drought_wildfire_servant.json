@@ -1,0 +1,21 @@
+{
+  "name": "Drought Wildfire",
+  "flag": "mod:jerotesvillage",
+  "icon": "goety_supreme:drought_wildfire_servant_spawn_egg",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 120, attack 7, knockback resistance 0.6, armor 8, movement speed 0.3.$(br)$(l)Shields$(): four of them, 10 health each; one regenerates every 6 seconds.$(br)$(l)Fireballs$(): fires nine in a row, 2-9 damage each.$(br)$(l)Quake$(): 7 damage within a 12-block radius.$(br)$(l)Summon$(): three Drought Blazes, 30-second cooldown."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Immune to fire, fall and lava damage; absorbs 80%% of fire damage."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:drought_wildfire_servant"
+    }
+  ],
+  "sortnum": 152
+}

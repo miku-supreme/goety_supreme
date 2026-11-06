@@ -1,0 +1,17 @@
+{
+  "name": "Serpon Rioter",
+  "icon": "jerotesvillage:serpon_axe",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "55 health, 15 armor, 8 attack, 0.35 movement speed.$(br)Fire immune, refuses to wear armor, and always carries a Serpon Axe in its main hand.$(br)$(l)Melee attack$(): on a melee hit it deals a half-damage sweep to the other enemies within a small area."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_rioter"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 104
+}

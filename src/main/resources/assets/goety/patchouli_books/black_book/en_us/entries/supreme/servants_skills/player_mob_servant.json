@@ -1,0 +1,23 @@
+{
+  "name": "Player Mob Servant",
+  "icon": "goety_supreme:player_mob_focus",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 20, Attack 3, Speed 0.25.$(br)It can use bows, crossbows, swords, axes, shields and tridents normally, and eats food to heal.$(br)$(br)With a trident in its main hand it keeps throwing at targets beyond 6 blocks, and closes to melee inside 6 blocks.$(br)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Shield$(): at 6-10 blocks it keeps its guard up without sneaking closer; within 6 blocks it raises the shield while sneaking, where the guard is almost never knocked back. Both modes share one continuous block counter -- 5 blocks normally, 8 while sneaking; reaching the cap always breaks the guard.$(br)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Using an Arcane Scroll on it awakens its magical wits, after which it casts with a wand; on death it returns the scroll with its nbt, which can be used on another player mob servant to revive it."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:player_mob_servant"
+    }
+  ]
+}

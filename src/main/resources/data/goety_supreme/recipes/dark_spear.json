@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  d",
+    " s ",
+    "s  "
+  ],
+  "key": {
+    "d": {
+      "item": "goety:dark_ingot"
+    },
+    "s": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "goety_supreme:dark_spear"
+  },
+  "show_notification": true
+}

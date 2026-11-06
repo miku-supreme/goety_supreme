@@ -1,0 +1,17 @@
+{
+  "name": "Serpon Legion",
+  "icon": "jerotesvillage:textures/gui/sprites/faction/serpon_combat_team.png",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "After crossing blades with this mighty wandering people you fell in love with their strength, and they, on the strength of the serpon writ,.$(br)entered an equal partnership with you. You may call on their aid: they will fight for you and cut down your enemies. Only remember that this is a partnership - treat these friendly allies well."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The legion is made up of Colonial Soldiers, Pioneers, Intruders, Rioters, Flame Wizards, Fire Apostles, the Combat Executer and the War Python, each with its own entry in this chapter. Whether they arrive, are called away or fade as their time runs out, they leave a serpon portal behind."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 100
+}

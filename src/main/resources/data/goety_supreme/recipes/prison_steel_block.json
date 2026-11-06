@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CIC",
+    "IRI",
+    "CIC"
+  ],
+  "key": {
+    "C": {
+      "item": "goety:cursed_bars"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "goety_supreme:prison_steel_block"
+  }
+}

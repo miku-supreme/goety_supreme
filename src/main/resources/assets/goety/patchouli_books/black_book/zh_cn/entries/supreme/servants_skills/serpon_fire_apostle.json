@@ -1,0 +1,22 @@
+{
+  "name": "蛇龙火焰使徒",
+  "icon": "jerotesvillage:fire_apostle_sword",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 70，护甲 5，击退抗性 1.0，攻击 8点，移速 0.35。$(br)火焰免疫。生成时必定穿齐火焰使徒套装并手持火焰使徒剑。$(br)$(l)近战攻击$()：每次近战随机抽取一套战技使用，有不同的倍率。命中后目标被点燃 16 秒。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:blazing_ember",
+      "text": "图鉴物品：烈燃之烬$(br)这位强大的火焰使徒只能通过仪式召唤，不过不用担心，即使这位火焰使徒暂时撤退，它也留下了一个信物等待你再次召唤他，只需往火中扔出这枚信物即可。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_fire_apostle"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 102
+}

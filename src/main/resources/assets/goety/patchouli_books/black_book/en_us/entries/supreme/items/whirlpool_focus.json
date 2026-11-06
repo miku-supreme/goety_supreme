@@ -1,0 +1,20 @@
+{
+    "name":  "Whirlpool Focus",
+    "icon":  "goety_supreme:whirlpool_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  94,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "In the years when the Gemstone Malignasaur ravaged the seas, this terrifying whirlpool and its raging water bolts tore countless merchant ships apart; today that dreadful whirlpool is so weak that even you can master it with ease - no offence meant."
+                  },
+                  {
+                      "type":  "patchouli:spotlight",
+                      "item":  "goety_supreme:whirlpool_focus",
+                      "title":  "Whirlpool Focus",
+                      "text":  "20 souls, 1 second of wind-up, 4 second cooldown. One whirlpool per spell level, 10 degrees apart; a Abyss Staff adds one level. Anything holding Water Breathing or Conduit Power takes only a third of the damage.",
+                      "link_recipe":  true
+                  }
+              ],
+    "flag":  "mod:jerotesvillage"
+}

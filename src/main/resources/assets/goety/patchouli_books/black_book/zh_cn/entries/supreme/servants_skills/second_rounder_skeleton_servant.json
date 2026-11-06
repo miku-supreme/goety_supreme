@@ -1,0 +1,16 @@
+{
+  "name": "二轮骷髅",
+  "flag": "mod:jerotesvillage",
+  "icon": "jerotesvillage:second_rounder_skeleton_skull",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 30，攻击 4，移速 0.3。$(br)3；箭矢 2、近战 4；与普通骷髅别无二致，属性更高，更可能手持近战武器。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:second_rounder_skeleton_servant"
+    }
+  ]
+}

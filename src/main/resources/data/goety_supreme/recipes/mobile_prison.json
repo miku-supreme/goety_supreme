@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "IEI",
+    "PPP"
+  ],
+  "key": {
+    "I": {
+      "item": "goety:cursed_bars"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "P": {
+      "item": "goety_supreme:prison_steel_block"
+    }
+  },
+  "result": {
+    "item": "goety_supreme:mobile_prison"
+  }
+}

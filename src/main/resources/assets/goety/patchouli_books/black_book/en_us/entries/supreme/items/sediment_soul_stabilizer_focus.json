@@ -1,0 +1,24 @@
+{
+    "name":  "Sediment Soul Stabilizer Focus",
+    "icon":  "goety_supreme:sediment_soul_stabilizer_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  31,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Yes - zombies can attack at range too. Cast to summon one Sediment Soul Stabilizer; cast while sneaking to gather the Sediment Soul Stabilizers."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_sediment_soul_stabilizer_focus"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "It only switches to its dagger in self-defence once something is within four blocks; the rest of the time it stands back and lobs bolts."
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:sediment_soul_stabilizer_focus":  1
+                              },
+    "flag":  "mod:jerotesvillage"
+}

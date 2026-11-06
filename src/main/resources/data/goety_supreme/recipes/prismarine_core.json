@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SPS",
+    "PHP",
+    "SPS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sea_lantern"
+    },
+    "P": {
+      "item": "minecraft:prismarine_bricks"
+    },
+    "H": {
+      "item": "minecraft:heart_of_the_sea"
+    }
+  },
+  "result": {
+    "item": "goety_supreme:prismarine_core"
+  }
+}

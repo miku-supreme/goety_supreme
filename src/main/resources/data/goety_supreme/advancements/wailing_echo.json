@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "kill_reaper": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.goety_supreme.wailing_echo.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "goety_supreme:broken_reaper_scythe"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.goety_supreme.wailing_echo.title"
+    }
+  },
+  "parent": "goety_supreme:root",
+  "requirements": [
+    [
+      "kill_reaper"
+    ]
+  ]
+}

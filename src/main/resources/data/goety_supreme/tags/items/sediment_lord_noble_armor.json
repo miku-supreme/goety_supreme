@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "jerotesvillage:ancient_second_rounder_noble_helmet",
+      "required": false
+    },
+    {
+      "id": "jerotesvillage:ancient_second_rounder_noble_chestplate",
+      "required": false
+    },
+    {
+      "id": "jerotesvillage:ancient_second_rounder_noble_leggings",
+      "required": false
+    },
+    {
+      "id": "jerotesvillage:ancient_second_rounder_noble_boots",
+      "required": false
+    }
+  ]
+}

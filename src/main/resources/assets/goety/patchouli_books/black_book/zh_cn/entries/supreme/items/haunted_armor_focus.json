@@ -1,0 +1,19 @@
+{
+  "name": "胄行聚晶",
+  "icon": "goety_supreme:haunted_armor_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 35,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "缠魂甲胄本是被死灵法术驱使的破铜烂铁，如此破铜烂铁还要大费周章，令你十分不悦。于是你灵光一现，制作出了这枚聚晶。施法召出属于你的缠魂仆胄，潜行施法把它们召集到身边。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_haunted_armor_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:haunted_armor_focus": 1
+  }
+}

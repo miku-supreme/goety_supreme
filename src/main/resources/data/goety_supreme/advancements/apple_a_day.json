@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "kill_smith_necromancer": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.goety_supreme.apple_a_day.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "goety:heart_of_the_night"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.goety_supreme.apple_a_day.title"
+    }
+  },
+  "parent": "goety_supreme:root",
+  "requirements": [
+    [
+      "kill_smith_necromancer"
+    ]
+  ]
+}

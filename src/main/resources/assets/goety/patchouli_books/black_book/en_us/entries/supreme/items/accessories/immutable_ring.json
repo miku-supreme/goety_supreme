@@ -1,0 +1,20 @@
+{
+    "name":  "Immutable Ring",
+    "icon":  "goety_supreme:immutable_ring",
+    "category":  "goety:supreme/items/accessories",
+    "sortnum":  2,
+    "read_by_default":  true,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "On top of the Tempered Ring, it works down the servant\u0027s owner chain - affecting servants of servants in turn, strengthening summoned servants in battle."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_immutable_ring"
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:immutable_ring":  1
+                              }
+}

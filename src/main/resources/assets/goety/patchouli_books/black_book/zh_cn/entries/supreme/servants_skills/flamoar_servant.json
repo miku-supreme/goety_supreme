@@ -1,0 +1,17 @@
+{
+  "name": "火灵",
+  "flag": "mod:jerotesvillage",
+  "icon": "jerotesvillage:flamoar_scimitar",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量80，攻击力5，击退抗性1.0，护甲值18，韧性4，移动速度0.33。$(br)朴实无华的双刀近战单位。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:flamoar_servant"
+    }
+  ],
+  "sortnum": 153
+}

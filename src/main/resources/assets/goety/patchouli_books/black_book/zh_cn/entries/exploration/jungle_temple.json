@@ -1,0 +1,18 @@
+{
+  "name": "丛林神庙",
+  "icon": "minecraft:mossy_cobblestone",
+  "category": "goety:exploration",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "相传有一位大祭司在丛林神庙附近苦心钻研荒野法术，或许你可以在附近遇见他？。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "goety_supreme:textures/gui/book/jungle_temple.png"
+      ],
+      "border": true
+    }
+  ]
+}

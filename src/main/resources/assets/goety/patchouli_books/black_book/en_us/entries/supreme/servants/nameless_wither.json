@@ -1,0 +1,28 @@
+{
+  "name": "Nameless Wither",
+  "icon": "goety:nameless_crown",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "After you transcended into undeath and obtained the Green Smith's green apple, you began to wonder how to craft a wither with formidable necromantic power.$(br)Fortunately, with the knowledge of the Forbidden Scroll, you found a way to obtain this powerful wither variant."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:nameless_wither"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:summon_nameless_wither"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Nameless Wither can fire Nameless Bolts, summon clones and use corruption focuses, and can grow in power by slaying enemies.$(br)You may also give it Unholy Blood, a Broken Reaper Scythe, Coffin Fragments, a Green Apple or a Nether Star to empower it (see the Nameless Wither skill entry)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can also feed it any Soul Jar to restore 100 health, or feed it bones to restore a small amount of health."
+    }
+  ],
+  "sortnum": 60
+}

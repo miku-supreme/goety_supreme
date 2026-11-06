@@ -1,0 +1,37 @@
+{
+  "parent": "goety_supreme:apple_a_day",
+  "criteria": {
+    "green_apple": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goety_supreme:green_apple"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "goety_supreme:green_apple"
+    },
+    "title": {
+      "translate": "advancements.goety_supreme.green_apple_paradise.title"
+    },
+    "description": {
+      "translate": "advancements.goety_supreme.green_apple_paradise.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "green_apple"
+    ]
+  ]
+}

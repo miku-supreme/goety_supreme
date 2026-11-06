@@ -1,0 +1,51 @@
+{
+  "name": "熔岩傀儡",
+  "icon": "minecraft:magma_block",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 140，护甲 6，韧性 1，击退抗性 1.0，攻击 17，移速 0.24。$(br)参透了下界卷轴的奥秘之后，你开始研究如何将这些没有生机的岩浆块也转变为属于你的魔像。经过一番尝试，你创造出了属于你的熔岩傀儡。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:magma_golem"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "LBBBL",
+            "BRIRB",
+            "BIRIB",
+            "BRIRB",
+            "LBBBL"
+          ],
+          [
+            "_____",
+            "_MMM_",
+            "_M0M_",
+            "_MMM_",
+            "_____"
+          ]
+        ],
+        "mapping": {
+          "L": "minecraft:lava",
+          "B": "minecraft:nether_bricks",
+          "R": "minecraft:redstone_block",
+          "I": "minecraft:iron_block",
+          "M": "minecraft:magma_block",
+          "0": "minecraft:magma_block"
+        }
+      },
+      "enable_visualize": true,
+      "text": "手持$(l)活力核心$()右击中央的$(l)红石块$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br)岩浆浇筑而成的魔像，学会了扔出力大势沉的火球，必要时它也可以挥臂进行近战攻击。$(br)你可以为其使用$(item)岩浆块$()来为其回血。"
+    }
+  ],
+  "sortnum": 177
+}

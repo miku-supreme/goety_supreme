@@ -1,0 +1,34 @@
+{
+  "name": "沉降领主",
+  "icon": "goety_supreme:ornate_sediment_lord_coffin",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 170，护甲 3，击退抗性 0.5，攻击 6，移速 0.2。$(br)墓穴的主人，也是古二轮文明的强大领导者，拥有威怖的武力。而作为生前割据一方的旧族贵胄，死后他的身侧同样簇拥着侍卫……身为亡灵的它已没有太多的灵智可言，你经过一些手段便让这位亡灵霸主意识到追随你的好处，为你而战。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:sediment_lord_servant{ArmorItems:[{Count:1b,id:\"jerotesvillage:ancient_second_rounder_noble_boots\"},{Count:1b,id:\"jerotesvillage:ancient_second_rounder_noble_leggings\"},{Count:1b,id:\"jerotesvillage:ancient_second_rounder_noble_chestplate\"},{Count:1b,id:\"jerotesvillage:ancient_second_rounder_noble_helmet\"}]}"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "5，攻击 6，移速 0.2。$(br)你可以通过$(l:supreme/items/ornate_sediment_lord_coffin)华丽沉降领主之棺$()来寻求这位领主的帮助，即使不幸战败也可通过图腾快速复活这位霸主。你也可以给予他$(item)下界之星$()、$(item)溺尸死法灵魂罐$()、$(item)沉降重卫聚晶$()、$(item)沉降魂守"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "聚晶$()与$(item)狂暴精粹$()来$(l:supreme/servants_skills/sediment_lord_servant)强化$()他。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:sediment_lord_totem",
+      "text": "沉降领主战败时飞回主人手里的信物，里面封着这位霸主。拿它对$(l:supreme/items/ornate_sediment_lord_coffin)华丽沉降领主之棺$()右击，就能把封在里面的领主就地复活。$(br)图腾里什么都没封着的时候，右击棺材只会得到一句「这只图腾里没有封存领主」。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "5，攻击 6，移速 0.2。$(br)你可以右键给予沉降领主$(item)腐肉$()来为它回血。"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 110
+}

@@ -1,0 +1,90 @@
+# 默认配置示例；运行时文件位于 config/goety_supreme/。
+# 修改运行时配置后重启游戏。强化开关仅控制是否接受新强化，不删除已获得的强化。
+
+[mutant_zombie_servant]
+# 最大生命值。
+max_health = 150.0
+# 基础近战攻击伤害，同时作为投掷招式伤害。
+attack_damage = 12.0
+# 震地首段的最小整数伤害。
+slam_ground_damage_first_min = 9
+# 震地首段的最大整数伤害。
+slam_ground_damage_first_max = 12
+# 后续震地波的最小整数伤害。
+slam_ground_damage_wave_min = 6
+# 后续震地波的最大整数伤害。
+slam_ground_damage_wave_max = 8
+# 移动速度。
+movement_speed = 0.26
+# 击退抗性，范围为 0.0 至 1.0。
+knockback_resistance = 1.0
+# 护甲值。
+armor = 0.0
+# 护甲韧性值。
+armor_toughness = 0.0
+# 索敌距离（格）：锁定目标与保持追击的距离上限。
+follow_range = 35.0
+# 是否启用突变僵尸仆从的“召唤僵尸仆从”技能（沿用原版咆哮破土动作）。
+summon_zombie_servants = true
+# 技能冷却：两次咆哮召唤之间的最短间隔（秒）。
+summon_servant_cooldown_seconds = 20
+# 单次咆哮召唤的僵尸仆从数量（1-6，破土点不足时按实际生成；原版一次咆哮最多预约 6 个破土点）。
+summon_servant_count = 6
+# 同一主人在附近同时存活的僵尸仆从总数上限（咆哮召唤共用）。
+summon_servant_cap = 12
+# 野生突变僵尸的召唤技能是否改用 Goety 原版僵尸仆从（关闭则保留原版普通僵尸）。
+wild_roar_summon_servants = true
+# 是否在锁定敌人后的若干秒内必定使用一次“召唤僵尸”（野生突变僵尸与突变僵尸仆从通用），保底用掉之后回到原本的低概率随机触发。
+first_roar_guarantee = true
+# 保底召唤最早出现的延迟（秒，从锁定敌人时开始计时）。
+first_roar_min_seconds = 5
+# 保底召唤最迟出现的延迟（秒，实际时刻取最小值与最大值之间随机）。
+first_roar_max_seconds = 10
+# 复活技能：倒下后还能重新爬起来的重数，与 Mutant Monsters 原版突变僵尸一致为 3；倒地期间原色趴地 7 秒，爬起来时恢复最大生命的 1/4。设为 0 关闭技能，仆从会像普通生物一样直接死亡。倒地期间被点燃（打火石可补火）则剥夺全部剩余重数，进入 5 秒渐隐的真正死亡。
+resurrection_lives = 3
+# 咆哮之魂强化：成功命中后附加诅咒 I 和末日 I 的时长（秒，默认 15 秒）。
+howling_soul_effect_seconds = 15
+# 普通灵魂罐强化：每次随机咆哮判定的触发百分比。未强化为 2.2，强化默认 8.8；仍受召唤冷却限制。
+soul_jar_roar_chance_percent = 8.8
+
+[mutant_zombie_servant.upgrades]
+# 允许给予咆哮之魂。
+howling_soul_enabled = true
+# 咆哮之魂增加的最大生命值。
+howling_soul_health = 25.0
+# 咆哮之魂额外咆哮伤害。
+howling_soul_roar_damage = 2.0
+# 强化咆哮震撼时长，20 刻为 1 秒1.5 秒 = 30。
+howling_soul_stun_ticks = 30
+# 强化咆哮 Goety 衰弱时长，20 刻为 1 秒5 秒 = 100。
+howling_soul_wane_ticks = 100
+# 允许给予普通灵魂罐。
+soul_jar_enabled = true
+# 灵魂罐增加的最大生命值。
+soul_jar_health = 25.0
+# 灵魂罐咆哮期间受到伤害的倍率。
+soul_jar_damage_multiplier = 0.5
+# 灵魂罐咆哮给予友军的增益时长，秒。
+soul_jar_buff_seconds = 30
+# 允许给予狂暴精粹。
+berserk_enabled = true
+# 狂暴持续时长，秒，重复给予刷新时长。
+berserk_duration_seconds = 120
+# 狂暴临时最大生命加成。
+berserk_health = 100.0
+# 狂暴护甲加成。
+berserk_armor = 12.0
+# 狂暴护甲韧性加成。
+berserk_toughness = 4.0
+# 狂暴攻击加成比例，0.25 表示增加 25%。
+berserk_attack_bonus = 0.25
+# 狂暴受到伤害的倍率。
+berserk_damage_multiplier = 0.9
+# 狂暴震地伤害倍率。
+berserk_slam_multiplier = 1.5
+# 狂暴震地波距离，格。
+berserk_slam_range = 10.0
+# 每次给予狂暴精粹增加的复活机会。
+berserk_extra_lives = 1
+# 给予狂暴精粹后立即咆哮。
+berserk_immediate_roar = true

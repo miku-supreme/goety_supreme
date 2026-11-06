@@ -1,0 +1,23 @@
+{
+  "name": "霜雪聚晶",
+  "icon": "goety_supreme:frost_snow_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 14,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "每个雪傀儡都要耗一颗南瓜，这个价钱终究太贵了；你开始琢磨怎么快速造出这些炮灰——庆幸的是，这并不难。施法召出属于你的雪傀儡仆从，潜行施法把它们召集到身边。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_frost_snow_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "用霜冻魔杖施法时，一次能召出更多。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:frost_snow_focus": 1
+  }
+}

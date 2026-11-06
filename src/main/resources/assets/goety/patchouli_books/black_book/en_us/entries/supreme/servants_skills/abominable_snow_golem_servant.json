@@ -1,0 +1,25 @@
+{
+  "name": "Abominable Snow Golem",
+  "flag": "mod:mutantmonsters",
+  "icon": "goety:freezing_lamp",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 200, attack 20, knockback resistance 1.0, armor 5, movement speed 0.25.$(br)$(l)Slam$(): raises both arms and smashes down, dealing 12-31 damage within a 6-block radius.$(br)$(l)Snow Block Throw$(): its normal ranged attack; the block deals 16 direct damage and 8 splash damage, 18-block range."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Snowball Volley$(): used when many enemies are around; it spins and throws snowballs at up to 8 nearby units for 2 damage each. One extra volley can be dedicated to healing Mutant Snow Golems.$(br)Upgrades"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Frost Breath Focus$(): unlocks Frost Breath, dealing 4 damage every 0.5s to units in a frontal cone while spitting 4 invulnerability-frame-ignoring snowballs for 2 damage each; 10-block reach.$(br)$(l)Chilling Focus$(): unlocks Chill Hide, granting itself 17.5s of Chill Hide IV and frost-type allies within 12 blocks Chill Hide I, 25s cooldown."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:abominable_snow_golem_servant"
+    }
+  ],
+  "sortnum": 120
+}

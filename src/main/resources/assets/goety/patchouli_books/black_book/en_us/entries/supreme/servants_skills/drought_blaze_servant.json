@@ -1,0 +1,17 @@
+{
+  "name": "Drought Blaze",
+  "flag": "mod:jerotesvillage",
+  "icon": "goety_supreme:drought_blaze_servant_spawn_egg",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 25, attack 6, movement speed 0.25.$(br)Afraid of water; immune to fire, lava and fall damage; fires three fireballs in a row; absorbs 60%% of fire damage."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:drought_blaze_servant"
+    }
+  ],
+  "sortnum": 151
+}

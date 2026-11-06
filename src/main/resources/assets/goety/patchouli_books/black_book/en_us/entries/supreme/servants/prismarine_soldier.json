@@ -1,0 +1,54 @@
+{
+  "name": "Prismarine Soldier",
+  "icon": "goety_supreme:prismarine_core",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 75, Armor 6, Knockback Resistance 0.6, Attack 7, Speed 0.3.$(br)The guardians of an ancient prismarine temple that does not belong to this age; the craft that made them was lost long ago, yet by wedding it to the mighty magic of a Heart of the Sea you managed to recreate this powerful prismarine warrior."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:prismarine_soldier"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "_",
+            "^",
+            "_"
+          ],
+          [
+            "#",
+            "C",
+            "#"
+          ],
+          [
+            "_",
+            "0",
+            "_"
+          ]
+        ],
+        "mapping": {
+          "^": "goety_supreme:vitality_carved_pumpkin",
+          "C": "goety_supreme:prismarine_core",
+          "#": "minecraft:prismarine_bricks",
+          "0": "minecraft:prismarine_bricks"
+        }
+      },
+      "enable_visualize": true,
+      "text": "Place a $(l)Vitality Pumpkin$() directly above the $(l)Prismarine Core$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "6, Attack 7, Speed 0.3.$(br)As a high-ranking guard it starts out with a full suit of armour and is armed with a bow, a sword or an axe; whichever weapon it carries, it can bring great force to bear and hew a path through the thorns on your road of black magic.$(br)You can right-click your Prismarine Soldier with Prismarine Shards, Prismarine or Prismarine Bricks to heal it."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_supreme:prismarine_core"
+    }
+  ],
+  "sortnum": 164
+}

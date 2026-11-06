@@ -1,0 +1,24 @@
+{
+    "name":  "Corrosiver Breath Focus",
+    "icon":  "goety_supreme:corrosiver_breath_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  25,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "The Corrosiver\u0027s freezing breath has destroyed more of your beloved armour than you can count, and so you decided to let creatures of other worlds feel that bitter onslaught. The Corrosiver Breath Focus works exactly like the Corrosiver\u0027s own breath - you must know it well."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_corrosiver_breath_focus"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Cast from a Frost Staff, it deals more damage."
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:corrosiver_breath_focus":  1
+                              },
+    "flag":  "mod:jerotesvillage"
+}

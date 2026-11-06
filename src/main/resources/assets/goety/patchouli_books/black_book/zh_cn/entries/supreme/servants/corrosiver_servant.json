@@ -1,0 +1,25 @@
+{
+  "name": "蚀龙兽",
+  "icon": "jerotesvillage:corrosiver_claw",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "感谢那些被吐息腐蚀的猎手，投喂性质的挑战已经深刻影响了这头野性未驯的怪兽。只要感受到被苦寒之地的狂风扩散的呼唤，蚀龙兽就会开始自己的狩猎。$(br)于你而言，这又是一位不可多得的强大战力，在保持野性的同时你设法将这位猎手纳入自己的麾下。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:corrosiver_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_corrosiver"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你可以骑乘这位苦寒之地的霸主，其身边的苦寒风不仅不会伤害你还会保你安全。$(br)你可以对自己的蚀龙兽右键喂食任意生肉（标签 meat）来为其回血，根据饱食度回血（一点饱食度一滴血）。"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 150
+}

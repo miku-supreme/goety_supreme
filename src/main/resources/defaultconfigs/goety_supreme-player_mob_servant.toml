@@ -1,0 +1,61 @@
+# Goety Supreme 玩家生物仆从配置。
+# 游戏首次加载后会将本文件复制到 config/goety_supreme-player_mob_servant.toml。
+# 修改 config 文件后重启游戏或服务器使配置生效。
+
+[player_mob_servant]
+	# 最大生命值。
+	max_health = 20.0
+	# 基础近战攻击伤害；主手武器和附魔仍可提供额外加成。
+	melee_damage = 3.0
+	# 弓箭和弩箭的基础箭矢伤害；箭矢速度、暴击和目标防御仍会参与最终结算。
+	bow_damage = 2.0
+	# 基础护甲值。
+	armor = 0.0
+	# 击退抗性，范围为 0.0 至 1.0。
+	knockback_resistance = 0.0
+	# 基础护甲韧性值。
+	armor_toughness = 0.0
+	# 移动速度。
+	movement_speed = 0.25
+
+	# Player Mobs 兼容名称列表；每次生成随机选择一个名称。
+	# 资源包皮肤路径为 assets/player_mobs/skins/<名称>.png（Player Mobs 官方约定）；
+	# 容错：同名贴图放在 assets/player_mobs/textures/skins/ 或 .../textures/entity/skins/，
+	# 以及本模组命名空间 goety_supreme 的对应位置，也能被认到。
+	"Mob Names" = ["mireyni", "mikumiku39super", "rozaliya1", "0_uvu_0", "doilly", "xi_55", "baicha_yoyo", "rotten_oranges", "nekogina", "canchen0", "asdgsdfdgf", "miiik3s", "mwvvw", "kumuras", "miku39super", "simulink_1", "simulink__1", "lyaei", "duaa0", "asilari", "teauuud", "bunnyinfinity", "lunity99", "lopeeed", "cookiewi", "fentjia", "teapoot_", "lcandyl", "mxntsunndae", "ynsc", "pdppd91", "bakadz", "mikanunu", "miel_bun", "qoocies", "cookitos", "xin_tiris"]
+
+	# 默认皮肤资源位置；资源包可覆盖对应的 assets/<命名空间>/textures/... PNG。
+	# 实体拥有上方列表中的皮肤名且对应 PNG 存在时，优先使用皮肤名对应的贴图。
+	skin = "goety_supreme:textures/entity/player_mob_servant.png"
+	# 玩家模型：DEFAULT 使用 Steve 手臂，SLIM 使用 Alex 手臂。
+	model = "DEFAULT"
+	# 兼容开关：开启后使用 Alex 风格的纤细胳膊；model = "SLIM" 时优先。
+	slim_arms = false
+	# 开启后，主人在线且皮肤已加载时优先显示主人的皮肤；否则使用上面的 skin。
+	copy_owner_skin = false
+
+	# 是否强制让玩家生物生成时持有主手物品；关闭时普通难度约 10%，困难难度约 50%。
+	"Force Items Spawn" = false
+	# 主手候选物品列表；格式为 "namespace:id-weight"，权重越大越容易被选中。
+	# 默认大致为弓 40%、弩 10%、剑 50%，各类剑再按自身权重分配。
+	"Spawn Items" = ["minecraft:bow-90", "minecraft:crossbow-10", "minecraft:stone_sword-64", "minecraft:iron_sword-20", "minecraft:golden_sword-10", "minecraft:diamond_sword-5", "minecraft:netherite_sword-1"]
+	# 副手候选物品列表；minecraft:air 表示空副手，也可以配置其他物品。
+	# 副手只在最低难度要求以上、且主手不是弓/弩等 ProjectileWeaponItem 时参与随机。
+	"Spawn Items Offhand" = ["minecraft:shield-1", "minecraft:air-4"]
+	# 允许生成副手物品的最低难度。
+	"Offhand Spawn Difficulty" = "HARD"
+	# 副手物品生成概率；设为 -1 可禁用副手物品生成。
+	"Offhand Spawn Chance" = 0.5
+
+	# 是否启用主手近战武器加副手盾牌时的自动举盾行为。
+	shield_enabled = true
+	# 目标进入此距离（格）后，仆从会举盾并潜行接近。
+	shield_approach_range = 8.0
+	# 举盾潜行接近目标时的移动速度倍率。
+	shield_approach_speed = 0.45
+	# 受到可破盾伤害后，盾牌被禁用的时间（tick）。
+	shield_break_disable_ticks = 100
+	# 连续成功格挡多少次伤害后暂时禁用盾牌；默认值 5 表示第六次格挡触发。
+	shield_block_limit = 5
+	# 连续格挡达到上限后，盾牌被禁用的时间（tick）。
+	shield_block_disable_ticks = 40

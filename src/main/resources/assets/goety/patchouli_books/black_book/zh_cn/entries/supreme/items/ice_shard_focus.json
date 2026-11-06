@@ -1,0 +1,20 @@
+{
+  "name": "碎冰聚晶",
+  "flag": "mod:mutantmonsters",
+  "icon": "goety_supreme:ice_shard_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "你很轻易就把突变雪傀儡的力量融进了这枚的聚晶。施法掷出一块与它同款的冰块，在撞击时爆裂出霜冻新星，打击感上乘，至于伤害......你知道的，打击感还挺不错。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_ice_shard_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:ice_shard_focus": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "雪球聚晶",
+  "icon": "goety_supreme:snowball_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 13,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "来打个雪仗吧！按住右键持续施法，就可以不断抛出雪球。下雪时带上这枚聚晶，你绝对是最出色的打雪仗选手。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_snowball_focus",
+      "text": "用霜冻魔杖施法时，雪球更疼、也更快。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:snowball_focus": 1
+  }
+}

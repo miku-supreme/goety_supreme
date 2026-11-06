@@ -1,0 +1,15 @@
+{
+  "name": "Magma Golem",
+  "icon": "minecraft:magma_block",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 140, Armor 6, Toughness 1, Knockback Resistance 1.0, Attack 17, Speed 0.24.$(br)$(l)Melee$(): 10.2-26.2 + 2 fire, ignites for 10 seconds.$(br)$(l)Fireball$(): 15 + explosion (radius 3, 43 at the epicenter)."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:magma_golem"
+    }
+  ]
+}

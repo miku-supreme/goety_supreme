@@ -1,0 +1,24 @@
+{
+  "name": "二轮腐烂聚晶",
+  "icon": "goety_supreme:second_rounder_rotting_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 27,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "二轮僵尸相比于普通的僵尸更加耐打，也更加强大，你设法将这些亡灵生物也送进了聚晶内。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_second_rounder_rotting_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "使用$(l:crafts/staff/necro_staff)死灵魔杖$()可以召唤出更多二轮僵尸，使用$(l:crafts/staff/nameless_staff)无名魔杖$()则一次召唤7只。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:second_rounder_rotting_focus": 1
+  },
+  "flag": "mod:jerotesvillage"
+}

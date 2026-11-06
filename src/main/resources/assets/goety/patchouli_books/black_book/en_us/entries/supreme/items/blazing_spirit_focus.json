@@ -1,0 +1,24 @@
+{
+    "name":  "Blazing Spirit Focus",
+    "icon":  "goety_supreme:blazing_spirit_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  36,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "These sturdy-looking flame warriors are the handsome servants you dreamed of, and turning one into a focus was no trouble at all. Right-click to summon your own blazes; cast while sneaking to call them all back to you, four at most."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_blazing_spirit_focus"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Cast with a Nether Staff and you have a chance to summon two at once."
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:blazing_spirit_focus":  1
+                              },
+    "flag":  "mod:jerotesvillage"
+}

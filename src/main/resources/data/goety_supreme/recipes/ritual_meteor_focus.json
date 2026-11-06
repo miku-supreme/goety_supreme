@@ -1,0 +1,40 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "adept_nether",
+  "activation_item": {
+    "item": "goety_supreme:drought_missile_focus"
+  },
+  "soulCost": 3,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "jerotesvillage:the_grace_of_serpenperth"
+    },
+    {
+      "item": "jerotesvillage:serpon_alloy_ingot"
+    },
+    {
+      "item": "minecraft:magma_block"
+    },
+    {
+      "item": "minecraft:magma_block"
+    },
+    {
+      "item": "minecraft:fire_charge"
+    },
+    {
+      "item": "minecraft:flint"
+    }
+  ],
+  "result": {
+    "item": "goety_supreme:meteor_focus",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jerotesvillage"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:convert_tamed",
+  "activation_item": {
+    "item": "jerotesvillage:flamoar_scimitar"
+  },
+  "craftType": "expert_nether",
+  "entity_to_convert": {
+    "tag": "goety_supreme:flying_fireball_convert_source",
+    "display_name": "entity.goety_supreme.flying_fireball_servant"
+  },
+  "entity_to_convert_into": "goety_supreme:flamoar_servant",
+  "soulCost": 10,
+  "duration": 15,
+  "ingredients": [
+    { "item": "jerotesvillage:flamoar_scimitar" },
+    { "item": "minecraft:blaze_rod" },
+    { "item": "minecraft:blaze_rod" },
+    { "item": "minecraft:blaze_powder" },
+    { "item": "minecraft:blaze_powder" },
+    { "item": "jerotesvillage:serpon_alloy_block" },
+    { "item": "goety:ectoplasm" },
+    { "item": "goety:ectoplasm" }
+  ],
+  "result": { "item": "goety:jei_dummy/none" },
+  "conditions": [
+    { "type": "forge:mod_loaded", "modid": "jerotesvillage" }
+  ]
+}

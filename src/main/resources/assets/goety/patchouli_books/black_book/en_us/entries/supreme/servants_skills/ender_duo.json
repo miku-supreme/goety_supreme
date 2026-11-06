@@ -1,0 +1,12 @@
+{
+  "name": "The Ender Duo",
+  "icon": "minecraft:ender_pearl",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Enderman Servant$(): No different from a vanilla Enderman.$(br)$(l)Ender Stowaway$(): health 45, attack 7, movement speed 0.32. When named Elite it takes half damage and attacks and blinks more often."
+    }
+  ],
+  "sortnum": 182
+}

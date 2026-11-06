@@ -1,0 +1,25 @@
+{
+  "name": "War Python",
+  "icon": "jerotesvillage:serpon_alloy_ingot",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 45, armor 2, knockback resistance 0.3, attack 8, movement speed 0.35.$(br)Fire immune. Multi-part: the body has only one head, dragging 16 segments behind it; damage dealt to a segment is passed to the body at 0.8x.$(br)$(l)Fire absorption$(): fire damage heals it for 20%% of the damage."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:war_python"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Royal War Python$(): an upgraded form of the War Python. Health 65, armor 12, attack 12, knockback resistance 0.75."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:royal_war_python"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 108
+}

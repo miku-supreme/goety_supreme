@@ -1,0 +1,24 @@
+{
+    "name":  "Heavy Armored Sediment Guard Focus",
+    "icon":  "goety_supreme:heavy_armored_sediment_guard_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  32,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "These heavy-armored guards are the elite of the Sediment Guards, yet to you they now come and go at a wave of the hand. Cast to summon one Heavy Armored Sediment Guard; cast while sneaking to gather all of your heavy-armored guards."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_heavy_armored_sediment_guard_focus"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "A stronger heavy-armored soldier!"
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:heavy_armored_sediment_guard_focus":  1
+                              },
+    "flag":  "mod:jerotesvillage"
+}

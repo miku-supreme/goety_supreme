@@ -1,0 +1,7 @@
+{
+  "name": "技能图鉴",
+  "description": "把「仆从」一章里各仆从的技能、招式与数值加成汇总到这里，按仆从逐一查阅。",
+  "icon": "minecraft:spawner",
+  "parent": "goety:supreme",
+  "sortnum": 5
+}

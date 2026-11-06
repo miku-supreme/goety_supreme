@@ -1,0 +1,29 @@
+{
+  "name": "Corrosiver",
+  "icon": "jerotesvillage:corrosiver_claw",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Thanks to those hunters corroded by its breath, the challenge that comes of feeding it has left its mark deep on this still-untamed beast. The moment the bitter wind of the frozen lands spreads and calls to it, the Corrosiver sets out on its hunt."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "To you this is one more rare and mighty fighting force; keeping its wildness intact, you found a way to bring this hunter under your command."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:corrosiver_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_corrosiver"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can ride this overlord of the frozen lands; the bitter wind that swirls around it will not harm you - it keeps you safe instead.$(br)You can right-click your own Corrosiver with any raw meat (the meat tag) to heal it; the healing follows the food's hunger value (one point of hunger restores one point of health)."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 150
+}

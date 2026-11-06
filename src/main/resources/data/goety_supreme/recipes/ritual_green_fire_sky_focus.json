@@ -1,0 +1,41 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "necroturgy",
+  "activation_item": {
+    "item": "goety:lightning_focus"
+  },
+  "soulCost": 5,
+  "duration": 15,
+  "research": "forbidden",
+  "ingredients": [
+    {
+      "item": "goety_supreme:green_apple"
+    },
+    {
+      "item": "goety:heart_of_the_night"
+    },
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "item": "goety:osseous_focus"
+    },
+    {
+      "item": "goety:cursed_ingot"
+    },
+    {
+      "item": "goety:forbidden_piece"
+    },
+    {
+      "item": "goety:forbidden_piece"
+    }
+  ],
+  "result": {
+    "item": "goety_supreme:green_fire_sky_focus",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "沉降飞弹聚晶",
+  "icon": "goety_supreme:sediment_missile_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 33,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "这些酷似手雷的法术弹在有的时候能发挥出意想不到的作用。右键朝视线方向掷出定灵人同款法术弹，命中造成伤害。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_sediment_missile_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "使用无名魔杖可以连续发射4发飞弹，死灵魔杖发射2~3发。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:sediment_missile_focus": 1
+  },
+  "flag": "mod:jerotesvillage"
+}

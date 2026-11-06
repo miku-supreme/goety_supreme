@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "goety_supreme:item/serpon_flame_focus"
+  }
+}

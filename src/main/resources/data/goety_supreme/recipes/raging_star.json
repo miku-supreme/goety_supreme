@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "goety:shadow_essence"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "X": {
+      "item": "goety_supreme:evil_star"
+    }
+  },
+  "pattern": [
+    "NEN",
+    "EXE",
+    "NEN"
+  ],
+  "result": {
+    "item": "goety_supreme:raging_star",
+    "count": 1
+  },
+  "show_notification": true
+}

@@ -1,0 +1,57 @@
+{
+  "name": "强化材料与方块",
+  "icon": "goety_supreme:berserk_essence",
+  "category": "goety:supreme/items",
+  "sortnum": 90,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "强大的物品，给攀登高峰的黑法师。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:berserk_essence",
+      "text": "狂暴精粹：这种燃烧的精华是僵尸的美餐。普通的僵尸对其敬而远之，而强大的僵尸——沉降领主和突变僵尸则对其情有独钟，右键它们即可给予他们强化。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_berserk_essence"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_supreme:concentrated_bone_chunk",
+      "text": "浓缩骨块：拿着它右击骷髅突变体仆从即可强化，最多五次；在强化之后，突变骷髅将化为金甲天神（自称的）为你而战。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:astral_wither_skull",
+      "text": "熠星凋颅：闪烁着星辉的凋灵骷髅头颅，注入黑暗力量的头颅可以控制凋灵的思想。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_supreme:prison_steel_block",
+      "text": "监狱钢块：会发出微光的钢块，监狱傀儡模具的材料；手持它右击监狱傀儡可回复 100 点血量。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_supreme:mobile_prison",
+      "text": "机动监狱：放下后自动展开成 3×3×3 的牢笼（门朝北）。用指路石右键笼子任意一格记录坐标，再右键你的监狱傀儡，就能把这座监狱绑给它——被监狱傀儡击败的敌人会被传送到机动监狱。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_supreme:grave_soul_sand",
+      "text": "缠魂沙：注入冰冷灵质的灵魂沙，可以控制凋灵的力量。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_supreme:vitality_carved_pumpkin",
+      "text": "活力雕刻南瓜：用于召唤铁傀儡仆从的专用南瓜，按照铁傀儡形状搭建即可。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_supreme:vitality_pumpkin_lantern",
+      "text": "活力南瓜灯：同样可以用于召唤铁傀儡仆从，附带 15 级光照。"
+    }
+  ]
+}

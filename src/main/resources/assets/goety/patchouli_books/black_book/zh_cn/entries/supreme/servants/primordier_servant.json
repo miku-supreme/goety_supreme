@@ -1,0 +1,25 @@
+{
+  "name": "元凶雪人",
+  "icon": "jerotesvillage:torch_of_firm_ice",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "这位强大的雪怪同样是一位强大的猎手，但是它的头脑比较简单，在你的武力征服之下便为你而战。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:primordier_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_primordier"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "元凶雪人除了可以吸收冰霜伤害之外，其主要攻击是近战，但是力大势沉，誓将敌人碾碎。你可以给他喂食肉类来为其回血。"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 156
+}

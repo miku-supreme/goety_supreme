@@ -1,0 +1,22 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "necroturgy",
+  "activation_item": {
+    "item": "goety:osseous_focus"
+  },
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goety:spirit_fabric"
+    },
+    {
+      "item": "goety_supreme:broken_reaper_scythe"
+    }
+  ],
+  "result": {
+    "item": "goety:reaping_focus",
+    "count": 1
+  }
+}

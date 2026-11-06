@@ -1,0 +1,33 @@
+{
+  "name": "绿豆死灵法师（敌对）",
+  "icon": "goety_supreme:green_apple",
+  "category": "goety:supreme/hostiles",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "因自己的诡计失败，到处流浪逃亡的法师。这位继承了无名者衣钵的死灵法师与黑大帅充满了过节，但是由于实力悬殊而被迫不停逃亡，他看到了你的召唤，走投无路的他选择殊死一搏。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:green_smith"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_green_smith"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "面对着你这般强大的黑魔法师，作为流浪者的绿豆不得不全力以赴。他会召唤死灵仆从协助自己作战，也会使用高级死灵法师的技能，同样会召唤分身进行协同攻击。如果他受伤多次/受伤过多/处于危险区域，他会尝试瞬移远离。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "当绿豆生命值降至一半时，他会杵杖并召唤出属于自己的亡灵领域，不停召唤出闪电轰击，点燃绿火并召唤骷髅仆从，在血量较低时他的鼓舞技能会达到最高的使用频率，并且他还有个腐化激光的恐怖法术。$(br)幸运的是，绿豆因为追杀而害怕凋零，凋零会使他的伤口无法恢复，魔法增强的自身抗性也会部分失效，并且他的部分技能也可以通过进攻来打断。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:green_apple",
+      "title": "青苹果",
+      "text": "死亡时他会掉落一枚专属青苹果，也会掉落灵质、坟尘、骨头、暗夜之心与禁书片段，另有概率掉落专属唱片。"
+    }
+  ]
+}

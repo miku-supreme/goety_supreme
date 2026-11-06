@@ -1,0 +1,15 @@
+{
+  "type": "goety:brazier",
+  "soulCost": 50,
+  "ingredients": [
+    { "item": "minecraft:iron_chestplate" },
+    { "item": "goety:ectoplasm" },
+    { "item": "jerotesvillage:deep_dust" }
+  ],
+  "result": {
+    "item": "jerotesvillage:animated_iron_chestplate"
+  },
+  "conditions": [
+    { "type": "forge:mod_loaded", "modid": "jerotesvillage" }
+  ]
+}

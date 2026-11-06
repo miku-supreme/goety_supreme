@@ -1,0 +1,25 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:summon_tamed",
+  "activation_item": {
+    "item": "jerotesvillage:serpon_signal_bullet"
+  },
+  "craftType": "expert_nether",
+  "entity_to_summon": "goety_supreme:serpon_flame_wizard",
+  "soulCost": 3,
+  "duration": 10,
+  "ingredients": [
+    { "item": "jerotesvillage:serpon_wizard_helmet" },
+    { "item": "jerotesvillage:serpon_wizard_chestplate" },
+    { "item": "jerotesvillage:serpon_wizard_leggings" },
+    { "item": "jerotesvillage:serpon_wizard_boots" },
+    { "item": "minecraft:lava_bucket" },
+    { "item": "minecraft:fire_charge" },
+    { "item": "minecraft:fire_charge" },
+    { "item": "minecraft:blaze_rod" }
+  ],
+  "result": { "item": "goety:jei_dummy/none" },
+  "conditions": [
+    { "type": "forge:mod_loaded", "modid": "jerotesvillage" }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Serpon Flame Wizard",
+  "icon": "jerotesvillage:serpon_wizard_chestplate",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A serpon wizard steeped in fire magic, the caster of the legion, hovering above the field to fling fireballs and cones of flame."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_flame_wizard{ArmorItems:[{Count:1b,id:\"jerotesvillage:serpon_wizard_boots\"},{Count:1b,id:\"jerotesvillage:serpon_wizard_leggings\"},{Count:1b,id:\"jerotesvillage:serpon_wizard_chestplate\"},{Count:1b,id:\"jerotesvillage:serpon_wizard_helmet\"}]}"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_serpon_flame_wizard"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can summon this flame mage by ritual, or seek his help for a while with a $(l:supreme/items/serpon_flame_focus)Serpon Flame Focus$().$(br)You can right-click your Serpon Flame Wizard with $(item)Blaze Powder$() or a $(item)Blaze Rod$() to heal it."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 103
+}

@@ -1,0 +1,49 @@
+{
+  "name": "铁傀儡",
+  "icon": "minecraft:iron_block",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 100，击退抗性 1.0，攻击 15，移速 0.25。$(br)村民的英雄，村庄的守护者，他那强大的铁臂与较高的性价比让你不得不痴迷于如何制作属于你的铁卫。经过一番努力，你成功创造出了只听命于你的钢铁援军。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:iron_golem_servant"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "_",
+            "^",
+            "_"
+          ],
+          [
+            "#",
+            "#",
+            "#"
+          ],
+          [
+            "_",
+            "0",
+            "_"
+          ]
+        ],
+        "mapping": {
+          "^": "goety_supreme:vitality_carved_pumpkin",
+          "#": "minecraft:iron_block",
+          "0": "minecraft:iron_block"
+        }
+      },
+      "enable_visualize": true,
+      "text": "最后放上$(l)活力雕刻南瓜$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br)你可以搭建召唤这些忠诚的守卫，也可以通过$(l:supreme/items/iron_guard_focus)铁卫聚晶$()快速召唤。$(br)你可以为铁傀儡仆从使用$(item)铁锭$()来为其回血。"
+    }
+  ],
+  "sortnum": 176
+}

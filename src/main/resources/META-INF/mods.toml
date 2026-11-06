@@ -1,0 +1,85 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="AutoMods"
+logoFile="logo.png"
+description='''Goety Supreme：为 Goety 增添新的仪式、聚晶、仆从与强化道具。'''
+[[dependencies.${mod_id}]]
+modId="forge"
+mandatory=true
+versionRange="[${forge_version},)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.${mod_id}]]
+modId="minecraft"
+mandatory=true
+versionRange="[${minecraft_version}]"
+ordering="NONE"
+side="BOTH"
+[[dependencies.${mod_id}]]
+modId="goety"
+mandatory=true
+# 上限由凶兆那边指出的「没有上限」问题而来（用户 2026-11-01）：我们的代码按 2.5.60.0
+# 的 API 写的（ChargeAura 等），2.5.61+ 一改内部结构就会静默失效，所以卡死到 2.5.60.x。
+versionRange="[2.5.56.0,2.5.61)"
+ordering="AFTER"
+side="BOTH"
+# Mutant Monsters（mutantmonsters）：可选软兼容。四个突变生物仆从（僵尸 / 雪傀儡 /
+# 骷髅 / 末影人）、可憎雪傀儡、巨锤 / 碎冰 / 影移三枚聚晶与它们的事件都只在装了它时
+# 注册（闸门见 MutantMonstersCompat / MutantMonstersCompatManager）；没装也能正常启动，
+# 只是这些内容一概不出现。versionRange 仍卡住开发基线 8.0.3，装了旧版本会明确报版本不符。
+[[dependencies.${mod_id}]]
+modId="mutantmonsters"
+mandatory=false
+versionRange="[8.0.3,)"
+ordering="AFTER"
+side="BOTH"
+# PuzzlesLib：本模组代码不直接使用它（只有 Mutant Monsters 的类继承链里带它），
+# 所以跟着 Mutant Monsters 一起降为可选，不再当硬前置。
+[[dependencies.${mod_id}]]
+modId="puzzleslib"
+mandatory=false
+versionRange="[8.0.5,)"
+ordering="AFTER"
+side="BOTH"
+# Jade（玉）：可选软兼容，只用到 IWailaPlugin / registerEntityComponent /
+# IEntityComponentProvider 这几个从 Jade 早期就稳定的入口，11.x（1.20.1）到后续
+# 版本签名都没变，所以不再卡最低小版本，改成全版本通配 [0,)——装了任意版本的
+# Jade（1.20.1 适用版本）都能通过依赖校验，不装也不影响。
+[[dependencies.${mod_id}]]
+modId="jade"
+mandatory=false
+versionRange="[0,)"
+ordering="AFTER"
+side="CLIENT"
+# J 村（jerotesvillage）：可选软兼容。三个沉降仆从（沉降守卫 / 沉降定灵人 / 重装
+# 沉降守卫）、对应聚晶与仪式配方只在装了 J 村时启用，仆从贴图与法术弹外观直接引用
+# J 村的资源；没装也能正常启动，只是创造栏不显示、施法给出提示。
+[[dependencies.${mod_id}]]
+modId="jerotesvillage"
+mandatory=false
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"
+
+# 樱璃（sakura_sword）：可选软兼容。玩家生物仆从用樱璃装备时会反射调用对方为本工程
+# 放开的触发入口（强化攻击 / 剑气 / 弩发射等），因此需要这条依赖在 Forge 模块化类加载器
+# 里建立模块读取边；没装樱璃时所有樱璃判定直接短路，仆从照常用原版武器。
+[[dependencies.${mod_id}]]
+modId="sakura_sword"
+mandatory=false
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"
+
+# Curios：炼狱假面的头部饰品槽。运行期必装，代码 compileOnly。
+[[dependencies.${mod_id}]]
+modId="curios"
+mandatory=false
+versionRange="[5.14.1,)"
+ordering="AFTER"
+side="BOTH"

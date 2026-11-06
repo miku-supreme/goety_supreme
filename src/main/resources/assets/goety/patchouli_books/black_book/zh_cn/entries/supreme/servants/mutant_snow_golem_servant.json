@@ -1,0 +1,54 @@
+{
+  "name": "雪傀儡突变体",
+  "flag": "mod:mutantmonsters",
+  "icon": "goety_supreme:frost_snow_focus",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "在凛冬荒原的记载与凝冻魂核的铸法之中，你思索能否将普通雪傀儡的力量推至极致。经过反复试错，你终于掌握了唤醒畸变凛冬卫士的秘术，这便是突变雪傀儡仆从的由来。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:mutant_snow_golem_servant"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "_",
+            "^",
+            "_"
+          ],
+          [
+            "B",
+            "B",
+            "B"
+          ],
+          [
+            "_",
+            "0",
+            "_"
+          ]
+        ],
+        "mapping": {
+          "^": "minecraft:carved_pumpkin",
+          "B": "minecraft:snow_block",
+          "0": "goety:snow_bricks"
+        }
+      },
+      "enable_visualize": true,
+      "text": "把$(l)雕刻南瓜$()放上顶，再手持$(l)突变药水$()右击南瓜头。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "朴实无华的突变，投掷冰块进行攻击。$(br)你也可以为它给予$(item)霜冻新星聚晶$()、$(item)冷静聚晶$()和$(item)流髑灵魂罐$()来为它进行$(l:supreme/servants_skills/mutant_snow_golem_servant)强化$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你可以对突变雪傀儡仆从扔出$(item)雪球$()来为它回血。"
+    }
+  ],
+  "sortnum": 131
+}

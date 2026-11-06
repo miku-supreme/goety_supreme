@@ -1,0 +1,17 @@
+{
+  "name": "Flamoar",
+  "flag": "mod:jerotesvillage",
+  "icon": "jerotesvillage:flamoar_scimitar",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 80, attack 5, knockback resistance 1.0, armor 18, toughness 4, movement speed 0.33.$(br)A plain, no-frills dual-blade melee unit."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:flamoar_servant"
+    }
+  ],
+  "sortnum": 153
+}

@@ -1,0 +1,51 @@
+{
+  "advancements": [
+    {
+      "advancement": {
+        "criteria": {
+          "ally_executer": {
+            "conditions": {
+              "entity": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type": "goety_supreme:serpon_combat_executer"
+                  }
+                }
+              ]
+            },
+            "trigger": "minecraft:summoned_entity"
+          }
+        },
+        "display": {
+          "announce_to_chat": true,
+          "description": {
+            "translate": "advancements.goety_supreme.angel_condescends.description"
+          },
+          "frame": "task",
+          "hidden": false,
+          "icon": {
+            "item": "jerotesvillage:glaive_of_serpent_dominater"
+          },
+          "show_toast": true,
+          "title": {
+            "translate": "advancements.goety_supreme.angel_condescends.title"
+          }
+        },
+        "parent": "goety_supreme:root",
+        "requirements": [
+          [
+            "ally_executer"
+          ]
+        ]
+      },
+      "conditions": [
+        {
+          "modid": "jerotesvillage",
+          "type": "forge:mod_loaded"
+        }
+      ]
+    }
+  ]
+}

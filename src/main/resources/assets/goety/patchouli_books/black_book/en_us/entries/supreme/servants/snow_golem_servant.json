@@ -1,0 +1,43 @@
+{
+  "name": "Snow Golem Servant",
+  "icon": "minecraft:snow_block",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 4, Attack 0.5, Speed 0.2.$(br)An ordinary two-block snowman; a little tinkering taught you how to make this pile of snow a good deal more loyal."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:snow_golem_servant"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "^"
+          ],
+          [
+            "#"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "mapping": {
+          "^": "goety_supreme:vitality_carved_pumpkin",
+          "#": "minecraft:snow_block",
+          "0": "minecraft:snow_block"
+        }
+      },
+      "enable_visualize": true,
+      "text": "Place a $(l)Vitality Carved Pumpkin$() on top of two snow blocks."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "5, Speed 0.2.$(br)It still throws snowballs, only straighter and at the right people. When a friendly Mutant Snow Golem nearby is hurt it throws snowballs to heal it - once within six blocks with a clear line it stops closing and just throws, until the target is whole or two snow golems are already tending it."
+    }
+  ],
+  "sortnum": 122
+}

@@ -1,0 +1,31 @@
+{
+  "name": "蛇龙火焰使徒",
+  "icon": "jerotesvillage:fire_apostle_sword",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "火焰使徒追随瑟潘珀斯的神徒，为蛇龙执战；蛇龙里的精英。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_fire_apostle{ArmorItems:[{Count:1b,id:\"jerotesvillage:fire_apostle_boots\"},{Count:1b,id:\"jerotesvillage:fire_apostle_leggings\"},{Count:1b,id:\"jerotesvillage:fire_apostle_chestplate\"},{Count:1b,id:\"jerotesvillage:fire_apostle_helmet\"}]}"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_serpon_fire_apostle",
+      "text": "在暗祭坛上摆好对应供品，举行仪式即可召唤。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:blazing_ember",
+      "text": "图鉴物品：烈燃之烬$(br)这位强大的火焰使徒只能通过仪式召唤，不过不用担心，即使这位火焰使徒暂时战败撤退，它也留下了一个信物等待你再次召唤他，只需往火中扔出这枚信物即可。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你可以右键给予蛇龙火焰使徒$(item)烈焰粉$()或$(item)烈焰棒$()来为它回血。"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 102
+}

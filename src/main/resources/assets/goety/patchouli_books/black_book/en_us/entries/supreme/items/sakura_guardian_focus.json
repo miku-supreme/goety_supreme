@@ -1,0 +1,23 @@
+{
+    "name":  "Sakura Spirit Focus",
+    "icon":  "goety_supreme:sakura_guardian_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  11,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Using dark magic to give the drifting sakura petals form, you can summon your own Sakura Spirits - the first choice to admire when you are in a bad mood. Of course, they mostly serve as guardians."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_sakura_guardian_focus"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Cast with a Wild Staff and you summon more at once. Cast while sneaking to call them all back to your side."
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:sakura_guardian_focus":  1
+                              }
+}

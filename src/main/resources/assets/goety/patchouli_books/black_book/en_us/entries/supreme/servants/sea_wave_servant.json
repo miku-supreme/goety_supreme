@@ -1,0 +1,29 @@
+{
+  "name": "Seawave",
+  "icon": "goety_supreme:sea_wave_servant_spawn_egg",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Sea Wave from $(l)Jerotes Village$(): the lord of the water elementals, and it has brought its rack of tridents to your line."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:sea_wave_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_sea_wave"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Four water tridents ride on its back, each able to swallow one whole hit (shield-piercing damage excepted); a broken one is gone until it slowly grows back. In good health its melee is a trident sweep that cuts one to four times inside a cone; charged,."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "it slams the water and throws anything of middling size into the air, smashing nearby boats as it goes. At range it spits gemmed wave bolts, and up close with line of sight it charges in place and drops an entire fan of waves on what stands before it. Given time it calls the tide, raising a few short-lived Bulges to fight for it."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 157
+}

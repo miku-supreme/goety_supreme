@@ -1,0 +1,57 @@
+{
+    "name":  "Upgrade Materials \u0026 Blocks",
+    "icon":  "goety_supreme:berserk_essence",
+    "category":  "goety:supreme/items",
+    "sortnum":  90,
+    "read_by_default":  true,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Mighty items, for the dark mage who climbs the peak."
+                  },
+                  {
+                      "type":  "patchouli:spotlight",
+                      "item":  "goety_supreme:berserk_essence",
+                      "text":  "Berserk Essence: feed it to one of your Mutant Zombie servants or a Sediment Lord for two minutes of frenzy; feeding it again only refreshes the timer."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_berserk_essence"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "goety_supreme:concentrated_bone_chunk",
+                      "text":  "Concentrated Bone Chunk: right-click a Mutant Skeleton servant with it to strengthen it, up to five times; also a crafting material."
+                  },
+                  {
+                      "type":  "patchouli:spotlight",
+                      "item":  "goety_supreme:astral_wither_skull",
+                      "text":  "Shining Wither Skull: a wither skull you can place for show, the row of skulls atop a wither\u0027s summoning structure, and a crafting material besides."
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "goety_supreme:prison_steel_block",
+                      "text":  "Prison Steel Block: faintly glowing steel and the heart of a Prison Golem\u0027s mold; right-click a Prison Golem with it to restore 100 health."
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "goety_supreme:mobile_prison",
+                      "text":  "Mobile Prison: unfolds into a 3x3x3 cage (door facing north) when placed. Record it by right-clicking any cell with Goety\u0027s Waystone, then right-click your Prison Golem to bind the cage to it - captives are sent into its cell first."
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "goety_supreme:grave_soul_sand",
+                      "text":  "Haunted Soul Sand: sinks your feet the way soul sand does; it is the block the skulls of a wither\u0027s summoning structure are laid on."
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "goety_supreme:vitality_carved_pumpkin",
+                      "text":  "Vitality Carved Pumpkin: the pumpkin that caps a golem\u0027s summoning structure - a plain vanilla pumpkin will not do."
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "goety_supreme:vitality_pumpkin_lantern",
+                      "text":  "Vitality Pumpkin Lantern: caps a summoning structure just the same, with 15 levels of light of its own."
+                  }
+              ]
+}

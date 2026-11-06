@@ -1,0 +1,24 @@
+{
+  "name": "Enderman Servant",
+  "icon": "minecraft:ender_pearl",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The lanky silhouette of the End, close kin to your watchlings; a long look at one tells you how to fold these relatives into your shadow."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:enderman_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_enderman"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can summon this servant by ritual, or call it quickly with an $(l:supreme/items/enderman_servant_focus)Enderman Servant Focus$()."
+    }
+  ],
+  "sortnum": 179
+}

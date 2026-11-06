@@ -1,0 +1,38 @@
+{
+  "name": "Mutant Skeleton Servant",
+  "flag": "mod:mutantmonsters",
+  "icon": "mutantmonsters:mutant_skeleton_skull",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 150, Knockback Resistance 0.75, Attack 3, Speed 0.27.$(br)Its sturdy bones make it hardier and give it a host of melee attacks, and its powerful crossbow makes every shot deadly.$(br)You may give it a $(item)Soul Jar$(), a $(item)Malefic Helm$() or $(item)Concentrated Bone Chunks$() to $(l:supreme/servants_skills/mutant_skeleton_servant)strengthen$() it."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can give it a $(item)Soul Jar$(), a $(item)Malefic Helm$() or a $(item)Concentrated Bone Chunk$() to $(l:supreme/servants_skills/mutant_skeleton_servant)strengthen$() it."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:mutant_skeleton_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_skeleton_servant"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_supreme:concentrated_bone_chunk",
+      "title": "Concentrated Bone Chunk",
+      "text": "Four bone blocks, four bones and one mutant skeleton body part craft into a single Concentrated Bone Chunk at a crafting table. Right-click a Mutant Skeleton Servant with it to empower the servant, up to five times."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "75, Attack 3, Speed 0.27.$(br)It cannot take a new weapon, but you can still give it armour to harden its defence; you may also give it $(item)Bones$() and $(item)Bone Blocks$() to heal it."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:concentrated_bone_chunk": 3
+  },
+  "sortnum": 132
+}

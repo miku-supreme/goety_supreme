@@ -1,0 +1,31 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:convert_complete_tamed",
+  "activation_item": {
+    "item": "jerotesvillage:corrosiver_broken_horn"
+  },
+  "craftType": "frost",
+  "entity_to_convert": {
+    "tag": "goety_supreme:corrosiver_convert_source",
+    "display_name": "entity.jerotesvillage.dracognathus"
+  },
+  "entity_to_convert_into": "goety_supreme:corrosiver_servant",
+  "soulCost": 100,
+  "duration": 20,
+  "ingredients": [
+    { "item": "jerotesvillage:corrosiver_claw" },
+    { "item": "jerotesvillage:bitter_cold_firm_ice" },
+    { "item": "jerotesvillage:ice_rock" },
+    { "item": "jerotesvillage:ice_rock" },
+    { "item": "jerotesvillage:ice_rock" },
+    { "item": "jerotesvillage:giant_monster_horn" },
+    { "item": "jerotesvillage:giant_monster_horn" },
+    { "item": "goety:raging_matter" },
+    { "item": "goety:raging_matter" },
+    { "item": "goety:aging_cream" }
+  ],
+  "result": { "item": "goety:jei_dummy/none" },
+  "conditions": [
+    { "type": "forge:mod_loaded", "modid": "jerotesvillage" }
+  ]
+}

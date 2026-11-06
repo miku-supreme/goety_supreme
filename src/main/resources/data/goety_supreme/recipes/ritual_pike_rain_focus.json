@@ -1,0 +1,40 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "adept_nether",
+  "activation_item": {
+    "item": "goety_supreme:drought_missile_focus"
+  },
+  "soulCost": 3,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "jerotesvillage:serpon_javelin"
+    },
+    {
+      "item": "jerotesvillage:serpon_javelin"
+    },
+    {
+      "item": "jerotesvillage:serpon_alloy_ingot"
+    },
+    {
+      "item": "minecraft:arrow"
+    },
+    {
+      "item": "minecraft:arrow"
+    },
+    {
+      "item": "minecraft:flint"
+    }
+  ],
+  "result": {
+    "item": "goety_supreme:pike_rain_focus",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jerotesvillage"
+    }
+  ]
+}

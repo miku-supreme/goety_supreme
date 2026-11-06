@@ -1,0 +1,25 @@
+{
+  "name": "渡魂之镰（敌对）",
+  "icon": "goety_supreme:coffin_shard",
+  "category": "goety:supreme/hostiles",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "灵魂的摆渡人，背上的棺材装载着即将超度的灵魂，这位收割者敌视着一切以灵魂为食物或滥用灵魂的生物。$(br)在猎杀孤魂尸鬼这一吞噬灵魂的怪物的路上遇到了你，感受到了你身上浓郁的灵魂能量，便与你为敌。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:soul_reaper"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "没有华丽的魔法，渡魂之镰凭借的只有它的镰刀和它的摄魂棺，即便如此，便已足够，锋利的镰刀对你造成了不小的威胁，摄魂棺窃取生命也使你很是烦躁，庆幸的是，它缺乏远程攻击手段。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety_supreme:coffin_shard",
+      "title": "棺材碎片",
+      "text": "渡魂之镰掉落的棺材碎片，或许你可以用来制作属于你的灵魂摆渡人。"
+    }
+  ]
+}

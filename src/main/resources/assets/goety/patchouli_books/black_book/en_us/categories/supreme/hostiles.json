@@ -1,0 +1,7 @@
+{
+  "name": "Hostiles",
+  "description": "The hostile beings Goety Supreme looses upon the world: learn their tricks before you fight, flee, or bind them as servants.",
+  "icon": "goety_supreme:reaper_necromancer_spawn_egg",
+  "parent": "goety:supreme",
+  "sortnum": 4
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Serpon Colonial Soldier",
+  "icon": "jerotesvillage:serpon_sword",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A soldier still loyal to an empire long fallen, patrolling the drought-scorched hills in packs, having decided that this burning land is already theirs."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_colonial_soldier"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_serpon_colonial_soldier"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can summon this soldier by ritual, or call these battle-hardened warriors quickly with a $(l:supreme/items/serpon_head_focus)Serpon Head Focus$().$(br)You can right-click your Serpon Colonial Soldier with $(item)Blaze Powder$() or a $(item)Blaze Rod$() to heal it."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 107
+}

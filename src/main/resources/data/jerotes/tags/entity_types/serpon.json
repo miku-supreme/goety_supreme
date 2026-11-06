@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "goety_supreme:serpon_colonial_soldier",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:serpon_rioter",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:serpon_pioneer",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:serpon_intruder",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:serpon_flame_wizard",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:serpon_fire_apostle",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:serpon_combat_executer",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+    "name":  "Green Bean Necromancer (Hostile)",
+    "icon":  "goety_supreme:green_apple",
+    "category":  "goety:supreme/hostiles",
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "A mage who wanders and flees everywhere after his own scheme failed. This necromancer who inherited the Nameless One\u0027s mantle has a long and bitter history with the Wither Warlord, but the gap in power forces him to keep running; seeing your summons, with nowhere left to turn, he chooses to stake everything on one last fight."
+                  },
+                  {
+                      "type":  "patchouli:entity",
+                      "entity":  "goety_supreme:green_smith"
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_summon_green_smith"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Facing a dark mage as powerful as you, the wanderer Green Smith has no choice but to go all out. He summons undead servants to fight beside him, uses the spells of elite necromancers, and calls up doubles to strike in concert. If he is struck too often, takes too much damage, or finds himself in a dangerous place, he will try to teleport away."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "When Green Smith\u0027s health falls to half, he plants his staff and calls up a domain of the dead: lightning keeps striking, green fire catches, and skeleton servants are summoned; at low health his Rallying reaches its highest cast frequency, and he also has a fearsome corrupting laser.$(br)Fortunately, Green Smith dreads withering because of the hunt — withering keeps his wounds from closing, part of his magically bolstered resistance fails as well, and some of his spells can be interrupted by attacking him."
+                  },
+                  {
+                      "type":  "patchouli:spotlight",
+                      "item":  "goety_supreme:green_apple",
+                      "title":  "Green Apple",
+                      "text":  "On death he drops one exclusive Green Apple, as well as ecto, grave dust, bones, a $(item)Heart of the Night$() and forbidden fragments, with a chance at his own music disc."
+                  }
+              ]
+}

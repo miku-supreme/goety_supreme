@@ -1,0 +1,50 @@
+{
+  "name": "熔炉傀儡",
+  "icon": "goety_supreme:reinforced_blast_furnace",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 128，攻击力 16.5，击退抗性 1.0，护甲值 8，韧性 1，移动速度 0.25。$(br)在制造出属于你的钢铁援兵之后，你开始思考如何将猛烈燃烧的高炉作为傀儡的核心。经过一段时间的研究之后，你创造出了属于你的熔炉傀儡。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:furnace_golem"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "_",
+            "^",
+            "_"
+          ],
+          [
+            "#",
+            "F",
+            "#"
+          ],
+          [
+            "_",
+            "0",
+            "_"
+          ]
+        ],
+        "mapping": {
+          "^": "goety_supreme:vitality_carved_pumpkin",
+          "F": "goety_supreme:reinforced_blast_furnace",
+          "#": "minecraft:iron_block",
+          "0": "minecraft:iron_block"
+        }
+      },
+      "enable_visualize": true,
+      "text": "把$(l)活力南瓜$()放在中央那块$(l)强化高炉$()上。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "常规状态下和铁傀儡别无二致，但是当你使用燃料为其强化之后可使它的高炉猛烈燃烧，解锁更多的能力。$(br)你可以为其使用$(item)铁锭$()来为其回血。"
+    }
+  ],
+  "sortnum": 178
+}

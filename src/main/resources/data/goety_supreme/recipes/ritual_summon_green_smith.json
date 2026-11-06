@@ -1,0 +1,29 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:summon",
+  "craftType": "sabbath",
+  "activation_item": {
+    "item": "goety:heart_of_the_night"
+  },
+  "entity_to_summon": "goety_supreme:green_smith",
+  "research": "forbidden",
+  "soulCost": 1,
+  "duration": 15,
+  "ingredients": [
+    {
+      "item": "goety:osseous_focus"
+    },
+    {
+      "item": "goety:nameless_cape"
+    },
+    {
+      "item": "goety:nameless_crown"
+    },
+    {
+      "item": "goety:dark_ingot"
+    }
+  ],
+  "result": {
+    "item": "goety:jei_dummy/none"
+  }
+}

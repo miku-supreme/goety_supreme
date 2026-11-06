@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "goety_supreme:player_mob_servant",
+    "goety_supreme:iron_golem_servant",
+    {
+      "id": "goety_supreme:second_rounder_animated_armor_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:iron_teeth_servant",
+      "required": false
+    }
+  ]
+}

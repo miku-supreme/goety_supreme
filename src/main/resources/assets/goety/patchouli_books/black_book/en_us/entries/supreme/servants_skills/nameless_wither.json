@@ -1,0 +1,35 @@
+{
+  "name": "Nameless Wither",
+  "icon": "goety:nameless_crown",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 300, knockback resistance 1.0, attack damage 10, flight speed 0.5.$(br)$(l)Withering Offering$(): each enemy within 16 blocks with the Wither effect restores 0.5 health per second, up to 3 per second; Nameless Bolts drain 3 health from each target hit, and killing any creature by any means restores 5 health.$(br)$(l)Night Ward$(): at night it takes 25%% less damage."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Basic Attack$(): fires a Wither Skull dealing 22 explosion damage at the center and 12 direct damage; the piercing Nameless Bolt deals 12 damage.$(br)$(l)Corruption Beam$(): after a short wind-up, fires a green corruption laser from its chest core for 3 seconds.$(br)$(l)Soul Skulls$(): summons two rows of 8 soul skulls."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Wither Overrun$(): after a short wind-up it wraps itself in the Heart of the Night's power and charges; it does not break blocks but releases a shockwave (radius 5, 3x attack damage) and the shell dissipates, summoning clones to assist.$(br)$(l)Wither Armor$(): at half health it dons Wither Armor, becoming immune to projectiles and gaining Resistance I while still able to fly; it disappears when healed above half health.$(br)$(l)Self-Destruct$(): on death it explodes for 100 center damage and 20 shockwave damage within radius 5."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Special - Night Ambition$(): each creature killed increases its max health: <=50 health +2, 50~100 +5, >100 or mini-boss +10, boss +50, up to 500; every 50 max health gained increases its size by 5%%, up to 20%%."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Green Apple$(): Nameless Bolt damage +3 and kills randomly summon a skeleton servant; all allied undead within 16 blocks gain permanent Undeath and immunity to sunlight.$(br)$(l)Broken Reaper Scythe$(): drains health from enemies within 16 blocks to heal its owner, up to 10 per tick; if the owner is full it heals up to three nearby injured allied undead."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Coffin Fragment$(): slowly restores soul energy to its owner (4 per second) and grants 50%% of a killed creature's soul energy.$(br)$(l)Unholy Blood$(): gains 12 armor, 6 armor toughness and 0.5 knockback resistance, and can summon 4 zombified piglin servants and 2 wither skeleton servants (full netherite / full gold); 1 minute cooldown."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Nether Star$(): Wither Armor becomes permanent and Wither Skull damage +3."
+    }
+  ]
+}

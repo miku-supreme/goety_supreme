@@ -1,0 +1,24 @@
+{
+  "name": "苍澜聚晶",
+  "icon": "goety_supreme:bulge_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 33,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "烈焰人你已经见得多到厌烦了，那么这些波涛人的水球一定能给你降降温。施法召出听命于你的波涛人，潜行施法把它们召集到身边。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_bulge_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "用深渊魔杖施法时，一次能召出更多。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:bulge_focus": 1
+  },
+  "flag": "mod:jerotesvillage"
+}

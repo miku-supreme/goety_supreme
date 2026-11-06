@@ -1,0 +1,30 @@
+{
+  "name": "活化二轮盔甲仆从",
+  "icon": "jerotesvillage:animated_iron_helmet",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 54，击退抗性 0.8，攻击 5，移速 0.28。$(br)已经忘记了自己的使命的构装生物，徘徊于未知深坑也只是由于魔法的驱使。在你的魔法的引导下现在这位强大的盔甲战士将为你而战。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:second_rounder_animated_armor_servant{ArmorItems:[{Count:1b,id:\"jerotesvillage:animated_iron_boots\"},{Count:1b,id:\"jerotesvillage:animated_iron_leggings\"},{Count:1b,id:\"jerotesvillage:animated_iron_chestplate\"},{Count:1b,id:\"jerotesvillage:animated_iron_helmet\"}]}"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_second_rounder_animated_armor",
+      "text": "在暗祭坛上摆好对应供品，举行仪式即可召唤。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "8，攻击 5，移速 0.28。$(br)一个会自我行动的盔甲，与你的缠魂甲胄高度相似，不一样的是。这位铠甲勇士的属性更高，也更加昂贵，会使用盾牌。$(br)你可以对其右键使用铁粒来治疗他，活化铁盔甲的获取详见$(l:supreme/items/animated_iron)活化铁盔甲$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你可以通过仪式召唤这位构装战士；它没有聚晶，暗祭坛是唯一的路。"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 163
+}

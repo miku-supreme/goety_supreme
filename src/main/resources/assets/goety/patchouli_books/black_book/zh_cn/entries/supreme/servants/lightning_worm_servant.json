@@ -1,0 +1,25 @@
+{
+  "name": "闪电蠕虫",
+  "icon": "jerotesvillage:lightning_worm_chitin",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "闪电，混乱，沙漠，这些迟缓而原始的蠕虫状生物无时无刻不在散发充满恶意的电流，对外来者充满了敌意。$(br)你的麾下缺少将雷电如此运用的强大生物，将闪电蠕虫与你的风暴相结合，你成功创造出了属于你的闪电蠕虫仆从。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:lightning_worm_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_lightning_worm"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "闪电，雷暴，无所不会，这位原始的蠕虫已经将闪电融入进了自己的生活，其强大的电流必定在你的手下大放异彩。$(br)你可以手持$(item)红石粉$()右键闪电蠕虫来为其回血。"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 146
+}

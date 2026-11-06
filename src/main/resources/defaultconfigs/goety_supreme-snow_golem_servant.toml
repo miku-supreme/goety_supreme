@@ -1,0 +1,27 @@
+# Goety Supreme 雪傀儡突变体仆从配置。
+# 如需服务器范围的覆盖配置，可将这些内容复制到 config/goety_supreme-snow_golem_servant.toml。
+
+[mutant_snow_golem_servant]
+	# 最大生命值（Mutant Monsters 原版突变雪傀儡为 80）。
+	max_health = 80.0
+	# 移动速度（原版 0.26）。
+	movement_speed = 0.26
+	# 击退抗性，范围为 0.0 至 1.0。
+	knockback_resistance = 0.6
+	armor = 0.0
+	armor_toughness = 0.0
+	# 冰块正中目标的整数伤害下限4，直击 4~6 随机。
+	ice_damage_direct_min = 4
+	# 冰块正中目标的整数伤害上限6。
+	ice_damage_direct_max = 6
+	# 冰块溅射伤害（原版 4 + random，即 4-6）。
+	ice_damage_aoe_min = 4
+	ice_damage_aoe_max = 6
+	# 两轮投掷之间的间隔刻数（原版 30）。
+	throw_interval_ticks = 30
+	# 主动投掷的目标距离上限（格，原版 12）。
+	throw_range = 12
+	# 是否在行走路径上积雪并冻住流水（仍需游戏规则 mobGriefing 开启）。
+	snow_trail = true
+	# 是否在露天雪原生物群系中缓慢回血。
+	snow_regen = true

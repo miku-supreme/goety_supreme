@@ -1,0 +1,16 @@
+{
+  "name": "Animated Second-Rounder Armor",
+  "flag": "mod:jerotesvillage",
+  "icon": "goety_supreme:second_rounder_animated_armor_servant_spawn_egg",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 54, Knockback Resistance 0.8, Attack 5, Speed 0.28.$(br)8, Attack 5, Speed 0.28; melee 5; immune to wither and fall damage; empty-shell decay: with all four armor slots empty it takes 5 magic damage continuously until it crumbles; it can raise a shield; it spawns wearing a full set of animated second-rounder iron armor and a weapon."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:second_rounder_animated_armor_servant"
+    }
+  ]
+}

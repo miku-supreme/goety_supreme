@@ -1,0 +1,52 @@
+{
+  "name": "Soul Reaper",
+  "icon": "goety_supreme:broken_reaper_scythe",
+  "category": "goety:supreme/servants",
+  "sortnum": 144,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 225, Armor 8, Knockback Resistance 1.0, Attack 15, Speed 0.25.$(br)By taking the magic of a Reaper Necromancer's scythe, joining it with the coffin shards of a Soul Reaper and fusing the whole into a reaper's body, you created a Soul Reaper that answers to you."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:soul_reaper_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_soul_reaper"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can strengthen the Soul Reaper by giving it $(item)Forbidden Fragments$(), $(item)Shadow Essence$() or a $(item)Reaper Necromancer's Soul Jar$(), and it also gains bonus damage from your own soul energy - clearing the road ahead for you.$(br)You can give the Soul Reaper $(item)Ecto$() or $(item)Shadow Essence$() to heal it."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "225 health / 8 armor / 15 attack / knockback resistance 1.0 / speed 0.25 / follow range 40; it flies, is immune to fall and freezing damage, and does not burn by day.$(br)Four growth tiers: 225 -> 300 -> 400 -> 575 health (tier 1 Shadow Essence, tier 2 Forbidden Fragment, tier 3 Reaper Soul Jar), each tier +15%% size and +0.02 speed."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Soul Charge: above 90000 soul energy, every extra 1000 points adds +10%% damage to every attack. Bloodthirst: each melee hit heals 10%% of the panel damage.$(br)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Carried on its back at first; it drops the coffin before it starts fighting. The coffin has 20 health, never moves, and its owner is the Soul Reaper itself.$(br)Drain: within 12 blocks of an enemy it drains 4 health + 5 soul energy per second.$(br)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Control Coffin (5s cooldown): beyond 5 blocks it blinks and slams (12 damage / 3 blocks); within 5 blocks it bursts a shockwave (15 magic damage / 5 blocks / Weakness I 5s); with several hostile targets the slam instead carries a 5-damage explosion.$(br)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Soul Burst: 20 damage / 7 blocks, 20s cooldown; the servant version only plays the explosion and never empties the coffin.$(br)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "When it dies and the owner carries an empty soul jar, one jar is consumed and this Soul Reaper is sealed into a $(item)Reaper Soul Jar$() (the same jar the Reaper Necromancer uses); the jar starts with Goety's revive cooldown (90s by default).$(br)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Right-click a Soul Reaper with a jar holding one to revive it on the spot; a jar holding a Reaper Necromancer works as the final growth item instead."
+    }
+  ]
+}

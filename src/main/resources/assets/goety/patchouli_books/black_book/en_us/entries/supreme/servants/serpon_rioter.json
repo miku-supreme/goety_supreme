@@ -1,0 +1,25 @@
+{
+  "name": "Serpon Rioter",
+  "icon": "jerotesvillage:serpon_axe",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A madness in the mind keeps these serpon zealots following war wherever it goes."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_rioter"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_serpon_rioter"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can summon this berserker by ritual, or borrow his aid for a while with a $(l:supreme/items/serpon_crown_focus)Serpon Crown Focus$().$(br)You can right-click your Serpon Rioter with $(item)Blaze Powder$() or a $(item)Blaze Rod$() to heal it."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 104
+}

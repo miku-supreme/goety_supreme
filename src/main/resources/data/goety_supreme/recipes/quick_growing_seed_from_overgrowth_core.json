@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BVM",
+    "K#K",
+    "MVB"
+  ],
+  "key": {
+    "#": {
+      "item": "goety_supreme:overgrowth_core"
+    },
+    "V": {
+      "item": "minecraft:vine"
+    },
+    "K": {
+      "item": "minecraft:kelp"
+    },
+    "B": {
+      "item": "minecraft:bamboo"
+    },
+    "M": {
+      "item": "minecraft:bone_meal"
+    }
+  },
+  "result": {
+    "item": "goety:quick_growing_seed",
+    "count": 32
+  }
+}

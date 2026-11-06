@@ -1,0 +1,20 @@
+{
+  "name": "僵尸突变体",
+  "flag": "mod:mutantmonsters",
+  "icon": "mutantmonsters:hulk_hammer",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 150，护甲 3，击退抗性 1.0，攻击 12，移速 0.26。$(br)可穿戴$(l)盔甲$()与$(l)武器$()，潜行给予副手武器。$(br)$(l)上勾拳$()：将敌人击飞并狠狠下砸落地造成等同攻击力的伤害。$(br)$(l)震地$()：伤害 9~12（狂暴 ×1.5），向前延伸 8 格（狂暴 10 格），身前半径 2 格内造成 6~8 伤害。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)咆哮$()：前摇后召唤僵尸仆从。$(br)$(l)强化·灵魂罐$()：5；咆哮增益：亡灵化 I + 力量 I + 速度 I，各 30 秒；随机咆哮的触发率从 2.2%% 提到 8.8%%。$(br)$(l)强化·咆哮之魂$()：5 秒震撼与 5 秒衰弱。$(br)$(l)强化·狂暴精粹$()：每次刷新 2 分钟狂暴：9、震地伤害 ×1.5 且延伸半径提高到 10 格；每次给再加 1 条复活机会，并立刻放一次咆哮。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:mutant_zombie_servant"
+    }
+  ]
+}

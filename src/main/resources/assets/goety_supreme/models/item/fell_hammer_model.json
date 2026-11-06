@@ -1,0 +1,6 @@
+{
+  "parent": "goety:item/template_hammer",
+  "textures": {
+    "hammer": "goety_supreme:item/fell_hammer_in_hand"
+  }
+}

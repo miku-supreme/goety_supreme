@@ -1,0 +1,24 @@
+{
+  "name": "Scorchback",
+  "icon": "goety_supreme:scorchback_spawn_egg",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A creature of ancient ages, long extinct, of which no trace is to be found anywhere today.$(br)Fortunately, once you had read the Bygone Scroll from cover to cover, you found the spoor of this vanished beast.$(br)And after some time spent researching, you found a way to turn the Sniffer - itself a creature of ages past - into a Scorchback."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:scorchback"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_scorchback"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Unlike its rather cute looks, the Scorchback has an exceedingly tough body; it can fire the quills on its back at its enemies, and it can also batter them with a long charge.$(br)You can right-click the Scorchback with Nether Wart to restore its health.$(br)Health 400 / Armor 16 / Toughness 8 / Knockback Resistance 1.0 / Speed 0.3125 / Attack 20 / Follow Range 35; no natural regeneration."
+    }
+  ],
+  "sortnum": 165
+}

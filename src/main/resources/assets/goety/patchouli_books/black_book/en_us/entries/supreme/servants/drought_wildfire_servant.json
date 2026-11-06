@@ -1,0 +1,25 @@
+{
+  "name": "Drought Wildfire",
+  "icon": "goety_supreme:drought_wildfire_servant_spawn_egg",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The elites of the drought-scorched hills are much like the Wildfire you once made, but stronger and far more capable. After some attempts you replicated a Drought Wildfire of your own."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:drought_wildfire_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_drought_wildfire"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "It drinks fire damage and turns it into health, its floating shields soak blows for it, and you can heal it with $(item)Blaze Powder$() or $(item)Blaze Rods$()."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 152
+}

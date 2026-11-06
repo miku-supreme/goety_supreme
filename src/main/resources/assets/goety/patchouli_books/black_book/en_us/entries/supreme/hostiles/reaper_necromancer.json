@@ -1,0 +1,29 @@
+{
+    "name":  "Reaper Necromancer (Hostile)",
+    "icon":  "goety_supreme:broken_reaper_scythe",
+    "category":  "goety:supreme/hostiles",
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "A reaper who has mastered the necromantic arts, it moves with the moonlight, rarely showing itself, quietly reaping souls. Only on the night of a full moon, at the moment you sound the horn, does it appear."
+                  },
+                  {
+                      "type":  "patchouli:entity",
+                      "entity":  "goety_supreme:reaper_necromancer",
+                      "scale":  0.95
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Compared with other necromancers, this mysterious one has a natural advantage in flight; its magic is not limited to summoning - it has poured magic into its own scythe, so it can fling out blade energy while also hurling phantom scythes, a considerable threat.$(br)Holding both reward and punishment, it can punish enemies and heal allies, reaping everything the enemy has."
+                  },
+                  {
+                      "type":  "patchouli:spotlight",
+                      "item":  "goety_supreme:broken_reaper_scythe",
+                      "title":  "Broken Reaper Scythe",
+                      "text":  "After defeating the Reaper Necromancer you claimed its broken scythe. With this magic-laden blade you can create a Reaper Necromancer of your own, or quickly ascend it into a Dark Scythe."
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:ghost_necromancer_horn":  4
+                              }
+}

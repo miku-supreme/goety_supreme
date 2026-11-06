@@ -1,0 +1,25 @@
+{
+  "name": "Heavy Armored Sediment Guard",
+  "icon": "goety_supreme:heavy_armored_sediment_guard_focus",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 40, Armor 5, Knockback Resistance 0.5, Attack 5, Speed 0.24.$(br)One of the same soul-revenant line, save that these elite guards go in heavy armour with a heavy weapon and turn their noses up at shields: they block with the great weapon in their hands."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:heavy_armored_sediment_guard_servant{ArmorItems:[{Count:1b,id:\"jerotesvillage:ancient_second_rounder_heavy_boots\"},{Count:1b,id:\"jerotesvillage:ancient_second_rounder_heavy_leggings\"},{Count:1b,id:\"jerotesvillage:ancient_second_rounder_heavy_chestplate\"},{Count:1b,id:\"jerotesvillage:ancient_second_rounder_heavy_helmet\"}]}"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_heavy_armored_sediment_guard_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "5, Attack 5, Speed 0.24.$(br)You can raise these guards by ritual, or call them quickly with a $(l:supreme/items/heavy_armored_sediment_guard_focus)Heavy Armored Sediment Guard Focus$().$(br)You can right-click your Heavy Armored Sediment Guard with $(item)Rotten Flesh$() to heal it."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 111
+}

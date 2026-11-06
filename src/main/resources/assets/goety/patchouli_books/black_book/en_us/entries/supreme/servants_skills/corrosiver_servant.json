@@ -1,0 +1,28 @@
+{
+  "name": "Corrosiver",
+  "flag": "mod:jerotesvillage",
+  "icon": "jerotesvillage:corrosiver_claw",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 225, Armor 5, Toughness 0, Knockback Resistance 1.0, Attack 12, Speed 0.32.$(br)$(l)Corrosive Breath$(): a 12-second cooldown, breathes a piercing corrosive breath for 10–60 damage; a failed save adds Corrosion + Weakness + Slowness for 5s each; a successful save halves the damage and adds no effects; Corrosion lasts 18s."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Corrosive Ice Spikes$(): a 15-second cooldown, 6–24 damage, Freeze for 25s and Corrosion for 1s.$(br)$(l)Corrosive Snow Cloud$(): a 24-second cooldown, the cloud lasts 18s, and creatures under it are continuously Corroded for 5s.$(br)$(l)Bitter Cold Windcall$(): a 36-second cooldown, summons 5–7 Bitter Cold Winds.$(br)$(l)Whirl Teleport$(): a 15-second cooldown, distance 12–64 blocks, blinks next to the target."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Its melee moves are all different techniques with different damage multipliers; hits apply Freeze for 14s and Corrosion for 10s; some techniques trigger a Quake.$(br)$(l)Cold Fortitude$(): a fixed 1-second invulnerability frame after being hit."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can give a Corrosiver servant items to strengthen it.$(br)Cairn Necromancer Soul Jar:$(br)+50 max health, spell cooldowns reduced by one quarter.$(br)Frostborn Focus:$(br)+25 max health, +20%% to all damage, and Windcall has a chance to summon Ice Golem servants."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:corrosiver_servant"
+    }
+  ]
+}

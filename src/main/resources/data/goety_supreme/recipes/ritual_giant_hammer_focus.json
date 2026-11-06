@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mutantmonsters"
+    }
+  ],
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "geoturgy",
+  "activation_item": {
+    "item": "goety:quaking_focus"
+  },
+  "soulCost": 20,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "mutantmonsters:hulk_hammer"
+    },
+    {
+      "item": "minecraft:iron_block"
+    }
+  ],
+  "result": {
+    "item": "goety_supreme:giant_hammer_focus",
+    "count": 1
+  }
+}

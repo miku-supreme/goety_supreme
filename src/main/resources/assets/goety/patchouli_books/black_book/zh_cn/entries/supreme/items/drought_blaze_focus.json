@@ -1,0 +1,24 @@
+{
+  "name": "焦炎聚晶",
+  "icon": "goety_supreme:drought_blaze_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 19,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "烈焰人那令人绝望的准头和感人的伤害让你愤怒不已。于是你一怒之下，设计了这款聚晶。施法召出属于你的旱火烈焰人，裹挟着旱火山地的灼炎，它们可比普通烈焰人强大许多。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_drought_blaze_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "潜行施法把它们召集到身边，周身至多十六只。用下界魔杖施法时，一次能召出更多。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:drought_blaze_focus": 1
+  },
+  "flag": "mod:jerotesvillage"
+}

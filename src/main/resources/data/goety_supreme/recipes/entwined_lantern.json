@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "VOV",
+    "FSF",
+    "VFV"
+  ],
+  "key": {
+    "V": {
+      "item": "minecraft:vine"
+    },
+    "O": {
+      "item": "goety_supreme:overgrowth_core"
+    },
+    "F": {
+      "item": "goety:occult_fabric"
+    },
+    "S": {
+      "item": "minecraft:soul_lantern"
+    }
+  },
+  "result": {
+    "item": "goety_supreme:entwined_lantern",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "重装沉降守卫",
+  "icon": "goety_supreme:heavy_armored_sediment_guard_focus",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 40，护甲 5，击退抗性 0.5，攻击 5，移速 0.24。$(br)同为复魂尸的一员，不一样的是这些精英守卫身着重甲，手持重型武器并且不屑于持有盾牌，他们可以使用手中的重型武器进行格挡。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:heavy_armored_sediment_guard_servant{ArmorItems:[{Count:1b,id:\"jerotesvillage:ancient_second_rounder_heavy_boots\"},{Count:1b,id:\"jerotesvillage:ancient_second_rounder_heavy_leggings\"},{Count:1b,id:\"jerotesvillage:ancient_second_rounder_heavy_chestplate\"},{Count:1b,id:\"jerotesvillage:ancient_second_rounder_heavy_helmet\"}]}"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_heavy_armored_sediment_guard_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "5，攻击 5，移速 0.24。$(br)你可以通过仪式召唤这些守卫，也可能通过$(l:supreme/items/heavy_armored_sediment_guard_focus)沉降重卫聚晶$()快速召唤。$(br)你可以右键给予重装沉降守卫$(item)腐肉$()来为它回血。"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 111
+}

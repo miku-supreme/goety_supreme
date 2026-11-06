@@ -1,0 +1,25 @@
+{
+  "name": "Goety Supreme 骷髅仆从",
+  "icon": "minecraft:bone",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 40，护甲 8，韧性 4，击退抗性 0.8，攻击力 4。$(br)全方面与原版骷髅仆从别无二致，不是吗？。$(br)真的......是吗？。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:skeleton_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_skeleton_servant",
+      "text": "在暗祭坛上摆好对应供品，举行仪式即可召唤。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "对骷髅仆从右键使用$(item)狂暴之星$()，可大幅度提高其全方面属性并进入英雄状态，详情见$(l:supreme/servants_skills/skeleton_servant_supreme)强化形态$()。"
+    }
+  ],
+  "sortnum": 172
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Reaper Necromancer Servant",
+  "icon": "goety_supreme:broken_reaper_scythe",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 220, Attack 8, Knockback Resistance 1.0, Movement Speed 0.25.$(br)$(l)Scythe Blade$(): a piercing flying blade that deals 8 damage.$(br)$(l)Double Punishment$(): picks two hostile creatures for 5 + 2%% of their max health over two seconds, while two allies are healed for half the damage dealt.$(br)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Flying Scythe$(): throws a slow spinning blade that deals 4 magic damage every 0.25 seconds.$(br)$(l)Finger Snap$(): kills the highest-health Reaper servant on the field, heals itself for half of that servant's health, and detonates it and the flying scythes into a shockwave.$(br)$(l)Summon$(): 2-3 Reaper servants.$(br)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Immune to fall and freezing damage; it does not burn in daylight but gains Weakness I, and every hit feeds 15 soul energy back to its owner.$(br)$(l)Upgrades$(): 220-275-550; each level adds +1 to all damage and +10%% scythe width and flight speed; from level 2 its damaging moves apply Erosion for 5 seconds.$(br)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Extra summon$(): give it a Grave Soul Focus for extra summons -- always 2, with a chance of 1-2 more, cap 6."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:reaper_necromancer_servant"
+    }
+  ]
+}

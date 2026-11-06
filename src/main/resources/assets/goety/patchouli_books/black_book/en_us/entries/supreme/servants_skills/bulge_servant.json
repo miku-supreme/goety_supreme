@@ -1,0 +1,17 @@
+{
+  "name": "Bulge",
+  "flag": "mod:jerotesvillage",
+  "icon": "goety_supreme:bulge_servant_spawn_egg",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 20, attack 2, movement speed 0.3.$(br)Amphibious; immune to fall and drowning damage.$(br)Its attack fires three Wave Bolts in a row for 2-9 drowning damage each, tripled against water-sensitive units."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:bulge_servant"
+    }
+  ],
+  "sortnum": 158
+}

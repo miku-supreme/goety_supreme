@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mutantmonsters:mutant_skeleton_arms",
+      "required": false
+    },
+    {
+      "id": "mutantmonsters:mutant_skeleton_limb",
+      "required": false
+    },
+    {
+      "id": "mutantmonsters:mutant_skeleton_pelvis",
+      "required": false
+    },
+    {
+      "id": "mutantmonsters:mutant_skeleton_rib",
+      "required": false
+    },
+    {
+      "id": "mutantmonsters:mutant_skeleton_rib_cage",
+      "required": false
+    },
+    {
+      "id": "mutantmonsters:mutant_skeleton_shoulder_pad",
+      "required": false
+    },
+    {
+      "id": "mutantmonsters:mutant_skeleton_skull",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "凋灵骷髅马仆从",
+  "icon": "goety_supreme:wither_skeleton_horse_servant_spawn_egg",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "经过骷髅马的经验之后，你开始考虑凋灵骷髅马的可能性，幸运的是，这并不算难。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:wither_skeleton_horse_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_wither_skeleton_horse_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "凋灵骷髅马仆从比一般的骷髅马仆从更加强悍，并且更加富有攻击性。$(br)你可以为你的凋灵骷髅马仆从喂食骨头来回血。$(br)血量 30 / 攻击 3 / 护甲 2 / 移速 0.3 / 索敌 24 格；体型为骷髅马仆从的 1.2 倍。$(br)攻击附带凋零 I 3 秒。$(br)骑乘同骷髅马：不用马鞍，空手右键上马，潜行 + 空手取回马铠。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "用下界魔杖 + 整套下界套召唤出来的，自带下界合金马铠（+15 甲 / +6 韧 / +0.6 击退抗性，面板共 17 甲），并且不再接受玩家给的马铠。"
+    }
+  ],
+  "sortnum": 167
+}

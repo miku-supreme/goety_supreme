@@ -1,0 +1,54 @@
+{
+  "name": "海晶石士兵",
+  "icon": "goety_supreme:prismarine_core",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 75，护甲 6，击退抗性 0.6，攻击 7，移速 0.3。$(br)不属于这个时空的古老海晶神殿的守卫者，其研究技术早已经失传，但是在你结合了海洋之心的强大魔力的努力下，你成功复刻出了这一位强大的海晶战士。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:prismarine_soldier"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "_",
+            "^",
+            "_"
+          ],
+          [
+            "#",
+            "C",
+            "#"
+          ],
+          [
+            "_",
+            "0",
+            "_"
+          ]
+        ],
+        "mapping": {
+          "^": "goety_supreme:vitality_carved_pumpkin",
+          "C": "goety_supreme:prismarine_core",
+          "#": "minecraft:prismarine_bricks",
+          "0": "minecraft:prismarine_bricks"
+        }
+      },
+      "enable_visualize": true,
+      "text": "把$(l)活力南瓜$()放在$(l)海晶核心$()正上方。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "6，攻击 7，移速 0.3。$(br)作为高级守卫的它初始便拥有全套盔甲，并且装备着弓或者剑或者斧头，无论使用哪种武器其都可以用出强大的力量，为你的黑魔法之路披荆斩棘。$(br)你可以右键给予海晶石士兵海晶碎片、海晶块或海晶砖来为它回血。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety_supreme:prismarine_core"
+    }
+  ],
+  "sortnum": 164
+}

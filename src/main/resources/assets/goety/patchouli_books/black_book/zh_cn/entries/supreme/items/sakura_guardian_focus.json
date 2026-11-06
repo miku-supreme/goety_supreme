@@ -1,0 +1,23 @@
+{
+  "name": "樱之灵聚晶",
+  "icon": "goety_supreme:sakura_guardian_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "用黑魔法将飘飞的樱花化为实体，便可召出属于你的樱之灵，是心情不好时观赏的首选。当然，它们更多还是充当守卫的职责。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_sakura_guardian_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "用荒野魔杖施法时，一次能召唤更多。潜行施法把它们全部召回身边。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:sakura_guardian_focus": 1
+  }
+}

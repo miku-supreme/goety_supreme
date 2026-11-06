@@ -1,0 +1,24 @@
+{
+  "name": "沉降重卫聚晶",
+  "icon": "goety_supreme:heavy_armored_sediment_guard_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 32,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "这些重装守卫是沉降守卫中的精英，但现在对你而言也是召之即来挥之即去的存在。施法召出一名重装沉降守卫，潜行施法改为召集所有重装守卫。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_heavy_armored_sediment_guard_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "更强大的重甲兵！$(br)$(br)条目 028 / 155 · 沉降飞弹聚晶 · 3 页 · 分类：道具"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:heavy_armored_sediment_guard_focus": 1
+  },
+  "flag": "mod:jerotesvillage"
+}

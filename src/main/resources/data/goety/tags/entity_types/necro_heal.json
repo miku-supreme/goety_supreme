@@ -1,0 +1,51 @@
+{
+  "replace": false,
+  "values": [
+    "goety_supreme:player_mob_servant",
+    "goety_supreme:reaper_necromancer_servant",
+    "goety_supreme:green_smith_servant",
+    "goety_supreme:wither_servant",
+    {
+      "id": "goety_supreme:mutant_zombie_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:mutant_skeleton_servant",
+      "required": false
+    },
+    "goety_supreme:skeleton_horse_servant",
+    "goety_supreme:wither_skeleton_horse_servant",
+    {
+      "id": "goety_supreme:sediment_guard_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:sediment_lord_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:sediment_soul_stabilizer_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:heavy_armored_sediment_guard_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:second_rounder_zombie_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:second_rounder_skeleton_servant",
+      "required": false
+    },
+    {
+      "id": "goety_storm:command_block_wither",
+      "required": false
+    },
+    {
+      "id": "goety_storm:wither_storm",
+      "required": false
+    }
+  ]
+}

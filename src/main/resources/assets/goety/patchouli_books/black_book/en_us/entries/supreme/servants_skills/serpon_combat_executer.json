@@ -1,0 +1,41 @@
+{
+  "name": "Serpon Combat Executer",
+  "icon": "jerotesvillage:the_grace_of_serpenperth",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "270 health, 8 attack, 5 armor, 0.4 movement speed, 0.8 knockback resistance.$(br)Fire immune. On spawning it wears the Serpon Powerhouse set and holds The Grace of Serpenperth.$(br)$(l)Melee$(): each swing deals damage at a different multiplier, with a 10%% chance to turn into Flame Slash for 23 damage or Whirlwind Slash for 21 damage; after one special slash the next 3 swings are forced to be plain melee."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Rush$(): when its target is more than 12 blocks away it has a chance to make one dash.$(br)$(l)Serpon Hot Wind$(): the Combat Executer charges up and then fires Serpon Hot Wind 4 times in a row. Serpon Hot Wind deals 7~42 fireball damage to anything it touches, and every 0.5 seconds to creatures within a certain range, setting them on fire for 12 seconds. If the target is immune to fire damage, the damage is judged as explosion damage and then as fly-into-wall damage in turn. While channeling Serpon Hot Wind, creatures near the Combat Executer are knocked back."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Serpon Pike Rain$(): the Combat Executer calls down 24~48 Serpon pikes once, each dealing 8 damage to its target and disappearing on contact with a creature or the ground.$(br)$(l)Serpenperth Meteor$(): the Combat Executer calls down Serpenperth meteors twice in a row, 6~12 each time, dealing 7~42 damage to enemies and exploding on contact with a creature or a block."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Stripped Fury$(): the first time the Combat Executer's health drops below 1/2, it strips off its gear and enters the Stripped Fury state. It gains 13 armor, 4 attack and 0.2 knockback resistance, becomes immune to explosions and blocks more often.$(br)$(l)Last Stand$(): the first fatal blow is refused, granting 8 seconds of damage immunity."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Reinforcements$(): every time its health drops by a quarter it summons a group of Serpon reinforcements, up to 6 at a time, with a 120-second cooldown.$(br)$(l)Power$(): the Combat Executer has a power value; the higher it is, the more damage it deals and the more often it blocks."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Combat Executer can be strengthened by giving it items.$(br)$(l)Unholy Blood$(): giving it another one during Stripped Fury instantly refills its health and ends Stripped Fury; it gains 30 health and 0.5 power factor, every skill triggers more often, Stripped Fury's bonuses become +15 armor, +4 attack and +0.3 knockback resistance, and Last Stand lasts 2 seconds longer."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Drought Wildfire Helm$(): grants 25 health and 0.25 power value, lowers cooldowns, and raises block chance and damage."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_combat_executer"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 101
+}

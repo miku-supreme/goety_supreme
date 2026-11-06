@@ -1,0 +1,21 @@
+{
+  "name": "铁齿",
+  "icon": "goety_supreme:iron_teeth_focus",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "深坑中漫无目的游荡的机械生物，早已忘却了造物者创造它出来的意义如何，只能在未知深坑内无目的的游荡。$(br)你对这种结构特殊的钢铁小家伙产生了兴趣，结合你现在所拥有的钢铁生物，你设法做出了属于你的铁齿仆从。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:iron_teeth_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "铁齿血量较低，但是身为机械生物的它拥有着较高的护甲值，铁齿的攻击力较高但是每次啃咬的间隔时间较长，凭借这些特性铁齿将成为你手下的一员得力基础战力。$(br)你也可以为你的铁齿仆从右键给予$(item)铁粒$()或者$(item)铁锭$()来为其回血。"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 159
+}

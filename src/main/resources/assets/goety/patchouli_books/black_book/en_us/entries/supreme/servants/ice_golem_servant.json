@@ -1,0 +1,50 @@
+{
+  "name": "Ice Golem",
+  "icon": "minecraft:blue_ice",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Health 60, Armor 3, Knockback Resistance 1.0, Attack 10, Speed 0.25.$(br)An ice golem from a parallel world, and not quite the one you can raise yourself... A little study shows these golems are cheap and cheerful, and every bit as good at launching foes as an iron golem."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:ice_golem_servant"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "_",
+            "^",
+            "_"
+          ],
+          [
+            "P",
+            "B",
+            "P"
+          ],
+          [
+            "_",
+            "0",
+            "_"
+          ]
+        ],
+        "mapping": {
+          "^": "goety_supreme:vitality_carved_pumpkin",
+          "P": "minecraft:packed_ice",
+          "B": "minecraft:blue_ice",
+          "0": "minecraft:blue_ice"
+        }
+      },
+      "enable_visualize": true,
+      "text": "Place a $(l)Vitality Pumpkin$() on the centremost $(l)blue ice$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can build one, or call it quickly with a $(l:supreme/items/frostborn_focus)Frostborn Focus$(); right-click it with $(l)snow blocks$() or $(l)ice$() to heal it."
+    }
+  ],
+  "sortnum": 121
+}

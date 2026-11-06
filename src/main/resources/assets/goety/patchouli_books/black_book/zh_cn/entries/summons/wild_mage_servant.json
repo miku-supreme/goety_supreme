@@ -1,0 +1,24 @@
+{
+  "name": "唤藤大祭司",
+  "icon": "goety_supreme:overgrowth_core",
+  "category": "goety:summons",
+  "advancement": "goety:goety/read_floral_scroll",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "被增生仪式浸透到极致的唤藤者长成的形态：它不再只会招藤，而是把整片荒野的魔法握在手里，会放增生法术、掷出荒野飞弹，也会替主人缠住靠近的敌人。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:wild_mage_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_wild_mage"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "招式与敌对版完全一致，按优先级轮转：身前排开七株速生藤蔓并召一只唤藤者、绕身撒一圈毒刺藤、埋地雷或抛出绽放之球、大型召唤、治疗、鼓舞，最后才是射出剧毒束。泡在水里时整套召唤物换成水下变种。它免疫中毒与酸蚀，也不会把荒野同类当成目标。"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "蛇龙殖民兵",
+  "icon": "jerotesvillage:serpon_sword",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 40，攻击 5，移速 0.35。$(br)火焰免疫，生成时穿戴蛇龙头盔和胸甲，蛇龙护腿与绑尾则50%%概率穿戴，主手概率手持蛇龙剑、蛇龙吹箭筒、蛇龙短匕、蛇龙刺枪，副手概率持箭、蛇龙刺盾。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "持刺枪/ 吹箭筒时远程攻击，持刺枪时敌人太过靠近也会近战攻击。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_colonial_soldier"
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 107
+}

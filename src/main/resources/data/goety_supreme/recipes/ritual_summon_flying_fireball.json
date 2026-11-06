@@ -1,0 +1,28 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:summon_tamed",
+  "craftType": "adept_nether",
+  "activation_item": {
+    "item": "minecraft:fire_charge"
+  },
+  "entity_to_summon": "goety_supreme:flying_fireball_servant",
+  "soulCost": 1,
+  "duration": 5,
+  "ingredients": [
+    {
+      "item": "jerotesvillage:firelight_stone"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    }
+  ],
+  "result": {
+    "item": "goety:jei_dummy/none"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jerotesvillage"
+    }
+  ]
+}

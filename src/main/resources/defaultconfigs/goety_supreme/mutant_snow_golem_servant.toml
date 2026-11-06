@@ -1,0 +1,64 @@
+# 默认配置示例；运行时文件位于 config/goety_supreme/。
+# 修改运行时配置后重启游戏。强化开关仅控制是否接受新强化，不删除已获得的强化。
+
+[mutant_snow_golem_servant]
+# 最大生命值（Mutant Monsters 原版突变雪傀儡为 80）。
+max_health = 80.0
+# 移动速度（原版 0.26）。
+movement_speed = 0.26
+# 击退抗性，范围为 0.0 至 1.0。
+knockback_resistance = 0.6
+# 护甲值。
+armor = 0.0
+# 护甲韧性值。
+armor_toughness = 0.0
+# 索敌距离（格）：锁定目标与保持追击的距离上限。
+follow_range = 35.0
+# 冰块正中目标的整数伤害下限4，直击 4~6 随机。
+ice_damage_direct_min = 4
+# 冰块正中目标的整数伤害上限6。
+ice_damage_direct_max = 6
+# 冰块溅射的最小整数伤害（原版 4 + random，即 4-6）。
+ice_damage_aoe_min = 4
+# 冰块溅射的最大整数伤害。
+ice_damage_aoe_max = 6
+# 两轮投掷之间的间隔刻数（原版 30）。
+throw_interval_ticks = 30
+# 主动投掷的目标距离上限（格，默认 30；原版突变雪傀儡没有距离闸门，只要视线通畅就照投）。
+throw_range = 30
+# 是否在行走路径上积雪并冻住流水（仍需游戏规则 mobGriefing 开启）。
+snow_trail = true
+# 是否在露天雪原生物群系中缓慢回血。
+snow_regen = true
+
+[mutant_snow_golem_servant.upgrades]
+# 允许给予霜冻新星聚晶。
+frost_nova_enabled = true
+# 强化冰块命中触发霜冻新星的概率0.75，法术数值沿用 Goety 配置。
+frost_nova_chance = 0.75
+# 允许给予流髑灵魂罐。
+soul_jar_enabled = true
+# 流髑灵魂罐增加的最大生命值。
+soul_jar_health = 40.0
+# 流髑灵魂罐将一次投掷改为召唤的概率。
+summon_chance = 0.1
+# 召唤冷却，20 刻为 1 秒。
+summon_cooldown_ticks = 160
+# 每次召唤雪傀儡仆从的最少数量3。
+summon_count_min = 3
+# 每次召唤雪傀儡仆从的最多数量5。
+summon_count_max = 5
+# 每只突变雪傀儡的召唤上限，0 禁止新召唤。
+summon_cap = 6
+# 流髑灵魂罐给予的凛寒气场（FROSTY_AURA）等级，默认 2 级。
+frosty_aura_level = 2
+# 允许给予寒冷聚晶。
+chilling_enabled = true
+# 寒冷强化自身冰冷之躯等级。
+chill_hide_level = 3
+# 给予附近冰霜仆从的冰冷之躯等级。
+ally_chill_hide_level = 1
+# 友军冰冷之躯持续时间，20 刻为 1 秒。
+ally_chill_hide_ticks = 900
+# 给予友军冰冷之躯的半径，格10。
+ally_chill_hide_radius = 10.0

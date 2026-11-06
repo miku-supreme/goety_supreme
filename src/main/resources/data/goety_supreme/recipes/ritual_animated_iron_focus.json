@@ -1,0 +1,27 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "geoturgy",
+  "activation_item": {
+    "item": "goety:animation_core"
+  },
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    { "item": "jerotesvillage:animated_iron_helmet" },
+    { "item": "jerotesvillage:animated_iron_chestplate" },
+    { "item": "jerotesvillage:animated_iron_leggings" },
+    { "item": "jerotesvillage:animated_iron_boots" },
+    { "item": "goety:haunted_armor_stand" },
+    { "item": "goety:ectoplasm" },
+    { "item": "jerotesvillage:deep_dust_block" },
+    { "item": "jerotesvillage:deep_dust_block" }
+  ],
+  "result": {
+    "item": "goety_supreme:animated_iron_focus",
+    "count": 1
+  },
+  "conditions": [
+    { "type": "forge:mod_loaded", "modid": "jerotesvillage" }
+  ]
+}

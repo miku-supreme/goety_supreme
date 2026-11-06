@@ -1,0 +1,29 @@
+{
+  "name": "僵尸突变体",
+  "flag": "mod:mutantmonsters",
+  "icon": "mutantmonsters:hulk_hammer",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量 150，护甲 3，击退抗性 1.0，攻击 12，移速 0.26。$(br)有了让尸骸复苏的笔记与死灵法师的密藏，你思索有没有什么能让不死尸身挣脱腐朽而虚弱的枷锁。经过一些试错，你终于发现了一种打造强悍仆役的方法，这就是突变僵尸仆从的来源。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:mutant_zombie_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_convert_zombie_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "强壮的身躯，使它可以掀起地面形成地震波与使出上勾拳，同时也让它能够咆哮并呼唤更多僵尸的支援。$(br)你也可以给予$(item)灵魂罐$()、$(item)咆哮之魂$()、$(item)狂暴精粹$()来$(l:supreme/servants_skills/mutant_zombie_servant)强化$()它。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你可以为突变僵尸仆从给予盔甲和武器，也可以右键给予突变僵尸仆从$(item)腐肉$()来为它回血。"
+    }
+  ],
+  "sortnum": 130
+}

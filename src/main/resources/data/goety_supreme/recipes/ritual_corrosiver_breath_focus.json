@@ -1,0 +1,40 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "frost",
+  "activation_item": {
+    "item": "goety:empty_focus"
+  },
+  "soulCost": 2,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goety:frost_breath_focus"
+    },
+    {
+      "item": "jerotesvillage:bitter_cold_firm_ice"
+    },
+    {
+      "item": "jerotesvillage:ice_rock"
+    },
+    {
+      "item": "jerotesvillage:ice_rock"
+    },
+    {
+      "item": "minecraft:snow_block"
+    },
+    {
+      "item": "minecraft:powder_snow_bucket"
+    }
+  ],
+  "result": {
+    "item": "goety_supreme:corrosiver_breath_focus",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jerotesvillage"
+    }
+  ]
+}

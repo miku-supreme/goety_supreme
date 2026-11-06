@@ -1,0 +1,35 @@
+{
+    "name":  "Sabers",
+    "icon":  "goety_supreme:hellfire_saber",
+    "category":  "goety:supreme/items",
+    "sortnum":  91,
+    "read_by_default":  true,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Two standard-issue sabers developed by the Wither Warlord, once among the weapons every soldier had to carry; time has moved on, and the sabers and the legends around them decayed and fell together with the Warlord."
+                  },
+                  {
+                      "type":  "patchouli:spotlight",
+                      "item":  "goety_supreme:withering_saber",
+                      "title":  "Withering Saber",
+                      "text":  "10 attack damage, 0.9 attack speed. Hits wither for 5 seconds; every withering creature within 12 blocks heals you 0.5 health a second (1.5 at most).",
+                      "link_recipe":  true
+                  },
+                  {
+                      "type":  "patchouli:spotlight",
+                      "item":  "goety_supreme:hellfire_saber",
+                      "title":  "Hellfire Saber",
+                      "text":  "12 attack damage, 1.2 attack speed, plus 0.5 blocks of entity reach. Hits wither for 5 seconds; every withering creature within 12 blocks heals you 0.5 health a second (1.5 at most).",
+                      "link_recipe":  true
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Sneak and left-click to fling out a hellfire slash (the Warlord\u0027s own, half as wide) on an eight second cooldown; right-click raises the blade to guard for 0.75 seconds, with a fifteen second cooldown for the whole guard. After blocking one blow that had an attacker, you may choose one answer within a second - left-click thrusts forward briefly; right-click summons a raging hellfire pillar at your feet."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Of course, you take no damage during the counter."
+                  }
+              ]
+}

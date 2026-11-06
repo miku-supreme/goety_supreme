@@ -1,0 +1,25 @@
+{
+  "name": "Bulge",
+  "icon": "jerotesvillage:bulge_rod",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Elemental beings much like the Blaze, except that this one is a creature of water, and the water bolts it fires are no small threat either.$(br)All such elementals share one trait in common, and it did not take you long to find a way to tame them."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:bulge_servant"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_bulge"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "It attacks by firing wave bolts; it does not rise into the air before shooting the way a Blaze does, but on water it can bob up and down.$(br)You can heal it with Bulge Powder."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 158
+}

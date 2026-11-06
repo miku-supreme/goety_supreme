@@ -1,0 +1,39 @@
+{
+  "parent": "goety_supreme:vitality_pumpkin",
+  "criteria": {
+    "snow_golem_servant": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "goety_supreme:snow_golem_servant"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "title": {
+      "translate": "advancements.goety_supreme.do_you_want_to_build_a_snowman.title"
+    },
+    "description": {
+      "translate": "advancements.goety_supreme.do_you_want_to_build_a_snowman.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "snow_golem_servant"
+    ]
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Serpon Pioneer",
+  "icon": "minecraft:white_banner{BlockEntityTag:{Patterns:[{Pattern:'curly_border',Color:14},{Pattern:'small_stripes',Color:1},{Pattern:'triangles_bottom',Color:0},{Pattern:'triangles_top',Color:0},{Pattern:'stripe_center',Color:4},{Pattern:'flower',Color:14},{Pattern:'straight_cross',Color:4}]}}",
+  "category": "goety:supreme/servants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The vanguard of the serpon combat team, heralding the team's arrival - holding the line and clearing the road for you, and returning to the ranks once the fight is over."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:serpon_pioneer{ArmorItems:[{},{},{Count:1b,id:\"jerotesvillage:serpon_chestplate\"},{}]}"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_summon_serpon_pioneer"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can summon this pioneer by ritual, or call more of them onto the field with a $(l:supreme/items/serpon_head_focus)Serpon Head Focus$().$(br)You can right-click your Serpon Pioneer with $(item)Blaze Powder$() or a $(item)Blaze Rod$() to heal it."
+    }
+  ],
+  "flag": "mod:jerotesvillage",
+  "sortnum": 106
+}

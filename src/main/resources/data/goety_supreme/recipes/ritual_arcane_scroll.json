@@ -1,0 +1,51 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:forbidden_piece"
+  },
+  "craftType": "magic",
+  "soulCost": 10,
+  "duration": 20,
+  "ingredients": [
+    {
+      "item": "goety_supreme:overgrowth_core"
+    },
+    {
+      "item": "goety:heart_of_the_night"
+    },
+    {
+      "item": "goety:withered_manuscript"
+    },
+    {
+      "item": "goety:freezing_lamp"
+    },
+    {
+      "item": "goety:crone_hat"
+    },
+    {
+      "item": "minecraft:budding_amethyst"
+    },
+    {
+      "item": "goety:wind_blower"
+    },
+    {
+      "item": "goety:ominous_orb"
+    },
+    {
+      "item": "minecraft:trident"
+    },
+    {
+      "item": "minecraft:lightning_rod"
+    },
+    {
+      "item": "goety:dark_ingot"
+    },
+    {
+      "item": "goety:dark_ingot"
+    }
+  ],
+  "result": {
+    "item": "goety_supreme:arcane_scroll"
+  }
+}

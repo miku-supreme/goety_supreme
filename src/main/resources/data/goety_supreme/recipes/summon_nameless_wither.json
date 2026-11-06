@@ -1,0 +1,54 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety_supreme:nameless_wither",
+  "activation_item": {
+    "item": "goety_supreme:green_apple"
+  },
+  "craftType": "necroturgy",
+  "soulCost": 1000,
+  "duration": 15,
+  "research": "forbidden",
+  "ingredients": [
+    {
+      "item": "goety:nameless_crown"
+    },
+    {
+      "item": "goety:nameless_crown"
+    },
+    {
+      "item": "goety:nameless_crown"
+    },
+    {
+      "item": "goety:heart_of_the_night"
+    },
+    {
+      "item": "goety:illusion_focus"
+    },
+    {
+      "item": "goety:corruption_focus"
+    },
+    {
+      "item": "goety:nameless_cape"
+    },
+    {
+      "item": "goety:forbidden_fragment"
+    },
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "item": "goety:ectoplasm"
+    }
+  ],
+  "result": {
+    "item": "goety:jei_dummy/none"
+  },
+  "entity_to_convert": {
+    "tag": "goety_supreme:wither_servants",
+    "display_name": "entity.goety_supreme.wither_servant"
+  },
+  "entity_to_convert_into": "goety_supreme:nameless_wither"
+}

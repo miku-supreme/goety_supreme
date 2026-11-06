@@ -1,0 +1,46 @@
+{
+  "replace": false,
+  "__comment": "ownable entities that take up 2 spaces of an Esoteric Tesseract",
+  "values": [
+    {
+      "id": "goety_supreme:frost_yeti_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:mutant_snow_golem_servant",
+      "required": false
+    },
+    "goety_supreme:iron_golem_servant",
+    "goety_supreme:furnace_golem",
+    "goety_supreme:magma_golem",
+    "goety_supreme:prismarine_soldier",
+    {
+      "id": "goety_supreme:sediment_guard_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:sediment_soul_stabilizer_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:heavy_armored_sediment_guard_servant",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:serpon_flame_wizard",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:serpon_intruder",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:serpon_rioter",
+      "required": false
+    },
+    {
+      "id": "goety_supreme:bulge_servant",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "巨型雪傀儡",
+  "flag": "mod:mutantmonsters",
+  "icon": "goety:freezing_lamp",
+  "category": "goety:supreme/servants_skills",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血量200，攻击力20，击退抗性1.0，护甲值5，移动速度0.25。$(br)$(l)粉碎攻击$()： 高举双臂下砸在半径6格内造成12~31伤害。$(br)$(l)投掷雪块$()： 常规远程手段，投出雪块完成16直接伤害和8溅射伤害，射程18格。$(br)$(l)雪球弹幕$()： 周围敌人较多时使用，转动自身对周围至多8个单位扔出雪球造成2点伤害，可有一条额外弹幕专门用于给突变雪傀儡回血。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "强化$(br)$(l)霜呼聚晶$()： 解锁霜呼技能，对前方扇形单位造成每0.5秒4点伤害，同时口中扇形喷出4枚无视无敌帧的雪球造成2点伤害，有效范围10格。$(br)$(l)冷静聚晶$()： 解锁寒庇能力，给予自身17.5秒寒庇4，12格内霜冻类友军寒庇1，冷却25秒。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety_supreme:abominable_snow_golem_servant"
+    }
+  ],
+  "sortnum": 120
+}

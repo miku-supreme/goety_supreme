@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "jerotesvillage:ancient_second_rounder_war_axe",
+      "required": false
+    },
+    {
+      "id": "jerotesvillage:ancient_second_rounder_mace",
+      "required": false
+    },
+    {
+      "id": "jerotesvillage:ancient_second_rounder_warspear",
+      "required": false
+    },
+    {
+      "id": "jerotesvillage:ancient_second_rounder_sword",
+      "required": false
+    }
+  ]
+}

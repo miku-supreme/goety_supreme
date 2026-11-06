@@ -1,0 +1,40 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mutantmonsters"
+    }
+  ],
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "end",
+  "activation_item": {
+    "item": "goety:blink_focus"
+  },
+  "soulCost": 20,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "mutantmonsters:endersoul_hand"
+    },
+    {
+      "item": "minecraft:end_crystal"
+    },
+    {
+      "item": "minecraft:end_crystal"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    }
+  ],
+  "result": {
+    "item": "goety_supreme:enderman_hand_focus",
+    "count": 1
+  }
+}

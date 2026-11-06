@@ -1,0 +1,24 @@
+{
+    "name":  "Serpon Crown Focus",
+    "icon":  "goety_supreme:serpon_crown_focus",
+    "category":  "goety:supreme/items",
+    "sortnum":  22,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Building on the Head Focus you sank in a far greater cost, and found the way to call up these elite warriors."
+                  },
+                  {
+                      "type":  "goety:ritual",
+                      "recipe":  "goety_supreme:ritual_serpon_crown_focus"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Casting with a Nether Staff summons one of each of the two elite warriors; a plain staff summons only one at random. Eight at most per owner."
+                  }
+              ],
+    "extra_recipe_mappings":  {
+                                  "goety_supreme:serpon_crown_focus":  1
+                              },
+    "flag":  "mod:jerotesvillage"
+}

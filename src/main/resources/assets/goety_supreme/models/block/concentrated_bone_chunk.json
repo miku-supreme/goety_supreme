@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "goety_supreme:block/concentrated_bone_side",
+    "particle": "goety_supreme:block/concentrated_bone_side"
+  }
+}

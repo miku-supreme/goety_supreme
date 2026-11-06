@@ -1,0 +1,24 @@
+{
+  "name": "燃灵聚晶",
+  "icon": "goety_supreme:blazing_spirit_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 36,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "这种看上去强壮的烈焰战士是你梦寐以求的帅气仆从，你毫不费力地将其制作成了聚晶。右键施法召出属于你的火灵，潜行施法把它们全部召回身边，至多四只。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_blazing_spirit_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "用下界魔杖施法时，有机会一次召出两只。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:blazing_spirit_focus": 1
+  },
+  "flag": "mod:jerotesvillage"
+}

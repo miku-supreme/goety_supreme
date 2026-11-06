@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "goety_supreme:item/heavy_armored_sediment_guard_focus"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Serpon Head Focus",
+  "icon": "goety_supreme:serpon_head_focus",
+  "category": "goety:supreme/items",
+  "sortnum": 21,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Having wandered the whole of the drought-scorched hills and traded blows with the serpon combat teams, you found yourself eyeing the serpon's prowess - and set your mind to finding a quick way of.$(br)calling on these wanderers. Talking with them, applying your own knowledge of the dark arts, and a few attempts later, you found it: a swift way to raise these reinforcements."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety_supreme:ritual_serpon_head_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Casting with a $(l:crafts/staff/nether_staff)Nether Staff$() raises more colonial soldiers and pioneers: a plain staff raises one, an even chance of either, while a Nether Staff raises two of each. Sixteen at most per owner."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety_supreme:serpon_head_focus": 2
+  },
+  "flag": "mod:jerotesvillage"
+}

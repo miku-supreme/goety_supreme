@@ -1,0 +1,40 @@
+{
+  "advancements": [
+    {
+      "advancement": {
+        "criteria": {
+          "execute_ally": {
+            "trigger": "minecraft:impossible"
+          }
+        },
+        "display": {
+          "announce_to_chat": true,
+          "description": {
+            "translate": "advancements.goety_supreme.why_risk_your_life.description"
+          },
+          "frame": "challenge",
+          "hidden": true,
+          "icon": {
+            "item": "jerotesvillage:serpon_credential"
+          },
+          "show_toast": true,
+          "title": {
+            "translate": "advancements.goety_supreme.why_risk_your_life.title"
+          }
+        },
+        "parent": "goety_supreme:angel_condescends",
+        "requirements": [
+          [
+            "execute_ally"
+          ]
+        ]
+      },
+      "conditions": [
+        {
+          "modid": "jerotesvillage",
+          "type": "forge:mod_loaded"
+        }
+      ]
+    }
+  ]
+}
